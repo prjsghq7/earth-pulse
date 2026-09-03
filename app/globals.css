@@ -825,10 +825,20 @@ body {
 .comparison-period span { display: inline-flex; align-items: center; gap: 4px; }
 .comparison-period b { padding: 1px 4px; border: 1px solid #bad9ce; border-radius: 2px; color: #1d5d4d; background: #f5fbf8; font-weight: 800; }
 .comparison-period i { color: #719087; font-size: 13px; font-style: normal; }
-.brand-static { cursor: default; user-select: none; }
+.brand,
+.brand * {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  caret-color: transparent;
+}
+.map-country-labels { position: absolute; inset: 12px 0 80px; z-index: 2; pointer-events: none; }
+.map-country-label { position: absolute; transform: translate(-50%, -50%); color: rgba(219,240,232,.62); font-size: 10px; font-weight: 750; letter-spacing: .05em; line-height: 1; text-shadow: 0 1px 8px rgba(0,20,22,.9); white-space: nowrap; }
 .map-list-more { width: 100%; display: flex; justify-content: center; align-items: center; gap: 6px; margin-top: 8px; padding: 11px; border: 1px dashed #9bbcb2; border-radius: 2px; color: #195b4d; background: #edf5f1; font-size: 12px; font-weight: 750; }
 .map-list-more:hover { background: #e1f0ea; }
 .map-list-more svg { width: 15px; }
+.map-sort { display: grid; gap: 2px; margin-left: auto; color: var(--ep-muted); font-size: 10px; font-weight: 750; }
+.map-sort select { height: 31px; padding: 0 23px 0 8px; border: 1px solid var(--ep-rule); border-radius: 2px; color: var(--ep-ink); background: var(--ep-paper-bright); font: inherit; font-size: 11px; }
 .event-location-card { margin-bottom: 12px; }
 .event-location-map { position: relative; min-height: 278px; overflow: hidden; border: 1px solid #1b4845; border-radius: 2px; background: #0f3535; }
 .event-location-map svg { width: 100%; height: 278px; display: block; }
@@ -841,6 +851,23 @@ body {
 .event-map-caption span { color: #72d6bd; font-family: var(--font-geist-mono), Consolas, monospace; font-size: 9px; font-weight: 800; letter-spacing: .12em; }
 .event-map-caption strong { max-width: min(360px, 58vw); overflow: hidden; font-size: 12px; text-overflow: ellipsis; white-space: nowrap; }
 .event-map-caption small { color: #b6d1c9; font-size: 10px; }
+.trend-granularity { display: flex; border: 1px solid var(--ep-rule); border-radius: 2px; overflow: hidden; }
+.trend-granularity button { padding: 6px 8px; border: 0; border-right: 1px solid var(--ep-rule); color: var(--ep-muted); background: var(--ep-paper-bright); font-size: 11px; font-weight: 700; }
+.trend-granularity button:last-child { border-right: 0; }
+.trend-granularity button.is-selected { color: #fffdf7; background: var(--ep-ink); }
+.trend-plot { position: relative; padding-left: 42px; }
+.trend-plot svg { position: relative; z-index: 1; cursor: crosshair; }
+.trend-scale { position: absolute; z-index: 2; top: 8px; bottom: 8px; left: 0; display: flex; flex-direction: column; justify-content: space-between; color: var(--ep-muted); font-family: var(--font-geist-mono), Consolas, monospace; font-size: 10px; }
+.trend-plot .chart-tooltip { top: 13px; bottom: auto; transform: translateX(-50%); }
+.trend-plot .chart-tooltip.tooltip-edge-start { left: 4px !important; transform: none; }
+.trend-plot .chart-tooltip.tooltip-edge-end { right: 4px; left: auto !important; transform: none; }
+.copy-toast { position: fixed; z-index: 100; bottom: 26px; left: 50%; padding: 11px 15px; border: 1px solid rgba(111, 222, 190, .48); border-radius: 3px; color: #f9fff9; background: #123f3b; box-shadow: 0 14px 34px rgba(9, 36, 35, .24); font-size: 13px; font-weight: 750; transform: translateX(-50%); animation: copy-toast-in .2s ease-out; }
+.impact-guide { margin: 0 18px 18px; border-top: 1px solid var(--ep-rule); color: var(--ep-copy); }
+.impact-guide summary { padding: 13px 0 8px; color: #245d52; cursor: pointer; font-size: 12px; font-weight: 800; }
+.impact-guide dl { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; margin: 0; padding-bottom: 4px; }
+.impact-guide dt { color: var(--ep-ink); font-size: 11px; font-weight: 800; }
+.impact-guide dd { margin: 3px 0 0; color: var(--ep-muted); font-size: 11px; line-height: 1.45; }
+@keyframes copy-toast-in { from { opacity: 0; transform: translate(-50%, 8px); } to { opacity: 1; transform: translate(-50%, 0); } }
 .delta-panel { border: 1px solid #bcd5cc; border-radius: 2px; background: #e7f1ec; }
 .content-grid { gap: 12px; margin-top: 12px; }
 .week-card, .events-card { min-height: 322px; padding-top: 0; }

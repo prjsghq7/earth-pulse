@@ -103,6 +103,23 @@ const mapProjection = geoEqualEarth().fitExtent(
 );
 const worldPath = geoPath(mapProjection)(worldGeo) ?? '';
 const graticulePath = geoPath(mapProjection)(geoGraticule10()) ?? '';
+const mapCountryLabels = [
+  { name: '미국', coordinates: [-100, 39] as [number, number] },
+  { name: '브라질', coordinates: [-53, -10] as [number, number] },
+  { name: '아르헨티나', coordinates: [-65, -36] as [number, number] },
+  { name: '영국', coordinates: [-3, 55] as [number, number] },
+  { name: '러시아', coordinates: [92, 60] as [number, number] },
+  { name: '인도', coordinates: [79, 22] as [number, number] },
+  { name: '중국', coordinates: [104, 35] as [number, number] },
+  { name: '일본', coordinates: [138, 37] as [number, number] },
+  { name: '인도네시아', coordinates: [118, -2] as [number, number] },
+  { name: '호주', coordinates: [134, -26] as [number, number] },
+  { name: '뉴질랜드', coordinates: [174, -41] as [number, number] },
+  { name: '남아프리카', coordinates: [25, -29] as [number, number] },
+].flatMap((label) => {
+  const point = mapProjection(label.coordinates);
+  return point ? [{ ...label, x: point[0], y: point[1] }] : [];
+});
 const spherePath = geoPath(mapProjection)({ type: 'Sphere' }) ?? '';
 
 function routeFromHash() {
@@ -238,7 +255,7 @@ function TopNavigation({ active, collectionState = 'fresh' }: { active: PrimaryP
   return (
     <header className="site-header">
       <div className="shell header-inner">
-        {active === 'today' ? <div aria-label="Earth Pulse 홈" className="brand brand-static">{brandContent}</div> : <a aria-label="Earth Pulse 홈으로" className="brand" href="#/today">{brandContent}</a>}
+        <a aria-label="Earth Pulse 홈으로" className="brand" href="#/today">{brandContent}</a>
 
         <nav className="desktop-nav" aria-label="주요 화면">
           <a aria-current={active === 'today' ? 'page' : undefined} className={`nav-link ${active === 'today' ? 'is-active' : ''}`} href="#/today">오늘</a>
@@ -353,8 +370,15 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [visibleListCount, setVisibleListCount] = useState(100);
   const [mapZoom, setMapZoom] = useState(1);
+  const [mapSort, setMapSort] = useState<'latest' | 'largest' | 'shallow' | 'deep'>('latest');
   const displayEvents = events.slice(0, 750);
-  const visibleListEvents = events.slice(0, visibleListCount);
+  const orderedEvents = [...events].sort((a, b) => {
+    if (mapSort === 'largest') return b.magnitude - a.magnitude || b.timeUtc.localeCompare(a.timeUtc);
+    if (mapSort === 'shallow') return (a.depthKm ?? Number.POSITIVE_INFINITY) - (b.depthKm ?? Number.POSITIVE_INFINITY) || b.timeUtc.localeCompare(a.timeUtc);
+    if (mapSort === 'deep') return (b.depthKm ?? -1) - (a.depthKm ?? -1) || b.timeUtc.localeCompare(a.timeUtc);
+    return b.timeUtc.localeCompare(a.timeUtc) || a.id.localeCompare(b.id);
+  });
+  const visibleListEvents = orderedEvents.slice(0, visibleListCount);
   const selected = events.find((event) => event.id === selectedId) ?? displayEvents[0] ?? null;
 
   useEffect(() => {
@@ -446,6 +470,17 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
                   <path className="map-graticule" d={graticulePath} />
                   <path className="map-land" d={worldPath} />
                 </svg>
+                <div className="map-country-labels" aria-hidden="true">
+                  {mapCountryLabels.map((label) => (
+                    <span
+                      className="map-country-label"
+                      key={label.name}
+                      style={{ left: `${(label.x / 960) * 100}%`, top: `${(label.y / 500) * 100}%` }}
+                    >
+                      {label.name}
+                    </span>
+                  ))}
+                </div>
                 <div className="map-markers">
                 {markerPositions.map(({ event, x, y, size, tone, duplicate }) => (
                   <button
@@ -504,7 +539,7 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
               <Button className="selected-detail-button" onClick={() => { window.location.assign(`${window.location.pathname}${window.location.search}#/event/${selected.id}?from=map&month=${selected.dateKst.slice(0, 7)}`); }}>상세 정보 <ChevronRight /></Button>
             </div> : <div className="map-empty">{mapState === 'loading' ? '조건에 맞는 지진을 불러오는 중입니다.' : mapState === 'error' ? '기록을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.' : '선택한 조건에 맞는 지진이 없습니다.'}</div>}
 
-            <div className="viewport-events-head"><span><strong>검색 결과 목록</strong><small>발생 시각 최신순 · 지도는 최대 750개까지 표시</small></span><Badge variant="outline">{visibleListEvents.length}/{events.length}건</Badge></div>
+            <div className="viewport-events-head"><span><strong>검색 결과 목록</strong><small>{mapSort === 'latest' ? '발생 시각 최신순' : mapSort === 'largest' ? '규모 큰 순' : mapSort === 'shallow' ? '얕은 순' : '깊은 순'} · 지도는 최대 750개까지 표시</small></span><label className="map-sort"><span>정렬</span><select onChange={(event) => setMapSort(event.target.value as typeof mapSort)} value={mapSort}><option value="latest">최신순</option><option value="largest">규모 큰 순</option><option value="shallow">얕은 순</option><option value="deep">깊은 순</option></select></label><Badge variant="outline">{visibleListEvents.length}/{events.length}건</Badge></div>
             <div className="map-event-list">
               {visibleListEvents.map((event) => (
                 <button className={selectedId === event.id ? 'is-selected' : ''} key={event.id} onClick={() => setSelectedId(event.id)} type="button">
@@ -579,6 +614,29 @@ function dateAxisLabel(dateString: string) {
   return `${year}. ${month}. ${day}.`;
 }
 
+type TrendGranularity = 'day' | 'week' | 'month';
+
+function trendBucketStart(dateString: string, granularity: TrendGranularity) {
+  if (granularity === 'day') return dateString;
+  if (granularity === 'month') return `${dateString.slice(0, 7)}-01`;
+  const date = new Date(`${dateString}T00:00:00Z`);
+  const daysFromMonday = (date.getUTCDay() + 6) % 7;
+  return addDays(dateString, -daysFromMonday);
+}
+
+function nextTrendBucket(dateString: string, granularity: TrendGranularity) {
+  if (granularity === 'day') return addDays(dateString, 1);
+  if (granularity === 'week') return addDays(dateString, 7);
+  const date = new Date(`${dateString}T00:00:00Z`);
+  date.setUTCMonth(date.getUTCMonth() + 1);
+  return date.toISOString().slice(0, 10);
+}
+
+function trendBucketEnd(dateString: string, endDate: string, granularity: TrendGranularity) {
+  const end = addDays(nextTrendBucket(dateString, granularity), -1);
+  return end > endDate ? endDate : end;
+}
+
 function filtersFromQuery(targetDate: string, query: string) {
   const defaults = searchDefaults(targetDate);
   const values = new URLSearchParams(query);
@@ -618,6 +676,8 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
   const [searchError, setSearchError] = useState<string | null>(null);
   const [page, setPage] = useState(0);
   const [hoveredBucket, setHoveredBucket] = useState<number | null>(null);
+  const [trendGranularity, setTrendGranularity] = useState<TrendGranularity>('day');
+  const [copyNotice, setCopyNotice] = useState<string | null>(null);
 
   useEffect(() => {
     if (!initialQuery) syncExploreUrl(searchDefaults(targetDate));
@@ -687,14 +747,17 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
 
   const startTime = new Date(`${applied.startDate}T00:00:00Z`).getTime();
   const endTime = new Date(`${applied.endDate}T00:00:00Z`).getTime();
-  const totalDays = Math.max(1, Math.round((endTime - startTime) / 86_400_000) + 1);
-  const bucketSize = Math.max(1, Math.ceil(totalDays / 60));
-  const bucketCounts = Array.from({ length: Math.ceil(totalDays / bucketSize) }, () => 0);
-  for (const event of events) {
-    const eventTime = new Date(`${event.dateKst}T00:00:00Z`).getTime();
-    const bucket = Math.min(bucketCounts.length - 1, Math.floor(((eventTime - startTime) / 86_400_000) / bucketSize));
-    if (bucket >= 0) bucketCounts[bucket] += 1;
+  const bucketStartDate = trendBucketStart(applied.startDate, trendGranularity);
+  const trendBuckets: { start: string; end: string; count: number }[] = [];
+  for (let cursor = bucketStartDate; cursor <= applied.endDate; cursor = nextTrendBucket(cursor, trendGranularity)) {
+    trendBuckets.push({ start: cursor, end: trendBucketEnd(cursor, applied.endDate, trendGranularity), count: 0 });
   }
+  const bucketByStart = new Map(trendBuckets.map((bucket, index) => [bucket.start, index]));
+  for (const event of events) {
+    const bucket = bucketByStart.get(trendBucketStart(event.dateKst, trendGranularity));
+    if (bucket !== undefined) trendBuckets[bucket].count += 1;
+  }
+  const bucketCounts = trendBuckets.map((bucket) => bucket.count);
   const bucketMaximum = Math.max(...bucketCounts, 1);
   const trendPoints = bucketCounts.map((count, index) => {
     const x = bucketCounts.length === 1 ? 340 : (index / (bucketCounts.length - 1)) * 680;
@@ -705,8 +768,8 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
   const trendArea = trendPoints.length ? `${trendLine} L680 220 L0 220 Z` : '';
   const middleDate = new Date(startTime + Math.floor((endTime - startTime) / 2)).toISOString().slice(0, 10);
   const hoveredBucketCount = hoveredBucket === null ? null : bucketCounts[hoveredBucket];
-  const hoveredBucketStart = hoveredBucket === null ? null : addDays(applied.startDate, hoveredBucket * bucketSize);
-  const hoveredBucketEnd = hoveredBucketStart === null ? null : addDays(hoveredBucketStart, Math.min(bucketSize - 1, Math.round((endTime - new Date(`${hoveredBucketStart}T00:00:00Z`).getTime()) / 86_400_000)));
+  const hoveredBucketStart = hoveredBucket === null ? null : trendBuckets[hoveredBucket]?.start ?? null;
+  const hoveredBucketEnd = hoveredBucket === null ? null : trendBuckets[hoveredBucket]?.end ?? null;
 
   const pageSize = 20;
   const pageCount = Math.max(1, Math.ceil(events.length / pageSize));
@@ -724,8 +787,9 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
             <h1>기록 탐색</h1>
             <p>날짜와 규모, 깊이, 검토 상태를 조합해 USGS 실제 기록을 탐색합니다.</p>
           </div>
-          <Button className="export-button" onClick={() => navigator.clipboard?.writeText(window.location.href)} variant="outline"><ArrowUpRight /> 화면 주소 복사</Button>
+          <Button className="export-button" onClick={async () => { try { await navigator.clipboard.writeText(window.location.href); setCopyNotice('화면 주소를 복사했어요.'); } catch { setCopyNotice('주소 복사에 실패했습니다.'); } window.setTimeout(() => setCopyNotice(null), 2400); }} variant="outline"><ArrowUpRight /> 화면 주소 복사</Button>
         </section>
+        {copyNotice && <div className="copy-toast" role="status">{copyNotice}</div>}
 
         <Card className="filter-panel">
           <form onSubmit={(event) => {
@@ -773,10 +837,11 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
           <Card className="trend-card">
             <CardHeader>
               <div><span className="section-kicker ink">OCCURRENCE FLOW</span><CardTitle className="mt-1">기간별 발생 흐름</CardTitle></div>
-              <CardAction><Badge variant="outline">{bucketSize === 1 ? '일별' : `${bucketSize}일 단위`}</Badge></CardAction>
+              <CardAction><div className="trend-granularity" aria-label="그래프 집계 기준"><button className={trendGranularity === 'day' ? 'is-selected' : ''} onClick={() => setTrendGranularity('day')} type="button">일별</button><button className={trendGranularity === 'week' ? 'is-selected' : ''} onClick={() => setTrendGranularity('week')} type="button">주별</button><button className={trendGranularity === 'month' ? 'is-selected' : ''} onClick={() => setTrendGranularity('month')} type="button">월별</button></div></CardAction>
             </CardHeader>
             <CardContent>
-              <div className="trend-plot interactive-chart" aria-label={`${bucketSize}일 단위 지진 발생 건수 선 그래프`}>
+              <div className="trend-plot interactive-chart" aria-label={`${trendGranularity === 'day' ? '일별' : trendGranularity === 'week' ? '주별' : '월별'} 지진 발생 건수 선 그래프`}>
+                <div className="trend-scale" aria-hidden="true"><span>{bucketMaximum.toLocaleString()}건</span><span>{Math.round(bucketMaximum / 2).toLocaleString()}건</span><span>0건</span></div>
                 <svg
                   aria-hidden="true"
                   onMouseLeave={() => setHoveredBucket(null)}
@@ -792,8 +857,9 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
                   <path d={trendArea} fill="url(#areaFill)" />
                   <path d={trendLine} fill="none" stroke="#2f8b78" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
                   {hoveredBucket !== null && <circle cx={bucketCounts.length === 1 ? 340 : (hoveredBucket / (bucketCounts.length - 1)) * 680} cy={205 - ((hoveredBucketCount ?? 0) / bucketMaximum) * 175} fill="#fffdf7" r="5" stroke="#2f8b78" strokeWidth="3" />}
+                  <rect fill="transparent" height="220" width="680" x="0" y="0" />
                 </svg>
-                {hoveredBucketCount !== null && hoveredBucketStart !== null && hoveredBucketEnd !== null && <div className="chart-tooltip" style={{ left: `${bucketCounts.length === 1 ? 50 : (hoveredBucket! / (bucketCounts.length - 1)) * 100}%` }}><small>{hoveredBucketStart === hoveredBucketEnd ? formatKoreanDate(hoveredBucketStart) : `${formatKoreanDate(hoveredBucketStart)}–${formatKoreanDate(hoveredBucketEnd)}`}</small><strong>{hoveredBucketCount}건</strong></div>}
+                {hoveredBucketCount !== null && hoveredBucketStart !== null && hoveredBucketEnd !== null && <div className={`chart-tooltip ${hoveredBucket === 0 ? 'tooltip-edge-start' : hoveredBucket === bucketCounts.length - 1 ? 'tooltip-edge-end' : ''}`} style={{ left: `${bucketCounts.length === 1 ? 50 : (hoveredBucket! / (bucketCounts.length - 1)) * 100}%` }}><small>{hoveredBucketStart === hoveredBucketEnd ? formatKoreanDate(hoveredBucketStart) : `${formatKoreanDate(hoveredBucketStart)}–${formatKoreanDate(hoveredBucketEnd)}`}</small><strong>{hoveredBucketCount.toLocaleString()}건</strong></div>}
               </div>
               <div className="trend-axis"><span>{dateAxisLabel(applied.startDate)}</span><span>{dateAxisLabel(middleDate)}</span><span>{dateAxisLabel(applied.endDate)}</span></div>
             </CardContent>
@@ -976,6 +1042,7 @@ function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board }: { even
               <div><CircleAlert /><span><small>PAGER 경보</small><strong>{event.alert ?? '정보 없음'}</strong></span></div>
               <div><Radar /><span><small>쓰나미 플래그</small><strong>{event.tsunami ? '있음' : '없음'}</strong></span></div>
             </CardContent>
+            <details className="impact-guide"><summary>용어 안내</summary><dl><div><dt>계산 진도 MMI</dt><dd>관측 자료로 계산한 해당 지역의 흔들림 강도입니다.</dd></div><div><dt>체감 신고 CDI</dt><dd>사람들이 신고한 흔들림 경험을 바탕으로 산정한 값입니다.</dd></div><div><dt>PAGER 경보</dt><dd>지진 영향 규모를 추정하는 USGS 경보 체계입니다.</dd></div><div><dt>쓰나미 플래그</dt><dd>USGS 원천이 쓰나미 관련 여부를 표시한 값입니다.</dd></div></dl></details>
           </Card>
         </section>
 
