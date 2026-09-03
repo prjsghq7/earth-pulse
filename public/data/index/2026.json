@@ -148857,11 +148857,8 @@
       "latitude": -56.2062,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-03T01:56:56.443Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-03T13:06:17.579Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000tdt3",
@@ -148893,11 +148890,8 @@
       "latitude": 4.3826,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-03T07:00:58.040Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-03T11:44:21.492Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000tdua",
@@ -148929,11 +148923,8 @@
       "latitude": -29.7346,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-03T09:33:32.752Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-03T12:43:24.563Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000tdv1",
@@ -148970,6 +148961,126 @@
       "stationCount": null,
       "azimuthalGap": null,
       "rmsSeconds": null
+    },
+    {
+      "id": "us7000tdvt",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-03T11:17:24.056Z",
+      "magnitude": 6.3,
+      "magnitudeType": "mww",
+      "place": "84 km SSW of Nikolski, Alaska",
+      "depthKm": 35,
+      "longitude": -169.4088,
+      "latitude": 52.2579,
+      "status": "reviewed",
+      "tsunami": true,
+      "updatedUtc": "2026-09-03T13:27:27.292Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "aka2026rlkdfo",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-03T11:22:44.654Z",
+      "magnitude": 4.2,
+      "magnitudeType": "ml",
+      "place": "83 km SSW of Nikolski, Alaska",
+      "depthKm": 17.4,
+      "longitude": -169.355,
+      "latitude": 52.25,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T12:07:42.130Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tdy7",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-03T11:24:55.479Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "97 km SSW of Nikolski, Alaska",
+      "depthKm": 45.17,
+      "longitude": -169.4182,
+      "latitude": 52.1321,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T12:24:16.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tdw2",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-03T11:33:52.747Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "12 km E of Venustiano Carranza (Peña Blanca), Mexico",
+      "depthKm": 158.984,
+      "longitude": -94.6336,
+      "latitude": 17.6542,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T11:46:04.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tdw5",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-03T11:39:41.682Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "81 km SW of Nikolski, Alaska",
+      "depthKm": 35,
+      "longitude": -169.5607,
+      "latitude": 52.3458,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T12:25:35.871Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tdw6",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-03T11:39:41.981Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mb",
+      "place": "21 km WNW of Jiangyou, China",
+      "depthKm": 10,
+      "longitude": 104.5066,
+      "latitude": 31.8458,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T12:54:34.938Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tdyi",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-03T12:39:34.756Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "90 km SSW of Nikolski, Alaska",
+      "depthKm": 44.444,
+      "longitude": -169.579,
+      "latitude": 52.253,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T13:15:52.205Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tdys",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-03T13:03:18.659Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "100 km SSW of Nikolski, Alaska",
+      "depthKm": 10,
+      "longitude": -169.1988,
+      "latitude": 52.0562,
+      "status": "reviewed",
+      "tsunami": true,
+      "updatedUtc": "2026-09-03T13:25:57.040Z",
+      "month": "2026-09"
     }
   ]
 }
