@@ -130,6 +130,9 @@ function normalizeFeature(feature) {
     code: typeof properties.code === 'string' ? properties.code : null,
     url: typeof properties.url === 'string' ? properties.url : null,
     detailUrl: typeof properties.detail === 'string' ? properties.detail : null,
+    stationCount: finiteNumber(properties.nst),
+    azimuthalGap: finiteNumber(properties.gap),
+    rmsSeconds: finiteNumber(properties.rms),
   };
 }
 

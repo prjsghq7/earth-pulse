@@ -1298,7 +1298,10 @@
       "network": "us",
       "code": "7000tdqc",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdqc",
-      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdqc&format=geojson"
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdqc&format=geojson",
+      "stationCount": 124,
+      "azimuthalGap": 48,
+      "rmsSeconds": 0.8
     },
     {
       "id": "us7000tdr1",
@@ -1322,7 +1325,10 @@
       "network": "us",
       "code": "7000tdr1",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdr1",
-      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdr1&format=geojson"
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdr1&format=geojson",
+      "stationCount": 106,
+      "azimuthalGap": 22,
+      "rmsSeconds": 0.83
     },
     {
       "id": "us7000tdrv",
@@ -1346,7 +1352,10 @@
       "network": "us",
       "code": "7000tdrv",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdrv",
-      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdrv&format=geojson"
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdrv&format=geojson",
+      "stationCount": 64,
+      "azimuthalGap": 46,
+      "rmsSeconds": 1.15
     },
     {
       "id": "us7000tdt3",
@@ -1370,7 +1379,10 @@
       "network": "us",
       "code": "7000tdt3",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdt3",
-      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdt3&format=geojson"
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdt3&format=geojson",
+      "stationCount": 18,
+      "azimuthalGap": 119,
+      "rmsSeconds": 0.57
     },
     {
       "id": "us7000tdu1",
@@ -1394,7 +1406,10 @@
       "network": "us",
       "code": "7000tdu1",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdu1",
-      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdu1&format=geojson"
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdu1&format=geojson",
+      "stationCount": 47,
+      "azimuthalGap": 97,
+      "rmsSeconds": 1.02
     },
     {
       "id": "us7000tdua",
@@ -1418,7 +1433,10 @@
       "network": "us",
       "code": "7000tdua",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdua",
-      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdua&format=geojson"
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdua&format=geojson",
+      "stationCount": 19,
+      "azimuthalGap": 95,
+      "rmsSeconds": 0.94
     },
     {
       "id": "us7000tduc",
@@ -1428,21 +1446,24 @@
       "timeUtc": "2026-09-03T06:04:02.572Z",
       "dateKst": "2026-09-03",
       "timeKst": "15:04:02",
-      "updatedUtc": "2026-09-03T06:32:17.044Z",
+      "updatedUtc": "2026-09-03T09:33:32.752Z",
       "longitude": -71.6979,
       "latitude": -29.7346,
       "depthKm": 55.164,
       "status": "reviewed",
       "tsunami": false,
       "alert": null,
-      "felt": 0,
-      "cdi": 1,
+      "felt": 1,
+      "cdi": 3.1,
       "mmi": null,
       "significance": 400,
       "network": "us",
       "code": "7000tduc",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tduc",
-      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tduc&format=geojson"
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tduc&format=geojson",
+      "stationCount": 77,
+      "azimuthalGap": 95,
+      "rmsSeconds": 1.09
     },
     {
       "id": "us7000tdv1",
@@ -1466,7 +1487,10 @@
       "network": "us",
       "code": "7000tdv1",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdv1",
-      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdv1&format=geojson"
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdv1&format=geojson",
+      "stationCount": 48,
+      "azimuthalGap": 119,
+      "rmsSeconds": 0.9
     },
     {
       "id": "us7000tdv4",
@@ -1490,7 +1514,10 @@
       "network": "us",
       "code": "7000tdv4",
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdv4",
-      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdv4&format=geojson"
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdv4&format=geojson",
+      "stationCount": 66,
+      "azimuthalGap": 97,
+      "rmsSeconds": 0.55
     }
   ]
 }

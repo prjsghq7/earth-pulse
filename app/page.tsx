@@ -11,6 +11,7 @@ import {
   ArrowUpRight,
   CalendarDays,
   CheckCircle2,
+  ChevronDown,
   ChevronRight,
   CircleAlert,
   Clock3,
@@ -140,7 +141,7 @@ function formatDateTime(iso: string, timeZone: 'Asia/Seoul' | 'UTC') {
 
 function shortDate(dateString: string) {
   const [, month, day] = dateString.split('-');
-  return `${Number(month)}. ${Number(day)}`;
+  return `${Number(month)}.${Number(day)}`;
 }
 
 function addDays(dateString: string, amount: number) {
@@ -233,16 +234,11 @@ function PulseLine({ dataThrough, events }: { dataThrough: string | null | undef
 
 function TopNavigation({ active, collectionState = 'fresh' }: { active: PrimaryPage; collectionState?: CollectionState }) {
   const stateLabel = collectionState === 'fresh' ? '수집 정상' : collectionState === 'delayed' ? '업데이트 지연' : '데이터 확인 불가';
+  const brandContent = <><BrandMark /><span><strong>Earth Pulse</strong><small>지구 맥박</small></span></>;
   return (
     <header className="site-header">
       <div className="shell header-inner">
-        <a className="brand" href="#/today" aria-label="Earth Pulse 홈">
-          <BrandMark />
-          <span>
-            <strong>Earth Pulse</strong>
-            <small>지구 맥박</small>
-          </span>
-        </a>
+        {active === 'today' ? <div aria-label="Earth Pulse 홈" className="brand brand-static">{brandContent}</div> : <a aria-label="Earth Pulse 홈으로" className="brand" href="#/today">{brandContent}</a>}
 
         <nav className="desktop-nav" aria-label="주요 화면">
           <a aria-current={active === 'today' ? 'page' : undefined} className={`nav-link ${active === 'today' ? 'is-active' : ''}`} href="#/today">오늘</a>
@@ -355,8 +351,11 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
   const [mapState, setMapState] = useState<'loading' | 'ready' | 'error'>('loading');
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [hoveredId, setHoveredId] = useState<string | null>(null);
+  const [visibleListCount, setVisibleListCount] = useState(100);
+  const [mapZoom, setMapZoom] = useState(1);
   const displayEvents = events.slice(0, 750);
-  const selected = displayEvents.find((event) => event.id === selectedId) ?? displayEvents[0] ?? null;
+  const visibleListEvents = events.slice(0, visibleListCount);
+  const selected = events.find((event) => event.id === selectedId) ?? displayEvents[0] ?? null;
 
   useEffect(() => {
     let active = true;
@@ -378,6 +377,8 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
     setApplied(normalized);
     setMapState('loading');
     setSelectedId(null);
+    setVisibleListCount(100);
+    setMapZoom(1);
     syncMapUrl(normalized);
   };
 
@@ -435,16 +436,17 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
           <div className="map-observation-panel">
             <div className="map-panel-heading">
               <div><span className="section-kicker">EARTHQUAKE POSITION</span><strong>전 세계 관측 위치</strong></div>
-              <div className="map-tools" aria-label="지도 도구"><button aria-label="확대" type="button"><ZoomIn /></button><button aria-label="축소" type="button"><ZoomOut /></button><button aria-label="전체 보기" type="button"><LocateFixed /></button></div>
+              <div className="map-tools" aria-label="지도 도구"><button aria-label="확대" disabled={mapZoom >= 2.2} onClick={() => setMapZoom((zoom) => Math.min(2.2, Number((zoom + .2).toFixed(1))))} type="button"><ZoomIn /></button><button aria-label="축소" disabled={mapZoom <= 1} onClick={() => setMapZoom((zoom) => Math.max(1, Number((zoom - .2).toFixed(1))))} type="button"><ZoomOut /></button><button aria-label="전체 보기" disabled={mapZoom === 1} onClick={() => setMapZoom(1)} type="button"><LocateFixed /></button></div>
             </div>
 
             <div className="world-map-frame">
-              <svg aria-label="전 세계 지진 위치 지도" className="world-map-svg" preserveAspectRatio="none" viewBox="0 0 960 500">
-                <path className="map-sphere" d={spherePath} />
-                <path className="map-graticule" d={graticulePath} />
-                <path className="map-land" d={worldPath} />
-              </svg>
-              <div className="map-markers">
+              <div className="map-zoom-layer" style={{ transform: `scale(${mapZoom})` }}>
+                <svg aria-label="전 세계 지진 위치 지도" className="world-map-svg" preserveAspectRatio="none" viewBox="0 0 960 500">
+                  <path className="map-sphere" d={spherePath} />
+                  <path className="map-graticule" d={graticulePath} />
+                  <path className="map-land" d={worldPath} />
+                </svg>
+                <div className="map-markers">
                 {markerPositions.map(({ event, x, y, size, tone, duplicate }) => (
                   <button
                     aria-describedby={!duplicate && hoveredId === event.id ? 'map-marker-tooltip' : undefined}
@@ -483,6 +485,7 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
                     <div className="tooltip-hint">선택하면 오른쪽 기록에서 자세히 볼 수 있습니다.</div>
                   </div>
                 )}
+                </div>
               </div>
 
               <div className="map-legend" aria-label="지도 표시 기준">
@@ -501,20 +504,44 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
               <Button className="selected-detail-button" onClick={() => { window.location.assign(`${window.location.pathname}${window.location.search}#/event/${selected.id}?from=map&month=${selected.dateKst.slice(0, 7)}`); }}>상세 정보 <ChevronRight /></Button>
             </div> : <div className="map-empty">{mapState === 'loading' ? '조건에 맞는 지진을 불러오는 중입니다.' : mapState === 'error' ? '기록을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.' : '선택한 조건에 맞는 지진이 없습니다.'}</div>}
 
-            <div className="viewport-events-head"><span><strong>현재 지도의 지진</strong><small>발생 시각 최신순</small></span><Badge variant="outline">{displayEvents.length}/{events.length}건</Badge></div>
+            <div className="viewport-events-head"><span><strong>검색 결과 목록</strong><small>발생 시각 최신순 · 지도는 최대 750개까지 표시</small></span><Badge variant="outline">{visibleListEvents.length}/{events.length}건</Badge></div>
             <div className="map-event-list">
-              {displayEvents.slice(0, 50).map((event) => (
+              {visibleListEvents.map((event) => (
                 <button className={selectedId === event.id ? 'is-selected' : ''} key={event.id} onClick={() => setSelectedId(event.id)} type="button">
                   <span className={`map-list-magnitude ${depthTone(event.depthKm)}`}>{event.magnitude.toFixed(1)}</span>
                   <span><strong>{event.place}</strong><small>{formatKstTime(event.timeUtc)} KST · {event.depthKm === null ? '깊이 자료 없음' : `${event.depthKm.toFixed(1)} km`}</small></span>
                   <ChevronRight />
                 </button>
               ))}
+              {visibleListEvents.length < events.length && <button className="map-list-more" onClick={() => setVisibleListCount((count) => Math.min(events.length, count + 100))} type="button">100건 더 보기 <ChevronDown /></button>}
             </div>
           </aside>
         </section>
       </main>
     </ScreenFrame>
+  );
+}
+
+function EventLocationMap({ latitude, longitude, place }: { latitude: number; longitude: number; place: string }) {
+  const projection = geoEqualEarth().rotate([-longitude, -latitude]).scale(760).translate([420, 210]);
+  const path = geoPath(projection);
+  const point = projection([longitude, latitude]) ?? [420, 210];
+  return (
+    <Card className="event-location-card">
+      <CardHeader><div><span className="section-kicker">LOCAL CONTEXT</span><CardTitle className="mt-1">발생 지점 주변 지도</CardTitle><CardDescription>지진 위치를 중심으로 확대한 지역 맥락입니다.</CardDescription></div><CardAction><Badge variant="outline">{latitude.toFixed(2)}°, {longitude.toFixed(2)}°</Badge></CardAction></CardHeader>
+      <CardContent>
+        <div className="event-location-map" aria-label={`${place} 주변 지도`}>
+          <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 840 420">
+            <path className="event-map-sphere" d={path({ type: 'Sphere' }) ?? ''} />
+            <path className="event-map-graticule" d={path(geoGraticule10()) ?? ''} />
+            <path className="event-map-land" d={path(worldGeo) ?? ''} />
+            <circle className="event-map-halo" cx={point[0]} cy={point[1]} r="22" />
+            <circle className="event-map-point" cx={point[0]} cy={point[1]} r="7" />
+          </svg>
+          <div className="event-map-caption"><span>EP</span><strong>{place}</strong><small>발생 지점 · 중심 표시</small></div>
+        </div>
+      </CardContent>
+    </Card>
   );
 }
 
@@ -900,27 +927,17 @@ function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board }: { even
     longitude: actualEvent.longitude,
     network: actualEvent.network ?? '정보 없음',
     status: actualEvent.status,
+    stationCount: actualEvent.stationCount ?? null,
+    azimuthalGap: actualEvent.azimuthalGap ?? null,
+    rmsSeconds: actualEvent.rmsSeconds ?? null,
     mmi: actualEvent.mmi,
     cdi: actualEvent.cdi,
     felt: actualEvent.felt,
     alert: actualEvent.alert,
     tsunami: actualEvent.tsunami,
     url: actualEvent.url,
-  } : {
-    ...fallback,
-    magnitudeType: 'Mww',
-    dateKst: '2026-09-01',
-    timeUtc: '2026-09-01T05:08:12.000Z',
-    updatedUtc: '2026-09-01T06:12:44.000Z',
-    network: 'US',
-    status: 'reviewed',
-    mmi: null,
-    cdi: 2.1,
-    felt: 3,
-    alert: 'green',
-    tsunami: false,
-    url: null,
-  };
+  } : null;
+  if (!event) return <ScreenFrame active="explore"><main className="shell page-shell screen-page"><a className="back-link" href="#/explore"><ArrowLeft /> 검색 결과로</a><div className="search-feedback is-error"><CircleAlert /> 선택한 지진의 실제 기록을 찾지 못했습니다.</div></main></ScreenFrame>;
   const returnsToday = returnTo === 'today';
   const returnsMap = returnTo === 'map';
   const returnsDay = returnTo.startsWith('day/');
@@ -932,7 +949,7 @@ function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board }: { even
         <section className="detail-hero event-detail-hero">
           <div className={`event-magnitude-hero ${event.tone}`}><small>규모</small><strong>{event.magnitude}</strong><span>{event.magnitudeType}</span></div>
           <div className="event-hero-copy">
-            <div><Badge className="reviewed-badge" variant="outline"><CheckCircle2 /> 검토 완료</Badge><Badge className="event-id-badge" variant="outline">{event.id}</Badge></div>
+            <div><Badge className="reviewed-badge" variant="outline"><CheckCircle2 /> {event.status === 'reviewed' ? '검토 완료' : event.status === 'preliminary' ? '잠정 검토' : '상태 확인'}</Badge><Badge className="event-id-badge" variant="outline">{event.id}</Badge></div>
             <h1>{event.place}</h1>
             <p>{formatKoreanDate(event.dateKst)} {event.time} · 깊이 {event.depth}</p>
           </div>
@@ -962,11 +979,13 @@ function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board }: { even
           </Card>
         </section>
 
+        <EventLocationMap latitude={event.latitude} longitude={event.longitude} place={event.place} />
+
         <section className="event-detail-grid lower-detail-grid">
           <Card className="fact-card">
             <CardHeader><CardTitle>관측 품질</CardTitle></CardHeader>
             <CardContent className="quality-grid">
-              <div><strong>128</strong><span>관측소 수</span></div><div><strong>21°</strong><span>방위각 공백</span></div><div><strong>0.74</strong><span>RMS 오차</span></div><div><strong>2.81°</strong><span>최근 관측소</span></div>
+              <div><strong>{event.stationCount === null ? '—' : event.stationCount}</strong><span>관측소 수</span></div><div><strong>{event.azimuthalGap === null ? '—' : `${event.azimuthalGap.toFixed(0)}°`}</strong><span>방위각 공백</span></div><div><strong>{event.rmsSeconds === null ? '—' : event.rmsSeconds.toFixed(2)}</strong><span>RMS 오차 (초)</span></div><div><strong>{event.status === 'reviewed' ? '검토' : '잠정'}</strong><span>원천 검토 상태</span></div>
             </CardContent>
           </Card>
           <Card className="source-detail-card">
@@ -1101,13 +1120,14 @@ export default function Home() {
                 <CardTitle className="mt-1 text-xl">하루가 끝난 값끼리 비교</CardTitle>
                 <CardDescription>오늘 잠정값은 변화량에서 제외합니다.</CardDescription>
               </div>
-              <CardAction><Button className="view-action" disabled size="sm" variant="outline">상세 연결 예정 <ChevronRight /></Button></CardAction>
+              <CardAction><Button className="view-action" onClick={() => { if (finalizedDays.length === 2) window.location.hash = `/explore?start=${finalizedDays[0].dateKst}&end=${finalizedDays[1].dateKst}&min=4&depth=700`; }} size="sm" variant="outline">확정 기록 탐색 <ChevronRight /></Button></CardAction>
             </CardHeader>
             <CardContent className="comparison-content">
               <div className="day-bars" aria-label={comparisonDays.map((record) => `${record.dateKst} ${record.count}건 ${record.state === 'final' ? '확정' : '잠정'}`).join(', ')}>
                 {comparisonDays.map((record) => {
                   const tooltipKey = `comparison-${record.dateKst}`;
-                  return <div aria-label={`${formatKoreanDate(record.dateKst)} ${record.count}건 ${record.state === 'final' ? '확정' : '잠정'}`} className={`day-bar-column ${record.dateKst === finalizedDays.at(-1)?.dateKst ? 'is-latest' : ''} ${record.state === 'provisional' ? 'is-provisional' : ''}`} key={record.dateKst} onBlur={() => setHoveredChartKey(null)} onFocus={() => setHoveredChartKey(tooltipKey)} onMouseEnter={() => setHoveredChartKey(tooltipKey)} onMouseLeave={() => setHoveredChartKey(null)} tabIndex={0}>
+                  const edgeClass = record === comparisonDays[0] ? 'tooltip-edge-start' : record === comparisonDays.at(-1) ? 'tooltip-edge-end' : '';
+                  return <div aria-label={`${formatKoreanDate(record.dateKst)} ${record.count}건 ${record.state === 'final' ? '확정' : '잠정'}`} className={`day-bar-column ${edgeClass} ${record.dateKst === finalizedDays.at(-1)?.dateKst ? 'is-latest' : ''} ${record.state === 'provisional' ? 'is-provisional' : ''}`} key={record.dateKst} onBlur={() => setHoveredChartKey(null)} onFocus={() => setHoveredChartKey(tooltipKey)} onMouseEnter={() => setHoveredChartKey(tooltipKey)} onMouseLeave={() => setHoveredChartKey(null)} tabIndex={0}>
                     <span className="bar-value">{record.count}</span>
                     <span className="day-bar" style={{ height: `${record.count === 0 ? 2 : Math.max(12, (record.count / comparisonMaximum) * 100)}%` }} />
                     <small>{record.state === 'provisional' ? '오늘' : shortDate(record.dateKst)}</small>
@@ -1117,7 +1137,7 @@ export default function Home() {
                 })}
               </div>
               <div className="delta-panel">
-                <span>직전 확정일 대비</span><strong>{confirmedDelta === null ? '—' : `${confirmedDelta >= 0 ? '+' : ''}${confirmedDelta}건`}</strong><small>{finalizedDays.length === 2 ? `${shortDate(finalizedDays[0].dateKst)} ${finalizedDays[0].count}건 → ${shortDate(finalizedDays[1].dateKst)} ${finalizedDays[1].count}건` : '확정 기록 확인 중'}</small>
+                <span>직전 확정일 대비</span><strong>{confirmedDelta === null ? '—' : `${confirmedDelta >= 0 ? '+' : ''}${confirmedDelta}건`}</strong>{finalizedDays.length === 2 ? <small className="comparison-period"><span>{shortDate(finalizedDays[0].dateKst)}<b>{finalizedDays[0].count}건</b></span><i>→</i><span>{shortDate(finalizedDays[1].dateKst)}<b>{finalizedDays[1].count}건</b></span></small> : <small>확정 기록 확인 중</small>}
               </div>
             </CardContent>
           </Card>
@@ -1137,7 +1157,8 @@ export default function Home() {
               <div className="week-chart" aria-label="최근 7일 지진 건수 막대 그래프">
                 {recentWeek.map((record) => {
                   const tooltipKey = `week-${record.dateKst}`;
-                  return <div aria-label={`${formatKoreanDate(record.dateKst)} ${record.count}건 ${record.state === 'final' ? '확정' : '잠정'}`} className="week-column" key={record.dateKst} onBlur={() => setHoveredChartKey(null)} onFocus={() => setHoveredChartKey(tooltipKey)} onMouseEnter={() => setHoveredChartKey(tooltipKey)} onMouseLeave={() => setHoveredChartKey(null)} tabIndex={0}>
+                  const edgeClass = record === recentWeek[0] ? 'tooltip-edge-start' : record === recentWeek.at(-1) ? 'tooltip-edge-end' : '';
+                  return <div aria-label={`${formatKoreanDate(record.dateKst)} ${record.count}건 ${record.state === 'final' ? '확정' : '잠정'}`} className={`week-column ${edgeClass}`} key={record.dateKst} onBlur={() => setHoveredChartKey(null)} onFocus={() => setHoveredChartKey(tooltipKey)} onMouseEnter={() => setHoveredChartKey(tooltipKey)} onMouseLeave={() => setHoveredChartKey(null)} tabIndex={0}>
                     <span className={record.state === 'provisional' ? 'is-today' : ''} style={{ height: `${record.count === 0 ? 2 : Math.max(8, (record.count / weekMaximum) * 100)}%` }} />
                     <small>{weekdayLabel(record.dateKst, status?.targetDateKst ?? '')}</small>
                     {hoveredChartKey === tooltipKey && <span className="bar-chart-tooltip"><small>{formatKoreanDate(record.dateKst)}</small><strong>{record.count}건 · {record.state === 'final' ? '확정' : '잠정'}</strong></span>}
@@ -1154,7 +1175,7 @@ export default function Home() {
           <Card className="events-card">
             <CardHeader>
               <div><span className="section-kicker ink">LARGEST TODAY</span><CardTitle className="mt-1">오늘 규모가 큰 지진</CardTitle></div>
-              <CardAction><Button className="view-action" disabled size="sm" variant="outline">탐색 연결 예정 <ArrowUpRight /></Button></CardAction>
+              <CardAction><Button className="view-action" onClick={() => { if (status) window.location.hash = `/explore?start=${status.targetDateKst}&end=${status.targetDateKst}&min=${status.minMagnitude}&depth=700`; }} size="sm" variant="outline">오늘 기록 탐색 <ArrowUpRight /></Button></CardAction>
             </CardHeader>
             <CardContent className="event-list">
               {largestToday.map((event) => (

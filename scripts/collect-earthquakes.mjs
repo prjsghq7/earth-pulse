@@ -96,6 +96,9 @@ function normalizeFeature(feature) {
     code: typeof properties.code === 'string' ? properties.code : null,
     url: typeof properties.url === 'string' ? properties.url : null,
     detailUrl: typeof properties.detail === 'string' ? properties.detail : null,
+    stationCount: finiteNumber(properties.nst),
+    azimuthalGap: finiteNumber(properties.gap),
+    rmsSeconds: finiteNumber(properties.rms),
   };
 }
 
@@ -108,6 +111,15 @@ function mergeEvents(existing, incoming) {
   for (const event of incoming) {
     const current = merged.get(event.id);
     if (!current || event.updatedUtc > current.updatedUtc) merged.set(event.id, event);
+    else if (event.updatedUtc === current.updatedUtc) {
+      merged.set(event.id, {
+        ...current,
+        ...event,
+        stationCount: event.stationCount ?? current.stationCount ?? null,
+        azimuthalGap: event.azimuthalGap ?? current.azimuthalGap ?? null,
+        rmsSeconds: event.rmsSeconds ?? current.rmsSeconds ?? null,
+      });
+    }
   }
   return [...merged.values()].sort(byTimeAscending);
 }
@@ -180,7 +192,7 @@ async function pendingFinalizationDates(today) {
 
 async function atomicJson(file, value) {
   await mkdir(path.dirname(file), { recursive: true });
-  const temporary = `${file}.tmp`;
+  const temporary = `${file}.${process.pid}.${Date.now()}.tmp`;
   await writeFile(temporary, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
   try {
     await rename(temporary, file);
@@ -233,6 +245,31 @@ async function fetchGeoJson(queryUrl) {
   }
 }
 
+async function enrichQualityFromDetail(event) {
+  if (!event.detailUrl) return event;
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 15_000);
+  try {
+    const response = await fetch(event.detailUrl, {
+      headers: { Accept: 'application/json', 'User-Agent': 'Earth-Pulse/0.1' },
+      signal: controller.signal,
+    });
+    if (!response.ok) return event;
+    const detail = await response.json();
+    return {
+      ...event,
+      stationCount: finiteNumber(detail?.properties?.nst),
+      azimuthalGap: finiteNumber(detail?.properties?.gap),
+      rmsSeconds: finiteNumber(detail?.properties?.rms),
+    };
+  } catch {
+    // A quality-detail miss must not discard a successfully collected event.
+    return event;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
 async function writeManifest(collectedAt) {
   const files = [];
   for (const file of (await dataFiles(DATA_ROOT)).sort()) {
@@ -280,7 +317,11 @@ async function collect() {
   const previousStatus = await readJson(path.join(DATA_ROOT, 'status.json'), null);
   try {
     const raw = await fetchGeoJson(query.toString());
-    const normalized = raw.features.map(normalizeFeature).filter(Boolean);
+    const normalized = [];
+    for (const feature of raw.features) {
+      const event = normalizeFeature(feature);
+      if (event) normalized.push(await enrichQualityFromDetail(event));
+    }
     const rejectedCount = raw.features.length - normalized.length;
     const months = [...new Set([...normalized.map((event) => event.dateKst.slice(0, 7)), ...datesToWrite.map((date) => date.slice(0, 7))])];
     const mergedByMonth = new Map();

@@ -23,6 +23,9 @@ export interface EarthPulseEvent {
   code: string | null;
   url: string | null;
   detailUrl: string | null;
+  stationCount?: number | null;
+  azimuthalGap?: number | null;
+  rmsSeconds?: number | null;
 }
 
 export interface DailyRecord {
