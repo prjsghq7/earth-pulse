@@ -117,15 +117,27 @@
     {
       "dateKst": "2026-09-04",
       "state": "provisional",
-      "count": 3,
-      "maxMagnitude": 5.2,
-      "averageMagnitude": 4.83,
+      "count": 15,
+      "maxMagnitude": 5.5,
+      "averageMagnitude": 4.69,
       "medianMagnitude": 4.8,
       "medianDepthKm": 35,
       "eventIds": [
         "us7000te02",
         "us7000te09",
-        "us7000te21"
+        "us7000te1q",
+        "us7000te20",
+        "us7000te21",
+        "us7000te2d",
+        "us7000te2i",
+        "us7000te2m",
+        "aka2026rmahsg",
+        "us7000te4b",
+        "us7000te4t",
+        "us7000te51",
+        "us7000te55",
+        "us7000te5e",
+        "us7000te5t"
       ]
     }
   ]
