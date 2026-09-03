@@ -1,7 +1,7 @@
 'use client';
 
-import { useEffect, useState, type ReactNode } from 'react';
-import { geoEqualEarth, geoGraticule10, geoPath } from 'd3-geo';
+import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent, type ReactNode } from 'react';
+import { geoArea, geoCentroid, geoEqualEarth, geoGraticule10, geoPath } from 'd3-geo';
 import { feature } from 'topojson-client';
 import type { GeometryCollection, Topology } from 'topojson-specification';
 import world from 'world-atlas/countries-110m.json';
@@ -103,22 +103,26 @@ const mapProjection = geoEqualEarth().fitExtent(
 );
 const worldPath = geoPath(mapProjection)(worldGeo) ?? '';
 const graticulePath = geoPath(mapProjection)(geoGraticule10()) ?? '';
-const mapCountryLabels = [
-  { name: '미국', coordinates: [-100, 39] as [number, number] },
-  { name: '브라질', coordinates: [-53, -10] as [number, number] },
-  { name: '아르헨티나', coordinates: [-65, -36] as [number, number] },
-  { name: '영국', coordinates: [-3, 55] as [number, number] },
-  { name: '러시아', coordinates: [92, 60] as [number, number] },
-  { name: '인도', coordinates: [79, 22] as [number, number] },
-  { name: '중국', coordinates: [104, 35] as [number, number] },
-  { name: '일본', coordinates: [138, 37] as [number, number] },
-  { name: '인도네시아', coordinates: [118, -2] as [number, number] },
-  { name: '호주', coordinates: [134, -26] as [number, number] },
-  { name: '뉴질랜드', coordinates: [174, -41] as [number, number] },
-  { name: '남아프리카', coordinates: [25, -29] as [number, number] },
+const koreanCountryNames: Record<string, string> = {
+  'Argentina': '아르헨티나', 'Australia': '호주', 'Brazil': '브라질', 'Canada': '캐나다', 'Chile': '칠레', 'China': '중국', 'Colombia': '콜롬비아', 'Fiji': '피지', 'France': '프랑스', 'Greece': '그리스', 'India': '인도', 'Indonesia': '인도네시아', 'Iran': '이란', 'Italy': '이탈리아', 'Japan': '일본', 'Mexico': '멕시코', 'New Zealand': '뉴질랜드', 'Papua New Guinea': '파푸아뉴기니', 'Peru': '페루', 'Philippines': '필리핀', 'Russian Federation': '러시아', 'Russia': '러시아', 'South Africa': '남아프리카', 'South Korea': '대한민국', 'Spain': '스페인', 'Taiwan': '대만', 'Turkey': '튀르키예', 'United Kingdom': '영국', 'United States of America': '미국', 'Vanuatu': '바누아투', 'Vietnam': '베트남',
+};
+const worldCountryLabels = worldGeo.features.flatMap((country) => {
+  const rawName = typeof country.properties?.name === 'string' ? country.properties.name : null;
+  const point = mapProjection(geoCentroid(country));
+  if (!rawName || !point) return [];
+  return [{ name: koreanCountryNames[rawName] ?? rawName, x: point[0], y: point[1], area: geoArea(country), kind: 'country' as const }];
+});
+const mapOceanLabels = [
+  { name: '북태평양', coordinates: [-160, 28] as [number, number] },
+  { name: '남태평양', coordinates: [-135, -30] as [number, number] },
+  { name: '북대서양', coordinates: [-38, 33] as [number, number] },
+  { name: '남대서양', coordinates: [-25, -27] as [number, number] },
+  { name: '인도양', coordinates: [76, -22] as [number, number] },
+  { name: '동해', coordinates: [137, 39] as [number, number] },
+  { name: '필리핀해', coordinates: [132, 18] as [number, number] },
 ].flatMap((label) => {
   const point = mapProjection(label.coordinates);
-  return point ? [{ ...label, x: point[0], y: point[1] }] : [];
+  return point ? [{ ...label, x: point[0], y: point[1], kind: 'ocean' as const, area: 0 }] : [];
 });
 const spherePath = geoPath(mapProjection)({ type: 'Sphere' }) ?? '';
 
@@ -360,6 +364,44 @@ function depthTone(depthKm: number | null) {
   return 'deep';
 }
 
+function clampMapPan(pan: { x: number; y: number }, zoom: number) {
+  const xLimit = Math.round((zoom - 1) * 260);
+  const yLimit = Math.round((zoom - 1) * 155);
+  return {
+    x: Math.max(-xLimit, Math.min(xLimit, pan.x)),
+    y: Math.max(-yLimit, Math.min(yLimit, pan.y)),
+  };
+}
+
+function labelsForVisibleMapArea({ zoom, pan, viewport }: { zoom: number; pan: { x: number; y: number }; viewport: { width: number; height: number } }) {
+  const mapHeight = Math.max(1, viewport.height - 92);
+  const toScreen = (label: { x: number; y: number }) => ({
+    x: ((label.x / 960) * viewport.width - viewport.width / 2) * zoom + viewport.width / 2 + pan.x,
+    y: (12 + (label.y / 500) * mapHeight - viewport.height / 2) * zoom + viewport.height / 2 + pan.y,
+  });
+  const isVisible = (point: { x: number; y: number }) => point.x > 24 && point.x < viewport.width - 24 && point.y > 30 && point.y < viewport.height - 96;
+  const countryLimit = zoom < 1.3 ? 9 : zoom < 2 ? 13 : 18;
+  const minimumArea = zoom < 1.3 ? .018 : zoom < 2 ? .003 : 0;
+  const candidates = [
+    ...worldCountryLabels.filter((label) => label.area >= minimumArea),
+    ...(zoom >= 1.3 ? mapOceanLabels : []),
+  ]
+    .map((label) => ({ ...label, screen: toScreen(label) }))
+    .filter((label) => isVisible(label.screen))
+    .sort((left, right) => {
+      if (left.kind !== right.kind) return left.kind === 'country' ? -1 : 1;
+      return right.area - left.area;
+    });
+  const accepted: typeof candidates = [];
+  for (const candidate of candidates) {
+    const labelLimit = candidate.kind === 'country' ? countryLimit : Math.max(2, Math.floor(countryLimit / 4));
+    if (accepted.filter((label) => label.kind === candidate.kind).length >= labelLimit) continue;
+    if (accepted.some((label) => Math.hypot(label.screen.x - candidate.screen.x, label.screen.y - candidate.screen.y) < 72)) continue;
+    accepted.push(candidate);
+  }
+  return accepted;
+}
+
 function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQuery: string }) {
   const initialFilters = mapFiltersFromQuery(targetDate, initialQuery);
   const [draft, setDraft] = useState<MapFilters>(initialFilters);
@@ -370,6 +412,11 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [visibleListCount, setVisibleListCount] = useState(100);
   const [mapZoom, setMapZoom] = useState(1);
+  const [mapPan, setMapPan] = useState({ x: 0, y: 0 });
+  const [isMapDragging, setIsMapDragging] = useState(false);
+  const [mapViewport, setMapViewport] = useState({ width: 960, height: 570 });
+  const mapFrameRef = useRef<HTMLDivElement>(null);
+  const mapDragRef = useRef<{ pointerId: number; x: number; y: number } | null>(null);
   const [mapSort, setMapSort] = useState<'latest' | 'largest' | 'shallow' | 'deep'>('latest');
   const displayEvents = events.slice(0, 750);
   const orderedEvents = [...events].sort((a, b) => {
@@ -380,6 +427,17 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
   });
   const visibleListEvents = orderedEvents.slice(0, visibleListCount);
   const selected = events.find((event) => event.id === selectedId) ?? displayEvents[0] ?? null;
+  const visibleMapLabels = labelsForVisibleMapArea({ zoom: mapZoom, pan: mapPan, viewport: mapViewport });
+
+  useEffect(() => {
+    const frame = mapFrameRef.current;
+    if (!frame) return;
+    const updateViewport = () => setMapViewport({ width: frame.clientWidth, height: frame.clientHeight });
+    updateViewport();
+    const observer = new ResizeObserver(updateViewport);
+    observer.observe(frame);
+    return () => observer.disconnect();
+  }, []);
 
   useEffect(() => {
     let active = true;
@@ -403,7 +461,36 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
     setSelectedId(null);
     setVisibleListCount(100);
     setMapZoom(1);
+    setMapPan({ x: 0, y: 0 });
     syncMapUrl(normalized);
+  };
+
+  const changeMapZoom = (amount: number) => {
+    const nextZoom = Math.max(1, Math.min(3.5, Number((mapZoom + amount).toFixed(2))));
+    setMapZoom(nextZoom);
+    setMapPan((pan) => clampMapPan(pan, nextZoom));
+  };
+  const resetMapView = () => {
+    setMapZoom(1);
+    setMapPan({ x: 0, y: 0 });
+  };
+  const startMapDrag = (event: ReactPointerEvent<SVGSVGElement>) => {
+    mapDragRef.current = { pointerId: event.pointerId, x: event.clientX, y: event.clientY };
+    event.currentTarget.setPointerCapture(event.pointerId);
+    setIsMapDragging(true);
+  };
+  const moveMapDrag = (event: ReactPointerEvent<SVGSVGElement>) => {
+    const drag = mapDragRef.current;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    const xDifference = event.clientX - drag.x;
+    const yDifference = event.clientY - drag.y;
+    mapDragRef.current = { ...drag, x: event.clientX, y: event.clientY };
+    setMapPan((pan) => clampMapPan({ x: pan.x + xDifference, y: pan.y + yDifference }, mapZoom));
+  };
+  const endMapDrag = (event: ReactPointerEvent<SVGSVGElement>) => {
+    if (mapDragRef.current?.pointerId !== event.pointerId) return;
+    mapDragRef.current = null;
+    setIsMapDragging(false);
   };
 
   const markerPositions = displayEvents.flatMap((event) => {
@@ -460,21 +547,21 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
           <div className="map-observation-panel">
             <div className="map-panel-heading">
               <div><span className="section-kicker">EARTHQUAKE POSITION</span><strong>전 세계 관측 위치</strong></div>
-              <div className="map-tools" aria-label="지도 도구"><button aria-label="확대" disabled={mapZoom >= 2.2} onClick={() => setMapZoom((zoom) => Math.min(2.2, Number((zoom + .2).toFixed(1))))} type="button"><ZoomIn /></button><button aria-label="축소" disabled={mapZoom <= 1} onClick={() => setMapZoom((zoom) => Math.max(1, Number((zoom - .2).toFixed(1))))} type="button"><ZoomOut /></button><button aria-label="전체 보기" disabled={mapZoom === 1} onClick={() => setMapZoom(1)} type="button"><LocateFixed /></button></div>
+              <div className="map-tools" aria-label="지도 도구"><span aria-live="polite" className="map-zoom-level">확대 {Math.round(mapZoom * 100)}%</span><button aria-label="25% 확대" disabled={mapZoom >= 3.5} onClick={() => changeMapZoom(.25)} type="button"><ZoomIn /></button><button aria-label="25% 축소" disabled={mapZoom <= 1} onClick={() => changeMapZoom(-.25)} type="button"><ZoomOut /></button><button aria-label="전체 보기" disabled={mapZoom === 1 && mapPan.x === 0 && mapPan.y === 0} onClick={resetMapView} type="button"><LocateFixed /></button></div>
             </div>
 
-            <div className="world-map-frame">
-              <div className="map-zoom-layer" style={{ transform: `scale(${mapZoom})` }}>
-                <svg aria-label="전 세계 지진 위치 지도" className="world-map-svg" preserveAspectRatio="none" viewBox="0 0 960 500">
+            <div className="world-map-frame" ref={mapFrameRef}>
+              <div className="map-zoom-layer" style={{ transform: `translate(${mapPan.x}px, ${mapPan.y}px) scale(${mapZoom})` }}>
+                <svg aria-label="전 세계 지진 위치 지도. 확대 뒤 드래그하여 이동할 수 있습니다." className={`world-map-svg map-draggable ${isMapDragging ? 'is-dragging' : ''}`} onPointerCancel={endMapDrag} onPointerDown={startMapDrag} onPointerMove={moveMapDrag} onPointerUp={endMapDrag} preserveAspectRatio="none" viewBox="0 0 960 500">
                   <path className="map-sphere" d={spherePath} />
                   <path className="map-graticule" d={graticulePath} />
                   <path className="map-land" d={worldPath} />
                 </svg>
                 <div className="map-country-labels" aria-hidden="true">
-                  {mapCountryLabels.map((label) => (
+                  {visibleMapLabels.map((label) => (
                     <span
-                      className="map-country-label"
-                      key={label.name}
+                      className={`map-country-label ${label.kind}`}
+                      key={`${label.kind}-${label.name}`}
                       style={{ left: `${(label.x / 960) * 100}%`, top: `${(label.y / 500) * 100}%` }}
                     >
                       {label.name}
@@ -557,10 +644,20 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
   );
 }
 
-function EventLocationMap({ latitude, longitude, place }: { latitude: number; longitude: number; place: string }) {
+function EventLocationMap({ event }: { event: EarthPulseIndexEvent }) {
+  const { latitude, longitude, place } = event;
   const projection = geoEqualEarth().rotate([-longitude, -latitude]).scale(760).translate([420, 210]);
   const path = geoPath(projection);
   const point = projection([longitude, latitude]) ?? [420, 210];
+  const nearbyCountryLabels = worldGeo.features
+    .flatMap((country) => {
+      const rawName = typeof country.properties?.name === 'string' ? country.properties.name : null;
+      const center = projection(geoCentroid(country));
+      if (!rawName || !center || center[0] < 34 || center[0] > 806 || center[1] < 30 || center[1] > 390) return [];
+      return [{ name: koreanCountryNames[rawName] ?? rawName, x: center[0], y: center[1], distance: Math.hypot(center[0] - 420, center[1] - 210) }];
+    })
+    .sort((left, right) => left.distance - right.distance)
+    .slice(0, 4);
   return (
     <Card className="event-location-card">
       <CardHeader><div><span className="section-kicker">LOCAL CONTEXT</span><CardTitle className="mt-1">발생 지점 주변 지도</CardTitle><CardDescription>지진 위치를 중심으로 확대한 지역 맥락입니다.</CardDescription></div><CardAction><Badge variant="outline">{latitude.toFixed(2)}°, {longitude.toFixed(2)}°</Badge></CardAction></CardHeader>
@@ -573,6 +670,9 @@ function EventLocationMap({ latitude, longitude, place }: { latitude: number; lo
             <circle className="event-map-halo" cx={point[0]} cy={point[1]} r="22" />
             <circle className="event-map-point" cx={point[0]} cy={point[1]} r="7" />
           </svg>
+          <div className="event-map-country-labels" aria-hidden="true">
+            {nearbyCountryLabels.map((country) => <span key={country.name} style={{ left: `${(country.x / 840) * 100}%`, top: `${(country.y / 420) * 100}%` }}>{country.name}</span>)}
+          </div>
           <div className="event-map-caption"><span>EP</span><strong>{place}</strong><small>발생 지점 · 중심 표시</small></div>
         </div>
       </CardContent>
@@ -1022,31 +1122,32 @@ function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board }: { even
           <Button className="source-button" disabled={!event.url} onClick={() => { if (event.url) window.open(event.url, '_blank', 'noopener,noreferrer'); }} variant="outline">USGS 원본 <ExternalLink /></Button>
         </section>
 
-        <section className="event-detail-grid">
-          <Card className="fact-card">
-            <CardHeader><CardTitle>지진 정보</CardTitle></CardHeader>
-            <CardContent className="fact-grid">
-              <div><span>발생 시각 KST</span><strong>{formatDateTime(event.timeUtc, 'Asia/Seoul')}</strong></div>
-              <div><span>발생 시각 UTC</span><strong>{formatDateTime(event.timeUtc, 'UTC')}</strong></div>
-              <div><span>위도 · 경도</span><strong>{event.latitude.toFixed(3)} · {event.longitude.toFixed(3)}</strong></div>
-              <div><span>진원 깊이</span><strong>{event.depth}</strong></div>
-              <div><span>이벤트 ID</span><strong>{event.id}</strong></div>
-              <div><span>제공 네트워크</span><strong>{event.network}</strong></div>
-            </CardContent>
-          </Card>
-          <Card className="impact-card">
-            <CardHeader><CardTitle>영향 정보</CardTitle><CardDescription>제공되지 않는 값은 추정하지 않습니다.</CardDescription></CardHeader>
-            <CardContent className="impact-list">
-              <div><Gauge /><span><small>계산 진도 MMI</small><strong>{event.mmi ?? '정보 없음'}</strong></span></div>
-              <div><Activity /><span><small>체감 신고 CDI</small><strong>{event.cdi === null ? '정보 없음' : `${event.felt ?? 0}건 · ${event.cdi}`}</strong></span></div>
-              <div><CircleAlert /><span><small>PAGER 경보</small><strong>{event.alert ?? '정보 없음'}</strong></span></div>
-              <div><Radar /><span><small>쓰나미 플래그</small><strong>{event.tsunami ? '있음' : '없음'}</strong></span></div>
-            </CardContent>
-            <details className="impact-guide"><summary>용어 안내</summary><dl><div><dt>계산 진도 MMI</dt><dd>관측 자료로 계산한 해당 지역의 흔들림 강도입니다.</dd></div><div><dt>체감 신고 CDI</dt><dd>사람들이 신고한 흔들림 경험을 바탕으로 산정한 값입니다.</dd></div><div><dt>PAGER 경보</dt><dd>지진 영향 규모를 추정하는 USGS 경보 체계입니다.</dd></div><div><dt>쓰나미 플래그</dt><dd>USGS 원천이 쓰나미 관련 여부를 표시한 값입니다.</dd></div></dl></details>
-          </Card>
+        <section className="event-primary-layout">
+          <div className="event-primary-cards">
+            <Card className="fact-card">
+              <CardHeader><CardTitle>지진 정보</CardTitle></CardHeader>
+              <CardContent className="fact-grid">
+                <div><span>발생 시각 KST</span><strong>{formatDateTime(event.timeUtc, 'Asia/Seoul')}</strong></div>
+                <div><span>발생 시각 UTC</span><strong>{formatDateTime(event.timeUtc, 'UTC')}</strong></div>
+                <div><span>위도 · 경도</span><strong>{event.latitude.toFixed(3)} · {event.longitude.toFixed(3)}</strong></div>
+                <div><span>진원 깊이</span><strong>{event.depth}</strong></div>
+                <div><span>이벤트 ID</span><strong>{event.id}</strong></div>
+                <div><span>제공 네트워크</span><strong>{event.network}</strong></div>
+              </CardContent>
+            </Card>
+            <Card className="impact-card">
+              <CardHeader><CardTitle>영향 정보</CardTitle><CardDescription>제공되지 않는 값은 추정하지 않습니다.</CardDescription></CardHeader>
+              <CardContent className="impact-list">
+                <div><Gauge /><span><small>계산 진도 MMI</small><strong>{event.mmi ?? '정보 없음'}</strong></span></div>
+                <div><Activity /><span><small>체감 신고 CDI</small><strong>{event.cdi === null ? '정보 없음' : `${event.felt ?? 0}건 · ${event.cdi}`}</strong></span></div>
+                <div><CircleAlert /><span><small>PAGER 경보</small><strong>{event.alert ?? '정보 없음'}</strong></span></div>
+                <div><Radar /><span><small>쓰나미 플래그</small><strong>{event.tsunami ? '있음' : '없음'}</strong></span></div>
+              </CardContent>
+              <details className="impact-guide"><summary>용어 안내</summary><dl><div><dt>계산 진도 MMI</dt><dd>관측 자료로 계산한 해당 지역의 흔들림 강도입니다.</dd></div><div><dt>체감 신고 CDI</dt><dd>사람들이 신고한 흔들림 경험을 바탕으로 산정한 값입니다.</dd></div><div><dt>PAGER 경보</dt><dd>지진 영향 규모를 추정하는 USGS 경보 체계입니다.</dd></div><div><dt>쓰나미 플래그</dt><dd>USGS 원천이 쓰나미 관련 여부를 표시한 값입니다.</dd></div></dl></details>
+            </Card>
+          </div>
+          <EventLocationMap event={event} />
         </section>
-
-        <EventLocationMap latitude={event.latitude} longitude={event.longitude} place={event.place} />
 
         <section className="event-detail-grid lower-detail-grid">
           <Card className="fact-card">
