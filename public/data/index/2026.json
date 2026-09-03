@@ -148810,22 +148810,49 @@
       "month": "2026-09"
     },
     {
-      "id": "us7000tdqc",
+      "id": "us7000tdpf",
       "dateKst": "2026-09-03",
-      "timeUtc": "2026-09-02T20:04:33.407Z",
-      "magnitude": 5.4,
-      "magnitudeType": "mww",
-      "place": "53 km W of Bulolo, Papua New Guinea",
-      "depthKm": 65.164,
-      "longitude": 146.1539,
-      "latitude": -7.1815,
+      "timeUtc": "2026-09-02T17:32:46.134Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "77 km SE of Hengchun, Taiwan",
+      "depthKm": 35,
+      "longitude": 121.3268,
+      "latitude": 21.5597,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-02T22:13:48.357Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-03T14:00:36.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tdqc",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-02T20:04:33.819Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mww",
+      "place": "52 km W of Bulolo, Papua New Guinea",
+      "depthKm": 69.916,
+      "longitude": 146.174,
+      "latitude": -7.1178,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T16:21:40.359Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tdqd",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-02T20:06:26.040Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "0 km N of 1ra. Sección de Izapa, Mexico",
+      "depthKm": 99.566,
+      "longitude": -92.1699,
+      "latitude": 14.9275,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T16:38:51.040Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000tdr1",
@@ -148857,7 +148884,7 @@
       "latitude": -56.2062,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-03T13:06:17.579Z",
+      "updatedUtc": "2026-09-03T14:51:33.040Z",
       "month": "2026-09"
     },
     {
@@ -148891,7 +148918,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T11:44:21.492Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tdua",
@@ -148923,7 +148953,7 @@
       "latitude": -29.7346,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-03T12:43:24.563Z",
+      "updatedUtc": "2026-09-03T15:32:20.356Z",
       "month": "2026-09"
     },
     {
@@ -148974,7 +149004,7 @@
       "latitude": 52.2579,
       "status": "reviewed",
       "tsunami": true,
-      "updatedUtc": "2026-09-03T13:27:27.292Z",
+      "updatedUtc": "2026-09-03T17:27:32.178Z",
       "month": "2026-09"
     },
     {
@@ -148990,7 +149020,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T12:07:42.130Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tdy7",
@@ -149005,7 +149038,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T12:24:16.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tdw2",
@@ -149020,7 +149056,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T11:46:04.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tdw5",
@@ -149035,7 +149074,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T12:25:35.871Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tdw6",
@@ -149049,7 +149091,7 @@
       "latitude": 31.8458,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-03T12:54:34.938Z",
+      "updatedUtc": "2026-09-03T13:47:38.517Z",
       "month": "2026-09"
     },
     {
@@ -149064,7 +149106,7 @@
       "latitude": 52.253,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-03T13:15:52.205Z",
+      "updatedUtc": "2026-09-03T13:44:02.758Z",
       "month": "2026-09"
     },
     {
@@ -149080,6 +149122,129 @@
       "status": "reviewed",
       "tsunami": true,
       "updatedUtc": "2026-09-03T13:25:57.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tdz8",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-03T13:47:10.246Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "65 km S of Isangel, Vanuatu",
+      "depthKm": 112.706,
+      "longitude": 169.3059,
+      "latitude": -20.1366,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T14:06:46.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tdzk",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-03T14:11:31.916Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "Owen Fracture Zone region",
+      "depthKm": 10,
+      "longitude": 56.4505,
+      "latitude": 14.4605,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T14:30:41.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tdzn",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-03T14:15:43.066Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "136 km NNE of Tobelo, Indonesia",
+      "depthKm": 100.333,
+      "longitude": 128.6396,
+      "latitude": 2.7883,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T15:35:02.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tdzr",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-03T14:27:36.265Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "82 km SSW of Nikolski, Alaska",
+      "depthKm": 35,
+      "longitude": -169.488,
+      "latitude": 52.3,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T17:22:26.098Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tdzu",
+      "dateKst": "2026-09-03",
+      "timeUtc": "2026-09-03T14:39:36.999Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "74 km SSW of Nikolski, Alaska",
+      "depthKm": 35,
+      "longitude": -169.4746,
+      "latitude": 52.3837,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T17:24:41.677Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000te02",
+      "dateKst": "2026-09-04",
+      "timeUtc": "2026-09-03T15:42:01.226Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "78 km SSW of Nikolski, Alaska",
+      "depthKm": 35,
+      "longitude": -169.2869,
+      "latitude": 52.2839,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T17:29:55.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000te09",
+      "dateKst": "2026-09-04",
+      "timeUtc": "2026-09-03T16:11:25.672Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "81 km SSW of Nikolski, Alaska",
+      "depthKm": 35,
+      "longitude": -169.4187,
+      "latitude": 52.2887,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T17:29:18.572Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000te21",
+      "dateKst": "2026-09-04",
+      "timeUtc": "2026-09-03T17:04:40.769Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "271 km SSE of Dunhuang, China",
+      "depthKm": 10,
+      "longitude": 95.4671,
+      "latitude": 37.7963,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-03T17:25:01.040Z",
       "month": "2026-09"
     }
   ]
