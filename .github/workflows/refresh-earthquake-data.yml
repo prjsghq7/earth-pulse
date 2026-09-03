@@ -32,6 +32,9 @@ jobs:
         # runner resolve its platform-specific optional packages as well.
         run: npm install --no-audit --no-fund
 
+      - name: Verify delayed-data recovery scenarios
+        run: npm run data:verify:failures
+
       - name: Collect public USGS earthquake data
         run: npm run data:collect
 

@@ -1107,7 +1107,7 @@ export default function Home() {
               <div className="day-bars" aria-label={comparisonDays.map((record) => `${record.dateKst} ${record.count}건 ${record.state === 'final' ? '확정' : '잠정'}`).join(', ')}>
                 {comparisonDays.map((record) => {
                   const tooltipKey = `comparison-${record.dateKst}`;
-                  return <div className={`day-bar-column ${record.dateKst === finalizedDays.at(-1)?.dateKst ? 'is-latest' : ''} ${record.state === 'provisional' ? 'is-provisional' : ''}`} key={record.dateKst} onMouseEnter={() => setHoveredChartKey(tooltipKey)} onMouseLeave={() => setHoveredChartKey(null)}>
+                  return <div aria-label={`${formatKoreanDate(record.dateKst)} ${record.count}건 ${record.state === 'final' ? '확정' : '잠정'}`} className={`day-bar-column ${record.dateKst === finalizedDays.at(-1)?.dateKst ? 'is-latest' : ''} ${record.state === 'provisional' ? 'is-provisional' : ''}`} key={record.dateKst} onBlur={() => setHoveredChartKey(null)} onFocus={() => setHoveredChartKey(tooltipKey)} onMouseEnter={() => setHoveredChartKey(tooltipKey)} onMouseLeave={() => setHoveredChartKey(null)} tabIndex={0}>
                     <span className="bar-value">{record.count}</span>
                     <span className="day-bar" style={{ height: `${record.count === 0 ? 2 : Math.max(12, (record.count / comparisonMaximum) * 100)}%` }} />
                     <small>{record.state === 'provisional' ? '오늘' : shortDate(record.dateKst)}</small>
@@ -1117,7 +1117,7 @@ export default function Home() {
                 })}
               </div>
               <div className="delta-panel">
-                <span>전날 대비</span><strong>{confirmedDelta === null ? '—' : `${confirmedDelta >= 0 ? '+' : ''}${confirmedDelta}건`}</strong><small>{finalizedDays.length === 2 ? `${finalizedDays[0].count}건 → ${finalizedDays[1].count}건` : '확정 기록 확인 중'}</small>
+                <span>직전 확정일 대비</span><strong>{confirmedDelta === null ? '—' : `${confirmedDelta >= 0 ? '+' : ''}${confirmedDelta}건`}</strong><small>{finalizedDays.length === 2 ? `${shortDate(finalizedDays[0].dateKst)} ${finalizedDays[0].count}건 → ${shortDate(finalizedDays[1].dateKst)} ${finalizedDays[1].count}건` : '확정 기록 확인 중'}</small>
               </div>
             </CardContent>
           </Card>
@@ -1137,7 +1137,7 @@ export default function Home() {
               <div className="week-chart" aria-label="최근 7일 지진 건수 막대 그래프">
                 {recentWeek.map((record) => {
                   const tooltipKey = `week-${record.dateKst}`;
-                  return <div className="week-column" key={record.dateKst} onMouseEnter={() => setHoveredChartKey(tooltipKey)} onMouseLeave={() => setHoveredChartKey(null)}>
+                  return <div aria-label={`${formatKoreanDate(record.dateKst)} ${record.count}건 ${record.state === 'final' ? '확정' : '잠정'}`} className="week-column" key={record.dateKst} onBlur={() => setHoveredChartKey(null)} onFocus={() => setHoveredChartKey(tooltipKey)} onMouseEnter={() => setHoveredChartKey(tooltipKey)} onMouseLeave={() => setHoveredChartKey(null)} tabIndex={0}>
                     <span className={record.state === 'provisional' ? 'is-today' : ''} style={{ height: `${record.count === 0 ? 2 : Math.max(8, (record.count / weekMaximum) * 100)}%` }} />
                     <small>{weekdayLabel(record.dateKst, status?.targetDateKst ?? '')}</small>
                     {hoveredChartKey === tooltipKey && <span className="bar-chart-tooltip"><small>{formatKoreanDate(record.dateKst)}</small><strong>{record.count}건 · {record.state === 'final' ? '확정' : '잠정'}</strong></span>}
