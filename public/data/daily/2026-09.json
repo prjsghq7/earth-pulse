@@ -117,9 +117,9 @@
     {
       "dateKst": "2026-09-04",
       "state": "provisional",
-      "count": 15,
+      "count": 17,
       "maxMagnitude": 5.5,
-      "averageMagnitude": 4.69,
+      "averageMagnitude": 4.68,
       "medianMagnitude": 4.8,
       "medianDepthKm": 35,
       "eventIds": [
@@ -137,7 +137,9 @@
         "us7000te51",
         "us7000te55",
         "us7000te5e",
-        "us7000te5t"
+        "us7000te5t",
+        "us7000te7l",
+        "us7000te7s"
       ]
     }
   ]

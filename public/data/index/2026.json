@@ -149250,7 +149250,7 @@
       "latitude": 52.5045,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-03T18:54:54.875Z",
+      "updatedUtc": "2026-09-04T02:25:33.861Z",
       "month": "2026-09"
     },
     {
@@ -149266,7 +149266,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T18:54:21.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000te21",
@@ -149299,7 +149302,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T19:35:18.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000te2i",
@@ -149314,7 +149320,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T18:49:50.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000te2m",
@@ -149329,7 +149338,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T21:47:53.121Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "aka2026rmahsg",
@@ -149344,7 +149356,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T22:17:14.148Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000te4b",
@@ -149359,7 +149374,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T22:30:41.504Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000te4t",
@@ -149374,7 +149392,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T22:28:40.860Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000te51",
@@ -149389,7 +149410,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T21:41:26.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000te55",
@@ -149404,7 +149428,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T21:54:42.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000te5e",
@@ -149419,7 +149446,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T22:48:57.523Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000te5t",
@@ -149434,6 +149464,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-03T22:11:46.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000te7l",
+      "dateKst": "2026-09-04",
+      "timeUtc": "2026-09-04T02:28:38.697Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "236 km ESE of Attu Station, Alaska",
+      "depthKm": 10,
+      "longitude": 176.3482,
+      "latitude": 51.9555,
+      "status": "reviewed",
+      "tsunami": true,
+      "updatedUtc": "2026-09-04T03:28:53.874Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000te7s",
+      "dateKst": "2026-09-04",
+      "timeUtc": "2026-09-04T03:33:10.594Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "101 km SSE of Sand Point, Alaska",
+      "depthKm": 35.625,
+      "longitude": -159.815,
+      "latitude": 54.5154,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T03:46:19.086Z",
       "month": "2026-09"
     }
   ]
