@@ -109,8 +109,9 @@ const koreanCountryNames: Record<string, string> = {
 const worldCountryLabels = worldGeo.features.flatMap((country) => {
   const rawName = typeof country.properties?.name === 'string' ? country.properties.name : null;
   const point = mapProjection(geoCentroid(country));
-  if (!rawName || !point) return [];
-  return [{ name: koreanCountryNames[rawName] ?? rawName, x: point[0], y: point[1], area: geoArea(country), kind: 'country' as const }];
+  const name = rawName ? koreanCountryNames[rawName] : null;
+  if (!name || !point) return [];
+  return [{ name, x: point[0], y: point[1], area: geoArea(country), kind: 'country' as const }];
 });
 const mapOceanLabels = [
   { name: '북태평양', coordinates: [-160, 28] as [number, number] },
@@ -474,12 +475,12 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
     setMapZoom(1);
     setMapPan({ x: 0, y: 0 });
   };
-  const startMapDrag = (event: ReactPointerEvent<SVGSVGElement>) => {
+  const startMapDrag = (event: ReactPointerEvent<HTMLDivElement>) => {
     mapDragRef.current = { pointerId: event.pointerId, x: event.clientX, y: event.clientY };
     event.currentTarget.setPointerCapture(event.pointerId);
     setIsMapDragging(true);
   };
-  const moveMapDrag = (event: ReactPointerEvent<SVGSVGElement>) => {
+  const moveMapDrag = (event: ReactPointerEvent<HTMLDivElement>) => {
     const drag = mapDragRef.current;
     if (!drag || drag.pointerId !== event.pointerId) return;
     const xDifference = event.clientX - drag.x;
@@ -487,7 +488,7 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
     mapDragRef.current = { ...drag, x: event.clientX, y: event.clientY };
     setMapPan((pan) => clampMapPan({ x: pan.x + xDifference, y: pan.y + yDifference }, mapZoom));
   };
-  const endMapDrag = (event: ReactPointerEvent<SVGSVGElement>) => {
+  const endMapDrag = (event: ReactPointerEvent<HTMLDivElement>) => {
     if (mapDragRef.current?.pointerId !== event.pointerId) return;
     mapDragRef.current = null;
     setIsMapDragging(false);
@@ -551,8 +552,8 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
             </div>
 
             <div className="world-map-frame" ref={mapFrameRef}>
-              <div className="map-zoom-layer" style={{ transform: `translate(${mapPan.x}px, ${mapPan.y}px) scale(${mapZoom})` }}>
-                <svg aria-label="전 세계 지진 위치 지도. 확대 뒤 드래그하여 이동할 수 있습니다." className={`world-map-svg map-draggable ${isMapDragging ? 'is-dragging' : ''}`} onPointerCancel={endMapDrag} onPointerDown={startMapDrag} onPointerMove={moveMapDrag} onPointerUp={endMapDrag} preserveAspectRatio="none" viewBox="0 0 960 500">
+              <div className={`map-zoom-layer map-draggable ${isMapDragging ? 'is-dragging' : ''}`} onPointerCancel={endMapDrag} onPointerDown={startMapDrag} onPointerMove={moveMapDrag} onPointerUp={endMapDrag} style={{ transform: `translate(${mapPan.x}px, ${mapPan.y}px) scale(${mapZoom})` }}>
+                <svg aria-label="전 세계 지진 위치 지도. 확대 뒤 드래그하여 이동할 수 있습니다." className="world-map-svg" preserveAspectRatio="none" viewBox="0 0 960 500">
                   <path className="map-sphere" d={spherePath} />
                   <path className="map-graticule" d={graticulePath} />
                   <path className="map-land" d={worldPath} />
@@ -654,7 +655,8 @@ function EventLocationMap({ event }: { event: EarthPulseIndexEvent }) {
       const rawName = typeof country.properties?.name === 'string' ? country.properties.name : null;
       const center = projection(geoCentroid(country));
       if (!rawName || !center || center[0] < 34 || center[0] > 806 || center[1] < 30 || center[1] > 390) return [];
-      return [{ name: koreanCountryNames[rawName] ?? rawName, x: center[0], y: center[1], distance: Math.hypot(center[0] - 420, center[1] - 210) }];
+      const name = koreanCountryNames[rawName];
+      return name ? [{ name, x: center[0], y: center[1], distance: Math.hypot(center[0] - 420, center[1] - 210) }] : [];
     })
     .sort((left, right) => left.distance - right.distance)
     .slice(0, 4);
@@ -1136,14 +1138,13 @@ function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board }: { even
               </CardContent>
             </Card>
             <Card className="impact-card">
-              <CardHeader><CardTitle>영향 정보</CardTitle><CardDescription>제공되지 않는 값은 추정하지 않습니다.</CardDescription></CardHeader>
+            <CardHeader><div><CardTitle>영향 정보</CardTitle><CardDescription>제공되지 않는 값은 추정하지 않습니다.</CardDescription></div><CardAction><details className="impact-guide"><summary>용어 안내</summary><dl><div><dt>계산 진도 MMI</dt><dd>관측 자료로 계산한 해당 지역의 흔들림 강도입니다.</dd></div><div><dt>체감 신고 CDI</dt><dd>사람들이 신고한 흔들림 경험을 바탕으로 산정한 값입니다.</dd></div><div><dt>PAGER 경보</dt><dd>지진 영향 규모를 추정하는 USGS 경보 체계입니다.</dd></div><div><dt>쓰나미 플래그</dt><dd>USGS 원천이 쓰나미 관련 여부를 표시한 값입니다.</dd></div></dl></details></CardAction></CardHeader>
               <CardContent className="impact-list">
                 <div><Gauge /><span><small>계산 진도 MMI</small><strong>{event.mmi ?? '정보 없음'}</strong></span></div>
                 <div><Activity /><span><small>체감 신고 CDI</small><strong>{event.cdi === null ? '정보 없음' : `${event.felt ?? 0}건 · ${event.cdi}`}</strong></span></div>
                 <div><CircleAlert /><span><small>PAGER 경보</small><strong>{event.alert ?? '정보 없음'}</strong></span></div>
                 <div><Radar /><span><small>쓰나미 플래그</small><strong>{event.tsunami ? '있음' : '없음'}</strong></span></div>
               </CardContent>
-              <details className="impact-guide"><summary>용어 안내</summary><dl><div><dt>계산 진도 MMI</dt><dd>관측 자료로 계산한 해당 지역의 흔들림 강도입니다.</dd></div><div><dt>체감 신고 CDI</dt><dd>사람들이 신고한 흔들림 경험을 바탕으로 산정한 값입니다.</dd></div><div><dt>PAGER 경보</dt><dd>지진 영향 규모를 추정하는 USGS 경보 체계입니다.</dd></div><div><dt>쓰나미 플래그</dt><dd>USGS 원천이 쓰나미 관련 여부를 표시한 값입니다.</dd></div></dl></details>
             </Card>
           </div>
           <EventLocationMap event={event} />
