@@ -149641,7 +149641,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-04T16:42:00.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tede",
@@ -149655,7 +149658,37 @@
       "latitude": -40.7112,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-04T20:11:56.782Z",
+      "updatedUtc": "2026-09-04T21:52:47.419Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000teer",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-04T20:53:29.293Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "12 km S of Cabcaben, Philippines",
+      "depthKm": 156.132,
+      "longitude": 120.5979,
+      "latitude": 14.339,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T22:53:58.728Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000teew",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-04T21:10:32.120Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "35 km S of Acajutla, El Salvador",
+      "depthKm": 42.321,
+      "longitude": -89.8408,
+      "latitude": 13.2764,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T21:56:46.040Z",
       "month": "2026-09"
     }
   ]
