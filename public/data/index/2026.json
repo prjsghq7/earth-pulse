@@ -149449,7 +149449,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-04T10:44:42.540Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000te5t",
@@ -149481,7 +149484,7 @@
       "latitude": 51.9555,
       "status": "reviewed",
       "tsunami": true,
-      "updatedUtc": "2026-09-04T08:38:42.011Z",
+      "updatedUtc": "2026-09-04T14:38:41.065Z",
       "month": "2026-09"
     },
     {
@@ -149496,11 +149499,8 @@
       "latitude": 54.5154,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-04T03:46:19.086Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-04T14:58:02.610Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000te82",
@@ -149515,7 +149515,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-04T06:59:46.462Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000te8r",
@@ -149530,6 +149533,99 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-04T07:05:19.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000te8p",
+      "dateKst": "2026-09-04",
+      "timeUtc": "2026-09-04T06:48:06.994Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "36 km WSW of Ollagüe, Chile",
+      "depthKm": 130.651,
+      "longitude": -68.5636,
+      "latitude": -21.3768,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T13:27:46.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000te95",
+      "dateKst": "2026-09-04",
+      "timeUtc": "2026-09-04T08:48:03.904Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "2 km NNW of Cabangan, Philippines",
+      "depthKm": 61.292,
+      "longitude": 120.0504,
+      "latitude": 15.1784,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T13:37:43.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000te98",
+      "dateKst": "2026-09-04",
+      "timeUtc": "2026-09-04T09:10:59.554Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "116 km NE of Hengchun, Taiwan",
+      "depthKm": 10,
+      "longitude": 121.6177,
+      "latitude": 22.6727,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T12:03:54.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000te9t",
+      "dateKst": "2026-09-04",
+      "timeUtc": "2026-09-04T11:59:58.323Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mww",
+      "place": "Kermadec Islands region",
+      "depthKm": 10,
+      "longitude": -176.6452,
+      "latitude": -28.5616,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T14:07:32.766Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tea7",
+      "dateKst": "2026-09-04",
+      "timeUtc": "2026-09-04T13:47:52.492Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 76.735,
+      "longitude": -177.0721,
+      "latitude": -25.8505,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T14:06:39.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "aka2026rnmsql",
+      "dateKst": "2026-09-04",
+      "timeUtc": "2026-09-04T14:39:51.804Z",
+      "magnitude": 4,
+      "magnitudeType": "ml",
+      "place": "103 km SSW of Nikolski, Alaska",
+      "depthKm": 20.5,
+      "longitude": -169.385,
+      "latitude": 52.066,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T15:44:11.157Z",
       "month": "2026-09"
     }
   ]

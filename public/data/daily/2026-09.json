@@ -116,10 +116,10 @@
     },
     {
       "dateKst": "2026-09-04",
-      "state": "provisional",
-      "count": 19,
+      "state": "final",
+      "count": 25,
       "maxMagnitude": 5.5,
-      "averageMagnitude": 4.72,
+      "averageMagnitude": 4.7,
       "medianMagnitude": 4.8,
       "medianDepthKm": 35,
       "eventIds": [
@@ -141,8 +141,24 @@
         "us7000te7l",
         "us7000te7s",
         "us7000te82",
-        "us7000te8r"
+        "us7000te8r",
+        "us7000te8p",
+        "us7000te95",
+        "us7000te98",
+        "us7000te9t",
+        "us7000tea7",
+        "aka2026rnmsql"
       ]
+    },
+    {
+      "dateKst": "2026-09-05",
+      "state": "provisional",
+      "count": 0,
+      "maxMagnitude": null,
+      "averageMagnitude": null,
+      "medianMagnitude": null,
+      "medianDepthKm": null,
+      "eventIds": []
     }
   ]
 }
