@@ -149627,6 +149627,36 @@
       "tsunami": false,
       "updatedUtc": "2026-09-04T15:44:11.157Z",
       "month": "2026-09"
+    },
+    {
+      "id": "us7000teck",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-04T16:24:41.107Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "25 km W of Padangsidempuan, Indonesia",
+      "depthKm": 121.712,
+      "longitude": 99.0453,
+      "latitude": 1.3758,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T16:42:00.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tede",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-04T18:34:01.487Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mwr",
+      "place": "32 km NW of Raumati Beach, New Zealand",
+      "depthKm": 50.571,
+      "longitude": 174.7119,
+      "latitude": -40.7112,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T20:11:56.782Z",
+      "month": "2026-09"
     }
   ]
 }
