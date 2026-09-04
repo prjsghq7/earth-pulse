@@ -149251,7 +149251,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-04T02:25:33.861Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000te20",
@@ -149445,11 +149448,8 @@
       "latitude": -31.8967,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-03T22:48:57.523Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-04T10:44:42.540Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000te5t",
@@ -149481,7 +149481,7 @@
       "latitude": 51.9555,
       "status": "reviewed",
       "tsunami": true,
-      "updatedUtc": "2026-09-04T03:28:53.874Z",
+      "updatedUtc": "2026-09-04T08:38:42.011Z",
       "month": "2026-09"
     },
     {
@@ -149497,6 +149497,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-04T03:46:19.086Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000te82",
+      "dateKst": "2026-09-04",
+      "timeUtc": "2026-09-04T05:04:54.278Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "28 km S of Cilacap, Indonesia",
+      "depthKm": 10,
+      "longitude": 109.0409,
+      "latitude": -7.9867,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T06:59:46.462Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000te8r",
+      "dateKst": "2026-09-04",
+      "timeUtc": "2026-09-04T06:45:54.522Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "South Sandwich Islands region",
+      "depthKm": 10,
+      "longitude": -26.1632,
+      "latitude": -56.1536,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T07:05:19.040Z",
       "month": "2026-09"
     }
   ]
