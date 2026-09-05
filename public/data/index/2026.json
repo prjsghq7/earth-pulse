@@ -149965,7 +149965,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-05T19:08:57.259Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tek7",
@@ -149980,6 +149983,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-05T18:14:54.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tel1",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-05T21:06:01.351Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "95 km ESE of Isangel, Vanuatu",
+      "depthKm": 10,
+      "longitude": 170.104,
+      "latitude": -19.914,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-05T21:39:02.040Z",
       "month": "2026-09"
     }
   ]

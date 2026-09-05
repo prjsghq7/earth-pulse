@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "2026-09-05T20:17:42.368Z",
-  "generatedAt": "2026-09-05T20:17:42.368Z",
+  "dataVersion": "2026-09-05T22:51:55.871Z",
+  "generatedAt": "2026-09-05T22:51:55.871Z",
   "files": [
     {
       "path": "backfill-status.json",
@@ -9131,8 +9131,8 @@
     },
     {
       "path": "daily/2026-09.json",
-      "sha256": "3d23af1e9e3854d47cbcb5057e2234f7758d6353b5e4af89de3969f084e785f9",
-      "bytes": 4251,
+      "sha256": "9d83615546fda4a799318356bfb76a713b258d019a69d3abf6f1a5c0a595184a",
+      "bytes": 4270,
       "recordCount": 6
     },
     {
@@ -18257,9 +18257,9 @@
     },
     {
       "path": "events/2026-09.json",
-      "sha256": "fdffd44fe9e21f0dcc99823b129dff1047d9c08955c989d7cc806264ba1771e5",
-      "bytes": 99379,
-      "recordCount": 123
+      "sha256": "236cc60006939664feafb6c013ffdfb83c5fbc0969ef1d0298e5ec34945f4246",
+      "bytes": 100212,
+      "recordCount": 124
     },
     {
       "path": "index/1900.json",
@@ -19019,13 +19019,13 @@
     },
     {
       "path": "index/2026.json",
-      "sha256": "eeb5466f2c65d10c7539893650b624940c7c3a9c39517f632d0cdf57f6608bf9",
-      "bytes": 4230829,
-      "recordCount": 10695
+      "sha256": "8dc18052330613f50ce25de107376bd1c81ef6b55a20dc77b83ccbff25fc7272",
+      "bytes": 4231410,
+      "recordCount": 10696
     },
     {
       "path": "status.json",
-      "sha256": "8d905c011e0200c12d75e69bcc012c70398d88f26341b815d1fa8980b71aadb2",
+      "sha256": "33241c4f7c4406ccbd78b6f4464f6e92b2bb46b7956dd9d2a3359f266c222925",
       "bytes": 802,
       "recordCount": 1
     }
