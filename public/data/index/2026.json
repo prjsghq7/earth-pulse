@@ -149964,7 +149964,22 @@
       "latitude": -19.807,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-05T17:17:43.040Z",
+      "updatedUtc": "2026-09-05T19:08:57.259Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tek7",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-05T18:00:09.215Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "80 km SSW of Nikolski, Alaska",
+      "depthKm": 35,
+      "longitude": -169.329,
+      "latitude": 52.2713,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-05T18:14:54.040Z",
       "month": "2026-09"
     }
   ]
