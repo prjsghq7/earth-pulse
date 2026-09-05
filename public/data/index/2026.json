@@ -149658,7 +149658,7 @@
       "latitude": -40.7112,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-05T03:01:09.634Z",
+      "updatedUtc": "2026-09-05T04:53:52.652Z",
       "month": "2026-09"
     },
     {
@@ -149710,7 +149710,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-05T00:37:05.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tefw",
@@ -149725,7 +149728,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-04T23:57:09.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tefx",
@@ -149740,7 +149746,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-05T01:59:33.579Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000teg7",
@@ -149755,7 +149764,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-05T00:50:28.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tegg",
@@ -149770,6 +149782,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-05T02:02:30.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tehe",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-05T05:00:06.778Z",
+      "magnitude": 5,
+      "magnitudeType": "mww",
+      "place": "off the coast of Central America",
+      "depthKm": 10,
+      "longitude": -83.151,
+      "latitude": 3.5071,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-05T05:22:26.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tehg",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-05T05:16:35.634Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "off the coast of Central America",
+      "depthKm": 10,
+      "longitude": -83.0826,
+      "latitude": 3.4509,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-05T06:50:22.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tehs",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-05T06:34:55.998Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "76 km S of Gorontalo, Indonesia",
+      "depthKm": 202.347,
+      "longitude": 123.1527,
+      "latitude": -0.1498,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-05T07:17:57.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tei1",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-05T07:28:23.913Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "77 km ESE of La Tirana, Chile",
+      "depthKm": 109.393,
+      "longitude": -68.9315,
+      "latitude": -20.4897,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-05T07:55:44.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tei5",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-05T08:13:01.712Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "55 km E of Ollagüe, Chile",
+      "depthKm": 217.301,
+      "longitude": -67.7185,
+      "latitude": -21.273,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-05T09:20:40.040Z",
       "month": "2026-09"
     }
   ]
