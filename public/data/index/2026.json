@@ -149658,7 +149658,7 @@
       "latitude": -40.7112,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-04T21:52:47.419Z",
+      "updatedUtc": "2026-09-05T03:01:09.634Z",
       "month": "2026-09"
     },
     {
@@ -149674,7 +149674,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-04T22:53:58.728Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000teew",
@@ -149689,6 +149692,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-04T21:56:46.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tefr",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-04T23:17:48.392Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "38 km NNE of Ruteng, Indonesia",
+      "depthKm": 10,
+      "longitude": 120.6133,
+      "latitude": -8.2997,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-05T00:37:05.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tefw",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-04T23:38:40.818Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mww",
+      "place": "central Mid-Atlantic Ridge",
+      "depthKm": 10,
+      "longitude": -40.8475,
+      "latitude": 9.4666,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-04T23:57:09.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tefx",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-04T23:52:30.886Z",
+      "magnitude": 5.5,
+      "magnitudeType": "mww",
+      "place": "156 km E of Kuril’sk, Russia",
+      "depthKm": 36.429,
+      "longitude": 149.8346,
+      "latitude": 44.9792,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-05T01:59:33.579Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000teg7",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-05T00:22:45.357Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "159 km ENE of Noda, Japan",
+      "depthKm": 33.857,
+      "longitude": 143.5636,
+      "latitude": 40.6426,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-05T00:50:28.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tegg",
+      "dateKst": "2026-09-05",
+      "timeUtc": "2026-09-05T01:41:01.465Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "Kermadec Islands, New Zealand",
+      "depthKm": 33.579,
+      "longitude": -177.8256,
+      "latitude": -30.7935,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-05T02:02:30.040Z",
       "month": "2026-09"
     }
   ]
