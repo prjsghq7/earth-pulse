@@ -149951,6 +149951,21 @@
       "tsunami": false,
       "updatedUtc": "2026-09-05T14:39:51.847Z",
       "month": "2026-09"
+    },
+    {
+      "id": "us7000tek0",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-05T17:02:11.581Z",
+      "magnitude": 5.6,
+      "magnitudeType": "mww",
+      "place": "96 km ESE of Isangel, Vanuatu",
+      "depthKm": 10,
+      "longitude": 170.1576,
+      "latitude": -19.807,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-05T17:17:43.040Z",
+      "month": "2026-09"
     }
   ]
 }

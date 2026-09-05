@@ -3111,6 +3111,33 @@
       "stationCount": 165,
       "azimuthalGap": 24,
       "rmsSeconds": 0.78
+    },
+    {
+      "id": "us7000tek0",
+      "magnitude": 5.6,
+      "magnitudeType": "mww",
+      "place": "96 km ESE of Isangel, Vanuatu",
+      "timeUtc": "2026-09-05T17:02:11.581Z",
+      "dateKst": "2026-09-06",
+      "timeKst": "02:02:11",
+      "updatedUtc": "2026-09-05T17:17:43.040Z",
+      "longitude": 170.1576,
+      "latitude": -19.807,
+      "depthKm": 10,
+      "status": "reviewed",
+      "tsunami": false,
+      "alert": null,
+      "felt": null,
+      "cdi": null,
+      "mmi": null,
+      "significance": 482,
+      "network": "us",
+      "code": "7000tek0",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tek0",
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tek0&format=geojson",
+      "stationCount": 70,
+      "azimuthalGap": 82,
+      "rmsSeconds": 0.6
     }
   ]
 }
