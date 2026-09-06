@@ -366,8 +366,8 @@ function depthTone(depthKm: number | null) {
 }
 
 function clampMapPan(pan: { x: number; y: number }, zoom: number) {
-  const xLimit = Math.round((zoom - 1) * 260);
-  const yLimit = Math.round((zoom - 1) * 155);
+  const xLimit = Math.round((zoom - 1) * 420);
+  const yLimit = Math.round((zoom - 1) * 260);
   return {
     x: Math.max(-xLimit, Math.min(xLimit, pan.x)),
     y: Math.max(-yLimit, Math.min(yLimit, pan.y)),
@@ -397,7 +397,7 @@ function labelsForVisibleMapArea({ zoom, pan, viewport }: { zoom: number; pan: {
   for (const candidate of candidates) {
     const labelLimit = candidate.kind === 'country' ? countryLimit : Math.max(2, Math.floor(countryLimit / 4));
     if (accepted.filter((label) => label.kind === candidate.kind).length >= labelLimit) continue;
-    if (accepted.some((label) => Math.hypot(label.screen.x - candidate.screen.x, label.screen.y - candidate.screen.y) < 72)) continue;
+    if (accepted.some((label) => Math.hypot(label.screen.x - candidate.screen.x, label.screen.y - candidate.screen.y) < 48)) continue;
     accepted.push(candidate);
   }
   return accepted;
@@ -476,6 +476,7 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
     setMapPan({ x: 0, y: 0 });
   };
   const startMapDrag = (event: ReactPointerEvent<HTMLDivElement>) => {
+    event.preventDefault();
     mapDragRef.current = { pointerId: event.pointerId, x: event.clientX, y: event.clientY };
     event.currentTarget.setPointerCapture(event.pointerId);
     setIsMapDragging(true);
@@ -780,6 +781,7 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
   const [hoveredBucket, setHoveredBucket] = useState<number | null>(null);
   const [trendGranularity, setTrendGranularity] = useState<TrendGranularity>('day');
   const [copyNotice, setCopyNotice] = useState<string | null>(null);
+  const [validationNotice, setValidationNotice] = useState<string | null>(null);
 
   useEffect(() => {
     if (!initialQuery) syncExploreUrl(searchDefaults(targetDate));
@@ -814,15 +816,47 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
   }, [applied]);
 
   const runSearch = (next: SearchFilters) => {
+    const minimumMagnitude = Number(next.minMagnitude);
+    const maximumDepth = Number(next.maxDepth);
+    if (!next.startDate || !next.endDate) {
+      setEvents([]);
+      setSearchState('error');
+      setSearchError('시작일과 종료일을 모두 입력해 주세요.');
+      setValidationNotice('시작일과 종료일을 모두 입력해 주세요.');
+      return;
+    }
     if (next.startDate > next.endDate) {
       setEvents([]);
       setSearchState('error');
       setSearchError('시작일은 종료일보다 늦을 수 없습니다.');
+      setValidationNotice('시작일은 종료일보다 늦을 수 없습니다.');
+      return;
+    }
+    if (next.startDate > targetDate || next.endDate > targetDate) {
+      setEvents([]);
+      setSearchState('error');
+      setSearchError(`미래 날짜는 검색할 수 없습니다. 종료일을 ${formatKoreanDate(targetDate)} 이전으로 입력해 주세요.`);
+      setValidationNotice(`미래 날짜는 검색할 수 없습니다. ${formatKoreanDate(targetDate)} 이전 날짜를 입력해 주세요.`);
+      return;
+    }
+    if (!Number.isFinite(minimumMagnitude) || minimumMagnitude < 4) {
+      setEvents([]);
+      setSearchState('error');
+      setSearchError('최소 규모는 4.0 이상의 숫자로 입력해 주세요.');
+      setValidationNotice('최소 규모는 4.0 이상의 숫자로 입력해 주세요.');
+      return;
+    }
+    if (!Number.isFinite(maximumDepth) || maximumDepth < 0) {
+      setEvents([]);
+      setSearchState('error');
+      setSearchError('최대 깊이는 0 이상의 숫자로 입력해 주세요.');
+      setValidationNotice('최대 깊이는 0 이상의 숫자로 입력해 주세요.');
       return;
     }
     setPage(0);
     setSearchState('loading');
     setSearchError(null);
+    setValidationNotice(null);
     syncExploreUrl(next);
     setApplied(next);
   };
@@ -892,6 +926,7 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
           <Button className="export-button" onClick={async () => { try { await navigator.clipboard.writeText(window.location.href); setCopyNotice('화면 주소를 복사했어요.'); } catch { setCopyNotice('주소 복사에 실패했습니다.'); } window.setTimeout(() => setCopyNotice(null), 2400); }} variant="outline"><ArrowUpRight /> 화면 주소 복사</Button>
         </section>
         {copyNotice && <div className="copy-toast" role="status">{copyNotice}</div>}
+        {validationNotice && <div className="copy-toast search-validation-toast is-error" role="alert">{validationNotice}</div>}
 
         <Card className="filter-panel">
           <form onSubmit={(event) => {
