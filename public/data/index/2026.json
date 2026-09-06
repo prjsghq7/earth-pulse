@@ -150319,7 +150319,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-06T20:05:32.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000terb",
@@ -150333,7 +150336,22 @@
       "latitude": 16.3632,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-06T19:37:38.391Z",
+      "updatedUtc": "2026-09-06T21:00:36.075Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tert",
+      "dateKst": "2026-09-07",
+      "timeUtc": "2026-09-06T21:08:42.742Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "243 km E of Levuka, Fiji",
+      "depthKm": 592.756,
+      "longitude": -178.3887,
+      "latitude": -17.8899,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-06T21:22:13.040Z",
       "month": "2026-09"
     }
   ]
