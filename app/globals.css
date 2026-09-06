@@ -662,13 +662,15 @@ body { color: #17312f; background: #f2eee5; font-size: 15px; }
 .selected-magnitude small, .selected-magnitude span { font-size: 10px; font-weight: 750; }.selected-magnitude strong { margin-block:-2px; font-size:32px; line-height:1; }
 .selected-event-copy { min-width:0; }.selected-event-copy .section-kicker { font-size:9px; }.selected-event-copy h2 { margin:5px 0 3px; color:#153b37; font-size:17px; line-height:1.25; }.selected-event-copy p { margin:0; color:#4f6661; font-size:12px; }.selected-event-copy > small { color:#6b7c78; font-family:var(--font-mono); font-size:10px; }
 .selected-detail-button { grid-column:1/-1; height:38px; color:#fffdf8; background:#173d3b; }
-.viewport-events-head { display:flex; align-items:center; justify-content:space-between; padding:16px 18px 10px; }.viewport-events-head > span { display:grid; }.viewport-events-head strong { color:#173b37; font-size:14px; }.viewport-events-head small { color:#60746f; font-size:11px; }
-.map-event-list { padding:0 10px 10px; }.map-event-list button { width:100%; display:grid; grid-template-columns:42px minmax(0,1fr) auto; align-items:center; gap:10px; padding:10px 8px; border:0; border-bottom:1px solid #e1dcd2; background:transparent; text-align:left; }.map-event-list button:last-child { border-bottom:0; }.map-event-list button:hover,.map-event-list button.is-selected { border-radius:10px; background:#eeeae1; }.map-event-list button > span:nth-child(2) { min-width:0; display:grid; }.map-event-list strong { overflow:hidden; color:#173b37; font-size:12px; text-overflow:ellipsis; white-space:nowrap; }.map-event-list small { color:#60736e; font-size:10px; }.map-event-list svg { width:14px; color:#607a74; }
+.viewport-events-head { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:16px 18px 10px; }.viewport-events-head > span { min-width:0; display:grid; gap:2px; }.viewport-events-head strong { color:#173b37; font-size:14px; }.viewport-events-head small { color:#60746f; font-size:11px; line-height:1.3; }
+.map-event-list { min-height:120px; padding:0 10px 10px; }.map-event-list button { width:100%; display:grid; grid-template-columns:42px minmax(0,1fr) auto; align-items:center; gap:10px; padding:10px 8px; border:0; border-bottom:1px solid #e1dcd2; background:transparent; text-align:left; }.map-event-list button:last-child { border-bottom:0; }.map-event-list button:hover,.map-event-list button.is-selected { border-radius:10px; background:#eeeae1; }.map-event-list button > span:nth-child(2) { min-width:0; display:grid; }.map-event-list strong { overflow:hidden; color:#173b37; font-size:12px; text-overflow:ellipsis; white-space:nowrap; }.map-event-list small { color:#60736e; font-size:10px; }.map-event-list svg { width:14px; color:#607a74; }
+.map-empty-list { display:grid; min-height:120px; place-items:center; padding:22px 12px; color:#58706a; font-size:12px; text-align:center; }
 .map-list-magnitude { width:38px; height:38px; display:grid; place-items:center; border-radius:10px; color:#17312f; font-size:12px; font-weight:850; }
 
 @media (max-width: 1120px) {
   .map-workspace { grid-template-columns: minmax(0,1fr) 320px; }
   .map-summary { gap: 12px; }
+  .map-filterbar { flex-wrap: wrap; }
   .map-filter-fields { order: 4; width: 100%; }
 }
 
@@ -1012,6 +1014,7 @@ body {
 .event-detail-grid, .lower-detail-grid { gap: 12px; margin-bottom: 12px; }
 .lower-detail-grid { align-items: start; }
 .fact-card, .impact-card, .source-detail-card { padding-top: 0; }
+.lower-detail-grid .source-detail-list > div { padding-block: 10px; }
 .fact-grid span, .source-detail-list span { color: var(--ep-muted); font-size: 11px; }
 .fact-grid strong, .source-detail-list strong { color: var(--ep-ink); font-family: var(--font-geist-mono), Consolas, monospace; font-size: 12px; }
 .impact-list { gap: 0; border: 1px solid #ded8cc; }
@@ -1039,6 +1042,7 @@ body {
 @media (min-width: 921px) {
   .map-workspace { height: 650px; min-height: 650px; }
   .map-event-panel { display: grid; grid-template-rows: auto auto minmax(0, 1fr); min-height: 0; }
+  .map-event-panel.is-empty { grid-template-rows: auto minmax(0, 1fr); }
   .map-event-list {
     min-height: 0;
     overflow-y: auto;

@@ -104,7 +104,7 @@ const mapProjection = geoEqualEarth().fitExtent(
 const worldPath = geoPath(mapProjection)(worldGeo) ?? '';
 const graticulePath = geoPath(mapProjection)(geoGraticule10()) ?? '';
 const koreanCountryNames: Record<string, string> = {
-  'Argentina': '아르헨티나', 'Australia': '호주', 'Brazil': '브라질', 'Canada': '캐나다', 'Chile': '칠레', 'China': '중국', 'Colombia': '콜롬비아', 'Fiji': '피지', 'France': '프랑스', 'Greece': '그리스', 'India': '인도', 'Indonesia': '인도네시아', 'Iran': '이란', 'Italy': '이탈리아', 'Japan': '일본', 'Mexico': '멕시코', 'New Zealand': '뉴질랜드', 'Papua New Guinea': '파푸아뉴기니', 'Peru': '페루', 'Philippines': '필리핀', 'Russian Federation': '러시아', 'Russia': '러시아', 'South Africa': '남아프리카', 'South Korea': '대한민국', 'Spain': '스페인', 'Taiwan': '대만', 'Turkey': '튀르키예', 'United Kingdom': '영국', 'United States of America': '미국', 'Vanuatu': '바누아투', 'Vietnam': '베트남',
+  'Afghanistan': '아프가니스탄', 'Argentina': '아르헨티나', 'Australia': '호주', 'Bangladesh': '방글라데시', 'Bolivia': '볼리비아', 'Brazil': '브라질', 'Cambodia': '캄보디아', 'Canada': '캐나다', 'Chile': '칠레', 'China': '중국', 'Colombia': '콜롬비아', 'Costa Rica': '코스타리카', 'Cuba': '쿠바', 'Ecuador': '에콰도르', 'Egypt': '이집트', 'Ethiopia': '에티오피아', 'Fiji': '피지', 'France': '프랑스', 'Germany': '독일', 'Greece': '그리스', 'Guatemala': '과테말라', 'Iceland': '아이슬란드', 'India': '인도', 'Indonesia': '인도네시아', 'Iran': '이란', 'Iraq': '이라크', 'Ireland': '아일랜드', 'Israel': '이스라엘', 'Italy': '이탈리아', 'Japan': '일본', 'Kenya': '케냐', 'Malaysia': '말레이시아', 'Mexico': '멕시코', 'Mongolia': '몽골', 'Morocco': '모로코', 'Myanmar': '미얀마', 'Nepal': '네팔', 'New Zealand': '뉴질랜드', 'Nicaragua': '니카라과', 'Norway': '노르웨이', 'Pakistan': '파키스탄', 'Panama': '파나마', 'Papua New Guinea': '파푸아뉴기니', 'Peru': '페루', 'Philippines': '필리핀', 'Portugal': '포르투갈', 'Russian Federation': '러시아', 'Russia': '러시아', 'Saudi Arabia': '사우디아라비아', 'Singapore': '싱가포르', 'Solomon Is.': '솔로몬제도', 'South Africa': '남아프리카공화국', 'South Korea': '대한민국', 'Spain': '스페인', 'Sri Lanka': '스리랑카', 'Sudan': '수단', 'Sweden': '스웨덴', 'Switzerland': '스위스', 'Taiwan': '대만', 'Thailand': '태국', 'Tonga': '통가', 'Turkey': '튀르키예', 'Ukraine': '우크라이나', 'United Arab Emirates': '아랍에미리트', 'United Kingdom': '영국', 'United States of America': '미국', 'Uruguay': '우루과이', 'Vanuatu': '바누아투', 'Venezuela': '베네수엘라', 'Vietnam': '베트남',
 };
 const worldCountryLabels = worldGeo.features.flatMap((country) => {
   const rawName = typeof country.properties?.name === 'string' ? country.properties.name : null;
@@ -381,8 +381,8 @@ function labelsForVisibleMapArea({ zoom, pan, viewport }: { zoom: number; pan: {
     y: (12 + (label.y / 500) * mapHeight - viewport.height / 2) * zoom + viewport.height / 2 + pan.y,
   });
   const isVisible = (point: { x: number; y: number }) => point.x > 24 && point.x < viewport.width - 24 && point.y > 30 && point.y < viewport.height - 96;
-  const countryLimit = zoom < 1.3 ? 9 : zoom < 2 ? 13 : 18;
-  const minimumArea = zoom < 1.3 ? .018 : zoom < 2 ? .003 : 0;
+  const countryLimit = zoom < 1.3 ? 9 : zoom < 2 ? 15 : zoom < 3.5 ? 24 : 32;
+  const minimumArea = zoom < 1.3 ? .018 : zoom < 2 ? .0015 : 0;
   const candidates = [
     ...worldCountryLabels.filter((label) => label.area >= minimumArea),
     ...(zoom >= 1.3 ? mapOceanLabels : []),
@@ -467,7 +467,7 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
   };
 
   const changeMapZoom = (amount: number) => {
-    const nextZoom = Math.max(1, Math.min(3.5, Number((mapZoom + amount).toFixed(2))));
+    const nextZoom = Math.max(1, Math.min(6, Number((mapZoom + amount).toFixed(2))));
     setMapZoom(nextZoom);
     setMapPan((pan) => clampMapPan(pan, nextZoom));
   };
@@ -549,7 +549,7 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
           <div className="map-observation-panel">
             <div className="map-panel-heading">
               <div><span className="section-kicker">EARTHQUAKE POSITION</span><strong>전 세계 관측 위치</strong></div>
-              <div className="map-tools" aria-label="지도 도구"><span aria-live="polite" className="map-zoom-level">확대 {Math.round(mapZoom * 100)}%</span><button aria-label="25% 확대" disabled={mapZoom >= 3.5} onClick={() => changeMapZoom(.25)} type="button"><ZoomIn /></button><button aria-label="25% 축소" disabled={mapZoom <= 1} onClick={() => changeMapZoom(-.25)} type="button"><ZoomOut /></button><button aria-label="전체 보기" disabled={mapZoom === 1 && mapPan.x === 0 && mapPan.y === 0} onClick={resetMapView} type="button"><LocateFixed /></button></div>
+              <div className="map-tools" aria-label="지도 도구"><span aria-live="polite" className="map-zoom-level">확대 {Math.round(mapZoom * 100)}%</span><button aria-label="25% 확대" disabled={mapZoom >= 6} onClick={() => changeMapZoom(.25)} type="button"><ZoomIn /></button><button aria-label="25% 축소" disabled={mapZoom <= 1} onClick={() => changeMapZoom(-.25)} type="button"><ZoomOut /></button><button aria-label="전체 보기" disabled={mapZoom === 1 && mapPan.x === 0 && mapPan.y === 0} onClick={resetMapView} type="button"><LocateFixed /></button></div>
             </div>
 
             <div className="world-map-frame" ref={mapFrameRef}>
@@ -621,15 +621,16 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
             </div>
           </div>
 
-          <aside className="map-event-panel" aria-label="지도 지진 정보">
-            {selected ? <div className="selected-event-card">
+          <aside className={`map-event-panel ${selected ? '' : 'is-empty'}`} aria-label="지도 지진 정보">
+            {selected && <div className="selected-event-card">
               <div className={`selected-magnitude ${depthTone(selected.depthKm)}`}><small>규모</small><strong>{selected.magnitude.toFixed(1)}</strong><span>{selected.magnitudeType ?? 'M'}</span></div>
               <div className="selected-event-copy"><span className="section-kicker">SELECTED EVENT</span><h2>{selected.place}</h2><p>{formatKstTime(selected.timeUtc)} KST · 깊이 {selected.depthKm === null ? '자료 없음' : `${selected.depthKm.toFixed(1)} km`}</p><small>{selected.latitude.toFixed(2)}°, {selected.longitude.toFixed(2)}°</small></div>
               <Button className="selected-detail-button" onClick={() => { window.location.assign(`${window.location.pathname}${window.location.search}#/event/${selected.id}?from=map&month=${selected.dateKst.slice(0, 7)}`); }}>상세 정보 <ChevronRight /></Button>
-            </div> : <div className="map-empty">{mapState === 'loading' ? '조건에 맞는 지진을 불러오는 중입니다.' : mapState === 'error' ? '기록을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.' : '선택한 조건에 맞는 지진이 없습니다.'}</div>}
+            </div>}
 
-            <div className="viewport-events-head"><span><strong>검색 결과 목록</strong><small>{mapSort === 'latest' ? '발생 시각 최신순' : mapSort === 'largest' ? '규모 큰 순' : mapSort === 'shallow' ? '얕은 순' : '깊은 순'} · 지도는 최대 750개까지 표시</small></span><label className="map-sort"><span>정렬</span><select onChange={(event) => setMapSort(event.target.value as typeof mapSort)} value={mapSort}><option value="latest">최신순</option><option value="largest">규모 큰 순</option><option value="shallow">얕은 순</option><option value="deep">깊은 순</option></select></label><Badge variant="outline">{visibleListEvents.length}/{events.length}건</Badge></div>
+            <div className="viewport-events-head"><span><strong>검색 결과 목록</strong><small>{mapSort === 'latest' ? '발생 시각 최신순' : mapSort === 'largest' ? '규모 큰 순' : mapSort === 'shallow' ? '얕은 순' : '깊은 순'}</small><small>지도는 최대 750개까지 표시</small></span><label className="map-sort"><span>정렬</span><select onChange={(event) => setMapSort(event.target.value as typeof mapSort)} value={mapSort}><option value="latest">최신순</option><option value="largest">규모 큰 순</option><option value="shallow">얕은 순</option><option value="deep">깊은 순</option></select></label><Badge variant="outline">{visibleListEvents.length}/{events.length}건</Badge></div>
             <div className="map-event-list">
+              {events.length === 0 && <div className="map-empty-list">{mapState === 'loading' ? '조건에 맞는 지진을 불러오는 중입니다.' : mapState === 'error' ? '기록을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.' : '선택한 조건에 맞는 지진이 없습니다.'}</div>}
               {visibleListEvents.map((event) => (
                 <button className={selectedId === event.id ? 'is-selected' : ''} key={event.id} onClick={() => setSelectedId(event.id)} type="button">
                   <span className={`map-list-magnitude ${depthTone(event.depthKm)}`}>{event.magnitude.toFixed(1)}</span>
