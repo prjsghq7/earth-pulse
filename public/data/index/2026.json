@@ -149983,7 +149983,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-06T00:38:37.212Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tel1",
@@ -150016,7 +150019,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-06T00:28:14.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000telf",
@@ -150031,7 +150037,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-06T00:11:59.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tely",
@@ -150046,7 +150055,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-06T02:53:52.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tem2",
@@ -150061,7 +150073,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-06T03:25:40.103Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000teme",
@@ -150076,7 +150091,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-06T04:12:02.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000temi",
@@ -150090,7 +150108,82 @@
       "latitude": -11.0595,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-06T04:29:36.008Z",
+      "updatedUtc": "2026-09-06T06:12:30.767Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000temt",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-06T04:52:40.376Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "Kermadec Islands region",
+      "depthKm": 10,
+      "longitude": -176.8095,
+      "latitude": -28.5523,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-06T05:29:02.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000temw",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-06T05:15:45.801Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "118 km ENE of Kuji, Japan",
+      "depthKm": 34.398,
+      "longitude": 142.9698,
+      "latitude": 40.7281,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-06T05:34:11.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000ten5",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-06T06:06:05.479Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "60 km NE of Labuan Bajo, Indonesia",
+      "depthKm": 29.806,
+      "longitude": 120.2663,
+      "latitude": -8.1041,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-06T08:22:05.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tena",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-06T06:41:21.347Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "91 km NE of Luwuk, Indonesia",
+      "depthKm": 10,
+      "longitude": 123.3003,
+      "latitude": -0.3104,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-06T08:57:04.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tenr",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-06T09:14:26.925Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "65 km S of Camaná, Peru",
+      "depthKm": 35,
+      "longitude": -72.7654,
+      "latitude": -17.21,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-06T09:53:13.040Z",
       "month": "2026-09"
     }
   ]
