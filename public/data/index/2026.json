@@ -150109,7 +150109,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-06T06:12:30.767Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000temt",
@@ -150124,7 +150127,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-06T05:29:02.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000temw",
@@ -150139,7 +150145,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-06T05:34:11.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ten5",
@@ -150154,7 +150163,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-06T08:22:05.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tena",
@@ -150169,7 +150181,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-06T08:57:04.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tenr",
@@ -150183,7 +150198,112 @@
       "latitude": -17.21,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-06T09:53:13.040Z",
+      "updatedUtc": "2026-09-06T12:17:23.401Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tep6",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-06T10:32:28.227Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "southern East Pacific Rise",
+      "depthKm": 10,
+      "longitude": -115.6112,
+      "latitude": -24.5304,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-06T10:56:54.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tepa",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-06T10:38:18.353Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "southern East Pacific Rise",
+      "depthKm": 10,
+      "longitude": -116.0305,
+      "latitude": -24.5229,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-06T12:34:16.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tep0",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-06T10:39:32.174Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "33 km NE of Calama, Chile",
+      "depthKm": 115.537,
+      "longitude": -68.7038,
+      "latitude": -22.2344,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-06T11:28:06.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000teph",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-06T11:15:46.043Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "105 km NNW of Pante Makasar, Timor Leste",
+      "depthKm": 150.632,
+      "longitude": 123.9675,
+      "latitude": -8.3411,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-06T13:15:00.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tepx",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-06T12:00:16.067Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "southern East Pacific Rise",
+      "depthKm": 10,
+      "longitude": -115.8082,
+      "latitude": -24.2436,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-06T12:18:21.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000teq4",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-06T12:17:14.956Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "219 km SSE of Wada, Japan",
+      "depthKm": 35,
+      "longitude": 140.9156,
+      "latitude": 33.2038,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-06T13:36:36.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000teq9",
+      "dateKst": "2026-09-06",
+      "timeUtc": "2026-09-06T12:50:34.778Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "Svalbard region",
+      "depthKm": 10,
+      "longitude": 7.1688,
+      "latitude": 76.1481,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-06T13:10:28.040Z",
       "month": "2026-09"
     }
   ]
