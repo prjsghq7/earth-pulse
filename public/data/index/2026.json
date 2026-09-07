@@ -150408,7 +150408,22 @@
       "latitude": 43.9019,
       "status": "reviewed",
       "tsunami": true,
-      "updatedUtc": "2026-09-07T07:40:39.705Z",
+      "updatedUtc": "2026-09-07T17:01:31.506Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "aka2026rsblne",
+      "dateKst": "2026-09-07",
+      "timeUtc": "2026-09-07T01:59:54.732Z",
+      "magnitude": 4,
+      "magnitudeType": "ml",
+      "place": "152 km WSW of Elfin Cove, Alaska",
+      "depthKm": 16.1,
+      "longitude": -138.874,
+      "latitude": 57.914,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-07T17:20:06.298Z",
       "month": "2026-09"
     },
     {
@@ -150475,7 +150490,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-07T04:48:05.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tet6",
@@ -150526,6 +150544,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-07T07:56:59.549Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tew3",
+      "dateKst": "2026-09-07",
+      "timeUtc": "2026-09-07T13:33:40.590Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "79 km NE of Tobelo, Indonesia",
+      "depthKm": 235.036,
+      "longitude": 128.5045,
+      "latitude": 2.2478,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-07T15:34:01.040Z",
       "month": "2026-09"
     }
   ]
