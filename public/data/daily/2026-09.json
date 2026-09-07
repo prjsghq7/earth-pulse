@@ -241,12 +241,15 @@
     {
       "dateKst": "2026-09-08",
       "state": "provisional",
-      "count": 0,
-      "maxMagnitude": null,
-      "averageMagnitude": null,
-      "medianMagnitude": null,
-      "medianDepthKm": null,
-      "eventIds": []
+      "count": 2,
+      "maxMagnitude": 4.5,
+      "averageMagnitude": 4.4,
+      "medianMagnitude": 4.4,
+      "medianDepthKm": 100.7,
+      "eventIds": [
+        "us7000tez1",
+        "us7000tez5"
+      ]
     }
   ]
 }

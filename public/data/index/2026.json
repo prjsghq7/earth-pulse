@@ -150563,6 +150563,36 @@
       "tsunami": false,
       "updatedUtc": "2026-09-07T15:34:01.040Z",
       "month": "2026-09"
+    },
+    {
+      "id": "us7000tez1",
+      "dateKst": "2026-09-08",
+      "timeUtc": "2026-09-07T21:54:38.748Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "129 km ENE of Taltal, Chile",
+      "depthKm": 90.724,
+      "longitude": -69.2641,
+      "latitude": -25.0539,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-07T23:12:52.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tez5",
+      "dateKst": "2026-09-08",
+      "timeUtc": "2026-09-07T22:25:36.826Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "14 km E of San Clemente, Chile",
+      "depthKm": 110.678,
+      "longitude": -71.3275,
+      "latitude": -35.5421,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-07T23:24:59.040Z",
+      "month": "2026-09"
     }
   ]
 }
