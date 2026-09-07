@@ -150355,7 +150355,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-06T23:21:50.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tes0",
@@ -150370,7 +150373,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-07T04:23:25.176Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tesb",
@@ -150385,7 +150391,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-07T02:24:46.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tesi",
@@ -150399,7 +150408,7 @@
       "latitude": 43.9019,
       "status": "reviewed",
       "tsunami": true,
-      "updatedUtc": "2026-09-07T03:40:38.072Z",
+      "updatedUtc": "2026-09-07T07:40:39.705Z",
       "month": "2026-09"
     },
     {
@@ -150414,7 +150423,7 @@
       "latitude": 57.8732,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-07T04:06:32.060Z",
+      "updatedUtc": "2026-09-07T05:03:36.338Z",
       "month": "2026-09"
     },
     {
@@ -150430,7 +150439,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-07T02:24:04.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tesx",
@@ -150445,6 +150457,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-07T02:41:03.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000teta",
+      "dateKst": "2026-09-07",
+      "timeUtc": "2026-09-07T02:29:41.341Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 512.564,
+      "longitude": 179.6916,
+      "latitude": -24.8477,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-07T04:48:05.040Z",
       "month": "2026-09"
     },
     {
@@ -150460,7 +150490,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-07T02:57:16.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tetc",
@@ -150475,6 +150508,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-07T04:21:17.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000teu1",
+      "dateKst": "2026-09-07",
+      "timeUtc": "2026-09-07T05:50:44.529Z",
+      "magnitude": 5.5,
+      "magnitudeType": "mww",
+      "place": "southeast of the Loyalty Islands",
+      "depthKm": 10,
+      "longitude": 171.6769,
+      "latitude": -23.4192,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-07T07:56:59.549Z",
       "month": "2026-09"
     }
   ]
