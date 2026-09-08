@@ -150883,7 +150883,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-08T16:06:47.573Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tfup",
@@ -150898,6 +150901,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-08T16:06:20.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tfur",
+      "dateKst": "2026-09-09",
+      "timeUtc": "2026-09-08T16:08:34.980Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "97 km NNE of Chitre, Nepal",
+      "depthKm": 10,
+      "longitude": 83.9779,
+      "latitude": 29.2727,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T19:24:48.344Z",
       "month": "2026-09"
     }
   ]
