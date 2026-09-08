@@ -150577,7 +150577,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-07T23:12:52.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tez5",
@@ -150592,6 +150595,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-07T23:24:59.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tf1q",
+      "dateKst": "2026-09-08",
+      "timeUtc": "2026-09-07T22:35:23.578Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "213 km ENE of Levuka, Fiji",
+      "depthKm": 542.371,
+      "longitude": -178.7862,
+      "latitude": -17.419,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-07T23:39:11.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfqf",
+      "dateKst": "2026-09-08",
+      "timeUtc": "2026-09-08T00:52:02.083Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mww",
+      "place": "92 km ESE of Isangel, Vanuatu",
+      "depthKm": 10,
+      "longitude": 170.1194,
+      "latitude": -19.8072,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T01:48:07.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfqi",
+      "dateKst": "2026-09-08",
+      "timeUtc": "2026-09-08T01:39:35.020Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 568.559,
+      "longitude": -179.7628,
+      "latitude": -22.3345,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T02:01:34.040Z",
       "month": "2026-09"
     }
   ]
