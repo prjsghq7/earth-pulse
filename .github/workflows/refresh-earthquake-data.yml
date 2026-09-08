@@ -36,12 +36,14 @@ jobs:
         run: npm run data:verify:failures
 
       - name: Collect public USGS earthquake data
+        id: collection
         run: npm run data:collect
 
       - name: Verify saved data
         run: npm run data:verify
 
       - name: Save changed data
+        if: ${{ !cancelled() && (steps.collection.outcome == 'success' || steps.collection.outcome == 'failure') }}
         run: |
           if git diff --quiet; then
             echo "No data changes to save."

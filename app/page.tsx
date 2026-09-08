@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type CSSProperties, type PointerEvent as ReactPointerEvent, type ReactNode } from 'react';
 import { geoArea, geoCentroid, geoEqualEarth, geoGraticule10, geoPath } from 'd3-geo';
 import { feature } from 'topojson-client';
 import type { GeometryCollection, Topology } from 'topojson-specification';
@@ -44,9 +44,19 @@ import {
 } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from '@/components/ui/pagination';
+import {
   loadEarthquakeIndex,
   loadEvent,
   loadTodayBoard,
+  type CollectionStatus,
   type CollectionState,
   type EarthPulseEvent,
   type EarthPulseIndexEvent,
@@ -105,6 +115,22 @@ const worldPath = geoPath(mapProjection)(worldGeo) ?? '';
 const graticulePath = geoPath(mapProjection)(geoGraticule10()) ?? '';
 const koreanCountryNames: Record<string, string> = {
   'Afghanistan': '아프가니스탄', 'Argentina': '아르헨티나', 'Australia': '호주', 'Bangladesh': '방글라데시', 'Bolivia': '볼리비아', 'Brazil': '브라질', 'Cambodia': '캄보디아', 'Canada': '캐나다', 'Chile': '칠레', 'China': '중국', 'Colombia': '콜롬비아', 'Costa Rica': '코스타리카', 'Cuba': '쿠바', 'Ecuador': '에콰도르', 'Egypt': '이집트', 'Ethiopia': '에티오피아', 'Fiji': '피지', 'France': '프랑스', 'Germany': '독일', 'Greece': '그리스', 'Guatemala': '과테말라', 'Iceland': '아이슬란드', 'India': '인도', 'Indonesia': '인도네시아', 'Iran': '이란', 'Iraq': '이라크', 'Ireland': '아일랜드', 'Israel': '이스라엘', 'Italy': '이탈리아', 'Japan': '일본', 'Kenya': '케냐', 'Malaysia': '말레이시아', 'Mexico': '멕시코', 'Mongolia': '몽골', 'Morocco': '모로코', 'Myanmar': '미얀마', 'Nepal': '네팔', 'New Zealand': '뉴질랜드', 'Nicaragua': '니카라과', 'Norway': '노르웨이', 'Pakistan': '파키스탄', 'Panama': '파나마', 'Papua New Guinea': '파푸아뉴기니', 'Peru': '페루', 'Philippines': '필리핀', 'Portugal': '포르투갈', 'Russian Federation': '러시아', 'Russia': '러시아', 'Saudi Arabia': '사우디아라비아', 'Singapore': '싱가포르', 'Solomon Is.': '솔로몬제도', 'South Africa': '남아프리카공화국', 'South Korea': '대한민국', 'Spain': '스페인', 'Sri Lanka': '스리랑카', 'Sudan': '수단', 'Sweden': '스웨덴', 'Switzerland': '스위스', 'Taiwan': '대만', 'Thailand': '태국', 'Tonga': '통가', 'Turkey': '튀르키예', 'Ukraine': '우크라이나', 'United Arab Emirates': '아랍에미리트', 'United Kingdom': '영국', 'United States of America': '미국', 'Uruguay': '우루과이', 'Vanuatu': '바누아투', 'Venezuela': '베네수엘라', 'Vietnam': '베트남',
+  'Albania': '알바니아', 'Algeria': '알제리', 'Angola': '앙골라', 'Antarctica': '남극', 'Armenia': '아르메니아', 'Austria': '오스트리아', 'Azerbaijan': '아제르바이잔',
+  'Bahamas': '바하마', 'Belarus': '벨라루스', 'Belgium': '벨기에', 'Belize': '벨리즈', 'Benin': '베냉', 'Bhutan': '부탄', 'Bosnia and Herz.': '보스니아 헤르체고비나', 'Botswana': '보츠와나', 'Brunei': '브루나이', 'Bulgaria': '불가리아', 'Burkina Faso': '부르키나파소', 'Burundi': '부룬디',
+  'Cameroon': '카메룬', 'Central African Rep.': '중앙아프리카공화국', 'Chad': '차드', 'Congo': '콩고공화국', 'Croatia': '크로아티아', 'Cyprus': '키프로스', 'Czechia': '체코', "Côte d'Ivoire": '코트디부아르',
+  'Dem. Rep. Congo': '콩고민주공화국', 'Denmark': '덴마크', 'Djibouti': '지부티', 'Dominican Rep.': '도미니카공화국',
+  'El Salvador': '엘살바도르', 'Eq. Guinea': '적도기니', 'Eritrea': '에리트레아', 'Estonia': '에스토니아', 'eSwatini': '에스와티니',
+  'Falkland Is.': '포클랜드 제도', 'Finland': '핀란드', 'Fr. S. Antarctic Lands': '프랑스령 남방 지역',
+  'Gabon': '가봉', 'Gambia': '감비아', 'Georgia': '조지아', 'Ghana': '가나', 'Greenland': '그린란드', 'Guinea': '기니', 'Guinea-Bissau': '기니비사우', 'Guyana': '가이아나',
+  'Haiti': '아이티', 'Honduras': '온두라스', 'Hungary': '헝가리',
+  'Jamaica': '자메이카', 'Jordan': '요르단', 'Kazakhstan': '카자흐스탄', 'Kosovo': '코소보', 'Kuwait': '쿠웨이트', 'Kyrgyzstan': '키르기스스탄',
+  'Laos': '라오스', 'Latvia': '라트비아', 'Lebanon': '레바논', 'Lesotho': '레소토', 'Liberia': '라이베리아', 'Libya': '리비아', 'Lithuania': '리투아니아', 'Luxembourg': '룩셈부르크',
+  'Macedonia': '북마케도니아', 'Madagascar': '마다가스카르', 'Malawi': '말라위', 'Mali': '말리', 'Mauritania': '모리타니', 'Moldova': '몰도바', 'Montenegro': '몬테네그로', 'Mozambique': '모잠비크',
+  'N. Cyprus': '북키프로스', 'Namibia': '나미비아', 'Netherlands': '네덜란드', 'New Caledonia': '누벨칼레도니', 'Niger': '니제르', 'Nigeria': '나이지리아', 'North Korea': '북한',
+  'Oman': '오만', 'Palestine': '팔레스타인', 'Paraguay': '파라과이', 'Poland': '폴란드', 'Puerto Rico': '푸에르토리코', 'Qatar': '카타르',
+  'Romania': '루마니아', 'Rwanda': '르완다', 'S. Sudan': '남수단', 'Senegal': '세네갈', 'Serbia': '세르비아', 'Sierra Leone': '시에라리온', 'Slovakia': '슬로바키아', 'Slovenia': '슬로베니아', 'Somalia': '소말리아', 'Somaliland': '소말릴란드', 'Suriname': '수리남', 'Syria': '시리아',
+  'Tajikistan': '타지키스탄', 'Tanzania': '탄자니아', 'Timor-Leste': '동티모르', 'Togo': '토고', 'Trinidad and Tobago': '트리니다드 토바고', 'Tunisia': '튀니지', 'Turkmenistan': '투르크메니스탄',
+  'Uganda': '우간다', 'Uzbekistan': '우즈베키스탄', 'W. Sahara': '서사하라', 'Yemen': '예멘', 'Zambia': '잠비아', 'Zimbabwe': '짐바브웨',
 };
 const worldCountryLabels = worldGeo.features.flatMap((country) => {
   const rawName = typeof country.properties?.name === 'string' ? country.properties.name : null;
@@ -298,6 +324,35 @@ function ScreenFrame({ active, children, collectionState }: { active: PrimaryPag
   );
 }
 
+const collectionFailureCopy: Record<string, { title: string; description: string }> = {
+  source_timeout: { title: '원천 응답이 늦어지고 있습니다.', description: 'USGS 응답을 기다리는 동안 마지막 정상 수집 데이터를 유지합니다.' },
+  source_rejected: { title: '원천에서 요청을 거절했습니다.', description: '잠시 뒤 예정된 자동 수집에서 다시 확인합니다.' },
+  rate_limited: { title: '원천 호출 제한으로 수집이 지연되고 있습니다.', description: '반복 요청 없이 다음 자동 수집 일정에 맞춰 다시 확인합니다.' },
+  source_offline: { title: '원천 연결을 확인하지 못했습니다.', description: '마지막 정상 수집 데이터를 유지하며 연결 복구를 기다립니다.' },
+  format_mismatch: { title: '원천 응답 형식을 확인해야 합니다.', description: '데이터를 안전하게 표시하기 위해 마지막 정상 수집 데이터를 유지합니다.' },
+};
+
+function CollectionFailureNotice({ status }: { status: CollectionStatus }) {
+  const copy = collectionFailureCopy[status.error?.code ?? ''] ?? {
+    title: '수집 상태를 확인해야 합니다.',
+    description: '마지막 정상 수집 데이터를 유지하며 다음 자동 수집을 기다립니다.',
+  };
+  const failed = status.state === 'unreadable';
+  return (
+    <section className={`collection-failure-notice ${failed ? 'is-unreadable' : ''}`} aria-labelledby="collection-failure-heading" role="status">
+      <div className="collection-failure-lead">
+        <span className="collection-failure-chip"><CircleAlert /> {failed ? '데이터 확인 필요' : '업데이트 지연'}</span>
+        <h2 id="collection-failure-heading">{copy.title}</h2>
+        <p>{copy.description}</p>
+      </div>
+      <dl className="collection-failure-times">
+        <div><dt>마지막 정상 수집</dt><dd>{status.lastSuccessAt ? `${formatKstTime(status.lastSuccessAt)} KST` : '기록 없음'}</dd></div>
+        <div><dt>다음 자동 수집</dt><dd>{`${formatKstTime(status.nextScheduledAt)} KST`}</dd></div>
+      </dl>
+    </section>
+  );
+}
+
 function EventResultRow({ event, source }: { event: (typeof allEvents)[number]; source: string }) {
   return (
     <button className="event-row event-row-wide" onClick={() => { window.location.hash = `/event/${event.id}?from=${encodeURIComponent(source)}`; }} type="button">
@@ -319,7 +374,8 @@ function SearchEventResultRow({ event }: { event: EarthPulseIndexEvent }) {
     <button
       className="event-row event-row-wide"
       onClick={() => {
-        window.location.hash = `/event/${event.id}?from=explore&month=${event.dateKst.slice(0, 7)}`;
+        const returnRoute = routeFromHash().startsWith('explore') ? routeFromHash() : 'explore';
+        window.location.hash = `/event/${event.id}?from=${encodeURIComponent(returnRoute)}&month=${event.dateKst.slice(0, 7)}`;
       }}
       type="button"
     >
@@ -366,7 +422,7 @@ function depthTone(depthKm: number | null) {
 }
 
 function clampMapPan(pan: { x: number; y: number }, zoom: number) {
-  const xLimit = Math.round((zoom - 1) * 420);
+  const xLimit = Math.round((zoom - 1) * 480);
   const yLimit = Math.round((zoom - 1) * 260);
   return {
     x: Math.max(-xLimit, Math.min(xLimit, pan.x)),
@@ -381,8 +437,9 @@ function labelsForVisibleMapArea({ zoom, pan, viewport }: { zoom: number; pan: {
     y: (12 + (label.y / 500) * mapHeight - viewport.height / 2) * zoom + viewport.height / 2 + pan.y,
   });
   const isVisible = (point: { x: number; y: number }) => point.x > 24 && point.x < viewport.width - 24 && point.y > 30 && point.y < viewport.height - 96;
-  const countryLimit = zoom < 1.3 ? 9 : zoom < 2 ? 15 : zoom < 3.5 ? 24 : 32;
+  const countryLimit = zoom < 1.3 ? 9 : zoom < 2 ? 18 : zoom < 3.5 ? 32 : zoom < 5 ? 50 : 70;
   const minimumArea = zoom < 1.3 ? .018 : zoom < 2 ? .0015 : 0;
+  const collisionDistance = zoom < 1.3 ? 56 : zoom < 2 ? 48 : zoom < 3.5 ? 40 : zoom < 5 ? 34 : 28;
   const candidates = [
     ...worldCountryLabels.filter((label) => label.area >= minimumArea),
     ...(zoom >= 1.3 ? mapOceanLabels : []),
@@ -397,7 +454,7 @@ function labelsForVisibleMapArea({ zoom, pan, viewport }: { zoom: number; pan: {
   for (const candidate of candidates) {
     const labelLimit = candidate.kind === 'country' ? countryLimit : Math.max(2, Math.floor(countryLimit / 4));
     if (accepted.filter((label) => label.kind === candidate.kind).length >= labelLimit) continue;
-    if (accepted.some((label) => Math.hypot(label.screen.x - candidate.screen.x, label.screen.y - candidate.screen.y) < 48)) continue;
+    if (accepted.some((label) => Math.hypot(label.screen.x - candidate.screen.x, label.screen.y - candidate.screen.y) < collisionDistance)) continue;
     accepted.push(candidate);
   }
   return accepted;
@@ -419,7 +476,11 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
   const mapFrameRef = useRef<HTMLDivElement>(null);
   const mapDragRef = useRef<{ pointerId: number; x: number; y: number } | null>(null);
   const [mapSort, setMapSort] = useState<'latest' | 'largest' | 'shallow' | 'deep'>('latest');
-  const displayEvents = events.slice(0, 750);
+  const baseDisplayEvents = events.slice(0, 750);
+  const selectedEvent = events.find((event) => event.id === selectedId) ?? null;
+  const displayEvents = selectedEvent && !baseDisplayEvents.some((event) => event.id === selectedEvent.id)
+    ? [...baseDisplayEvents.slice(0, 749), selectedEvent]
+    : baseDisplayEvents;
   const orderedEvents = [...events].sort((a, b) => {
     if (mapSort === 'largest') return b.magnitude - a.magnitude || b.timeUtc.localeCompare(a.timeUtc);
     if (mapSort === 'shallow') return (a.depthKm ?? Number.POSITIVE_INFINITY) - (b.depthKm ?? Number.POSITIVE_INFINITY) || b.timeUtc.localeCompare(a.timeUtc);
@@ -427,7 +488,7 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
     return b.timeUtc.localeCompare(a.timeUtc) || a.id.localeCompare(b.id);
   });
   const visibleListEvents = orderedEvents.slice(0, visibleListCount);
-  const selected = events.find((event) => event.id === selectedId) ?? displayEvents[0] ?? null;
+  const selected = selectedEvent ?? displayEvents[0] ?? null;
   const visibleMapLabels = labelsForVisibleMapArea({ zoom: mapZoom, pan: mapPan, viewport: mapViewport });
 
   useEffect(() => {
@@ -475,6 +536,21 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
     setMapZoom(1);
     setMapPan({ x: 0, y: 0 });
   };
+  const focusMapEvent = (event: EarthPulseIndexEvent) => {
+    setSelectedId(event.id);
+    setHoveredId(null);
+    if (mapZoom <= 1) return;
+    const projected = mapProjection([event.longitude, event.latitude]);
+    if (!projected) return;
+    const mapHeight = Math.max(1, mapViewport.height - 92);
+    const pointX = (projected[0] / 960) * mapViewport.width;
+    const pointY = 12 + (projected[1] / 500) * mapHeight;
+    const mapCenterY = 12 + mapHeight / 2;
+    setMapPan(clampMapPan({
+      x: -(pointX - mapViewport.width / 2) * mapZoom,
+      y: mapCenterY - ((pointY - mapViewport.height / 2) * mapZoom + mapViewport.height / 2),
+    }, mapZoom));
+  };
   const startMapDrag = (event: ReactPointerEvent<HTMLDivElement>) => {
     event.preventDefault();
     mapDragRef.current = { pointerId: event.pointerId, x: event.clientX, y: event.clientY };
@@ -508,6 +584,10 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
   });
   const hoveredMarker = markerPositions.find(({ duplicate, event }) => !duplicate && event.id === hoveredId);
   const hoveredDepth = hoveredMarker?.event.depthKm ?? null;
+  const hoveredMarkerScreen = hoveredMarker ? {
+    x: ((hoveredMarker.x / 960) * mapViewport.width - mapViewport.width / 2) * mapZoom + mapViewport.width / 2 + mapPan.x,
+    y: (12 + (hoveredMarker.y / 500) * Math.max(1, mapViewport.height - 92) - mapViewport.height / 2) * mapZoom + mapViewport.height / 2 + mapPan.y,
+  } : null;
   const hoveredDepthLabel = hoveredDepth === null ? '깊이 자료 없음' : hoveredDepth <= 70 ? '얕은 지진' : hoveredDepth <= 300 ? '중간 깊이' : '깊은 지진';
   const maximumMagnitude = events.length ? Math.max(...events.map((event) => event.magnitude)).toFixed(1) : '—';
 
@@ -564,7 +644,7 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
                     <span
                       className={`map-country-label ${label.kind}`}
                       key={`${label.kind}-${label.name}`}
-                      style={{ left: `${(label.x / 960) * 100}%`, top: `${(label.y / 500) * 100}%` }}
+                      style={{ left: `${(label.x / 960) * 100}%`, top: `${(label.y / 500) * 100}%`, '--map-label-scale': `${1 / mapZoom}` } as CSSProperties}
                     >
                       {label.name}
                     </span>
@@ -590,27 +670,28 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
                     <span>{event.magnitude >= 5.5 ? event.magnitude.toFixed(1) : ''}</span>
                   </button>
                 ))}
-                {hoveredMarker && (
-                  <div
-                    className={`map-marker-tooltip ${hoveredMarker.tone} ${hoveredMarker.x > 720 ? 'align-left' : hoveredMarker.x < 240 ? 'align-right' : ''} ${hoveredMarker.y < 125 ? 'is-below' : ''}`}
-                    id="map-marker-tooltip"
-                    role="tooltip"
-                    style={{ left: `${(hoveredMarker.x / 960) * 100}%`, top: `${(hoveredMarker.y / 500) * 100}%` }}
-                  >
-                    <div className="tooltip-observation-line"><span>발생 시각</span><strong>{formatKstTime(hoveredMarker.event.timeUtc)} KST</strong></div>
-                    <div className="tooltip-event-main">
-                      <span className="tooltip-magnitude"><small>규모</small><strong>{hoveredMarker.event.magnitude.toFixed(1)}</strong><em>{hoveredMarker.event.magnitudeType ?? 'M'}</em></span>
-                      <span className="tooltip-place"><strong>{hoveredMarker.event.place}</strong><small><i />{hoveredDepthLabel}</small></span>
-                    </div>
-                    <div className="tooltip-facts">
-                      <span><small>진원 깊이</small><strong>{hoveredDepth === null ? '자료 없음' : `${hoveredDepth.toFixed(1)} km`}</strong></span>
-                      <span><small>좌표</small><strong>{hoveredMarker.event.latitude.toFixed(2)}°, {hoveredMarker.event.longitude.toFixed(2)}°</strong></span>
-                    </div>
-                    <div className="tooltip-hint">선택하면 오른쪽 기록에서 자세히 볼 수 있습니다.</div>
-                  </div>
-                )}
                 </div>
               </div>
+
+              {hoveredMarker && hoveredMarkerScreen && (
+                <div
+                  className={`map-marker-tooltip ${hoveredMarker.tone} ${hoveredMarkerScreen.x > mapViewport.width - 300 ? 'align-left' : hoveredMarkerScreen.x < 300 ? 'align-right' : ''} ${hoveredMarkerScreen.y < 190 ? 'is-below' : ''}`}
+                  id="map-marker-tooltip"
+                  role="tooltip"
+                  style={{ left: hoveredMarkerScreen.x, top: hoveredMarkerScreen.y }}
+                >
+                  <div className="tooltip-observation-line"><span>발생 시각</span><strong>{formatKstTime(hoveredMarker.event.timeUtc)} KST</strong></div>
+                  <div className="tooltip-event-main">
+                    <span className="tooltip-magnitude"><small>규모</small><strong>{hoveredMarker.event.magnitude.toFixed(1)}</strong><em>{hoveredMarker.event.magnitudeType ?? 'M'}</em></span>
+                    <span className="tooltip-place"><strong>{hoveredMarker.event.place}</strong><small><i />{hoveredDepthLabel}</small></span>
+                  </div>
+                  <div className="tooltip-facts">
+                    <span><small>진원 깊이</small><strong>{hoveredDepth === null ? '자료 없음' : `${hoveredDepth.toFixed(1)} km`}</strong></span>
+                    <span><small>좌표</small><strong>{hoveredMarker.event.latitude.toFixed(2)}°, {hoveredMarker.event.longitude.toFixed(2)}°</strong></span>
+                  </div>
+                  <div className="tooltip-hint">선택하면 오른쪽 기록에서 자세히 볼 수 있습니다.</div>
+                </div>
+              )}
 
               <div className="map-legend" aria-label="지도 표시 기준">
                 <div className="legend-title"><strong>지도 읽는 법</strong><span>크기 = 규모 · 색상 = 깊이</span></div>
@@ -625,14 +706,14 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
             {selected && <div className="selected-event-card">
               <div className={`selected-magnitude ${depthTone(selected.depthKm)}`}><small>규모</small><strong>{selected.magnitude.toFixed(1)}</strong><span>{selected.magnitudeType ?? 'M'}</span></div>
               <div className="selected-event-copy"><span className="section-kicker">SELECTED EVENT</span><h2>{selected.place}</h2><p>{formatKstTime(selected.timeUtc)} KST · 깊이 {selected.depthKm === null ? '자료 없음' : `${selected.depthKm.toFixed(1)} km`}</p><small>{selected.latitude.toFixed(2)}°, {selected.longitude.toFixed(2)}°</small></div>
-              <Button className="selected-detail-button" onClick={() => { window.location.assign(`${window.location.pathname}${window.location.search}#/event/${selected.id}?from=map&month=${selected.dateKst.slice(0, 7)}`); }}>상세 정보 <ChevronRight /></Button>
+              <Button className="selected-detail-button" onClick={() => { const returnRoute = routeFromHash().startsWith('map') ? routeFromHash() : 'map'; window.location.assign(`${window.location.pathname}${window.location.search}#/event/${selected.id}?from=${encodeURIComponent(returnRoute)}&month=${selected.dateKst.slice(0, 7)}`); }}>상세 정보 <ChevronRight /></Button>
             </div>}
 
             <div className="viewport-events-head"><span><strong>검색 결과 목록</strong><small>{mapSort === 'latest' ? '발생 시각 최신순' : mapSort === 'largest' ? '규모 큰 순' : mapSort === 'shallow' ? '얕은 순' : '깊은 순'}</small><small>지도는 최대 750개까지 표시</small></span><label className="map-sort"><span>정렬</span><select onChange={(event) => setMapSort(event.target.value as typeof mapSort)} value={mapSort}><option value="latest">최신순</option><option value="largest">규모 큰 순</option><option value="shallow">얕은 순</option><option value="deep">깊은 순</option></select></label><Badge variant="outline">{visibleListEvents.length}/{events.length}건</Badge></div>
             <div className="map-event-list">
               {events.length === 0 && <div className="map-empty-list">{mapState === 'loading' ? '조건에 맞는 지진을 불러오는 중입니다.' : mapState === 'error' ? '기록을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.' : '선택한 조건에 맞는 지진이 없습니다.'}</div>}
               {visibleListEvents.map((event) => (
-                <button className={selectedId === event.id ? 'is-selected' : ''} key={event.id} onClick={() => setSelectedId(event.id)} type="button">
+                <button className={selectedId === event.id ? 'is-selected' : ''} key={event.id} onClick={() => focusMapEvent(event)} type="button">
                   <span className={`map-list-magnitude ${depthTone(event.depthKm)}`}>{event.magnitude.toFixed(1)}</span>
                   <span><strong>{event.place}</strong><small>{formatKstTime(event.timeUtc)} KST · {event.depthKm === null ? '깊이 자료 없음' : `${event.depthKm.toFixed(1)} km`}</small></span>
                   <ChevronRight />
@@ -692,6 +773,31 @@ interface SearchFilters {
   reviewedOnly: boolean;
   tsunamiOnly: boolean;
   shallowOnly: boolean;
+}
+
+type ExploreSort = 'latest' | 'largest' | 'shallow' | 'deep';
+
+function exploreSortFromQuery(query: string): ExploreSort {
+  const value = new URLSearchParams(query).get('sort');
+  return value === 'largest' || value === 'shallow' || value === 'deep' ? value : 'latest';
+}
+
+function explorePageFromQuery(query: string) {
+  const value = Number(new URLSearchParams(query).get('page'));
+  return Number.isInteger(value) && value > 0 ? value - 1 : 0;
+}
+
+function paginationRange(currentPage: number, pageCount: number): Array<number | 'start-ellipsis' | 'end-ellipsis'> {
+  const windowSize = 10;
+  if (pageCount <= windowSize) return Array.from({ length: pageCount }, (_, index) => index + 1);
+  const start = Math.max(1, Math.min(currentPage - Math.floor(windowSize / 2), pageCount - windowSize + 1));
+  const end = start + windowSize - 1;
+  const pages = Array.from({ length: windowSize }, (_, index) => start + index);
+  return [
+    ...(start === 2 ? [1] : start > 2 ? [1, 'start-ellipsis' as const] : []),
+    ...pages,
+    ...(end === pageCount - 1 ? [pageCount] : end < pageCount - 1 ? ['end-ellipsis' as const, pageCount] : []),
+  ];
 }
 
 function searchDefaults(targetDate: string): SearchFilters {
@@ -758,7 +864,7 @@ function filtersFromQuery(targetDate: string, query: string) {
   };
 }
 
-function syncExploreUrl(filters: SearchFilters) {
+function syncExploreUrl(filters: SearchFilters, sort: ExploreSort = 'latest', page = 0) {
   const query = new URLSearchParams({
     start: filters.startDate,
     end: filters.endDate,
@@ -768,6 +874,8 @@ function syncExploreUrl(filters: SearchFilters) {
   if (filters.reviewedOnly) query.set('reviewed', '1');
   if (filters.tsunamiOnly) query.set('tsunami', '1');
   if (filters.shallowOnly) query.set('shallow', '1');
+  if (sort !== 'latest') query.set('sort', sort);
+  if (page > 0) query.set('page', String(page + 1));
   window.history.replaceState(null, '', `#/explore?${query.toString()}`);
 }
 
@@ -778,14 +886,15 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
   const [events, setEvents] = useState<EarthPulseIndexEvent[]>([]);
   const [searchState, setSearchState] = useState<'loading' | 'ready' | 'error'>('loading');
   const [searchError, setSearchError] = useState<string | null>(null);
-  const [page, setPage] = useState(0);
+  const [sort, setSort] = useState<ExploreSort>(() => exploreSortFromQuery(initialQuery));
+  const [page, setPage] = useState(() => explorePageFromQuery(initialQuery));
   const [hoveredBucket, setHoveredBucket] = useState<number | null>(null);
   const [trendGranularity, setTrendGranularity] = useState<TrendGranularity>('day');
   const [copyNotice, setCopyNotice] = useState<string | null>(null);
   const [validationNotice, setValidationNotice] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!initialQuery) syncExploreUrl(searchDefaults(targetDate));
+    if (!initialQuery) syncExploreUrl(searchDefaults(targetDate), 'latest', 0);
   }, [initialQuery, targetDate]);
 
   useEffect(() => {
@@ -858,7 +967,7 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
     setSearchState('loading');
     setSearchError(null);
     setValidationNotice(null);
-    syncExploreUrl(next);
+    syncExploreUrl(next, sort, 0);
     setApplied(next);
   };
   const applyQuick = (next: SearchFilters) => {
@@ -908,12 +1017,29 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
   const hoveredBucketStart = hoveredBucket === null ? null : trendBuckets[hoveredBucket]?.start ?? null;
   const hoveredBucketEnd = hoveredBucket === null ? null : trendBuckets[hoveredBucket]?.end ?? null;
 
+  const orderedEvents = [...events].sort((a, b) => {
+    if (sort === 'largest') return b.magnitude - a.magnitude || b.timeUtc.localeCompare(a.timeUtc) || a.id.localeCompare(b.id);
+    if (sort === 'shallow') return (a.depthKm ?? Number.POSITIVE_INFINITY) - (b.depthKm ?? Number.POSITIVE_INFINITY) || b.timeUtc.localeCompare(a.timeUtc) || a.id.localeCompare(b.id);
+    if (sort === 'deep') return (b.depthKm ?? -1) - (a.depthKm ?? -1) || b.timeUtc.localeCompare(a.timeUtc) || a.id.localeCompare(b.id);
+    return b.timeUtc.localeCompare(a.timeUtc) || a.id.localeCompare(b.id);
+  });
   const pageSize = 20;
   const pageCount = Math.max(1, Math.ceil(events.length / pageSize));
   const safePage = Math.min(page, pageCount - 1);
-  const visibleEvents = events.slice(safePage * pageSize, (safePage + 1) * pageSize);
+  const visibleEvents = orderedEvents.slice(safePage * pageSize, (safePage + 1) * pageSize);
   const resultStart = events.length ? safePage * pageSize + 1 : 0;
   const resultEnd = Math.min(events.length, (safePage + 1) * pageSize);
+  const pageItems = paginationRange(safePage + 1, pageCount);
+  const changePage = (nextPage: number) => {
+    const boundedPage = Math.max(0, Math.min(pageCount - 1, nextPage));
+    setPage(boundedPage);
+    syncExploreUrl(applied, sort, boundedPage);
+  };
+  const changeSort = (nextSort: ExploreSort) => {
+    setSort(nextSort);
+    setPage(0);
+    syncExploreUrl(applied, nextSort, 0);
+  };
 
   return (
     <ScreenFrame active="explore">
@@ -1014,76 +1140,33 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
         </section>
 
         <Card className="results-card">
-          <CardHeader>
-            <div><CardTitle>지진 목록</CardTitle><CardDescription>발생 시각이 최근인 순서입니다.</CardDescription></div>
-            <CardAction><Badge variant="outline"><Layers3 /> 최신순</Badge></CardAction>
+          <CardHeader className="explore-results-header">
+            <div className="explore-results-heading"><div className="explore-results-title"><CardTitle>지진 목록</CardTitle><Badge variant="outline"><Layers3 /> 총 {events.length.toLocaleString()}건</Badge></div><CardDescription>검색 조건에 맞는 결과를 페이지당 20건씩 표시합니다.</CardDescription></div>
+            <CardAction className="explore-results-actions">
+              <label className="explore-sort"><span>정렬</span><select aria-label="지진 목록 정렬" onChange={(event) => changeSort(event.target.value as ExploreSort)} value={sort}><option value="latest">최신순</option><option value="largest">규모 큰 순</option><option value="shallow">얕은 순</option><option value="deep">깊은 순</option></select></label>
+            </CardAction>
           </CardHeader>
           <CardContent className="event-list search-results">
             {searchState === 'ready' && visibleEvents.map((event) => <SearchEventResultRow event={event} key={event.id} />)}
             {searchState === 'ready' && events.length === 0 && <div className="empty-search-result"><Search /><strong>조건에 맞는 지진이 없습니다.</strong><span>날짜 범위나 규모·깊이 조건을 넓혀 보세요.</span></div>}
           </CardContent>
-          <div className="results-footer"><span>{events.length.toLocaleString()}건 중 {resultStart.toLocaleString()}–{resultEnd.toLocaleString()}</span><div><Button disabled={safePage === 0} onClick={() => setPage((value) => Math.max(0, value - 1))} size="sm" variant="outline">이전</Button><Button disabled={safePage >= pageCount - 1} onClick={() => setPage((value) => Math.min(pageCount - 1, value + 1))} size="sm" variant="outline">다음</Button></div></div>
+          {searchState === 'ready' && events.length > 0 && <div className="results-footer"><span><strong>{resultStart.toLocaleString()}–{resultEnd.toLocaleString()}건</strong> / 총 {events.length.toLocaleString()}건</span>{pageCount > 1 && <Pagination className="explore-pagination"><PaginationContent><PaginationItem><PaginationPrevious aria-disabled={safePage === 0} className={safePage === 0 ? 'is-disabled' : ''} href="#" onClick={(event) => { event.preventDefault(); if (safePage > 0) changePage(safePage - 1); }} text="이전" /></PaginationItem><PaginationItem className="pagination-mobile-status" aria-live="polite">{safePage + 1} / {pageCount}</PaginationItem>{pageItems.map((item) => typeof item === 'number' ? <PaginationItem key={item}><PaginationLink aria-label={`${item}페이지로 이동`} href="#" isActive={item === safePage + 1} onClick={(event) => { event.preventDefault(); changePage(item - 1); }}>{item}</PaginationLink></PaginationItem> : <PaginationItem key={item}><PaginationEllipsis /></PaginationItem>)}<PaginationItem><PaginationNext aria-disabled={safePage >= pageCount - 1} className={safePage >= pageCount - 1 ? 'is-disabled' : ''} href="#" onClick={(event) => { event.preventDefault(); if (safePage < pageCount - 1) changePage(safePage + 1); }} text="다음" /></PaginationItem></PaginationContent></Pagination>}</div>}
         </Card>
       </main>
     </ScreenFrame>
   );
 }
 
-function DayScreen() {
-  return (
-    <ScreenFrame active="explore">
-      <main className="shell page-shell screen-page">
-        <a className="back-link" href="#/today"><ArrowLeft /> 오늘 화면으로</a>
-        <section className="detail-hero day-detail-hero">
-          <div>
-            <span className="section-kicker">DAILY RECORD / FINAL</span>
-            <h1>2026년 8월 31일</h1>
-            <p>Asia/Seoul 기준으로 확정된 일별 기록입니다.</p>
-          </div>
-          <div className="detail-hero-metric"><span>규모 4.0 이상</span><strong>19<small>건</small></strong><em><ArrowUpRight /> 전날 대비 +3건</em></div>
-        </section>
-
-        <section className="stat-grid detail-stats">
-          <div><span>최대 규모</span><strong>6.8</strong><small>Mww · 검토 완료</small></div>
-          <div><span>평균 규모</span><strong>4.8</strong><small>중앙값 4.6</small></div>
-          <div><span>중앙 깊이</span><strong>41 km</strong><small>가장 깊음 582 km</small></div>
-          <div><span>쓰나미 플래그</span><strong>1건</strong><small>발생 확정 의미 아님</small></div>
-        </section>
-
-        <section className="day-detail-grid">
-          <Card className="magnitude-card">
-            <CardHeader><div><span className="section-kicker ink">DISTRIBUTION</span><CardTitle className="mt-1">규모 구간별 분포</CardTitle></div></CardHeader>
-            <CardContent className="magnitude-rings">
-              <div className="ring-chart"><span><strong>19</strong><small>전체</small></span></div>
-              <div className="ring-legend">
-                <div><i className="ring-1"/><span>4.0–4.9</span><strong>13건</strong></div>
-                <div><i className="ring-2"/><span>5.0–5.9</span><strong>4건</strong></div>
-                <div><i className="ring-3"/><span>6.0 이상</span><strong>2건</strong></div>
-              </div>
-            </CardContent>
-          </Card>
-          <Card className="evidence-card">
-            <CardHeader><div><span className="section-kicker ink">PROVENANCE</span><CardTitle className="mt-1">이 기록의 수집 근거</CardTitle></div></CardHeader>
-            <CardContent className="evidence-timeline">
-              <div><i/><span><small>원천 응답 생성</small><strong>2026-09-01 09:16:42 KST</strong></span></div>
-              <div><i/><span><small>Earth Pulse 수집</small><strong>2026-09-01 09:17:08 KST</strong></span></div>
-              <div><i/><span><small>일별 기록 확정</small><strong>2026-09-01 09:17:11 KST</strong></span></div>
-            </CardContent>
-          </Card>
-        </section>
-
-        <Card className="results-card">
-          <CardHeader><div><CardTitle>이날의 지진 19건</CardTitle><CardDescription>발생 시각이 최근인 순서입니다.</CardDescription></div><CardAction><Button size="sm" variant="outline"><Filter /> 날짜 안에서 필터</Button></CardAction></CardHeader>
-          <CardContent className="event-list search-results">{allEvents.map((event) => <EventResultRow event={event} key={event.id} source="day/2026-08-31" />)}</CardContent>
-        </Card>
-      </main>
-    </ScreenFrame>
-  );
-}
 
 function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board }: { eventId: string; returnTo: string; liveEvent?: EarthPulseEvent; eventMonth?: string | null; board?: TodayBoardData | null }) {
   const [archiveEvent, setArchiveEvent] = useState<EarthPulseEvent | null>(liveEvent ?? null);
   const [archiveError, setArchiveError] = useState(false);
+  const returnPage = returnTo.split('?')[0];
+  const returnsToday = returnPage === 'today';
+  const returnsMap = returnPage === 'map';
+  const returnsDay = returnPage.startsWith('day/');
+  const backLabel = returnsToday ? '오늘 화면으로' : returnsMap ? '지진 지도로' : returnsDay ? '날짜 기록으로' : '검색 결과로';
+  const activeReturnPage: PrimaryPage = returnsToday ? 'today' : returnsMap ? 'map' : 'explore';
 
   useEffect(() => {
     if (!eventMonth) return;
@@ -1102,9 +1185,9 @@ function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board }: { even
 
   if (eventMonth && !archiveEvent) {
     return (
-      <ScreenFrame active="explore">
+      <ScreenFrame active={activeReturnPage}>
         <main className="shell page-shell screen-page">
-          <a className="back-link" href="#/explore"><ArrowLeft /> 검색 결과로</a>
+          <a className="back-link" href={`#/${returnTo}`}><ArrowLeft /> {backLabel}</a>
           <div className={`search-feedback ${archiveError ? 'is-error' : ''}`}>
             {archiveError ? <CircleAlert /> : <RefreshCw className="is-spinning" />}
             {archiveError ? '선택한 지진 상세 기록을 불러오지 못했습니다.' : '지진 상세 기록을 불러오고 있습니다.'}
@@ -1114,7 +1197,6 @@ function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board }: { even
     );
   }
 
-  const fallback = allEvents.find((item) => item.id === eventId) ?? allEvents[0];
   const actualEvent = liveEvent ?? archiveEvent;
   const event = actualEvent ? {
     id: actualEvent.id,
@@ -1141,13 +1223,9 @@ function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board }: { even
     tsunami: actualEvent.tsunami,
     url: actualEvent.url,
   } : null;
-  if (!event) return <ScreenFrame active="explore"><main className="shell page-shell screen-page"><a className="back-link" href="#/explore"><ArrowLeft /> 검색 결과로</a><div className="search-feedback is-error"><CircleAlert /> 선택한 지진의 실제 기록을 찾지 못했습니다.</div></main></ScreenFrame>;
-  const returnsToday = returnTo === 'today';
-  const returnsMap = returnTo === 'map';
-  const returnsDay = returnTo.startsWith('day/');
-  const backLabel = returnsToday ? '오늘 화면으로' : returnsMap ? '지진 지도로' : returnsDay ? '날짜 기록으로' : '검색 결과로';
+  if (!event) return <ScreenFrame active={activeReturnPage}><main className="shell page-shell screen-page"><a className="back-link" href={`#/${returnTo}`}><ArrowLeft /> {backLabel}</a><div className="search-feedback is-error"><CircleAlert /> 선택한 지진의 실제 기록을 찾지 못했습니다.</div></main></ScreenFrame>;
   return (
-    <ScreenFrame active={returnsToday ? 'today' : returnsMap ? 'map' : 'explore'}>
+    <ScreenFrame active={activeReturnPage}>
       <main className="shell page-shell screen-page event-detail-page">
         <a className="back-link" href={`#/${returnTo}`}><ArrowLeft /> {backLabel}</a>
         <section className="detail-hero event-detail-hero">
@@ -1262,13 +1340,12 @@ export default function Home() {
     const targetDate = status?.targetDateKst ?? '2026-09-02';
     return <MapScreen initialQuery={routeQuery} key={`${targetDate}:${routeQuery}`} targetDate={targetDate} />;
   }
-  if (routePath.startsWith('day/')) return <DayScreen />;
   if (routePath.startsWith('event/')) {
     const eventId = routePath.split('/')[1] ?? '';
     const queryParams = new URLSearchParams(routeQuery);
     const requestedReturn = queryParams.get('from') ?? 'explore';
     const eventMonth = queryParams.get('month');
-    const returnTo = requestedReturn === 'today' || requestedReturn === 'map' || requestedReturn === 'explore' || /^day\/\d{4}-\d{2}-\d{2}$/.test(requestedReturn)
+    const returnTo = /^(?:today|map|explore)(?:\?.*)?$/.test(requestedReturn) || /^day\/\d{4}-\d{2}-\d{2}$/.test(requestedReturn)
       ? requestedReturn
       : 'explore';
     return <EventScreen board={todayBoard} eventId={eventId} eventMonth={eventMonth} key={eventId} liveEvent={todayEvents.find((event) => event.id === eventId)} returnTo={returnTo} />;
@@ -1292,6 +1369,8 @@ export default function Home() {
             <div><Clock3 /><span><small>다음 자동 수집</small><strong>{status ? `${formatKstTime(status.nextScheduledAt)} KST` : '불러오는 중'}</strong><em>00:10부터 3시간 간격</em></span></div>
           </div>
         </section>
+
+        {status && status.state !== 'fresh' && <CollectionFailureNotice status={status} />}
 
         <section className="hero-grid" aria-label="오늘의 지진 요약">
           <article className="live-card">
@@ -1332,13 +1411,13 @@ export default function Home() {
                 {comparisonDays.map((record) => {
                   const tooltipKey = `comparison-${record.dateKst}`;
                   const edgeClass = record === comparisonDays[0] ? 'tooltip-edge-start' : record === comparisonDays.at(-1) ? 'tooltip-edge-end' : '';
-                  return <div aria-label={`${formatKoreanDate(record.dateKst)} ${record.count}건 ${record.state === 'final' ? '확정' : '잠정'}`} className={`day-bar-column ${edgeClass} ${record.dateKst === finalizedDays.at(-1)?.dateKst ? 'is-latest' : ''} ${record.state === 'provisional' ? 'is-provisional' : ''}`} key={record.dateKst} onBlur={() => setHoveredChartKey(null)} onFocus={() => setHoveredChartKey(tooltipKey)} onMouseEnter={() => setHoveredChartKey(tooltipKey)} onMouseLeave={() => setHoveredChartKey(null)} tabIndex={0}>
+                  return <button aria-label={`${formatKoreanDate(record.dateKst)} ${record.count}건 ${record.state === 'final' ? '확정' : '잠정'} 기록 탐색 열기`} className={`day-bar-column ${edgeClass} ${record.dateKst === finalizedDays.at(-1)?.dateKst ? 'is-latest' : ''} ${record.state === 'provisional' ? 'is-provisional' : ''}`} key={record.dateKst} onBlur={() => setHoveredChartKey(null)} onClick={() => { window.location.hash = `/explore?start=${record.dateKst}&end=${record.dateKst}&min=4&depth=700`; }} onFocus={() => setHoveredChartKey(tooltipKey)} onMouseEnter={() => setHoveredChartKey(tooltipKey)} onMouseLeave={() => setHoveredChartKey(null)} type="button">
                     <span className="bar-value">{record.count}</span>
                     <span className="day-bar" style={{ height: `${record.count === 0 ? 2 : Math.max(12, (record.count / comparisonMaximum) * 100)}%` }} />
                     <small>{record.state === 'provisional' ? '오늘' : shortDate(record.dateKst)}</small>
                     <em>{record.state === 'final' ? '확정' : '잠정'}</em>
                     {hoveredChartKey === tooltipKey && <span className="bar-chart-tooltip"><small>{formatKoreanDate(record.dateKst)}</small><strong>{record.count}건 · {record.state === 'final' ? '확정' : '잠정'}</strong></span>}
-                  </div>;
+                  </button>;
                 })}
               </div>
               <div className="delta-panel">

@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import { canReuseQuality, reuseQuality } from './quality-cache.mjs';
+const now = new Date('2026-09-07T03:00:00Z');
+const event = { id: 'synthetic', updatedUtc: '2026-09-07T00:00:00Z' };
+const cached = { ...event, stationCount: 12, azimuthalGap: 30, rmsSeconds: 0.4 };
+assert.equal(canReuseQuality(event, undefined, now), false);
+assert.equal(canReuseQuality(event, cached, now), true);
+assert.equal(canReuseQuality({ ...event, updatedUtc: now.toISOString() }, cached, now), false);
+assert.equal(reuseQuality(event, cached).stationCount, 12);
+assert.equal(canReuseQuality(event, { ...cached, stationCount: null }, now), false);
+assert.equal(canReuseQuality(event, { ...cached, stationCount: null, qualityCheckedAt: now.toISOString() }, now), true);
+assert.equal(canReuseQuality(event, { ...cached, stationCount: null, qualityCheckedAt: '2026-09-05T00:00:00Z' }, now), false);
+console.log('Quality cache: new, unchanged, changed, missing and expired cases passed.');

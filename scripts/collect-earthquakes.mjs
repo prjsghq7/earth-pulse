@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, rename, rm, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
+import { canReuseQuality, reuseQuality } from './quality-cache.mjs';
 
 const ROOT = process.cwd();
 const DATA_ROOT = path.join(ROOT, 'public', 'data');
@@ -258,6 +259,7 @@ async function enrichQualityFromDetail(event) {
     const detail = await response.json();
     return {
       ...event,
+      qualityCheckedAt: new Date().toISOString(),
       stationCount: finiteNumber(detail?.properties?.nst),
       azimuthalGap: finiteNumber(detail?.properties?.gap),
       rmsSeconds: finiteNumber(detail?.properties?.rms),
@@ -318,9 +320,17 @@ async function collect() {
   try {
     const raw = await fetchGeoJson(query.toString());
     const normalized = [];
+    const cachedMonths = new Map();
     for (const feature of raw.features) {
       const event = normalizeFeature(feature);
-      if (event) normalized.push(await enrichQualityFromDetail(event));
+      if (!event) continue;
+      const month = event.dateKst.slice(0, 7);
+      if (!cachedMonths.has(month)) {
+        const saved = await readJson(path.join(DATA_ROOT, 'events', `${month}.json`), { events: [] });
+        cachedMonths.set(month, new Map(saved.events.map((item) => [item.id, item])));
+      }
+      const cached = cachedMonths.get(month).get(event.id);
+      normalized.push(canReuseQuality(event, cached, now) ? reuseQuality(event, cached) : await enrichQualityFromDetail(event));
     }
     const rejectedCount = raw.features.length - normalized.length;
     const months = [...new Set([...normalized.map((event) => event.dateKst.slice(0, 7)), ...datesToWrite.map((date) => date.slice(0, 7))])];
@@ -393,6 +403,7 @@ async function collect() {
       source: previousStatus?.source ?? { name: 'USGS ComCat FDSN Event API', endpoint: API_ENDPOINT, queryUrl: query.toString() },
       error: { code: classifyError(error), message: '외부 지진 자료를 갱신하지 못했습니다. 저장된 마지막 정상값을 유지합니다.' },
     });
+    await writeManifest(collectedAt);
     throw error;
   }
 }
