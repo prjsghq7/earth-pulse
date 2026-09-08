@@ -150649,7 +150649,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-08T02:34:28.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tfqi",
@@ -150682,7 +150685,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-08T03:52:57.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tfqv",
@@ -150697,7 +150703,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-08T04:01:41.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tfqz",
@@ -150711,7 +150720,7 @@
       "latitude": 38.3149,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-08T03:45:52.040Z",
+      "updatedUtc": "2026-09-08T04:38:50.798Z",
       "month": "2026-09"
     },
     {
@@ -150726,7 +150735,67 @@
       "latitude": 40.8545,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-08T04:21:05.921Z",
+      "updatedUtc": "2026-09-08T07:41:55.733Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfr8",
+      "dateKst": "2026-09-08",
+      "timeUtc": "2026-09-08T04:40:28.046Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mww",
+      "place": "51 km NNE of Ruteng, Indonesia",
+      "depthKm": 10,
+      "longitude": 120.5995,
+      "latitude": -8.1646,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T04:54:12.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfs1",
+      "dateKst": "2026-09-08",
+      "timeUtc": "2026-09-08T06:49:48.990Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "43 km NW of Aroa, Venezuela",
+      "depthKm": 10,
+      "longitude": -69.1624,
+      "latitude": 10.733,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T07:55:46.742Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfs3",
+      "dateKst": "2026-09-08",
+      "timeUtc": "2026-09-08T06:50:46.470Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "South Sandwich Islands region",
+      "depthKm": 128.647,
+      "longitude": -26.2578,
+      "latitude": -58.1213,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T07:06:29.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tft5",
+      "dateKst": "2026-09-08",
+      "timeUtc": "2026-09-08T10:49:02.312Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "105 km SSE of King Cove, Alaska",
+      "depthKm": 35,
+      "longitude": -161.5285,
+      "latitude": 54.2361,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T11:05:59.040Z",
       "month": "2026-09"
     }
   ]
