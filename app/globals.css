@@ -1143,6 +1143,8 @@ body {
 }
 .collection-failure-notice { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:26px; margin:-2px 0 24px; padding:20px 22px; border:1px solid #d7b69f; border-left:5px solid #ba5a35; background:linear-gradient(100deg,#fff9f3 0%,#fffdf8 66%); color:#163b37; }
 .collection-failure-notice.is-unreadable { border-color:#c99b91; border-left-color:#9c4636; background:linear-gradient(100deg,#fff5f1 0%,#fffdf8 66%); }
+.collection-failure-notice.is-scheduled { border-color:#9fc8bd; border-left-color:#2a806c; background:linear-gradient(100deg,#f2fbf7 0%,#fffdf8 66%); }
+.collection-failure-notice.is-scheduled .collection-failure-chip { color:#26725f; }
 .collection-failure-lead { min-width:0; }
 .collection-failure-chip { display:inline-flex; align-items:center; gap:6px; margin-bottom:7px; color:#934625; font-family:var(--font-geist-mono),Consolas,monospace; font-size:11px; font-weight:800; letter-spacing:.045em; }
 .collection-failure-chip svg { width:14px; height:14px; }

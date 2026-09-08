@@ -280,8 +280,23 @@ function PulseLine({ dataThrough, events }: { dataThrough: string | null | undef
   );
 }
 
-function TopNavigation({ active, collectionState = 'fresh' }: { active: PrimaryPage; collectionState?: CollectionState }) {
-  const stateLabel = collectionState === 'fresh' ? '수집 정상' : collectionState === 'delayed' ? '업데이트 지연' : '데이터 확인 불가';
+type DisplayCollectionState = CollectionState | 'scheduled';
+
+function getDisplayCollectionState(status: CollectionStatus | null | undefined, nowMs: number | null): DisplayCollectionState | undefined {
+  if (!status) return undefined;
+  if (status.state !== 'fresh' || nowMs === null) return status.state;
+  return Date.parse(status.nextScheduledAt) < nowMs ? 'scheduled' : 'fresh';
+}
+
+function formatElapsedSince(iso: string | null | undefined, nowMs: number | null) {
+  if (!iso || nowMs === null) return '확인 중';
+  const elapsedMinutes = Math.max(0, Math.floor((nowMs - Date.parse(iso)) / 60000));
+  if (elapsedMinutes < 60) return `${elapsedMinutes}분 경과`;
+  return `${Math.floor(elapsedMinutes / 60)}시간 ${elapsedMinutes % 60}분 경과`;
+}
+
+function TopNavigation({ active, collectionState = 'fresh' }: { active: PrimaryPage; collectionState?: DisplayCollectionState }) {
+  const stateLabel = collectionState === 'fresh' ? '수집 정상' : collectionState === 'scheduled' ? '자동 수집 대기' : collectionState === 'delayed' ? '업데이트 지연' : '데이터 확인 불가';
   const brandContent = <><BrandMark /><span><strong>Earth Pulse</strong><small>지구 맥박</small></span></>;
   return (
     <header className="site-header">
@@ -314,7 +329,7 @@ function MobileNavigation({ active }: { active: PrimaryPage }) {
   );
 }
 
-function ScreenFrame({ active, children, collectionState }: { active: PrimaryPage; children: ReactNode; collectionState?: CollectionState }) {
+function ScreenFrame({ active, children, collectionState }: { active: PrimaryPage; children: ReactNode; collectionState?: DisplayCollectionState }) {
   return (
     <div className="site-frame">
       <TopNavigation active={active} collectionState={collectionState} />
@@ -348,6 +363,22 @@ function CollectionFailureNotice({ status }: { status: CollectionStatus }) {
       <dl className="collection-failure-times">
         <div><dt>마지막 정상 수집</dt><dd>{status.lastSuccessAt ? `${formatKstTime(status.lastSuccessAt)} KST` : '기록 없음'}</dd></div>
         <div><dt>다음 자동 수집</dt><dd>{`${formatKstTime(status.nextScheduledAt)} KST`}</dd></div>
+      </dl>
+    </section>
+  );
+}
+
+function CollectionScheduleNotice({ status, nowMs }: { status: CollectionStatus; nowMs: number | null }) {
+  return (
+    <section className="collection-failure-notice is-scheduled" aria-labelledby="collection-schedule-heading" role="status">
+      <div className="collection-failure-lead">
+        <span className="collection-failure-chip"><Clock3 /> 자동 수집 대기</span>
+        <h2 id="collection-schedule-heading">다음 자동 수집을 기다리고 있습니다.</h2>
+        <p>새 수집 결과가 반영되기 전까지 마지막 정상 데이터를 계속 표시합니다.</p>
+      </div>
+      <dl className="collection-failure-times">
+        <div><dt>마지막 정상 수집</dt><dd>{status.lastSuccessAt ? `${formatKstTime(status.lastSuccessAt)} KST` : '기록 없음'}</dd></div>
+        <div><dt>예정 시각 경과</dt><dd>{formatElapsedSince(status.nextScheduledAt, nowMs)}</dd></div>
       </dl>
     </section>
   );
@@ -460,7 +491,7 @@ function labelsForVisibleMapArea({ zoom, pan, viewport }: { zoom: number; pan: {
   return accepted;
 }
 
-function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQuery: string }) {
+function MapScreen({ targetDate, initialQuery, collectionState }: { targetDate: string; initialQuery: string; collectionState?: DisplayCollectionState }) {
   const initialFilters = mapFiltersFromQuery(targetDate, initialQuery);
   const [draft, setDraft] = useState<MapFilters>(initialFilters);
   const [applied, setApplied] = useState<MapFilters>(initialFilters);
@@ -592,7 +623,7 @@ function MapScreen({ targetDate, initialQuery }: { targetDate: string; initialQu
   const maximumMagnitude = events.length ? Math.max(...events.map((event) => event.magnitude)).toFixed(1) : '—';
 
   return (
-    <ScreenFrame active="map">
+    <ScreenFrame active="map" collectionState={collectionState}>
       <main className="shell page-shell screen-page map-page">
         <section className="page-heading map-heading">
           <div>
@@ -879,7 +910,7 @@ function syncExploreUrl(filters: SearchFilters, sort: ExploreSort = 'latest', pa
   window.history.replaceState(null, '', `#/explore?${query.toString()}`);
 }
 
-function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initialQuery: string }) {
+function ExploreScreen({ targetDate, initialQuery, collectionState }: { targetDate: string; initialQuery: string; collectionState?: DisplayCollectionState }) {
   const initialFilters = filtersFromQuery(targetDate, initialQuery);
   const [draft, setDraft] = useState<SearchFilters>(initialFilters);
   const [applied, setApplied] = useState<SearchFilters>(initialFilters);
@@ -1042,7 +1073,7 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
   };
 
   return (
-    <ScreenFrame active="explore">
+    <ScreenFrame active="explore" collectionState={collectionState}>
       <main className="shell page-shell screen-page">
         <section className="page-heading compact-heading">
           <div>
@@ -1158,7 +1189,7 @@ function ExploreScreen({ targetDate, initialQuery }: { targetDate: string; initi
 }
 
 
-function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board }: { eventId: string; returnTo: string; liveEvent?: EarthPulseEvent; eventMonth?: string | null; board?: TodayBoardData | null }) {
+function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board, collectionState }: { eventId: string; returnTo: string; liveEvent?: EarthPulseEvent; eventMonth?: string | null; board?: TodayBoardData | null; collectionState?: DisplayCollectionState }) {
   const [archiveEvent, setArchiveEvent] = useState<EarthPulseEvent | null>(liveEvent ?? null);
   const [archiveError, setArchiveError] = useState(false);
   const returnPage = returnTo.split('?')[0];
@@ -1185,7 +1216,7 @@ function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board }: { even
 
   if (eventMonth && !archiveEvent) {
     return (
-      <ScreenFrame active={activeReturnPage}>
+      <ScreenFrame active={activeReturnPage} collectionState={collectionState}>
         <main className="shell page-shell screen-page">
           <a className="back-link" href={`#/${returnTo}`}><ArrowLeft /> {backLabel}</a>
           <div className={`search-feedback ${archiveError ? 'is-error' : ''}`}>
@@ -1223,9 +1254,9 @@ function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board }: { even
     tsunami: actualEvent.tsunami,
     url: actualEvent.url,
   } : null;
-  if (!event) return <ScreenFrame active={activeReturnPage}><main className="shell page-shell screen-page"><a className="back-link" href={`#/${returnTo}`}><ArrowLeft /> {backLabel}</a><div className="search-feedback is-error"><CircleAlert /> 선택한 지진의 실제 기록을 찾지 못했습니다.</div></main></ScreenFrame>;
+  if (!event) return <ScreenFrame active={activeReturnPage} collectionState={collectionState}><main className="shell page-shell screen-page"><a className="back-link" href={`#/${returnTo}`}><ArrowLeft /> {backLabel}</a><div className="search-feedback is-error"><CircleAlert /> 선택한 지진의 실제 기록을 찾지 못했습니다.</div></main></ScreenFrame>;
   return (
-    <ScreenFrame active={activeReturnPage}>
+    <ScreenFrame active={activeReturnPage} collectionState={collectionState}>
       <main className="shell page-shell screen-page event-detail-page">
         <a className="back-link" href={`#/${returnTo}`}><ArrowLeft /> {backLabel}</a>
         <section className="detail-hero event-detail-hero">
@@ -1290,6 +1321,7 @@ export default function Home() {
   const [todayBoard, setTodayBoard] = useState<TodayBoardData | null>(null);
   const [todayDataError, setTodayDataError] = useState<string | null>(null);
   const [hoveredChartKey, setHoveredChartKey] = useState<string | null>(null);
+  const [nowMs, setNowMs] = useState<number | null>(null);
 
   useEffect(() => {
     const syncRoute = () => {
@@ -1299,6 +1331,13 @@ export default function Home() {
     syncRoute();
     window.addEventListener('hashchange', syncRoute);
     return () => window.removeEventListener('hashchange', syncRoute);
+  }, []);
+
+  useEffect(() => {
+    const updateClock = () => setNowMs(Date.now());
+    updateClock();
+    const timer = window.setInterval(updateClock, 60_000);
+    return () => window.clearInterval(timer);
   }, []);
 
   useEffect(() => {
@@ -1317,6 +1356,7 @@ export default function Home() {
   }, []);
 
   const status = todayBoard?.status;
+  const displayCollectionState = getDisplayCollectionState(status, nowMs);
   const todayEvents = todayBoard?.todayEvents ?? [];
   const recentWeek = todayBoard?.recentDays.slice(-7) ?? [];
   const comparisonDays = todayBoard?.recentDays.slice(-3) ?? [];
@@ -1334,11 +1374,11 @@ export default function Home() {
 
   if (routePath === 'explore') {
     const targetDate = status?.targetDateKst ?? '2026-09-02';
-    return <ExploreScreen initialQuery={routeQuery} key={`${targetDate}:${routeQuery}`} targetDate={targetDate} />;
+    return <ExploreScreen collectionState={displayCollectionState} initialQuery={routeQuery} key={`${targetDate}:${routeQuery}`} targetDate={targetDate} />;
   }
   if (routePath === 'map') {
     const targetDate = status?.targetDateKst ?? '2026-09-02';
-    return <MapScreen initialQuery={routeQuery} key={`${targetDate}:${routeQuery}`} targetDate={targetDate} />;
+    return <MapScreen collectionState={displayCollectionState} initialQuery={routeQuery} key={`${targetDate}:${routeQuery}`} targetDate={targetDate} />;
   }
   if (routePath.startsWith('event/')) {
     const eventId = routePath.split('/')[1] ?? '';
@@ -1348,11 +1388,11 @@ export default function Home() {
     const returnTo = /^(?:today|map|explore)(?:\?.*)?$/.test(requestedReturn) || /^day\/\d{4}-\d{2}-\d{2}$/.test(requestedReturn)
       ? requestedReturn
       : 'explore';
-    return <EventScreen board={todayBoard} eventId={eventId} eventMonth={eventMonth} key={eventId} liveEvent={todayEvents.find((event) => event.id === eventId)} returnTo={returnTo} />;
+    return <EventScreen board={todayBoard} collectionState={displayCollectionState} eventId={eventId} eventMonth={eventMonth} key={eventId} liveEvent={todayEvents.find((event) => event.id === eventId)} returnTo={returnTo} />;
   }
 
   return (
-    <ScreenFrame active="today" collectionState={status?.state}>
+    <ScreenFrame active="today" collectionState={displayCollectionState}>
       <main className="shell page-shell screen-page">
         <section className="page-heading" aria-labelledby="today-heading">
           <div>
@@ -1365,11 +1405,12 @@ export default function Home() {
           </div>
           <div className="heading-meta" aria-label="오늘 날짜와 갱신 일정">
             <div><CalendarDays /><span><small>기준 날짜</small><strong>{status ? formatKoreanDate(status.targetDateKst) : '불러오는 중'}</strong><em>Asia/Seoul</em></span></div>
-            <div><RefreshCw /><span><small>마지막 갱신</small><strong>{status ? `${formatKstTime(status.lastSuccessAt)} KST` : '불러오는 중'}</strong><em>{status?.state === 'fresh' ? '정상 수집' : status?.state === 'delayed' ? '업데이트 지연' : '상태 확인 중'}</em></span></div>
+            <div><RefreshCw /><span><small>마지막 갱신</small><strong>{status ? `${formatKstTime(status.lastSuccessAt)} KST` : '불러오는 중'}</strong><em>{displayCollectionState === 'fresh' ? '정상 수집' : displayCollectionState === 'scheduled' ? '자동 수집 대기' : displayCollectionState === 'delayed' ? '업데이트 지연' : '상태 확인 중'}</em></span></div>
             <div><Clock3 /><span><small>다음 자동 수집</small><strong>{status ? `${formatKstTime(status.nextScheduledAt)} KST` : '불러오는 중'}</strong><em>00:10부터 3시간 간격</em></span></div>
           </div>
         </section>
 
+        {status && displayCollectionState === 'scheduled' && <CollectionScheduleNotice nowMs={nowMs} status={status} />}
         {status && status.state !== 'fresh' && <CollectionFailureNotice status={status} />}
 
         <section className="hero-grid" aria-label="오늘의 지진 요약">
