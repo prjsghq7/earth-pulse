@@ -150684,11 +150684,8 @@
       "latitude": 4.5226,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-08T03:52:57.040Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-08T12:43:38.971Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000tfqv",
@@ -150721,7 +150718,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-08T04:38:50.798Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tfr0",
@@ -150735,7 +150735,7 @@
       "latitude": 40.8545,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-08T07:41:55.733Z",
+      "updatedUtc": "2026-09-08T13:58:45.168Z",
       "month": "2026-09"
     },
     {
@@ -150751,7 +150751,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-08T04:54:12.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tfs1",
@@ -150766,7 +150769,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-08T07:55:46.742Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tfs3",
@@ -150781,6 +150787,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-08T07:06:29.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tfsj",
+      "dateKst": "2026-09-08",
+      "timeUtc": "2026-09-08T07:46:29.636Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "1 km NNW of Katochí, Greece",
+      "depthKm": 10,
+      "longitude": 21.2463,
+      "latitude": 38.4261,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T11:44:50.343Z",
       "month": "2026-09"
     },
     {
@@ -150796,6 +150820,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-08T11:05:59.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tftd",
+      "dateKst": "2026-09-08",
+      "timeUtc": "2026-09-08T11:51:09.687Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mb",
+      "place": "26 km NW of Neiafu, Tonga",
+      "depthKm": 10,
+      "longitude": -174.1551,
+      "latitude": -18.4736,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T12:34:55.303Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfty",
+      "dateKst": "2026-09-08",
+      "timeUtc": "2026-09-08T13:42:08.931Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "62 km WSW of Ollagüe, Chile",
+      "depthKm": 110.668,
+      "longitude": -68.8236,
+      "latitude": -21.4066,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T15:07:52.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfu8",
+      "dateKst": "2026-09-08",
+      "timeUtc": "2026-09-08T14:13:09.955Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "95 km SSW of Severo-Kuril’sk, Russia",
+      "depthKm": 64.43,
+      "longitude": 155.7106,
+      "latitude": 49.8562,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T16:01:16.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfum",
+      "dateKst": "2026-09-09",
+      "timeUtc": "2026-09-08T15:36:35.020Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "123 km NNE of Ruteng, Indonesia",
+      "depthKm": 10,
+      "longitude": 121.0852,
+      "latitude": -7.6774,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T16:06:47.573Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfup",
+      "dateKst": "2026-09-09",
+      "timeUtc": "2026-09-08T15:43:57.137Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "54 km E of Hihifo, Tonga",
+      "depthKm": 10,
+      "longitude": -173.298,
+      "latitude": -16.0323,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T16:06:20.040Z",
       "month": "2026-09"
     }
   ]
