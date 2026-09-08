@@ -150918,7 +150918,37 @@
       "latitude": 29.2727,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-08T19:24:48.344Z",
+      "updatedUtc": "2026-09-08T21:58:53.021Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfxd",
+      "dateKst": "2026-09-09",
+      "timeUtc": "2026-09-08T21:42:22.442Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "54 km NNE of Ruteng, Indonesia",
+      "depthKm": 17.467,
+      "longitude": 120.658,
+      "latitude": -8.1535,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T22:04:36.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfxp",
+      "dateKst": "2026-09-09",
+      "timeUtc": "2026-09-08T22:32:49.451Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mwr",
+      "place": "57 km W of Yonakuni, Japan",
+      "depthKm": 51.12,
+      "longitude": 122.4393,
+      "latitude": 24.3989,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-08T23:20:29.040Z",
       "month": "2026-09"
     }
   ]
