@@ -151045,7 +151045,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-09T04:52:33.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg06",
@@ -151060,7 +151063,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-09T07:25:16.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg12",
@@ -151075,7 +151081,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-09T10:38:25.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg1h",
@@ -151090,7 +151099,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-09T13:26:47.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg1q",
@@ -151105,6 +151117,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-09T12:41:30.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tg3x",
+      "dateKst": "2026-09-10",
+      "timeUtc": "2026-09-09T17:01:52.208Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "76 km ESE of Isangel, Vanuatu",
+      "depthKm": 10,
+      "longitude": 169.9486,
+      "latitude": -19.8237,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-09T17:51:50.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tg43",
+      "dateKst": "2026-09-10",
+      "timeUtc": "2026-09-09T17:18:45.381Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mww",
+      "place": "81 km ESE of Isangel, Vanuatu",
+      "depthKm": 10,
+      "longitude": 170.0391,
+      "latitude": -19.7219,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-09T18:00:22.040Z",
       "month": "2026-09"
     }
   ]

@@ -269,7 +269,7 @@
     },
     {
       "dateKst": "2026-09-09",
-      "state": "provisional",
+      "state": "final",
       "count": 14,
       "maxMagnitude": 5.2,
       "averageMagnitude": 4.69,
@@ -290,6 +290,19 @@
         "us7000tg12",
         "us7000tg1h",
         "us7000tg1q"
+      ]
+    },
+    {
+      "dateKst": "2026-09-10",
+      "state": "provisional",
+      "count": 2,
+      "maxMagnitude": 5.2,
+      "averageMagnitude": 5.15,
+      "medianMagnitude": 5.15,
+      "medianDepthKm": 10,
+      "eventIds": [
+        "us7000tg3x",
+        "us7000tg43"
       ]
     }
   ]
