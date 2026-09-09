@@ -150918,7 +150918,7 @@
       "latitude": 29.2727,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-08T21:58:53.021Z",
+      "updatedUtc": "2026-09-09T02:08:43.691Z",
       "month": "2026-09"
     },
     {
@@ -150933,7 +150933,22 @@
       "latitude": -8.1535,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-08T22:04:36.040Z",
+      "updatedUtc": "2026-09-09T03:20:53.172Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfxg",
+      "dateKst": "2026-09-09",
+      "timeUtc": "2026-09-08T21:57:33.202Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "211 km ENE of Neiafu, Tonga",
+      "depthKm": 10,
+      "longitude": -172.2335,
+      "latitude": -17.7255,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-09T03:50:12.040Z",
       "month": "2026-09"
     },
     {
@@ -150949,6 +150964,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-08T23:20:29.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tfy4",
+      "dateKst": "2026-09-09",
+      "timeUtc": "2026-09-08T23:02:34.467Z",
+      "magnitude": 4,
+      "magnitudeType": "mb",
+      "place": "77 km SSW of Nikolski, Alaska",
+      "depthKm": 49.3,
+      "longitude": -169.4249,
+      "latitude": 52.3325,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-09T01:33:53.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfy8",
+      "dateKst": "2026-09-09",
+      "timeUtc": "2026-09-08T23:23:42.291Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "Mariana Islands region",
+      "depthKm": 10,
+      "longitude": 148.4279,
+      "latitude": 16.5996,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-09T02:04:55.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tfyn",
+      "dateKst": "2026-09-09",
+      "timeUtc": "2026-09-09T00:23:19.728Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "108 km SSW of Pagar Alam, Indonesia",
+      "depthKm": 39.565,
+      "longitude": 102.8454,
+      "latitude": -4.9167,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-09T02:44:15.040Z",
       "month": "2026-09"
     }
   ]
