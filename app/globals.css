@@ -552,7 +552,8 @@ body { color: #17312f; background: #f2eee5; font-size: 15px; }
 .map-periods button.is-selected { color: #fffdf8; background: #173d3b; }
 .map-filter-status { display: flex; align-items: center; gap: 7px; margin-left: auto; color: #506a64; font-size: 12px; font-weight: 700; }
 .map-filter-status svg { width: 15px; }
-.map-filter-button { border-color: #b9c9c3; color: #214f48; background: #f5f2eb; }
+.map-filter-actions { display: flex; gap: 7px; }
+.map-filter-button, .map-share-button { border-color: #b9c9c3; color: #214f48; background: #f5f2eb; white-space: nowrap; }
 .map-filter-fields { display: flex; align-items: end; gap: 7px; }
 .map-filter-fields label { display: grid; gap: 4px; min-width: 104px; color: #62736e; font-size: 9px; font-weight: 800; }
 .map-filter-fields input { height: 34px; padding-inline: 8px; border-color: #d6d1c7; font-size: 11px; }
@@ -697,7 +698,7 @@ body { color: #17312f; background: #f2eee5; font-size: 15px; }
   .map-periods { width:100%; overflow-x:auto; }
   .map-filter-fields { width: 100%; overflow-x: auto; }
   .map-filter-status { margin-left:0; }
-  .map-filter-button { margin-left:auto; }
+  .map-filter-actions { margin-left:auto; }
   .world-map-frame { min-height:470px; }
   .world-map-svg,.map-markers { top:8px; }
   .map-marker-tooltip { width: 244px; }
@@ -715,7 +716,8 @@ body { color: #17312f; background: #f2eee5; font-size: 15px; }
   .page-heading h1 { font-size:34px; }
   .map-summary { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; }
   .map-summary i { display:none; }
-  .map-filter-button { width:100%; margin-left:0; }
+  .map-filter-actions { width:100%; margin-left:0; }
+  .map-filter-actions > button { flex:1; }
   .world-map-frame { min-height:410px; }
   .map-legend { bottom:12px; padding:10px; }
   .legend-title { align-items:flex-start; flex-direction:column; gap:2px; }
@@ -799,7 +801,7 @@ body {
 [data-slot='card-title'] { color: var(--ep-ink) !important; font-size: 18px; font-weight: 800; }
 [data-slot='card-description'] { color: var(--ep-copy) !important; font-size: 12px; }
 
-.view-action, .export-button, .map-filter-button, .source-link, .source-button { border-radius: 3px !important; box-shadow: none !important; }
+.view-action, .export-button, .map-filter-button, .map-share-button, .source-link, .source-button { border-radius: 3px !important; box-shadow: none !important; }
 .view-action { border-color: #8fb3a9; color: #164e44; background: #edf5f1; }
 
 /* Today — live instrument + archival ledger */

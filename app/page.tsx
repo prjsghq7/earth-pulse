@@ -62,6 +62,7 @@ import {
   type EarthPulseIndexEvent,
   type TodayBoardData,
 } from '@/lib/earth-pulse-data';
+import { buildMapHash, copyPageAddress, parseMapFilters, type CopyAddressResult, type MapFilters } from '@/lib/map-sharing';
 
 const recentEvents = [
   {
@@ -422,28 +423,8 @@ function SearchEventResultRow({ event }: { event: EarthPulseIndexEvent }) {
   );
 }
 
-interface MapFilters {
-  startDate: string;
-  endDate: string;
-  minMagnitude: string;
-  maxDepth: string;
-}
-
-function mapFiltersFromQuery(targetDate: string, query: string): MapFilters {
-  const values = new URLSearchParams(query);
-  const startDate = values.get('start') ?? targetDate;
-  const endDate = values.get('end') ?? targetDate;
-  return {
-    startDate: /^\d{4}-\d{2}-\d{2}$/.test(startDate) ? startDate : targetDate,
-    endDate: /^\d{4}-\d{2}-\d{2}$/.test(endDate) ? endDate : targetDate,
-    minMagnitude: values.get('min') ?? '4.0',
-    maxDepth: values.get('depth') ?? '700',
-  };
-}
-
 function syncMapUrl(filters: MapFilters) {
-  const query = new URLSearchParams({ start: filters.startDate, end: filters.endDate, min: filters.minMagnitude, depth: filters.maxDepth });
-  window.history.replaceState(null, '', `#/map?${query.toString()}`);
+  window.history.replaceState(null, '', buildMapHash(filters));
 }
 
 function depthTone(depthKm: number | null) {
@@ -492,7 +473,7 @@ function labelsForVisibleMapArea({ zoom, pan, viewport }: { zoom: number; pan: {
 }
 
 function MapScreen({ targetDate, initialQuery, collectionState }: { targetDate: string; initialQuery: string; collectionState?: DisplayCollectionState }) {
-  const initialFilters = mapFiltersFromQuery(targetDate, initialQuery);
+  const initialFilters = parseMapFilters(targetDate, initialQuery);
   const [draft, setDraft] = useState<MapFilters>(initialFilters);
   const [applied, setApplied] = useState<MapFilters>(initialFilters);
   const [events, setEvents] = useState<EarthPulseIndexEvent[]>([]);
@@ -507,6 +488,7 @@ function MapScreen({ targetDate, initialQuery, collectionState }: { targetDate: 
   const mapFrameRef = useRef<HTMLDivElement>(null);
   const mapDragRef = useRef<{ pointerId: number; x: number; y: number } | null>(null);
   const [mapSort, setMapSort] = useState<'latest' | 'largest' | 'shallow' | 'deep'>('latest');
+  const [copyNotice, setCopyNotice] = useState<CopyAddressResult | null>(null);
   const baseDisplayEvents = events.slice(0, 750);
   const selectedEvent = events.find((event) => event.id === selectedId) ?? null;
   const displayEvents = selectedEvent && !baseDisplayEvents.some((event) => event.id === selectedEvent.id)
@@ -556,6 +538,15 @@ function MapScreen({ targetDate, initialQuery, collectionState }: { targetDate: 
     setMapZoom(1);
     setMapPan({ x: 0, y: 0 });
     syncMapUrl(normalized);
+  };
+
+  const copyMapAddress = async () => {
+    const result = await copyPageAddress(
+      window.location.href,
+      (address) => navigator.clipboard.writeText(address),
+    );
+    setCopyNotice(result);
+    window.setTimeout(() => setCopyNotice(null), 2400);
   };
 
   const changeMapZoom = (amount: number) => {
@@ -653,8 +644,12 @@ function MapScreen({ targetDate, initialQuery, collectionState }: { targetDate: 
             <label htmlFor="map-max-depth"><span>최대 깊이</span><Input id="map-max-depth" min="0" name="maxDepth" onChange={(event) => setDraft({ ...draft, maxDepth: event.target.value })} type="number" value={draft.maxDepth} /></label>
           </div>
           <div className="map-filter-status"><Filter /><span>규모 {applied.minMagnitude}+ · 깊이 {applied.maxDepth}km 이하</span></div>
-          <Button className="map-filter-button" type="submit" variant="outline"><SlidersHorizontal /> 적용</Button>
+          <div className="map-filter-actions">
+            <Button className="map-filter-button" type="submit" variant="outline"><SlidersHorizontal /> 적용</Button>
+            <Button className="map-share-button" onClick={copyMapAddress} type="button" variant="outline"><ArrowUpRight /> 화면 주소 복사</Button>
+          </div>
         </form>
+        {copyNotice && <div className={`copy-toast ${copyNotice.kind === 'error' ? 'is-error' : ''}`} role={copyNotice.kind === 'error' ? 'alert' : 'status'}>{copyNotice.message}</div>}
 
         <section className="map-workspace">
           <div className="map-observation-panel">
