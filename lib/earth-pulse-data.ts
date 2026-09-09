@@ -125,8 +125,12 @@ export async function loadEvent(month: string, eventId: string): Promise<EarthPu
   return file.events.find((event) => event.id === eventId) ?? null;
 }
 
+export async function loadCollectionStatus(): Promise<CollectionStatus> {
+  return fetchJson<CollectionStatus>(`status.json?probe=${Date.now()}`);
+}
+
 export async function loadTodayBoard(): Promise<TodayBoardData> {
-  const status = await fetchJson<CollectionStatus>('status.json');
+  const status = await fetchJson<CollectionStatus>(`status.json?board=${Date.now()}`);
   const dates = Array.from({ length: 8 }, (_, index) => addDays(status.targetDateKst, index - 7));
   const months = [...new Set(dates.map((date) => date.slice(0, 7)))];
   const dailyFiles = await Promise.all(months.map((month) => fetchJson<DailyFile>(`daily/${month}.json`)));

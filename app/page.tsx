@@ -55,6 +55,7 @@ import {
 import {
   loadEarthquakeIndex,
   loadEvent,
+  loadCollectionStatus,
   loadTodayBoard,
   type CollectionStatus,
   type CollectionState,
@@ -1314,6 +1315,7 @@ function EventScreen({ eventId, returnTo, liveEvent, eventMonth, board, collecti
 export default function Home() {
   const [route, setRoute] = useState(routeFromHash);
   const [todayBoard, setTodayBoard] = useState<TodayBoardData | null>(null);
+  const todayBoardRef = useRef<TodayBoardData | null>(null);
   const [todayDataError, setTodayDataError] = useState<string | null>(null);
   const [hoveredChartKey, setHoveredChartKey] = useState<string | null>(null);
   const [nowMs, setNowMs] = useState<number | null>(null);
@@ -1340,6 +1342,7 @@ export default function Home() {
     loadTodayBoard()
       .then((data) => {
         if (!active) return;
+        todayBoardRef.current = data;
         setTodayBoard(data);
         setTodayDataError(null);
       })
@@ -1348,6 +1351,40 @@ export default function Home() {
         setTodayDataError('저장된 지진 데이터를 불러오지 못했습니다.');
       });
     return () => { active = false; };
+  }, []);
+
+  useEffect(() => {
+    let active = true;
+    const refreshStatus = async () => {
+      const current = todayBoardRef.current;
+      if (!current) return;
+      try {
+        const latestStatus = await loadCollectionStatus();
+        if (!active) return;
+        const statusChanged = latestStatus.lastSuccessAt !== current.status.lastSuccessAt
+          || latestStatus.lastAttemptAt !== current.status.lastAttemptAt
+          || latestStatus.targetDateKst !== current.status.targetDateKst
+          || latestStatus.nextScheduledAt !== current.status.nextScheduledAt
+          || latestStatus.state !== current.status.state
+          || latestStatus.error?.code !== current.status.error?.code;
+        if (!statusChanged) return;
+
+        const refreshedBoard = latestStatus.lastSuccessAt !== current.status.lastSuccessAt
+          || latestStatus.targetDateKst !== current.status.targetDateKst
+          ? await loadTodayBoard()
+          : { ...current, status: latestStatus };
+        if (!active) return;
+        todayBoardRef.current = refreshedBoard;
+        setTodayBoard(refreshedBoard);
+      } catch {
+        // Keep the last successfully loaded board when the status probe is unavailable.
+      }
+    };
+    const timer = window.setInterval(refreshStatus, 60_000);
+    return () => {
+      active = false;
+      window.clearInterval(timer);
+    };
   }, []);
 
   const status = todayBoard?.status;
