@@ -151279,7 +151279,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-10T03:33:00.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg6g",
@@ -151294,7 +151297,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-10T04:06:11.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg7v",
@@ -151309,6 +151315,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-10T02:12:50.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "aka2026rxwdbw",
+      "dateKst": "2026-09-10",
+      "timeUtc": "2026-09-10T05:18:08.379Z",
+      "magnitude": 4.2,
+      "magnitudeType": "ml",
+      "place": "67 km WNW of Lake Louise, Alaska",
+      "depthKm": 12.4,
+      "longitude": -147.75,
+      "latitude": 62.521,
+      "status": "automatic",
+      "tsunami": false,
+      "updatedUtc": "2026-09-10T08:32:53.352Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tg8p",
+      "dateKst": "2026-09-10",
+      "timeUtc": "2026-09-10T06:08:47.841Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "103 km SW of Puerto Madero, Mexico",
+      "depthKm": 10,
+      "longitude": -93.1639,
+      "latitude": 14.1276,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-10T10:13:59.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tg8v",
+      "dateKst": "2026-09-10",
+      "timeUtc": "2026-09-10T06:42:40.393Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mww",
+      "place": "126 km WSW of Alianza Cristiana, Peru",
+      "depthKm": 10,
+      "longitude": -77.5027,
+      "latitude": -3.873,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-10T10:48:47.922Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tg98",
+      "dateKst": "2026-09-10",
+      "timeUtc": "2026-09-10T08:26:53.828Z",
+      "magnitude": 5,
+      "magnitudeType": "mww",
+      "place": "45 km SSE of Quepos, Costa Rica",
+      "depthKm": 10,
+      "longitude": -84.0624,
+      "latitude": 9.0275,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-10T11:11:03.324Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tg9q",
+      "dateKst": "2026-09-10",
+      "timeUtc": "2026-09-10T10:39:36.283Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "116 km WSW of Alianza Cristiana, Peru",
+      "depthKm": 22.065,
+      "longitude": -77.3635,
+      "latitude": -3.9669,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-10T11:11:48.486Z",
       "month": "2026-09"
     }
   ]
