@@ -151453,7 +151453,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-10T18:38:54.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgey",
@@ -151468,7 +151471,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-10T20:31:21.259Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgf2",
@@ -151483,6 +151489,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-10T19:04:20.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "aka2026rzfqpv",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-10T23:03:10.021Z",
+      "magnitude": 4.1,
+      "magnitudeType": "ml",
+      "place": "3 km SE of Port Clarence, Alaska",
+      "depthKm": 5,
+      "longitude": -166.793,
+      "latitude": 65.244,
+      "status": "automatic",
+      "tsunami": false,
+      "updatedUtc": "2026-09-10T23:06:39.352Z",
       "month": "2026-09"
     }
   ]

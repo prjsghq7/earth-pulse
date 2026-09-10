@@ -5593,6 +5593,34 @@
       "azimuthalGap": 39,
       "rmsSeconds": 1.47,
       "qualityCheckedAt": "2026-09-10T20:48:49.056Z"
+    },
+    {
+      "id": "aka2026rzfqpv",
+      "magnitude": 4.1,
+      "magnitudeType": "ml",
+      "place": "3 km SE of Port Clarence, Alaska",
+      "timeUtc": "2026-09-10T23:03:10.021Z",
+      "dateKst": "2026-09-11",
+      "timeKst": "08:03:10",
+      "updatedUtc": "2026-09-10T23:06:39.352Z",
+      "longitude": -166.793,
+      "latitude": 65.244,
+      "depthKm": 5,
+      "status": "automatic",
+      "tsunami": false,
+      "alert": null,
+      "felt": null,
+      "cdi": null,
+      "mmi": null,
+      "significance": 259,
+      "network": "ak",
+      "code": "a2026rzfqpv",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rzfqpv",
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026rzfqpv&format=geojson",
+      "stationCount": 47,
+      "azimuthalGap": 206,
+      "rmsSeconds": 1,
+      "qualityCheckedAt": "2026-09-10T23:07:05.792Z"
     }
   ]
 }
