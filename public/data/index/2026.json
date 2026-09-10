@@ -151171,7 +151171,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-09T18:46:53.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg4e",
@@ -151186,7 +151189,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-09T18:37:42.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg51",
@@ -151201,7 +151207,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-09T20:02:50.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg53",
@@ -151216,7 +151225,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-09T20:38:01.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg5i",
@@ -151231,7 +151243,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-09T21:53:23.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg5p",
@@ -151246,36 +151261,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-09T21:20:47.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg67",
       "dateKst": "2026-09-10",
-      "timeUtc": "2026-09-09T21:08:31.947Z",
+      "timeUtc": "2026-09-09T21:08:31.951Z",
       "magnitude": 4.3,
       "magnitudeType": "mb",
-      "place": "80 km SW of Puerto Madero, Mexico",
+      "place": "79 km SW of Puerto Madero, Mexico",
       "depthKm": 35,
-      "longitude": -93.0218,
-      "latitude": 14.2893,
+      "longitude": -93.0181,
+      "latitude": 14.3007,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-09T21:20:20.040Z",
+      "updatedUtc": "2026-09-10T03:33:00.040Z",
       "month": "2026-09"
     },
     {
       "id": "us7000tg6g",
       "dateKst": "2026-09-10",
-      "timeUtc": "2026-09-09T21:29:54.670Z",
-      "magnitude": 4.9,
+      "timeUtc": "2026-09-09T21:29:54.374Z",
+      "magnitude": 4.8,
       "magnitudeType": "mb",
       "place": "Mid-Indian Ridge",
       "depthKm": 10,
-      "longitude": 74.3249,
-      "latitude": -28.6108,
+      "longitude": 74.2522,
+      "latitude": -28.5889,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-09T21:51:13.040Z",
+      "updatedUtc": "2026-09-10T04:06:11.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tg7v",
+      "dateKst": "2026-09-10",
+      "timeUtc": "2026-09-10T01:57:36.234Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "85 km SSE of La Tirana, Chile",
+      "depthKm": 122.998,
+      "longitude": -69.2508,
+      "latitude": -21.0043,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-10T02:12:50.040Z",
       "month": "2026-09"
     }
   ]
