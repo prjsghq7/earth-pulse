@@ -325,12 +325,16 @@
     {
       "dateKst": "2026-09-11",
       "state": "provisional",
-      "count": 0,
-      "maxMagnitude": null,
-      "averageMagnitude": null,
-      "medianMagnitude": null,
-      "medianDepthKm": null,
-      "eventIds": []
+      "count": 3,
+      "maxMagnitude": 5.4,
+      "averageMagnitude": 4.93,
+      "medianMagnitude": 5.3,
+      "medianDepthKm": 10,
+      "eventIds": [
+        "us7000tgev",
+        "us7000tgey",
+        "us7000tgf2"
+      ]
     }
   ]
 }

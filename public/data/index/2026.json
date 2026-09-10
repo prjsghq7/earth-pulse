@@ -151439,6 +151439,51 @@
       "tsunami": false,
       "updatedUtc": "2026-09-10T14:12:37.040Z",
       "month": "2026-09"
+    },
+    {
+      "id": "us7000tgev",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-10T18:08:48.933Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "13 km WSW of Nabatîyé et Tahta, Lebanon",
+      "depthKm": 10,
+      "longitude": 35.3544,
+      "latitude": 33.3321,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-10T18:38:54.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgey",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-10T18:21:18.934Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mww",
+      "place": "southern East Pacific Rise",
+      "depthKm": 10,
+      "longitude": -109.1514,
+      "latitude": -34.8341,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-10T20:31:21.259Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgf2",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-10T18:44:40.243Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mb",
+      "place": "83 km E of Lospalos, Timor Leste",
+      "depthKm": 10,
+      "longitude": 127.7505,
+      "latitude": -8.5914,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-10T19:04:20.040Z",
+      "month": "2026-09"
     }
   ]
 }
