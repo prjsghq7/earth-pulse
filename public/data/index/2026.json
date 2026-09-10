@@ -151125,38 +151125,32 @@
     {
       "id": "us7000tg3x",
       "dateKst": "2026-09-10",
-      "timeUtc": "2026-09-09T17:01:52.208Z",
+      "timeUtc": "2026-09-09T17:01:52.191Z",
       "magnitude": 5.2,
       "magnitudeType": "mww",
-      "place": "76 km ESE of Isangel, Vanuatu",
+      "place": "78 km ESE of Isangel, Vanuatu",
       "depthKm": 10,
-      "longitude": 169.9486,
-      "latitude": -19.8237,
+      "longitude": 169.9636,
+      "latitude": -19.8279,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-09T17:51:50.040Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-10T15:15:01.040Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000tg43",
       "dateKst": "2026-09-10",
-      "timeUtc": "2026-09-09T17:18:45.381Z",
+      "timeUtc": "2026-09-09T17:18:45.408Z",
       "magnitude": 5.1,
       "magnitudeType": "mww",
-      "place": "81 km ESE of Isangel, Vanuatu",
+      "place": "86 km ESE of Isangel, Vanuatu",
       "depthKm": 10,
-      "longitude": 170.0391,
-      "latitude": -19.7219,
+      "longitude": 170.0677,
+      "latitude": -19.777,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-09T18:00:22.040Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-10T15:20:07.040Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000tg4b",
@@ -151197,20 +151191,17 @@
     {
       "id": "us7000tg51",
       "dateKst": "2026-09-10",
-      "timeUtc": "2026-09-09T19:15:11.614Z",
-      "magnitude": 4.8,
-      "magnitudeType": "mb",
-      "place": "86 km ESE of Isangel, Vanuatu",
+      "timeUtc": "2026-09-09T19:15:11.586Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mww",
+      "place": "83 km ESE of Isangel, Vanuatu",
       "depthKm": 10,
-      "longitude": 170.0709,
-      "latitude": -19.7529,
+      "longitude": 170.0486,
+      "latitude": -19.7477,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-09T20:02:50.040Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-10T15:33:28.040Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000tg53",
@@ -151323,16 +151314,16 @@
     {
       "id": "aka2026rxwdbw",
       "dateKst": "2026-09-10",
-      "timeUtc": "2026-09-10T05:18:08.379Z",
+      "timeUtc": "2026-09-10T05:18:08.805Z",
       "magnitude": 4.2,
       "magnitudeType": "ml",
-      "place": "67 km WNW of Lake Louise, Alaska",
-      "depthKm": 12.4,
-      "longitude": -147.75,
-      "latitude": 62.521,
-      "status": "automatic",
+      "place": "66 km WNW of Lake Louise, Alaska",
+      "depthKm": 15.8,
+      "longitude": -147.742,
+      "latitude": 62.506,
+      "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-10T08:32:53.352Z",
+      "updatedUtc": "2026-09-10T16:13:58.212Z",
       "month": "2026-09"
     },
     {
@@ -151348,7 +151339,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-10T10:13:59.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg8v",
@@ -151363,7 +151357,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-10T10:48:47.922Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tg98",
@@ -151377,7 +151374,7 @@
       "latitude": 9.0275,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-10T11:11:03.324Z",
+      "updatedUtc": "2026-09-10T15:29:42.013Z",
       "month": "2026-09"
     },
     {
@@ -151393,6 +151390,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-10T11:11:48.486Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tga8",
+      "dateKst": "2026-09-10",
+      "timeUtc": "2026-09-10T12:05:53.736Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "35 km SSE of Cliza, Bolivia",
+      "depthKm": 372.617,
+      "longitude": -65.8339,
+      "latitude": -17.8933,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-10T12:22:14.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgb6",
+      "dateKst": "2026-09-10",
+      "timeUtc": "2026-09-10T13:28:15.798Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mww",
+      "place": "162 km SSW of Merizo Village, Guam",
+      "depthKm": 10,
+      "longitude": 143.8739,
+      "latitude": 12.0265,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-10T15:38:17.954Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgb4",
+      "dateKst": "2026-09-10",
+      "timeUtc": "2026-09-10T13:29:03.015Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "84 km SW of Puerto Madero, Mexico",
+      "depthKm": 10,
+      "longitude": -92.8815,
+      "latitude": 14.0976,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-10T14:12:37.040Z",
       "month": "2026-09"
     }
   ]
