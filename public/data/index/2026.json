@@ -151452,11 +151452,8 @@
       "latitude": 33.3321,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-10T18:38:54.040Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-11T07:42:46.813Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000tgey",
@@ -151507,7 +151504,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-10T23:55:03.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tghk",
@@ -151522,7 +151522,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-10T23:18:39.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "aka2026rzfqpv",
@@ -151536,7 +151539,7 @@
       "latitude": 65.211,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-11T00:40:42.778Z",
+      "updatedUtc": "2026-09-11T05:52:45.540Z",
       "month": "2026-09"
     },
     {
@@ -151552,7 +151555,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-11T02:11:46.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgij",
@@ -151567,6 +151573,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-11T02:44:52.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tgjp",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-11T05:44:35.710Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "102 km SW of Brisas Barra de Suchiate, Mexico",
+      "depthKm": 10,
+      "longitude": -92.9367,
+      "latitude": 13.9298,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T07:25:16.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "aka2026rzvwxv",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-11T07:10:22.460Z",
+      "magnitude": 4,
+      "magnitudeType": "ml",
+      "place": "41 km NNW of Glacier View, Alaska",
+      "depthKm": 27.2,
+      "longitude": -147.835,
+      "latitude": 62.17,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T07:59:40.365Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgkg",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-11T08:59:58.077Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "283 km WNW of Longyearbyen, Svalbard and Jan Mayen",
+      "depthKm": 10,
+      "longitude": 4.4667,
+      "latitude": 79.5748,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T09:26:53.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgky",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-11T10:47:12.613Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mb",
+      "place": "151 km WSW of Adak, Alaska",
+      "depthKm": 40.892,
+      "longitude": -178.5429,
+      "latitude": 51.213,
+      "status": "reviewed",
+      "tsunami": true,
+      "updatedUtc": "2026-09-11T11:07:16.188Z",
       "month": "2026-09"
     }
   ]
