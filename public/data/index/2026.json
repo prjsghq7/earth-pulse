@@ -151441,6 +151441,21 @@
       "month": "2026-09"
     },
     {
+      "id": "us7000tgel",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-10T16:53:33.992Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "66 km WSW of Zhaotong, China",
+      "depthKm": 10,
+      "longitude": 103.0684,
+      "latitude": 27.1525,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T16:02:49.040Z",
+      "month": "2026-09"
+    },
+    {
       "id": "us7000tgev",
       "dateKst": "2026-09-11",
       "timeUtc": "2026-09-10T18:08:48.933Z",
@@ -151452,7 +151467,7 @@
       "latitude": 33.3321,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-11T07:42:46.813Z",
+      "updatedUtc": "2026-09-11T12:09:46.374Z",
       "month": "2026-09"
     },
     {
@@ -151485,11 +151500,8 @@
       "latitude": -8.5914,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-10T19:04:20.040Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-11T12:21:23.696Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000tghu",
@@ -151539,7 +151551,7 @@
       "latitude": 65.211,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-11T05:52:45.540Z",
+      "updatedUtc": "2026-09-11T15:35:39.048Z",
       "month": "2026-09"
     },
     {
@@ -151591,6 +151603,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-11T07:25:16.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tgjw",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-11T07:04:54.187Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "42 km S of Camiña, Chile",
+      "depthKm": 108.762,
+      "longitude": -69.4096,
+      "latitude": -19.6983,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T12:59:04.040Z",
       "month": "2026-09"
     },
     {
@@ -151605,7 +151635,37 @@
       "latitude": 62.17,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-11T07:59:40.365Z",
+      "updatedUtc": "2026-09-11T14:38:39.602Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgk0",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-11T07:24:10.876Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "102 km SSE of Gorontalo, Indonesia",
+      "depthKm": 160.28,
+      "longitude": 123.5477,
+      "latitude": -0.2532,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T13:08:38.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgk1",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-11T07:31:45.952Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "92 km S of False Pass, Alaska",
+      "depthKm": 43.105,
+      "longitude": -163.1555,
+      "latitude": 54.034,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T15:11:08.699Z",
       "month": "2026-09"
     },
     {
@@ -151621,7 +151681,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-11T09:26:53.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgky",
@@ -151635,7 +151698,37 @@
       "latitude": 51.213,
       "status": "reviewed",
       "tsunami": true,
-      "updatedUtc": "2026-09-11T11:07:16.188Z",
+      "updatedUtc": "2026-09-11T14:57:14.317Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "aka2026sadhvu",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-11T10:52:51.596Z",
+      "magnitude": 4.3,
+      "magnitudeType": "ml",
+      "place": "151 km SW of Adak, Alaska",
+      "depthKm": 13.8,
+      "longitude": -178.434,
+      "latitude": 51.109,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T16:04:19.670Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgl2",
+      "dateKst": "2026-09-11",
+      "timeUtc": "2026-09-11T11:56:23.115Z",
+      "magnitude": 5.9,
+      "magnitudeType": "mww",
+      "place": "253 km ENE of Lospalos, Timor Leste",
+      "depthKm": 111.763,
+      "longitude": 128.9383,
+      "latitude": -7.2863,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T14:29:16.040Z",
       "month": "2026-09"
     }
   ]
