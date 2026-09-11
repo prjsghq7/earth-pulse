@@ -151730,6 +151730,66 @@
       "tsunami": false,
       "updatedUtc": "2026-09-11T14:29:16.040Z",
       "month": "2026-09"
+    },
+    {
+      "id": "us7000tgpu",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-11T16:42:30.894Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "33 km SW of Sipí, Colombia",
+      "depthKm": 61.088,
+      "longitude": -76.8325,
+      "latitude": 4.4193,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T19:26:37.294Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgq0",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-11T17:56:20.821Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "25 km NW of Sarupathar, India",
+      "depthKm": 123.199,
+      "longitude": 96.6409,
+      "latitude": 26.3827,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T18:17:42.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgqb",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-11T18:53:32.548Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "132 km E of Noda, Japan",
+      "depthKm": 32.374,
+      "longitude": 143.3706,
+      "latitude": 40.1316,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T19:26:12.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgqf",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-11T18:59:48.017Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "158 km W of Merizo Village, Guam",
+      "depthKm": 197.014,
+      "longitude": 143.2346,
+      "latitude": 12.9968,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T19:15:22.040Z",
+      "month": "2026-09"
     }
   ]
 }
