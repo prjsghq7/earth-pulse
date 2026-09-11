@@ -151743,7 +151743,7 @@
       "latitude": 4.4193,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-11T19:26:37.294Z",
+      "updatedUtc": "2026-09-11T22:16:09.788Z",
       "month": "2026-09"
     },
     {
@@ -151759,7 +151759,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-11T18:17:42.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgqb",
@@ -151774,7 +151777,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-11T19:26:12.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgqf",
@@ -151789,6 +151795,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-11T19:15:22.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tgrb",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-11T20:56:41.181Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "38 km WNW of Anse à Galets, Haiti",
+      "depthKm": 10,
+      "longitude": -73.2043,
+      "latitude": 18.9717,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T21:35:58.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgrk",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-11T21:23:55.001Z",
+      "magnitude": 6.6,
+      "magnitudeType": "mww",
+      "place": "115 km NNE of Teluknaga, Indonesia",
+      "depthKm": 358.597,
+      "longitude": 106.903,
+      "latitude": -5.0932,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-11T23:08:42.669Z",
       "month": "2026-09"
     }
   ]
