@@ -151743,7 +151743,7 @@
       "latitude": 4.4193,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-11T22:16:09.788Z",
+      "updatedUtc": "2026-09-12T01:02:38.327Z",
       "month": "2026-09"
     },
     {
@@ -151813,7 +151813,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-11T21:35:58.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgrk",
@@ -151827,7 +151830,82 @@
       "latitude": -5.0932,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-11T23:08:42.669Z",
+      "updatedUtc": "2026-09-12T03:15:58.212Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tguq",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-11T22:32:23.645Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "235 km W of Puerto Chacabuco, Chile",
+      "depthKm": 10,
+      "longitude": -75.8153,
+      "latitude": -45.7183,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T01:39:57.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgvk",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-12T00:18:59.059Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "9 km WNW of Quicacha, Peru",
+      "depthKm": 98.772,
+      "longitude": -73.8803,
+      "latitude": -15.606,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T00:55:38.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgvr",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-12T00:55:08.418Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "South Sandwich Islands region",
+      "depthKm": 10,
+      "longitude": -24.9274,
+      "latitude": -59.1348,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T01:14:31.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgw1",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-12T01:59:50.373Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "2 km NE of Manaca Norte, Panama",
+      "depthKm": 10,
+      "longitude": -82.7898,
+      "latitude": 8.3545,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T03:48:44.403Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgwe",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-12T03:34:57.594Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "45 km NNE of Ruteng, Indonesia",
+      "depthKm": 10,
+      "longitude": 120.6778,
+      "latitude": -8.2634,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T03:50:15.040Z",
       "month": "2026-09"
     }
   ]

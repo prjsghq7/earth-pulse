@@ -354,18 +354,23 @@
     {
       "dateKst": "2026-09-12",
       "state": "provisional",
-      "count": 6,
+      "count": 11,
       "maxMagnitude": 6.6,
-      "averageMagnitude": 4.73,
-      "medianMagnitude": 4.4,
-      "medianDepthKm": 92.1,
+      "averageMagnitude": 4.75,
+      "medianMagnitude": 4.6,
+      "medianDepthKm": 32.4,
       "eventIds": [
         "us7000tgpu",
         "us7000tgq0",
         "us7000tgqb",
         "us7000tgqf",
         "us7000tgrb",
-        "us7000tgrk"
+        "us7000tgrk",
+        "us7000tguq",
+        "us7000tgvk",
+        "us7000tgvr",
+        "us7000tgw1",
+        "us7000tgwe"
       ]
     }
   ]
