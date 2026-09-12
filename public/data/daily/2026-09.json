@@ -353,12 +353,12 @@
     },
     {
       "dateKst": "2026-09-12",
-      "state": "provisional",
-      "count": 16,
-      "maxMagnitude": 6.6,
+      "state": "final",
+      "count": 18,
+      "maxMagnitude": 6.5,
       "averageMagnitude": 4.71,
-      "medianMagnitude": 4.65,
-      "medianDepthKm": 33.7,
+      "medianMagnitude": 4.7,
+      "medianDepthKm": 39.6,
       "eventIds": [
         "us7000tgpu",
         "us7000tgq0",
@@ -375,8 +375,20 @@
         "us7000tgxg",
         "us7000tgxv",
         "us7000tgy2",
-        "us7000tgyh"
+        "us7000tgyh",
+        "us7000tgyw",
+        "us7000tgyx"
       ]
+    },
+    {
+      "dateKst": "2026-09-13",
+      "state": "provisional",
+      "count": 0,
+      "maxMagnitude": null,
+      "averageMagnitude": null,
+      "medianMagnitude": null,
+      "medianDepthKm": null,
+      "eventIds": []
     }
   ]
 }

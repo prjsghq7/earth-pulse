@@ -151744,7 +151744,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-12T04:37:56.867Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgq0",
@@ -151821,16 +151824,16 @@
     {
       "id": "us7000tgrk",
       "dateKst": "2026-09-12",
-      "timeUtc": "2026-09-11T21:23:55.001Z",
-      "magnitude": 6.6,
+      "timeUtc": "2026-09-11T21:23:55.907Z",
+      "magnitude": 6.5,
       "magnitudeType": "mww",
-      "place": "115 km NNE of Teluknaga, Indonesia",
-      "depthKm": 358.597,
-      "longitude": 106.903,
-      "latitude": -5.0932,
+      "place": "126 km NNE of Teluknaga, Indonesia",
+      "depthKm": 372,
+      "longitude": 106.8742,
+      "latitude": -4.9832,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-12T09:55:55.038Z",
+      "updatedUtc": "2026-09-12T13:05:17.606Z",
       "month": "2026-09"
     },
     {
@@ -151899,7 +151902,7 @@
       "latitude": 8.3545,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-12T08:11:57.520Z",
+      "updatedUtc": "2026-09-12T15:03:49.596Z",
       "month": "2026-09"
     },
     {
@@ -151933,7 +151936,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-12T05:24:42.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgxg",
@@ -151948,7 +151954,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-12T06:31:47.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgxv",
@@ -151963,7 +151972,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-12T08:53:39.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgy2",
@@ -151978,7 +151990,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-12T09:47:54.066Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgyh",
@@ -151993,6 +152008,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-12T09:54:07.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tgyw",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-12T11:05:46.000Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "South Sandwich Islands region",
+      "depthKm": 98.187,
+      "longitude": -26.7513,
+      "latitude": -56.3022,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T11:23:10.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgyx",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-12T11:16:12.244Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "32 km SW of Sipí, Colombia",
+      "depthKm": 77.309,
+      "longitude": -76.809,
+      "latitude": 4.4114,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T15:00:58.437Z",
       "month": "2026-09"
     }
   ]
