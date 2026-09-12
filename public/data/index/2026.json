@@ -152056,7 +152056,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-12T16:13:12.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000th16",
@@ -152070,7 +152073,37 @@
       "latitude": 38.1387,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-12T19:43:56.146Z",
+      "updatedUtc": "2026-09-12T21:28:58.797Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000th1q",
+      "dateKst": "2026-09-13",
+      "timeUtc": "2026-09-12T20:32:58.910Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mww",
+      "place": "101 km S of Yudomari, Japan",
+      "depthKm": 45.513,
+      "longitude": 130.3787,
+      "latitude": 29.3244,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T21:24:56.469Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000th21",
+      "dateKst": "2026-09-13",
+      "timeUtc": "2026-09-12T22:14:03.350Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "90 km NNE of Rabaul, Papua New Guinea",
+      "depthKm": 366.985,
+      "longitude": 152.3384,
+      "latitude": -3.4008,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T22:38:18.040Z",
       "month": "2026-09"
     }
   ]
