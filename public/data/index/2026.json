@@ -152042,6 +152042,36 @@
       "tsunami": false,
       "updatedUtc": "2026-09-12T15:00:58.437Z",
       "month": "2026-09"
+    },
+    {
+      "id": "us7000th0h",
+      "dateKst": "2026-09-13",
+      "timeUtc": "2026-09-12T15:56:09.138Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "46 km NNE of Port-Olry, Vanuatu",
+      "depthKm": 188.104,
+      "longitude": 167.2217,
+      "latitude": -14.6467,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T16:13:12.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000th16",
+      "dateKst": "2026-09-13",
+      "timeUtc": "2026-09-12T17:51:45.718Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mww",
+      "place": "17 km WSW of Lixoúri, Greece",
+      "depthKm": 33.956,
+      "longitude": 20.2555,
+      "latitude": 38.1387,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T19:43:56.146Z",
+      "month": "2026-09"
     }
   ]
 }
