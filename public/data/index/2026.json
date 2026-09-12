@@ -151743,7 +151743,7 @@
       "latitude": 4.4193,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-12T01:02:38.327Z",
+      "updatedUtc": "2026-09-12T04:37:56.867Z",
       "month": "2026-09"
     },
     {
@@ -151830,7 +151830,7 @@
       "latitude": -5.0932,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-12T03:15:58.212Z",
+      "updatedUtc": "2026-09-12T09:55:55.038Z",
       "month": "2026-09"
     },
     {
@@ -151846,7 +151846,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-12T01:39:57.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgvk",
@@ -151861,7 +151864,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-12T00:55:38.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgvr",
@@ -151876,7 +151882,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-12T01:14:31.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tgw1",
@@ -151890,7 +151899,7 @@
       "latitude": 8.3545,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-12T03:48:44.403Z",
+      "updatedUtc": "2026-09-12T08:11:57.520Z",
       "month": "2026-09"
     },
     {
@@ -151906,6 +151915,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-12T03:50:15.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tgx2",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-12T05:08:24.039Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "94 km WNW of Ternate, Indonesia",
+      "depthKm": 44.24,
+      "longitude": 126.5851,
+      "latitude": 1.0665,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T05:24:42.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgxg",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-12T06:14:30.594Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "253 km WSW of Tual, Indonesia",
+      "depthKm": 134.354,
+      "longitude": 130.5082,
+      "latitude": -6.0912,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T06:31:47.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgxv",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-12T08:17:32.691Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "57 km SSW of Ocós, Guatemala",
+      "depthKm": 35,
+      "longitude": -92.4769,
+      "latitude": 14.0675,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T08:53:39.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgy2",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-12T08:46:38.186Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "63 km WSW of Santiago, Peru",
+      "depthKm": 24.123,
+      "longitude": -76.2161,
+      "latitude": -14.4855,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T09:47:54.066Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tgyh",
+      "dateKst": "2026-09-12",
+      "timeUtc": "2026-09-12T09:35:46.724Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "147 km WNW of Sola, Vanuatu",
+      "depthKm": 16.926,
+      "longitude": 166.3361,
+      "latitude": -13.2829,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-12T09:54:07.040Z",
       "month": "2026-09"
     }
   ]
