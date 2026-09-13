@@ -152073,7 +152073,7 @@
       "latitude": 38.1387,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-13T03:17:57.719Z",
+      "updatedUtc": "2026-09-13T06:38:13.005Z",
       "month": "2026-09"
     },
     {
@@ -152125,7 +152125,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-13T00:01:01.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000th3a",
@@ -152140,6 +152143,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-13T04:08:55.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000th4y",
+      "dateKst": "2026-09-13",
+      "timeUtc": "2026-09-13T07:19:21.693Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "43 km ESE of Port-Olry, Vanuatu",
+      "depthKm": 135.084,
+      "longitude": 167.4363,
+      "latitude": -15.2195,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-13T07:36:40.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000th50",
+      "dateKst": "2026-09-13",
+      "timeUtc": "2026-09-13T07:30:23.024Z",
+      "magnitude": 5,
+      "magnitudeType": "mww",
+      "place": "southeast of the Loyalty Islands",
+      "depthKm": 98.813,
+      "longitude": 171.3544,
+      "latitude": -22.2281,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-13T07:45:30.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000th5d",
+      "dateKst": "2026-09-13",
+      "timeUtc": "2026-09-13T08:31:15.069Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "25 km N of Mutsu, Japan",
+      "depthKm": 120.372,
+      "longitude": 141.2715,
+      "latitude": 41.5125,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-13T08:51:07.040Z",
       "month": "2026-09"
     }
   ]
