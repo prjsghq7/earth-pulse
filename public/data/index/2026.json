@@ -152218,7 +152218,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-13T18:44:00.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000th7k",
@@ -152233,7 +152236,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-13T18:13:03.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000th7w",
@@ -152248,7 +152254,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-13T19:43:39.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000th7y",
@@ -152263,7 +152272,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-13T20:22:09.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000th81",
@@ -152278,6 +152290,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-13T20:01:16.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000th8u",
+      "dateKst": "2026-09-14",
+      "timeUtc": "2026-09-13T22:40:01.688Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "48 km NNW of Ruteng, Indonesia",
+      "depthKm": 10,
+      "longitude": 120.2768,
+      "latitude": -8.2099,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-13T22:54:35.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000th8v",
+      "dateKst": "2026-09-14",
+      "timeUtc": "2026-09-13T22:44:41.255Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mww",
+      "place": "113 km NE of Hengchun, Taiwan",
+      "depthKm": 10,
+      "longitude": 121.5836,
+      "latitude": 22.6682,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-13T23:00:12.040Z",
       "month": "2026-09"
     }
   ]
