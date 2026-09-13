@@ -382,7 +382,7 @@
     },
     {
       "dateKst": "2026-09-13",
-      "state": "provisional",
+      "state": "final",
       "count": 9,
       "maxMagnitude": 5.2,
       "averageMagnitude": 4.78,
@@ -399,6 +399,16 @@
         "us7000th50",
         "us7000th5d"
       ]
+    },
+    {
+      "dateKst": "2026-09-14",
+      "state": "provisional",
+      "count": 0,
+      "maxMagnitude": null,
+      "averageMagnitude": null,
+      "medianMagnitude": null,
+      "medianDepthKm": null,
+      "eventIds": []
     }
   ]
 }

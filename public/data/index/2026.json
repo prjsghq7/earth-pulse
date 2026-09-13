@@ -152074,7 +152074,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-13T06:38:13.005Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000th1q",
@@ -152161,7 +152164,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-13T07:36:40.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000th50",
@@ -152176,7 +152182,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-13T07:45:30.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000th5d",
@@ -152191,7 +152200,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-13T08:51:07.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     }
   ]
 }
