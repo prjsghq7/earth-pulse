@@ -152539,7 +152539,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-14T16:32:17.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thfh",
@@ -152554,7 +152557,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-14T18:16:52.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thg5",
@@ -152569,6 +152575,99 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-14T19:34:52.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000thge",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-14T20:02:04.355Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "20 km SSW of Sipí, Colombia",
+      "depthKm": 59.835,
+      "longitude": -76.7446,
+      "latitude": 4.4944,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-14T23:17:54.613Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thgj",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-14T20:08:07.031Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "26 km SSW of Sipí, Colombia",
+      "depthKm": 74.903,
+      "longitude": -76.7695,
+      "latitude": 4.4474,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-14T23:16:02.685Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thgs",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-14T20:38:59.760Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mww",
+      "place": "off the coast of Michoacan, Mexico",
+      "depthKm": 10,
+      "longitude": -104.4352,
+      "latitude": 15.0879,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-14T20:58:00.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thh2",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-14T21:13:15.924Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mww",
+      "place": "31 km WSW of Sipí, Colombia",
+      "depthKm": 48.35,
+      "longitude": -76.8931,
+      "latitude": 4.5258,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-14T23:18:57.183Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thhd",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-14T22:06:54.287Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "66 km E of Kainantu, Papua New Guinea",
+      "depthKm": 125.293,
+      "longitude": 146.4675,
+      "latitude": -6.2894,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-14T22:18:54.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thhv",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-14T22:44:46.947Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "66 km SSW of Patea, New Zealand",
+      "depthKm": 102.563,
+      "longitude": 174.232,
+      "latitude": -40.3296,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-14T23:18:26.981Z",
       "month": "2026-09"
     }
   ]
