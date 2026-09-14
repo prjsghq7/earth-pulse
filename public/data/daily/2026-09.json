@@ -403,9 +403,9 @@
     {
       "dateKst": "2026-09-14",
       "state": "provisional",
-      "count": 7,
-      "maxMagnitude": 5.1,
-      "averageMagnitude": 4.59,
+      "count": 11,
+      "maxMagnitude": 5.4,
+      "averageMagnitude": 4.66,
       "medianMagnitude": 4.6,
       "medianDepthKm": 10,
       "eventIds": [
@@ -415,7 +415,11 @@
         "us7000th7y",
         "us7000th81",
         "us7000th8u",
-        "us7000th8v"
+        "us7000th8v",
+        "us7000th98",
+        "us7000th9i",
+        "us7000th9m",
+        "us7000tha3"
       ]
     }
   ]
