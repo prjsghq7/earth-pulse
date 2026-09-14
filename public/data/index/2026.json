@@ -152398,7 +152398,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-14T05:03:45.198Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000than",
@@ -152413,7 +152416,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-14T06:21:54.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thb6",
@@ -152428,7 +152434,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-14T08:02:12.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thbl",
@@ -152443,7 +152452,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-14T08:49:59.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thc6",
@@ -152458,7 +152470,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-14T11:35:20.944Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thcs",
@@ -152472,7 +152487,7 @@
       "latitude": 2.4223,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-14T11:19:28.533Z",
+      "updatedUtc": "2026-09-14T13:03:23.784Z",
       "month": "2026-09"
     },
     {
@@ -152488,7 +152503,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-14T11:23:25.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thd4",
@@ -152503,6 +152521,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-14T12:04:34.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000thea",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-14T16:15:05.947Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "135 km SE of Gizo, Solomon Islands",
+      "depthKm": 10,
+      "longitude": 157.7415,
+      "latitude": -8.9454,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-14T16:32:17.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thfh",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-14T17:55:15.206Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "157 km SSE of Labuha, Indonesia",
+      "depthKm": 10,
+      "longitude": 128.1204,
+      "latitude": -1.8912,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-14T18:16:52.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thg5",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-14T19:16:49.927Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "106 km WSW of Alianza Cristiana, Peru",
+      "depthKm": 106.2,
+      "longitude": -77.3609,
+      "latitude": -3.7302,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-14T19:34:52.040Z",
       "month": "2026-09"
     }
   ]
