@@ -152593,7 +152593,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-15T02:02:05.784Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thgj",
@@ -152644,7 +152647,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-15T03:30:19.741Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thhd",
@@ -152659,7 +152665,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-15T03:46:32.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thht",
@@ -152674,7 +152683,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-15T04:06:08.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thhw",
@@ -152689,21 +152701,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-15T04:40:35.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thhv",
       "dateKst": "2026-09-15",
-      "timeUtc": "2026-09-14T22:44:46.947Z",
+      "timeUtc": "2026-09-14T22:44:47.191Z",
       "magnitude": 4.9,
       "magnitudeType": "mb",
-      "place": "66 km SSW of Patea, New Zealand",
-      "depthKm": 102.563,
-      "longitude": 174.232,
-      "latitude": -40.3296,
+      "place": "69 km SSW of Patea, New Zealand",
+      "depthKm": 97.616,
+      "longitude": 174.1408,
+      "latitude": -40.325,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-15T00:51:06.213Z",
+      "updatedUtc": "2026-09-15T05:00:22.579Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thi2",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-14T23:09:49.516Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "244 km SSW of Pelabuhanratu, Indonesia",
+      "depthKm": 10,
+      "longitude": 105.396,
+      "latitude": -8.8724,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-15T05:15:18.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thjj",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-15T04:52:26.905Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "229 km E of Tadine, New Caledonia",
+      "depthKm": 98.74,
+      "longitude": 170.0923,
+      "latitude": -21.5813,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-15T05:36:44.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thjr",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-15T06:07:52.712Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "289 km WSW of Tual, Indonesia",
+      "depthKm": 83.829,
+      "longitude": 130.3422,
+      "latitude": -6.6349,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-15T06:26:55.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "aka2026shljaz",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-15T09:51:38.674Z",
+      "magnitude": 4.3,
+      "magnitudeType": "ml",
+      "place": "69 km SSW of Kaktovik, Alaska",
+      "depthKm": 6.6,
+      "longitude": -144.23,
+      "latitude": 69.542,
+      "status": "reviewed",
+      "tsunami": true,
+      "updatedUtc": "2026-09-15T10:05:07.040Z",
       "month": "2026-09"
     }
   ]
