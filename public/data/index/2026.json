@@ -152592,7 +152592,7 @@
       "latitude": 4.4944,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-14T23:17:54.613Z",
+      "updatedUtc": "2026-09-15T02:02:05.784Z",
       "month": "2026-09"
     },
     {
@@ -152608,7 +152608,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-14T23:16:02.685Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thgs",
@@ -152623,36 +152626,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-14T20:58:00.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thh2",
       "dateKst": "2026-09-15",
-      "timeUtc": "2026-09-14T21:13:15.924Z",
+      "timeUtc": "2026-09-14T21:13:16.066Z",
       "magnitude": 4.9,
       "magnitudeType": "mww",
-      "place": "31 km WSW of Sipí, Colombia",
-      "depthKm": 48.35,
-      "longitude": -76.8931,
-      "latitude": 4.5258,
+      "place": "28 km WSW of Sipí, Colombia",
+      "depthKm": 48.051,
+      "longitude": -76.8814,
+      "latitude": 4.5523,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-14T23:18:57.183Z",
+      "updatedUtc": "2026-09-15T03:30:19.741Z",
       "month": "2026-09"
     },
     {
       "id": "us7000thhd",
       "dateKst": "2026-09-15",
-      "timeUtc": "2026-09-14T22:06:54.287Z",
-      "magnitude": 5.2,
+      "timeUtc": "2026-09-14T22:06:53.342Z",
+      "magnitude": 5,
       "magnitudeType": "mb",
-      "place": "66 km E of Kainantu, Papua New Guinea",
-      "depthKm": 125.293,
-      "longitude": 146.4675,
-      "latitude": -6.2894,
+      "place": "69 km NW of Lae, Papua New Guinea",
+      "depthKm": 119.787,
+      "longitude": 146.5257,
+      "latitude": -6.3071,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-14T22:18:54.040Z",
+      "updatedUtc": "2026-09-15T03:46:32.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thht",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-14T22:39:03.763Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "26 km SW of Sipí, Colombia",
+      "depthKm": 67.09,
+      "longitude": -76.8222,
+      "latitude": 4.4893,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-15T04:06:08.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thhw",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-14T22:43:04.694Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "87 km SW of El Arenal, Mexico",
+      "depthKm": 35,
+      "longitude": -93.2899,
+      "latitude": 14.6326,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-15T04:40:35.040Z",
       "month": "2026-09"
     },
     {
@@ -152667,7 +152703,7 @@
       "latitude": -40.3296,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-14T23:18:26.981Z",
+      "updatedUtc": "2026-09-15T00:51:06.213Z",
       "month": "2026-09"
     }
   ]
