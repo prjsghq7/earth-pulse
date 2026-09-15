@@ -152719,7 +152719,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-15T05:00:22.579Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thi2",
@@ -152734,7 +152737,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-15T05:15:18.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thjj",
@@ -152749,6 +152755,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-15T05:36:44.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "aka2026shcitc",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-15T05:21:25.310Z",
+      "magnitude": 4,
+      "magnitudeType": "ml",
+      "place": "92 km SSW of Unalaska, Alaska",
+      "depthKm": 18.4,
+      "longitude": -167.028,
+      "latitude": 53.099,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-15T15:22:44.495Z",
       "month": "2026-09"
     },
     {
@@ -152764,7 +152788,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-15T06:26:55.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "aka2026shljaz",
@@ -152778,7 +152805,37 @@
       "latitude": 69.542,
       "status": "reviewed",
       "tsunami": true,
-      "updatedUtc": "2026-09-15T10:05:07.040Z",
+      "updatedUtc": "2026-09-15T15:49:45.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thl5",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-15T11:34:58.788Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "120 km S of Panguna, Papua New Guinea",
+      "depthKm": 10,
+      "longitude": 155.3847,
+      "latitude": -7.3986,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-15T12:53:57.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "aka2026shusro",
+      "dateKst": "2026-09-15",
+      "timeUtc": "2026-09-15T14:32:38.168Z",
+      "magnitude": 4,
+      "magnitudeType": "ml",
+      "place": "119 km E of Chignik, Alaska",
+      "depthKm": 17.9,
+      "longitude": -156.488,
+      "latitude": 56.199,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-15T15:02:37.465Z",
       "month": "2026-09"
     }
   ]
