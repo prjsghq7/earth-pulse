@@ -153013,7 +153013,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-16T06:11:28.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thse",
@@ -153028,7 +153031,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-16T06:45:35.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thsp",
@@ -153043,7 +153049,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-16T07:28:25.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "nn00924508",
@@ -153072,7 +153081,7 @@
       "latitude": 14.3886,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-16T10:47:11.574Z",
+      "updatedUtc": "2026-09-16T14:47:09.516Z",
       "month": "2026-09"
     },
     {
@@ -153088,6 +153097,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-16T10:10:04.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000thti",
+      "dateKst": "2026-09-16",
+      "timeUtc": "2026-09-16T11:50:12.695Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "64 km E of Kinablangan, Philippines",
+      "depthKm": 10,
+      "longitude": 127.1328,
+      "latitude": 7.7513,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-16T12:29:25.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thts",
+      "dateKst": "2026-09-16",
+      "timeUtc": "2026-09-16T12:33:23.712Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "6 km NW of Āwash, Ethiopia",
+      "depthKm": 10,
+      "longitude": 40.13,
+      "latitude": 9.0247,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-16T13:09:48.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thv6",
+      "dateKst": "2026-09-17",
+      "timeUtc": "2026-09-16T15:07:38.245Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "5 km NE of Mitsukaidō, Japan",
+      "depthKm": 77.348,
+      "longitude": 140.0207,
+      "latitude": 36.0556,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-16T16:28:47.574Z",
       "month": "2026-09"
     }
   ]
