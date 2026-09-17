@@ -153144,7 +153144,7 @@
       "latitude": 36.0556,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-17T10:20:42.984Z",
+      "updatedUtc": "2026-09-17T13:12:59.229Z",
       "month": "2026-09"
     },
     {
@@ -153159,7 +153159,7 @@
       "latitude": 14.2866,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-17T06:16:54.071Z",
+      "updatedUtc": "2026-09-17T12:16:46.139Z",
       "month": "2026-09"
     },
     {
@@ -153264,11 +153264,8 @@
       "latitude": 45.0513,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-16T23:44:46.941Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-17T14:23:43.117Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000thyk",
@@ -153319,7 +153316,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-17T09:09:35.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thzf",
@@ -153334,7 +153334,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-17T09:13:24.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thzp",
@@ -153349,7 +153352,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-17T06:37:49.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thzs",
@@ -153364,7 +153370,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-17T06:49:38.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thzw",
@@ -153379,7 +153388,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-17T07:02:10.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thzz",
@@ -153394,7 +153406,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-17T07:07:36.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ti03",
@@ -153409,6 +153424,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-17T09:23:59.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000ti15",
+      "dateKst": "2026-09-17",
+      "timeUtc": "2026-09-17T12:31:37.057Z",
+      "magnitude": 4.2,
+      "magnitudeType": "ml",
+      "place": "37 km ENE of Nelson, Canada",
+      "depthKm": 10,
+      "longitude": -116.8318,
+      "latitude": 49.6652,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-17T16:22:31.568Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000ti1h",
+      "dateKst": "2026-09-17",
+      "timeUtc": "2026-09-17T13:30:49.254Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "107 km SE of Vilyuchinsk, Russia",
+      "depthKm": 57.425,
+      "longitude": 159.4975,
+      "latitude": 52.2326,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-17T14:02:07.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000ti1p",
+      "dateKst": "2026-09-17",
+      "timeUtc": "2026-09-17T14:19:53.164Z",
+      "magnitude": 6.5,
+      "magnitudeType": "mww",
+      "place": "165 km W of Nikolski, Alaska",
+      "depthKm": 111.666,
+      "longitude": -171.2949,
+      "latitude": 52.7648,
+      "status": "reviewed",
+      "tsunami": true,
+      "updatedUtc": "2026-09-17T16:29:55.860Z",
       "month": "2026-09"
     }
   ]
