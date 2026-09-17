@@ -153144,7 +153144,7 @@
       "latitude": 36.0556,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-16T21:04:45.743Z",
+      "updatedUtc": "2026-09-17T04:44:53.913Z",
       "month": "2026-09"
     },
     {
@@ -153159,7 +153159,22 @@
       "latitude": 14.2866,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-16T21:14:32.726Z",
+      "updatedUtc": "2026-09-17T03:23:34.066Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thx7",
+      "dateKst": "2026-09-17",
+      "timeUtc": "2026-09-16T19:37:05.143Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "43 km SE of Madang, Papua New Guinea",
+      "depthKm": 59.858,
+      "longitude": 146.0172,
+      "latitude": -5.5399,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-16T21:26:18.040Z",
       "month": "2026-09"
     },
     {
@@ -153175,7 +153190,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-16T20:43:23.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000thxc",
@@ -153189,7 +153207,7 @@
       "latitude": 4.5241,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-16T21:01:47.697Z",
+      "updatedUtc": "2026-09-17T03:38:45.180Z",
       "month": "2026-09"
     },
     {
@@ -153205,6 +153223,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-16T20:37:30.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000thxm",
+      "dateKst": "2026-09-17",
+      "timeUtc": "2026-09-16T20:55:00.902Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "27 km SW of Sipí, Colombia",
+      "depthKm": 51.459,
+      "longitude": -76.8006,
+      "latitude": 4.46,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-16T22:07:23.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thxx",
+      "dateKst": "2026-09-17",
+      "timeUtc": "2026-09-16T22:31:16.831Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "3 km NNE of Gostagayevskaya, Russia",
+      "depthKm": 10,
+      "longitude": 37.5188,
+      "latitude": 45.0513,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-16T23:44:46.941Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thyk",
+      "dateKst": "2026-09-17",
+      "timeUtc": "2026-09-17T01:12:49.502Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "18 km SW of Sipí, Colombia",
+      "depthKm": 58.798,
+      "longitude": -76.7654,
+      "latitude": 4.5449,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-17T03:40:38.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000thz3",
+      "dateKst": "2026-09-17",
+      "timeUtc": "2026-09-17T04:06:53.528Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mb",
+      "place": "155 km SSE of Hihifo, Tonga",
+      "depthKm": 10,
+      "longitude": -173.4476,
+      "latitude": -17.3232,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-17T04:24:31.040Z",
       "month": "2026-09"
     }
   ]
