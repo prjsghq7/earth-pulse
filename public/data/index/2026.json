@@ -153473,6 +153473,36 @@
       "tsunami": true,
       "updatedUtc": "2026-09-17T16:29:55.860Z",
       "month": "2026-09"
+    },
+    {
+      "id": "us7000ti5c",
+      "dateKst": "2026-09-18",
+      "timeUtc": "2026-09-17T19:17:33.000Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "204 km SW of Labuan, Indonesia",
+      "depthKm": 10,
+      "longitude": 104.5828,
+      "latitude": -7.7411,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-17T20:09:30.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000ti5b",
+      "dateKst": "2026-09-18",
+      "timeUtc": "2026-09-17T19:19:06.799Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "northern Mid-Atlantic Ridge",
+      "depthKm": 10,
+      "longitude": -42.1489,
+      "latitude": 30.1619,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-17T19:40:19.040Z",
+      "month": "2026-09"
     }
   ]
 }
