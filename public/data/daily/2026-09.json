@@ -489,11 +489,11 @@
     {
       "dateKst": "2026-09-17",
       "state": "provisional",
-      "count": 10,
+      "count": 17,
       "maxMagnitude": 5.3,
-      "averageMagnitude": 4.81,
+      "averageMagnitude": 4.8,
       "medianMagnitude": 4.9,
-      "medianDepthKm": 55.1,
+      "medianDepthKm": 36.7,
       "eventIds": [
         "us7000thv6",
         "us7000thwt",
@@ -504,7 +504,14 @@
         "us7000thxm",
         "us7000thxx",
         "us7000thyk",
-        "us7000thz3"
+        "us7000thz3",
+        "us7000thzd",
+        "us7000thzf",
+        "us7000thzp",
+        "us7000thzs",
+        "us7000thzw",
+        "us7000thzz",
+        "us7000ti03"
       ]
     }
   ]
