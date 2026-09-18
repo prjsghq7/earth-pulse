@@ -9513,6 +9513,34 @@
       "azimuthalGap": 89,
       "rmsSeconds": 0.86,
       "qualityCheckedAt": "2026-09-18T20:51:30.853Z"
+    },
+    {
+      "id": "us7000tiem",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "112 km ESE of Ust’-Kamchatsk Staryy, Russia",
+      "timeUtc": "2026-09-18T19:16:37.535Z",
+      "dateKst": "2026-09-19",
+      "timeKst": "04:16:37",
+      "updatedUtc": "2026-09-18T21:41:41.040Z",
+      "longitude": 164.062,
+      "latitude": 55.7503,
+      "depthKm": 30.943,
+      "status": "reviewed",
+      "tsunami": false,
+      "alert": null,
+      "felt": null,
+      "cdi": null,
+      "mmi": null,
+      "significance": 312,
+      "network": "us",
+      "code": "7000tiem",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiem",
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tiem&format=geojson",
+      "stationCount": 132,
+      "azimuthalGap": 120,
+      "rmsSeconds": 0.64,
+      "qualityCheckedAt": "2026-09-18T23:15:33.641Z"
     }
   ]
 }

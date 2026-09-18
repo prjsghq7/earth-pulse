@@ -153847,7 +153847,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-18T19:35:15.536Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tidr",
@@ -153862,7 +153865,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-18T18:16:15.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tie4",
@@ -153877,6 +153883,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-18T20:29:02.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tiem",
+      "dateKst": "2026-09-19",
+      "timeUtc": "2026-09-18T19:16:37.535Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "112 km ESE of Ust’-Kamchatsk Staryy, Russia",
+      "depthKm": 30.943,
+      "longitude": 164.062,
+      "latitude": 55.7503,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-18T21:41:41.040Z",
       "month": "2026-09"
     }
   ]
