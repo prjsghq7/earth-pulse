@@ -153833,6 +153833,51 @@
       "tsunami": false,
       "updatedUtc": "2026-09-18T14:55:45.040Z",
       "month": "2026-09"
+    },
+    {
+      "id": "us7000tid4",
+      "dateKst": "2026-09-19",
+      "timeUtc": "2026-09-18T16:52:07.958Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "28 km NE of Villa Presidente Frei, Chile",
+      "depthKm": 100.009,
+      "longitude": -70.3344,
+      "latitude": -33.3109,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-18T19:35:15.536Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tidr",
+      "dateKst": "2026-09-19",
+      "timeUtc": "2026-09-18T17:42:37.504Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "226 km SSW of Pelabuhanratu, Indonesia",
+      "depthKm": 10,
+      "longitude": 105.5443,
+      "latitude": -8.776,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-18T18:16:15.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tie4",
+      "dateKst": "2026-09-19",
+      "timeUtc": "2026-09-18T18:41:22.677Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "23 km SW of Sipí, Colombia",
+      "depthKm": 72.587,
+      "longitude": -76.7978,
+      "latitude": 4.5042,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-18T20:29:02.040Z",
+      "month": "2026-09"
     }
   ]
 }
