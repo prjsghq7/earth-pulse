@@ -520,14 +520,19 @@
     {
       "dateKst": "2026-09-18",
       "state": "provisional",
-      "count": 2,
+      "count": 7,
       "maxMagnitude": 4.9,
-      "averageMagnitude": 4.7,
-      "medianMagnitude": 4.7,
-      "medianDepthKm": 10,
+      "averageMagnitude": 4.5,
+      "medianMagnitude": 4.5,
+      "medianDepthKm": 53.9,
       "eventIds": [
         "us7000ti5c",
-        "us7000ti5b"
+        "us7000ti5b",
+        "us7000ti5y",
+        "us7000ti67",
+        "us7000ti70",
+        "us7000ti74",
+        "us7000ti79"
       ]
     }
   ]
