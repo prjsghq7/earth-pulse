@@ -153522,7 +153522,7 @@
       "latitude": 4.5211,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-18T03:46:52.509Z",
+      "updatedUtc": "2026-09-18T06:34:59.836Z",
       "month": "2026-09"
     },
     {
@@ -153538,7 +153538,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-18T01:58:48.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ti70",
@@ -153553,7 +153556,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-18T01:28:31.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ti74",
@@ -153568,7 +153574,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-18T02:33:19.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ti79",
@@ -153583,6 +153592,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-18T02:40:23.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000ti7x",
+      "dateKst": "2026-09-18",
+      "timeUtc": "2026-09-18T06:17:03.598Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "40 km SSW of Sipí, Colombia",
+      "depthKm": 68.374,
+      "longitude": -76.7931,
+      "latitude": 4.3224,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-18T10:37:50.853Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "hv75039212",
+      "dateKst": "2026-09-18",
+      "timeUtc": "2026-09-18T06:36:43.030Z",
+      "magnitude": 4.06,
+      "magnitudeType": "ml",
+      "place": "5 km S of Pāhala, Hawaii",
+      "depthKm": 12.42,
+      "longitude": -155.476333333333,
+      "latitude": 19.1576666666667,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-18T10:03:52.215Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000ti83",
+      "dateKst": "2026-09-18",
+      "timeUtc": "2026-09-18T06:42:29.274Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "Fiji region",
+      "depthKm": 548.378,
+      "longitude": -179.3724,
+      "latitude": -21.9479,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-18T06:58:48.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000ti89",
+      "dateKst": "2026-09-18",
+      "timeUtc": "2026-09-18T07:19:28.254Z",
+      "magnitude": 5,
+      "magnitudeType": "mww",
+      "place": "Izu Islands, Japan region",
+      "depthKm": 35.294,
+      "longitude": 141.5763,
+      "latitude": 32.243,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-18T07:41:22.040Z",
       "month": "2026-09"
     }
   ]
