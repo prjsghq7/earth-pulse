@@ -153847,7 +153847,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-19T06:28:18.561Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tidr",
@@ -153952,7 +153955,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-19T04:33:48.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tihg",
@@ -153967,7 +153973,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-19T07:03:44.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tii4",
@@ -153982,7 +153991,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-19T07:37:40.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tii3",
@@ -153997,7 +154009,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-19T07:29:12.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tiib",
@@ -154012,7 +154027,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-19T08:02:59.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tiim",
@@ -154027,6 +154045,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-19T09:46:41.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tiir",
+      "dateKst": "2026-09-19",
+      "timeUtc": "2026-09-19T09:56:02.046Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "4 km NE of Límni, Greece",
+      "depthKm": 10,
+      "longitude": 23.3566,
+      "latitude": 38.7884,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-19T11:58:55.040Z",
       "month": "2026-09"
     },
     {
@@ -154042,7 +154078,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-19T10:15:13.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tiiz",
@@ -154056,7 +154095,52 @@
       "latitude": 27.1636,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-19T10:49:16.064Z",
+      "updatedUtc": "2026-09-19T13:18:23.089Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tijd",
+      "dateKst": "2026-09-19",
+      "timeUtc": "2026-09-19T12:07:12.020Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "25 km NW of Ushibukamachi, Japan",
+      "depthKm": 10,
+      "longitude": 129.8568,
+      "latitude": 32.3799,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-19T14:45:13.470Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tijf",
+      "dateKst": "2026-09-19",
+      "timeUtc": "2026-09-19T12:19:55.048Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "273 km NNW of Dêqên, China",
+      "depthKm": 10,
+      "longitude": 89.2243,
+      "latitude": 32.0711,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-19T12:39:10.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tijq",
+      "dateKst": "2026-09-19",
+      "timeUtc": "2026-09-19T13:25:03.351Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "34 km NW of Coquimbo, Chile",
+      "depthKm": 39.048,
+      "longitude": -71.5754,
+      "latitude": -29.7229,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-19T15:44:48.040Z",
       "month": "2026-09"
     }
   ]
