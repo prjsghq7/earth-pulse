@@ -154156,6 +154156,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-19T19:28:26.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tild",
+      "dateKst": "2026-09-20",
+      "timeUtc": "2026-09-19T20:24:42.449Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "Reykjanes Ridge",
+      "depthKm": 10,
+      "longitude": -33.4247,
+      "latitude": 57.1175,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-19T20:43:16.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000till",
+      "dateKst": "2026-09-20",
+      "timeUtc": "2026-09-19T20:55:32.082Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "37 km N of Malfa, Italy",
+      "depthKm": 272.133,
+      "longitude": 14.8718,
+      "latitude": 38.9139,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-19T21:09:18.040Z",
       "month": "2026-09"
     }
   ]
