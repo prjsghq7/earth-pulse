@@ -9933,6 +9933,34 @@
       "azimuthalGap": 98,
       "rmsSeconds": 0.72,
       "qualityCheckedAt": "2026-09-19T15:50:16.611Z"
+    },
+    {
+      "id": "us7000tikb",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "75 km SE of Kuqa, China",
+      "timeUtc": "2026-09-19T15:53:54.494Z",
+      "dateKst": "2026-09-20",
+      "timeKst": "00:53:54",
+      "updatedUtc": "2026-09-19T19:28:26.040Z",
+      "longitude": 83.518,
+      "latitude": 41.1968,
+      "depthKm": 10,
+      "status": "reviewed",
+      "tsunami": false,
+      "alert": null,
+      "felt": null,
+      "cdi": null,
+      "mmi": null,
+      "significance": 312,
+      "network": "us",
+      "code": "7000tikb",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tikb",
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tikb&format=geojson",
+      "stationCount": 25,
+      "azimuthalGap": 104,
+      "rmsSeconds": 1.04,
+      "qualityCheckedAt": "2026-09-19T20:34:28.742Z"
     }
   ]
 }

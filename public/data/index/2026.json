@@ -154142,6 +154142,21 @@
       "tsunami": false,
       "updatedUtc": "2026-09-19T15:44:48.040Z",
       "month": "2026-09"
+    },
+    {
+      "id": "us7000tikb",
+      "dateKst": "2026-09-20",
+      "timeUtc": "2026-09-19T15:53:54.494Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "75 km SE of Kuqa, China",
+      "depthKm": 10,
+      "longitude": 83.518,
+      "latitude": 41.1968,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-19T19:28:26.040Z",
+      "month": "2026-09"
     }
   ]
 }
