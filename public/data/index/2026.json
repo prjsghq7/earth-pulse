@@ -153846,11 +153846,8 @@
       "latitude": -33.3109,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-18T19:35:15.536Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-19T03:46:06.240Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000tidr",
@@ -153864,11 +153861,8 @@
       "latitude": -8.776,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-18T18:16:15.040Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-18T23:59:03.890Z",
+      "month": "2026-09"
     },
     {
       "id": "us7000tie4",
@@ -153901,6 +153895,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-18T21:41:41.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tifz",
+      "dateKst": "2026-09-19",
+      "timeUtc": "2026-09-18T22:11:57.388Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "15 km NNW of Mantoúdi, Greece",
+      "depthKm": 10,
+      "longitude": 23.3956,
+      "latitude": 38.9246,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-19T00:53:39.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tigd",
+      "dateKst": "2026-09-19",
+      "timeUtc": "2026-09-18T23:18:28.306Z",
+      "magnitude": 5.5,
+      "magnitudeType": "mww",
+      "place": "Kermadec Islands region",
+      "depthKm": 94.054,
+      "longitude": -177.2286,
+      "latitude": -27.8581,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-19T03:15:10.116Z",
       "month": "2026-09"
     }
   ]
