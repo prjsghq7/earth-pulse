@@ -154528,6 +154528,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-20T15:56:35.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tisg",
+      "dateKst": "2026-09-21",
+      "timeUtc": "2026-09-20T17:17:05.458Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "135 km SW of Hihifo, Tonga",
+      "depthKm": 160.742,
+      "longitude": -174.7369,
+      "latitude": -16.7787,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-20T18:27:39.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tisi",
+      "dateKst": "2026-09-21",
+      "timeUtc": "2026-09-20T17:51:32.955Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "69 km SSW of Lembar, Indonesia",
+      "depthKm": 76.416,
+      "longitude": 115.7801,
+      "latitude": -9.286,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-20T18:35:31.040Z",
       "month": "2026-09"
     }
   ]
