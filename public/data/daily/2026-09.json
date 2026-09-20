@@ -582,15 +582,23 @@
     {
       "dateKst": "2026-09-20",
       "state": "provisional",
-      "count": 3,
-      "maxMagnitude": 5.2,
-      "averageMagnitude": 4.67,
+      "count": 11,
+      "maxMagnitude": 5.3,
+      "averageMagnitude": 4.63,
       "medianMagnitude": 4.5,
-      "medianDepthKm": 10,
+      "medianDepthKm": 46.4,
       "eventIds": [
         "us7000tikb",
         "us7000tild",
-        "us7000till"
+        "us7000till",
+        "us7000tilu",
+        "us7000tim6",
+        "us7000timg",
+        "us7000timl",
+        "us7000timw",
+        "us7000timy",
+        "us7000tinf",
+        "us7000tinl"
       ]
     }
   ]
