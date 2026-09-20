@@ -615,15 +615,18 @@
     {
       "dateKst": "2026-09-21",
       "state": "provisional",
-      "count": 3,
-      "maxMagnitude": 4.4,
-      "averageMagnitude": 4.4,
-      "medianMagnitude": 4.4,
-      "medianDepthKm": 160.7,
+      "count": 6,
+      "maxMagnitude": 5.7,
+      "averageMagnitude": 4.77,
+      "medianMagnitude": 4.55,
+      "medianDepthKm": 43.2,
       "eventIds": [
         "us7000tis4",
         "us7000tisg",
-        "us7000tisi"
+        "us7000tisi",
+        "us7000tit5",
+        "us7000tit6",
+        "us7000titt"
       ]
     }
   ]
