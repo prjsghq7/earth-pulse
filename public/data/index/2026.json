@@ -154570,6 +154570,21 @@
       "rmsSeconds": null
     },
     {
+      "id": "us7000tit3",
+      "dateKst": "2026-09-21",
+      "timeUtc": "2026-09-20T20:41:20.633Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "39 km ESE of Khuzdar, Pakistan",
+      "depthKm": 10,
+      "longitude": 66.9959,
+      "latitude": 27.7043,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-21T12:36:43.040Z",
+      "month": "2026-09"
+    },
+    {
       "id": "us7000tit5",
       "dateKst": "2026-09-21",
       "timeUtc": "2026-09-20T20:54:37.248Z",
@@ -154599,7 +154614,7 @@
       "latitude": 52.6966,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-21T03:16:25.822Z",
+      "updatedUtc": "2026-09-21T09:16:32.710Z",
       "month": "2026-09"
     },
     {
@@ -154615,7 +154630,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-21T01:26:45.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000titz",
@@ -154630,7 +154648,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-21T02:48:38.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tiu3",
@@ -154645,7 +154666,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-21T03:06:30.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tiui",
@@ -154659,7 +154683,7 @@
       "latitude": 37.8136,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-21T01:25:41.887Z",
+      "updatedUtc": "2026-09-21T07:04:20.618Z",
       "month": "2026-09"
     },
     {
@@ -154675,7 +154699,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-21T03:49:10.325Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tiuu",
@@ -154690,7 +154717,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-21T02:17:01.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tivb",
@@ -154705,7 +154735,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-21T04:09:41.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tivi",
@@ -154719,7 +154752,82 @@
       "latitude": -36.2456,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-21T04:44:02.040Z",
+      "updatedUtc": "2026-09-21T06:20:29.725Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tiw4",
+      "dateKst": "2026-09-21",
+      "timeUtc": "2026-09-21T07:31:07.967Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "34 km WNW of Luwuk, Indonesia",
+      "depthKm": 9.863,
+      "longitude": 122.4959,
+      "latitude": -0.8563,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-21T07:51:52.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tiw6",
+      "dateKst": "2026-09-21",
+      "timeUtc": "2026-09-21T07:35:40.400Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "245 km E of Levuka, Fiji",
+      "depthKm": 533.686,
+      "longitude": -178.3723,
+      "latitude": -17.9326,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-21T10:54:03.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tix2",
+      "dateKst": "2026-09-21",
+      "timeUtc": "2026-09-21T11:02:38.555Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "15 km SW of El Ramal (Porvenir), Mexico",
+      "depthKm": 142.841,
+      "longitude": -93.0352,
+      "latitude": 15.7541,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-21T11:38:48.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tixc",
+      "dateKst": "2026-09-21",
+      "timeUtc": "2026-09-21T11:48:28.996Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "167 km WNW of Mejillones, Chile",
+      "depthKm": 10,
+      "longitude": -71.8678,
+      "latitude": -22.3643,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-21T12:27:44.858Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tixg",
+      "dateKst": "2026-09-21",
+      "timeUtc": "2026-09-21T12:17:05.292Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "76 km W of Ollagüe, Chile",
+      "depthKm": 121.183,
+      "longitude": -68.9887,
+      "latitude": -21.2643,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-21T12:34:20.040Z",
       "month": "2026-09"
     }
   ]
