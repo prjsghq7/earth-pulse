@@ -155146,7 +155146,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-22T04:51:56.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tj37",
@@ -155179,7 +155182,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-22T05:38:04.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tj3l",
@@ -155194,7 +155200,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-22T07:36:51.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tj3s",
@@ -155209,7 +155218,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-22T06:30:53.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tj3v",
@@ -155224,7 +155236,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-22T07:50:06.452Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tj4l",
@@ -155239,6 +155254,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-22T10:36:09.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tj4r",
+      "dateKst": "2026-09-22",
+      "timeUtc": "2026-09-22T10:00:31.232Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 431.374,
+      "longitude": -179.3736,
+      "latitude": -26.3979,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-22T13:08:59.040Z",
       "month": "2026-09"
     },
     {
@@ -155254,7 +155287,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-22T10:48:32.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tj4y",
@@ -155269,6 +155305,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-22T11:06:19.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tj55",
+      "dateKst": "2026-09-22",
+      "timeUtc": "2026-09-22T11:29:41.886Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "38 km S of Jurm, Afghanistan",
+      "depthKm": 192.749,
+      "longitude": 70.898,
+      "latitude": 36.5213,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-22T11:50:42.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tj57",
+      "dateKst": "2026-09-22",
+      "timeUtc": "2026-09-22T11:37:12.130Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "121 km E of Miyako, Japan",
+      "depthKm": 25.669,
+      "longitude": 143.3539,
+      "latitude": 39.6629,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-22T12:49:46.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tj58",
+      "dateKst": "2026-09-22",
+      "timeUtc": "2026-09-22T11:43:45.547Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "7 km WNW of La Gomera, Guatemala",
+      "depthKm": 88.793,
+      "longitude": -91.1165,
+      "latitude": 14.113,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-22T15:01:05.188Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tj5m",
+      "dateKst": "2026-09-22",
+      "timeUtc": "2026-09-22T13:48:19.982Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "115 km ENE of Miyako, Japan",
+      "depthKm": 38.179,
+      "longitude": 143.248,
+      "latitude": 39.9178,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-22T16:18:29.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tj5n",
+      "dateKst": "2026-09-22",
+      "timeUtc": "2026-09-22T13:56:15.091Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "37 km SE of Severo-Kuril’sk, Russia",
+      "depthKm": 83.948,
+      "longitude": 156.4937,
+      "latitude": 50.4343,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-22T16:38:36.040Z",
       "month": "2026-09"
     }
   ]
