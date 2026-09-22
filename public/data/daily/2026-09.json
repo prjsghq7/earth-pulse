@@ -687,12 +687,16 @@
     {
       "dateKst": "2026-09-23",
       "state": "provisional",
-      "count": 0,
-      "maxMagnitude": null,
-      "averageMagnitude": null,
-      "medianMagnitude": null,
-      "medianDepthKm": null,
-      "eventIds": []
+      "count": 3,
+      "maxMagnitude": 4.8,
+      "averageMagnitude": 4.57,
+      "medianMagnitude": 4.5,
+      "medianDepthKm": 121.9,
+      "eventIds": [
+        "us6000twwy",
+        "us6000twxv",
+        "us6000twyf"
+      ]
     }
   ]
 }
