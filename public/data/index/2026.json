@@ -154912,7 +154912,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-21T16:14:31.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tiz7",
@@ -154926,7 +154929,7 @@
       "latitude": 3.8585,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-21T16:45:10.040Z",
+      "updatedUtc": "2026-09-21T20:53:55.307Z",
       "month": "2026-09"
     },
     {
@@ -154942,7 +154945,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-21T17:46:38.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tizh",
@@ -154957,7 +154963,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-21T17:59:38.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tizt",
@@ -154971,7 +154980,52 @@
       "latitude": 3.8759,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-21T19:17:39.040Z",
+      "updatedUtc": "2026-09-21T20:53:06.911Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tj0r",
+      "dateKst": "2026-09-22",
+      "timeUtc": "2026-09-21T20:53:15.107Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "Fiji region",
+      "depthKm": 583.682,
+      "longitude": -177.5544,
+      "latitude": -19.1407,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-21T21:08:46.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tj0z",
+      "dateKst": "2026-09-22",
+      "timeUtc": "2026-09-21T21:37:05.134Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "South Sandwich Islands region",
+      "depthKm": 10,
+      "longitude": -23.969,
+      "latitude": -56.4621,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-21T21:54:39.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us7000tj1s",
+      "dateKst": "2026-09-22",
+      "timeUtc": "2026-09-21T23:48:13.824Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "92 km S of Sarangani, Philippines",
+      "depthKm": 10,
+      "longitude": 125.3746,
+      "latitude": 4.5722,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-22T00:00:16.040Z",
       "month": "2026-09"
     }
   ]
