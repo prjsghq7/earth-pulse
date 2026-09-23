@@ -687,11 +687,11 @@
     {
       "dateKst": "2026-09-23",
       "state": "provisional",
-      "count": 10,
-      "maxMagnitude": 4.8,
-      "averageMagnitude": 4.47,
-      "medianMagnitude": 4.45,
-      "medianDepthKm": 22.5,
+      "count": 15,
+      "maxMagnitude": 5.3,
+      "averageMagnitude": 4.55,
+      "medianMagnitude": 4.5,
+      "medianDepthKm": 10,
       "eventIds": [
         "us6000twwy",
         "us6000twxv",
@@ -702,7 +702,12 @@
         "us6000tx02",
         "us6000tx07",
         "us6000tx08",
-        "us6000tx0f"
+        "us6000tx0f",
+        "us6000tx0s",
+        "us6000tx0t",
+        "us6000tx16",
+        "us6000tx23",
+        "us6000tx29"
       ]
     }
   ]
