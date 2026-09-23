@@ -155559,11 +155559,8 @@
       "latitude": -29.6195,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-23T03:21:39.040Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-23T14:03:39.046Z",
+      "month": "2026-09"
     },
     {
       "id": "us6000tx0s",
@@ -155578,7 +155575,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-23T04:47:50.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tx0t",
@@ -155593,7 +155593,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-23T05:02:55.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tx16",
@@ -155608,7 +155611,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-23T06:03:02.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tx23",
@@ -155623,7 +155629,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-23T09:33:20.806Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tx29",
@@ -155637,7 +155646,97 @@
       "latitude": -28.7298,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-23T10:08:21.044Z",
+      "updatedUtc": "2026-09-23T15:54:18.908Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tx2s",
+      "dateKst": "2026-09-23",
+      "timeUtc": "2026-09-23T10:33:05.103Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "Socotra region",
+      "depthKm": 10,
+      "longitude": 56.8032,
+      "latitude": 13.8587,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-23T12:49:04.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tx31",
+      "dateKst": "2026-09-23",
+      "timeUtc": "2026-09-23T12:23:20.274Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "106 km WNW of Ternate, Indonesia",
+      "depthKm": 48.462,
+      "longitude": 126.5263,
+      "latitude": 1.217,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-23T13:15:01.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tx38",
+      "dateKst": "2026-09-23",
+      "timeUtc": "2026-09-23T13:01:51.614Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "Mariana Islands region",
+      "depthKm": 306.016,
+      "longitude": 143.0239,
+      "latitude": 21.6622,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-23T15:11:54.116Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tx3l",
+      "dateKst": "2026-09-23",
+      "timeUtc": "2026-09-23T14:19:32.302Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "21 km ENE of Lais, Philippines",
+      "depthKm": 150.252,
+      "longitude": 125.8221,
+      "latitude": 6.4256,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-23T16:19:59.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tx3m",
+      "dateKst": "2026-09-23",
+      "timeUtc": "2026-09-23T14:41:02.650Z",
+      "magnitude": 5.7,
+      "magnitudeType": "mww",
+      "place": "180 km NW of Hihifo, Tonga",
+      "depthKm": 10,
+      "longitude": -175.1114,
+      "latitude": -14.9369,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-23T16:50:51.242Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tx3n",
+      "dateKst": "2026-09-23",
+      "timeUtc": "2026-09-23T14:45:35.743Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 528.269,
+      "longitude": 179.2578,
+      "latitude": -23.9741,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-23T15:07:20.040Z",
       "month": "2026-09"
     }
   ]
