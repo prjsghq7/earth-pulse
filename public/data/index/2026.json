@@ -155738,6 +155738,51 @@
       "tsunami": false,
       "updatedUtc": "2026-09-23T15:07:20.040Z",
       "month": "2026-09"
+    },
+    {
+      "id": "us6000tx4w",
+      "dateKst": "2026-09-24",
+      "timeUtc": "2026-09-23T16:48:37.858Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "59 km WNW of San Antonio de los Cobres, Argentina",
+      "depthKm": 193.188,
+      "longitude": -66.8891,
+      "latitude": -24.0812,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-23T18:53:03.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tx53",
+      "dateKst": "2026-09-24",
+      "timeUtc": "2026-09-23T17:20:32.721Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "193 km SE of Mata-Utu, Wallis and Futuna",
+      "depthKm": 10,
+      "longitude": -175.0529,
+      "latitude": -14.6397,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-23T17:40:54.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tx58",
+      "dateKst": "2026-09-24",
+      "timeUtc": "2026-09-23T17:46:06.489Z",
+      "magnitude": 5,
+      "magnitudeType": "mww",
+      "place": "140 km NNE of Ba, Fiji",
+      "depthKm": 10,
+      "longitude": 178.0194,
+      "latitude": -16.3072,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-23T18:38:45.040Z",
+      "month": "2026-09"
     }
   ]
 }
