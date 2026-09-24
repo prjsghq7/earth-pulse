@@ -155751,11 +155751,8 @@
       "latitude": -24.0812,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-23T18:53:03.040Z",
-      "month": "2026-09",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-09-24T09:33:52.196Z",
+      "month": "2026-09"
     },
     {
       "id": "us6000tx53",
@@ -155806,7 +155803,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-24T02:29:36.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tx7g",
@@ -155821,7 +155821,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-24T03:42:13.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tx7k",
@@ -155836,7 +155839,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-24T04:21:09.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tx8q",
@@ -155851,6 +155857,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-24T03:51:50.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tx9m",
+      "dateKst": "2026-09-24",
+      "timeUtc": "2026-09-24T07:07:05.252Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "53 km WSW of San Antonio, Chile",
+      "depthKm": 31.376,
+      "longitude": -72.1057,
+      "latitude": -33.8294,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-24T09:02:45.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tx9u",
+      "dateKst": "2026-09-24",
+      "timeUtc": "2026-09-24T07:40:58.138Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mww",
+      "place": "15 km SSW of Hilvan, Turkey",
+      "depthKm": 10,
+      "longitude": 38.8612,
+      "latitude": 37.4736,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-24T10:44:13.424Z",
       "month": "2026-09"
     }
   ]
