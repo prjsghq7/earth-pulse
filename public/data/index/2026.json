@@ -155927,6 +155927,66 @@
       "tsunami": false,
       "updatedUtc": "2026-09-24T12:44:54.040Z",
       "month": "2026-09"
+    },
+    {
+      "id": "us6000txcw",
+      "dateKst": "2026-09-25",
+      "timeUtc": "2026-09-24T16:28:00.188Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "119 km SW of Abepura, Indonesia",
+      "depthKm": 68.453,
+      "longitude": 139.7677,
+      "latitude": -3.243,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-24T18:06:30.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000txdb",
+      "dateKst": "2026-09-25",
+      "timeUtc": "2026-09-24T16:46:31.662Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "21 km NNW of Rioblanco, Colombia",
+      "depthKm": 10,
+      "longitude": -75.7529,
+      "latitude": 3.6948,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-24T19:19:33.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000txdx",
+      "dateKst": "2026-09-25",
+      "timeUtc": "2026-09-24T17:14:34.930Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "28 km WSW of Roncesvalles, Colombia",
+      "depthKm": 10,
+      "longitude": -75.858,
+      "latitude": 3.9513,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-24T21:05:04.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000txf9",
+      "dateKst": "2026-09-25",
+      "timeUtc": "2026-09-24T18:00:47.703Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "32 km S of Kokopo, Papua New Guinea",
+      "depthKm": 93.994,
+      "longitude": 152.2767,
+      "latitude": -4.6356,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-24T18:17:56.040Z",
+      "month": "2026-09"
     }
   ]
 }
