@@ -155752,7 +155752,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-24T09:33:52.196Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tx53",
@@ -155875,7 +155878,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-24T09:02:45.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tx9u",
@@ -155889,7 +155895,37 @@
       "latitude": 37.4736,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-24T10:44:13.424Z",
+      "updatedUtc": "2026-09-24T15:34:40.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000txb3",
+      "dateKst": "2026-09-24",
+      "timeUtc": "2026-09-24T11:08:24.838Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "Kermadec Islands, New Zealand",
+      "depthKm": 35,
+      "longitude": -177.8691,
+      "latitude": -30.2344,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-24T11:42:21.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000txbm",
+      "dateKst": "2026-09-24",
+      "timeUtc": "2026-09-24T12:29:58.824Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "139 km SW of Kokopo, Papua New Guinea",
+      "depthKm": 95.598,
+      "longitude": 151.4915,
+      "latitude": -5.3396,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-24T12:44:54.040Z",
       "month": "2026-09"
     }
   ]
