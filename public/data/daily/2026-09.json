@@ -770,13 +770,16 @@
     {
       "dateKst": "2026-09-26",
       "state": "provisional",
-      "count": 1,
+      "count": 4,
       "maxMagnitude": 5.2,
-      "averageMagnitude": 5.2,
-      "medianMagnitude": 5.2,
-      "medianDepthKm": 29.1,
+      "averageMagnitude": 4.9,
+      "medianMagnitude": 4.9,
+      "medianDepthKm": 21.8,
       "eventIds": [
-        "us6000txme"
+        "us6000txme",
+        "us6000txnq",
+        "us6000txp8",
+        "us6000txpf"
       ]
     }
   ]

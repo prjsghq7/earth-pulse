@@ -156252,7 +156252,52 @@
       "latitude": -33.9661,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-25T16:52:00.339Z",
+      "updatedUtc": "2026-09-25T18:14:05.815Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000txnq",
+      "dateKst": "2026-09-26",
+      "timeUtc": "2026-09-25T19:39:29.552Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "42 km N of Ruteng, Indonesia",
+      "depthKm": 14.458,
+      "longitude": 120.4296,
+      "latitude": -8.2281,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-25T20:19:04.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000txp8",
+      "dateKst": "2026-09-26",
+      "timeUtc": "2026-09-25T20:41:09.329Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "144 km SE of Lata, Solomon Islands",
+      "depthKm": 223.583,
+      "longitude": 166.6797,
+      "latitude": -11.7022,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-25T20:59:25.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000txpf",
+      "dateKst": "2026-09-26",
+      "timeUtc": "2026-09-25T21:01:27.262Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "13 km N of Xunchang, China",
+      "depthKm": 10,
+      "longitude": 104.7032,
+      "latitude": 28.5744,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-25T21:18:30.040Z",
       "month": "2026-09"
     }
   ]
