@@ -156121,7 +156121,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-25T05:26:07.909Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txim",
@@ -156154,6 +156157,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-25T05:55:34.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000txjc",
+      "dateKst": "2026-09-25",
+      "timeUtc": "2026-09-25T07:18:22.822Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "8 km ENE of Kariwa, Japan",
+      "depthKm": 165.7,
+      "longitude": 138.7057,
+      "latitude": 37.4587,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-25T12:56:48.040Z",
       "month": "2026-09"
     },
     {
@@ -156169,6 +156190,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-25T11:31:30.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000txk0",
+      "dateKst": "2026-09-25",
+      "timeUtc": "2026-09-25T11:53:21.312Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "72 km E of Thang, India",
+      "depthKm": 10,
+      "longitude": 77.5756,
+      "latitude": 34.8425,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-25T12:46:43.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000txk8",
+      "dateKst": "2026-09-25",
+      "timeUtc": "2026-09-25T12:37:16.665Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "Drake Passage",
+      "depthKm": 10,
+      "longitude": -61.371,
+      "latitude": -59.849,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-25T12:59:50.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000txkc",
+      "dateKst": "2026-09-25",
+      "timeUtc": "2026-09-25T13:47:26.836Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "80 km SW of Labuan, Indonesia",
+      "depthKm": 10,
+      "longitude": 105.3554,
+      "latitude": -6.9267,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-25T14:33:43.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000txme",
+      "dateKst": "2026-09-26",
+      "timeUtc": "2026-09-25T15:29:09.560Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "62 km SW of San Antonio, Chile",
+      "depthKm": 29.072,
+      "longitude": -72.1079,
+      "latitude": -33.9661,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-25T16:52:00.339Z",
       "month": "2026-09"
     }
   ]
