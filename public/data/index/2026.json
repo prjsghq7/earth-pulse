@@ -156013,7 +156013,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-24T21:41:15.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txha",
@@ -156028,7 +156031,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-25T00:11:52.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txhl",
@@ -156043,7 +156049,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-25T01:57:52.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txhp",
@@ -156058,7 +156067,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-24T23:48:55.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txhs",
@@ -156073,7 +156085,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-25T03:35:12.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txi7",
@@ -156088,7 +156103,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-25T03:14:14.716Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txil",
@@ -156102,7 +156120,7 @@
       "latitude": -11.3812,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-25T04:45:23.040Z",
+      "updatedUtc": "2026-09-25T05:26:07.909Z",
       "month": "2026-09"
     },
     {
@@ -156118,6 +156136,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-25T04:41:21.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000txiw",
+      "dateKst": "2026-09-25",
+      "timeUtc": "2026-09-25T05:35:50.000Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "52 km NNW of Khandūd, Afghanistan",
+      "depthKm": 212.621,
+      "longitude": 72.1784,
+      "latitude": 37.4128,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-25T05:55:34.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000txjy",
+      "dateKst": "2026-09-25",
+      "timeUtc": "2026-09-25T11:12:15.838Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mww",
+      "place": "Vanuatu region",
+      "depthKm": 23.966,
+      "longitude": 174.0792,
+      "latitude": -21.8904,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-25T11:31:30.040Z",
       "month": "2026-09"
     }
   ]
