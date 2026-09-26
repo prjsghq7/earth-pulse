@@ -769,8 +769,8 @@
     },
     {
       "dateKst": "2026-09-26",
-      "state": "provisional",
-      "count": 25,
+      "state": "final",
+      "count": 31,
       "maxMagnitude": 6.6,
       "averageMagnitude": 4.97,
       "medianMagnitude": 4.9,
@@ -800,7 +800,25 @@
         "us6000txs2",
         "us6000txs3",
         "us6000txse",
-        "us6000txsh"
+        "us6000txsh",
+        "us6000txsy",
+        "us6000txsz",
+        "us6000txt0",
+        "us6000txt8",
+        "us6000txt9",
+        "us6000txtc"
+      ]
+    },
+    {
+      "dateKst": "2026-09-27",
+      "state": "provisional",
+      "count": 1,
+      "maxMagnitude": 5.1,
+      "averageMagnitude": 5.1,
+      "medianMagnitude": 5.1,
+      "medianDepthKm": 10,
+      "eventIds": [
+        "us6000txtn"
       ]
     }
   ]
