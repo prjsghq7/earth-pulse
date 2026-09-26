@@ -812,10 +812,10 @@
     {
       "dateKst": "2026-09-27",
       "state": "provisional",
-      "count": 10,
+      "count": 11,
       "maxMagnitude": 5.2,
-      "averageMagnitude": 4.72,
-      "medianMagnitude": 4.75,
+      "averageMagnitude": 4.74,
+      "medianMagnitude": 4.8,
       "medianDepthKm": 10,
       "eventIds": [
         "us6000txtn",
@@ -827,7 +827,8 @@
         "us6000txuf",
         "us6000txuj",
         "us6000txur",
-        "us6000txut"
+        "us6000txut",
+        "us6000txv7"
       ]
     }
   ]

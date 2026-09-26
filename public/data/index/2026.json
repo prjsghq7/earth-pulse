@@ -156808,7 +156808,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-26T17:43:53.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txtz",
@@ -156823,7 +156826,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-26T16:52:20.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txu2",
@@ -156838,7 +156844,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-26T17:55:30.982Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txu6",
@@ -156853,7 +156862,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-26T17:52:04.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txuc",
@@ -156868,7 +156880,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-26T18:07:45.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txuf",
@@ -156883,7 +156898,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-26T18:47:48.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txuj",
@@ -156898,7 +156916,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-26T18:57:46.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txur",
@@ -156913,7 +156934,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-26T19:54:46.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txut",
@@ -156928,6 +156952,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-26T20:05:02.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000txv7",
+      "dateKst": "2026-09-27",
+      "timeUtc": "2026-09-26T21:49:27.543Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "78 km ESE of Kokopo, Papua New Guinea",
+      "depthKm": 63.571,
+      "longitude": 152.9096,
+      "latitude": -4.6357,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-26T22:06:36.040Z",
       "month": "2026-09"
     }
   ]
