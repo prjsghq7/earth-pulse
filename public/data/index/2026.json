@@ -157078,21 +157078,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-27T05:17:35.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "nn00924930",
       "dateKst": "2026-09-27",
       "timeUtc": "2026-09-27T07:01:41.497Z",
-      "magnitude": 4.8,
-      "magnitudeType": "ml",
+      "magnitude": 4.07,
+      "magnitudeType": "mwr",
       "place": "21 km W of Preston, Nevada",
-      "depthKm": 4.4299,
+      "depthKm": 6,
       "longitude": -115.3083,
       "latitude": 38.9319,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-27T11:11:43.947Z",
+      "updatedUtc": "2026-09-27T13:53:24.607Z",
       "month": "2026-09"
     },
     {
@@ -157108,21 +157111,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-27T08:05:41.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "nn00924954",
       "dateKst": "2026-09-27",
       "timeUtc": "2026-09-27T08:54:07.495Z",
-      "magnitude": 4.36,
-      "magnitudeType": "ml",
+      "magnitude": 4.1,
+      "magnitudeType": "mwr",
       "place": "20 km W of Preston, Nevada",
-      "depthKm": 0,
+      "depthKm": 6,
       "longitude": -115.2989,
       "latitude": 38.9229,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-27T10:59:24.599Z",
+      "updatedUtc": "2026-09-27T15:04:13.884Z",
       "month": "2026-09"
     },
     {
@@ -157137,7 +157143,7 @@
       "latitude": 18.647,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-27T11:54:45.139Z",
+      "updatedUtc": "2026-09-27T16:08:41.952Z",
       "month": "2026-09"
     },
     {
@@ -157153,7 +157159,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-27T10:48:48.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000txyd",
@@ -157167,7 +157176,7 @@
       "latitude": -40.3738,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-27T11:29:08.040Z",
+      "updatedUtc": "2026-09-27T12:40:06.028Z",
       "month": "2026-09"
     },
     {
@@ -157183,7 +157192,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-27T11:38:44.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     }
   ]
 }
