@@ -157246,6 +157246,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-28T01:19:03.492Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000ty2q",
+      "dateKst": "2026-09-28",
+      "timeUtc": "2026-09-27T19:22:10.816Z",
+      "magnitude": 4,
+      "magnitudeType": "mb",
+      "place": "Iceland region",
+      "depthKm": 10,
+      "longitude": -17.3759,
+      "latitude": 68.9317,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-28T12:30:00.040Z",
       "month": "2026-09"
     },
     {
@@ -157315,7 +157333,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-27T21:47:49.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ty0k",
@@ -157330,7 +157351,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-28T01:01:35.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ty0q",
@@ -157344,7 +157368,7 @@
       "latitude": 18.5869,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-28T04:07:36.359Z",
+      "updatedUtc": "2026-09-28T12:16:39.253Z",
       "month": "2026-09"
     },
     {
@@ -157360,7 +157384,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-27T22:44:50.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ty1a",
@@ -157375,7 +157402,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-28T02:50:30.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ty1j",
@@ -157390,7 +157420,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-28T03:20:51.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ty1m",
@@ -157405,7 +157438,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-28T04:06:12.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ty1l",
@@ -157420,7 +157456,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-28T04:46:10.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ty27",
@@ -157435,21 +157474,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-28T03:52:40.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ty2b",
       "dateKst": "2026-09-28",
-      "timeUtc": "2026-09-28T03:25:06.378Z",
+      "timeUtc": "2026-09-28T03:25:06.893Z",
       "magnitude": 5.3,
       "magnitudeType": "mww",
-      "place": "69 km NE of Tadine, New Caledonia",
+      "place": "60 km NE of Tadine, New Caledonia",
       "depthKm": 10,
-      "longitude": 168.4406,
-      "latitude": -21.1963,
+      "longitude": 168.3545,
+      "latitude": -21.2245,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-28T03:39:27.040Z",
+      "updatedUtc": "2026-09-28T05:26:14.040Z",
       "month": "2026-09"
     },
     {
@@ -157465,7 +157507,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-28T03:57:02.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ty2u",
@@ -157479,7 +157524,7 @@
       "latitude": 50.0527,
       "status": "reviewed",
       "tsunami": true,
-      "updatedUtc": "2026-09-28T05:03:58.572Z",
+      "updatedUtc": "2026-09-28T06:47:35.445Z",
       "month": "2026-09"
     },
     {
@@ -157495,7 +157540,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-28T05:07:12.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ty2w",
@@ -157510,6 +157558,144 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-28T04:57:49.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000ty33",
+      "dateKst": "2026-09-28",
+      "timeUtc": "2026-09-28T05:28:08.891Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "78 km ENE of Tadine, New Caledonia",
+      "depthKm": 10,
+      "longitude": 168.5459,
+      "latitude": -21.2065,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-28T05:48:28.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000ty3a",
+      "dateKst": "2026-09-28",
+      "timeUtc": "2026-09-28T05:42:21.379Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "63 km ENE of Tadine, New Caledonia",
+      "depthKm": 10,
+      "longitude": 168.3953,
+      "latitude": -21.2372,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-28T06:35:18.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000ty36",
+      "dateKst": "2026-09-28",
+      "timeUtc": "2026-09-28T05:42:32.024Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "39 km ENE of Tadine, New Caledonia",
+      "depthKm": 10,
+      "longitude": 168.2294,
+      "latitude": -21.3968,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-28T06:59:32.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000ty38",
+      "dateKst": "2026-09-28",
+      "timeUtc": "2026-09-28T05:45:29.689Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "67 km ENE of Tadine, New Caledonia",
+      "depthKm": 10,
+      "longitude": 168.4274,
+      "latitude": -21.2247,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-28T06:02:20.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000ty3c",
+      "dateKst": "2026-09-28",
+      "timeUtc": "2026-09-28T06:37:56.356Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "149 km NE of Hicks Bay, New Zealand",
+      "depthKm": 10,
+      "longitude": 179.6666,
+      "latitude": -36.8177,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-28T08:37:48.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000ty3w",
+      "dateKst": "2026-09-28",
+      "timeUtc": "2026-09-28T08:16:13.363Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "65 km E of Pilar, Philippines",
+      "depthKm": 10,
+      "longitude": 126.6861,
+      "latitude": 9.9585,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-28T10:38:34.253Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000ty43",
+      "dateKst": "2026-09-28",
+      "timeUtc": "2026-09-28T09:13:39.402Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "190 km WSW of Port McNeill, Canada",
+      "depthKm": 10,
+      "longitude": -129.6785,
+      "latitude": 50.171,
+      "status": "reviewed",
+      "tsunami": true,
+      "updatedUtc": "2026-09-28T09:30:37.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000ty4w",
+      "dateKst": "2026-09-28",
+      "timeUtc": "2026-09-28T12:14:24.032Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "Fiji region",
+      "depthKm": 573.114,
+      "longitude": -178.4971,
+      "latitude": -20.6932,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-28T12:32:25.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000ty57",
+      "dateKst": "2026-09-28",
+      "timeUtc": "2026-09-28T13:22:39.769Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mww",
+      "place": "north of Svalbard",
+      "depthKm": 10,
+      "longitude": -7.1923,
+      "latitude": 82.6385,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-28T13:43:27.884Z",
       "month": "2026-09"
     }
   ]
