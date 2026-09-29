@@ -157852,7 +157852,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-28T22:45:54.390Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ty7u",
@@ -157866,7 +157869,7 @@
       "latitude": 36.0809,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-29T03:43:59.567Z",
+      "updatedUtc": "2026-09-29T11:07:59.232Z",
       "month": "2026-09"
     },
     {
@@ -157882,7 +157885,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T00:36:44.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ty9i",
@@ -157897,7 +157903,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T01:02:00.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ty9j",
@@ -157912,7 +157921,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T03:00:34.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tya5",
@@ -157927,7 +157939,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T04:14:01.080Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tyab",
@@ -157942,6 +157957,129 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T04:33:51.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tyap",
+      "dateKst": "2026-09-29",
+      "timeUtc": "2026-09-29T06:16:34.063Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "102 km E of Miyako, Japan",
+      "depthKm": 36.868,
+      "longitude": 143.1352,
+      "latitude": 39.6854,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T09:04:08.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tyat",
+      "dateKst": "2026-09-29",
+      "timeUtc": "2026-09-29T06:38:49.006Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "South Sandwich Islands region",
+      "depthKm": 35,
+      "longitude": -28.4628,
+      "latitude": -55.2555,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T06:58:22.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tyb6",
+      "dateKst": "2026-09-29",
+      "timeUtc": "2026-09-29T08:21:56.906Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "95 km SSW of Ocós, Guatemala",
+      "depthKm": 41.479,
+      "longitude": -92.6345,
+      "latitude": 13.7623,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T12:06:07.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tybk",
+      "dateKst": "2026-09-29",
+      "timeUtc": "2026-09-29T10:22:14.613Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "96 km ENE of Alianza Cristiana, Peru",
+      "depthKm": 134.763,
+      "longitude": -75.6413,
+      "latitude": -3.1213,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T10:47:49.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tybl",
+      "dateKst": "2026-09-29",
+      "timeUtc": "2026-09-29T10:24:37.599Z",
+      "magnitude": 4,
+      "magnitudeType": "mb",
+      "place": "64 km SE of King Cove, Alaska",
+      "depthKm": 49.875,
+      "longitude": -161.5901,
+      "latitude": 54.66,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T11:08:35.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tybr",
+      "dateKst": "2026-09-29",
+      "timeUtc": "2026-09-29T10:42:57.409Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "77 km ENE of Tadine, New Caledonia",
+      "depthKm": 10,
+      "longitude": 168.5924,
+      "latitude": -21.3447,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T10:59:19.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tybs",
+      "dateKst": "2026-09-29",
+      "timeUtc": "2026-09-29T11:27:48.406Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "98 km SW of Port-Vila, Vanuatu",
+      "depthKm": 10,
+      "longitude": 167.5446,
+      "latitude": -18.2306,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T11:45:45.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "nc75444322",
+      "dateKst": "2026-09-29",
+      "timeUtc": "2026-09-29T11:36:37.910Z",
+      "magnitude": 4.73,
+      "magnitudeType": "mw",
+      "place": "100 km W of Petrolia, CA",
+      "depthKm": 2.27999997138977,
+      "longitude": -125.459831237793,
+      "latitude": 40.4329986572266,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T12:40:33.125Z",
       "month": "2026-09"
     }
   ]
