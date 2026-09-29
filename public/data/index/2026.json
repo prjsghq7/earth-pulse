@@ -157869,7 +157869,7 @@
       "latitude": 36.0809,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-29T11:07:59.232Z",
+      "updatedUtc": "2026-09-29T16:55:16.626Z",
       "month": "2026-09"
     },
     {
@@ -157975,7 +157975,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T09:04:08.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tyat",
@@ -157990,7 +157993,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T06:58:22.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tyb6",
@@ -158005,7 +158011,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T12:06:07.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tybk",
@@ -158020,7 +158029,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T10:47:49.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tybl",
@@ -158034,7 +158046,7 @@
       "latitude": 54.66,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-29T11:08:35.040Z",
+      "updatedUtc": "2026-09-29T18:27:35.993Z",
       "month": "2026-09"
     },
     {
@@ -158050,7 +158062,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T10:59:19.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tybs",
@@ -158065,21 +158080,129 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T11:45:45.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "nc75444322",
       "dateKst": "2026-09-29",
-      "timeUtc": "2026-09-29T11:36:37.910Z",
+      "timeUtc": "2026-09-29T11:36:39.240Z",
       "magnitude": 4.73,
       "magnitudeType": "mw",
-      "place": "100 km W of Petrolia, CA",
-      "depthKm": 2.27999997138977,
-      "longitude": -125.459831237793,
-      "latitude": 40.4329986572266,
+      "place": "97 km W of Petrolia, CA",
+      "depthKm": 10,
+      "longitude": -125.418333333333,
+      "latitude": 40.4225,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-09-29T12:40:33.125Z",
+      "updatedUtc": "2026-09-29T17:46:42.582Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tyc1",
+      "dateKst": "2026-09-29",
+      "timeUtc": "2026-09-29T12:40:35.064Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mb",
+      "place": "99 km SSE of Pangai, Tonga",
+      "depthKm": 10,
+      "longitude": -174.0813,
+      "latitude": -20.6773,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T16:48:56.466Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tyc3",
+      "dateKst": "2026-09-29",
+      "timeUtc": "2026-09-29T13:06:10.191Z",
+      "magnitude": 5.6,
+      "magnitudeType": "mww",
+      "place": "southern Mid-Atlantic Ridge",
+      "depthKm": 10,
+      "longitude": -16.1859,
+      "latitude": -35.204,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T15:12:51.453Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tyc9",
+      "dateKst": "2026-09-29",
+      "timeUtc": "2026-09-29T14:14:06.077Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "58 km NW of Pante Makasar, Timor Leste",
+      "depthKm": 157.801,
+      "longitude": 124.0495,
+      "latitude": -8.7834,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T15:15:34.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tych",
+      "dateKst": "2026-09-29",
+      "timeUtc": "2026-09-29T14:40:28.155Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "192 km ESE of Mil’kovo, Russia",
+      "depthKm": 54.014,
+      "longitude": 161.3866,
+      "latitude": 54.0783,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T17:21:00.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tyck",
+      "dateKst": "2026-09-30",
+      "timeUtc": "2026-09-29T15:17:18.348Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "South Sandwich Islands region",
+      "depthKm": 114.785,
+      "longitude": -26.0066,
+      "latitude": -58.7388,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T17:40:37.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tycz",
+      "dateKst": "2026-09-30",
+      "timeUtc": "2026-09-29T15:31:18.586Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "West Chile Rise",
+      "depthKm": 10,
+      "longitude": -91.4145,
+      "latitude": -40.9373,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T17:55:28.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tycv",
+      "dateKst": "2026-09-30",
+      "timeUtc": "2026-09-29T16:12:56.037Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "44 km NNE of Fangale’ounga, Tonga",
+      "depthKm": 10,
+      "longitude": -174.1824,
+      "latitude": -19.3714,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T17:15:24.040Z",
       "month": "2026-09"
     }
   ]
