@@ -924,12 +924,12 @@
     },
     {
       "dateKst": "2026-09-30",
-      "state": "provisional",
-      "count": 20,
+      "state": "final",
+      "count": 22,
       "maxMagnitude": 5.6,
-      "averageMagnitude": 4.7,
+      "averageMagnitude": 4.69,
       "medianMagnitude": 4.65,
-      "medianDepthKm": 10,
+      "medianDepthKm": 10.4,
       "eventIds": [
         "us6000tyck",
         "us6000tycz",
@@ -950,7 +950,9 @@
         "us6000tyid",
         "us6000tyik",
         "us6000tyil",
-        "us6000tyit"
+        "us6000tyit",
+        "us6000tyjb",
+        "us6000tyjl"
       ]
     }
   ]

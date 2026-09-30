@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "month": "2026-10",
+  "timezone": "Asia/Seoul",
+  "minMagnitude": 4,
+  "events": [
+    {
+      "id": "us6000tyke",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "48 km WNW of Luwuk, Indonesia",
+      "timeUtc": "2026-09-30T16:29:32.799Z",
+      "dateKst": "2026-10-01",
+      "timeKst": "01:29:32",
+      "updatedUtc": "2026-09-30T17:20:40.040Z",
+      "longitude": 122.3906,
+      "latitude": -0.7769,
+      "depthKm": 10,
+      "status": "reviewed",
+      "tsunami": false,
+      "alert": null,
+      "felt": null,
+      "cdi": null,
+      "mmi": null,
+      "significance": 298,
+      "network": "us",
+      "code": "6000tyke",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyke",
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tyke&format=geojson",
+      "stationCount": 42,
+      "azimuthalGap": 65,
+      "rmsSeconds": 0.54,
+      "qualityCheckedAt": "2026-09-30T17:59:04.410Z"
+    }
+  ]
+}

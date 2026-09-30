@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "month": "2026-10",
+  "timezone": "Asia/Seoul",
+  "minMagnitude": 4,
+  "records": [
+    {
+      "dateKst": "2026-10-01",
+      "state": "provisional",
+      "count": 1,
+      "maxMagnitude": 4.4,
+      "averageMagnitude": 4.4,
+      "medianMagnitude": 4.4,
+      "medianDepthKm": 10,
+      "eventIds": [
+        "us6000tyke"
+      ]
+    }
+  ]
+}
