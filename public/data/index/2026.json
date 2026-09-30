@@ -158173,7 +158173,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T17:40:37.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tycz",
@@ -158188,7 +158191,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T17:55:28.040Z",
-      "month": "2026-09"
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tycv",
@@ -158203,6 +158209,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-09-29T17:15:24.040Z",
+      "month": "2026-09",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tye9",
+      "dateKst": "2026-09-30",
+      "timeUtc": "2026-09-29T18:21:49.888Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "92 km NE of San Pedro de Atacama, Chile",
+      "depthKm": 178.025,
+      "longitude": -67.5824,
+      "latitude": -22.3093,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T20:55:14.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tyf0",
+      "dateKst": "2026-09-30",
+      "timeUtc": "2026-09-29T20:45:50.983Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "49 km N of Dicabisagan, Philippines",
+      "depthKm": 10,
+      "longitude": 122.4136,
+      "latitude": 17.5267,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T21:12:11.040Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "uw714111952",
+      "dateKst": "2026-09-30",
+      "timeUtc": "2026-09-29T21:05:56.370Z",
+      "magnitude": 4.15,
+      "magnitudeType": "ml",
+      "place": "6 km WNW of Wauna, Washington",
+      "depthKm": 27.92,
+      "longitude": -122.722,
+      "latitude": 47.4003333333333,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-30T00:20:57.216Z",
+      "month": "2026-09"
+    },
+    {
+      "id": "us6000tyfk",
+      "dateKst": "2026-09-30",
+      "timeUtc": "2026-09-29T21:50:29.969Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "15 km SW of San Antonio, Colombia",
+      "depthKm": 10,
+      "longitude": -75.5906,
+      "latitude": 3.8311,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-09-29T22:22:10.040Z",
       "month": "2026-09"
     }
   ]
