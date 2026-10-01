@@ -6,11 +6,11 @@
   "records": [
     {
       "dateKst": "2026-10-01",
-      "state": "provisional",
-      "count": 20,
+      "state": "final",
+      "count": 22,
       "maxMagnitude": 5.6,
-      "averageMagnitude": 4.7,
-      "medianMagnitude": 4.6,
+      "averageMagnitude": 4.72,
+      "medianMagnitude": 4.65,
       "medianDepthKm": 33.5,
       "eventIds": [
         "us6000tyke",
@@ -32,7 +32,24 @@
         "us6000tyqy",
         "us6000tyr4",
         "us6000tysi",
-        "us6000tytg"
+        "us6000tytg",
+        "us6000tyua",
+        "us6000tyuf"
+      ]
+    },
+    {
+      "dateKst": "2026-10-02",
+      "state": "provisional",
+      "count": 4,
+      "maxMagnitude": 5.1,
+      "averageMagnitude": 4.77,
+      "medianMagnitude": 4.85,
+      "medianDepthKm": 10,
+      "eventIds": [
+        "us6000tyw4",
+        "us6000tyw6",
+        "us6000tyw9",
+        "us6000tywu"
       ]
     }
   ]
