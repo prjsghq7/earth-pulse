@@ -159232,7 +159232,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-02T15:35:35.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tz1y",
@@ -159246,7 +159249,7 @@
       "latitude": -38.3802,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-02T17:45:07.569Z",
+      "updatedUtc": "2026-10-02T19:59:12.074Z",
       "month": "2026-10"
     },
     {
@@ -159262,7 +159265,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-02T16:51:14.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tz62",
@@ -159276,7 +159282,7 @@
       "latitude": 51.6873,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-02T17:23:40.040Z",
+      "updatedUtc": "2026-10-02T18:40:56.479Z",
       "month": "2026-10"
     },
     {
@@ -159291,7 +159297,97 @@
       "latitude": -32.773,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-02T17:43:04.040Z",
+      "updatedUtc": "2026-10-02T18:03:40.456Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz7b",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T18:25:20.940Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "179 km SSE of Vilyuchinsk, Russia",
+      "depthKm": 10,
+      "longitude": 159.8307,
+      "latitude": 51.5775,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T18:46:26.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz7t",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T19:43:20.760Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "Kermadec Islands region",
+      "depthKm": 431.395,
+      "longitude": -179.9859,
+      "latitude": -30.3739,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T21:11:17.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz8a",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T20:25:29.894Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "136 km SSE of Vilyuchinsk, Russia",
+      "depthKm": 38.829,
+      "longitude": 159.3971,
+      "latitude": 51.862,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T21:00:21.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz8b",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T20:26:02.878Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "67 km ESE of Kokopo, Papua New Guinea",
+      "depthKm": 86.736,
+      "longitude": 152.8363,
+      "latitude": -4.565,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T21:31:50.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz8l",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T20:54:15.391Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "171 km SE of Vilyuchinsk, Russia",
+      "depthKm": 30.93,
+      "longitude": 159.8843,
+      "latitude": 51.6886,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T21:17:30.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz8q",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T21:05:06.532Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "52 km WSW of Paratunka, Russia",
+      "depthKm": 93.182,
+      "longitude": 157.5867,
+      "latitude": 52.7302,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T21:46:46.040Z",
       "month": "2026-10"
     }
   ]
