@@ -159064,7 +159064,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-02T04:49:51.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tyzi",
@@ -159079,7 +159082,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-02T04:42:18.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tyzl",
@@ -159094,7 +159100,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-02T04:59:37.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tyzt",
@@ -159109,6 +159118,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-02T06:12:24.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "aka2026tmocjx",
+      "dateKst": "2026-10-02",
+      "timeUtc": "2026-10-02T06:02:57.320Z",
+      "magnitude": 4,
+      "magnitudeType": "ml",
+      "place": "75 km SE of Adak, Alaska",
+      "depthKm": 17.3,
+      "longitude": -175.993,
+      "latitude": 51.328,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T12:46:47.242Z",
       "month": "2026-10"
     },
     {
@@ -159124,7 +159151,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-02T07:24:34.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tyzx",
@@ -159139,6 +159169,129 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-02T07:11:55.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tz0x",
+      "dateKst": "2026-10-02",
+      "timeUtc": "2026-10-02T11:14:14.383Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "63 km SW of Panguna, Papua New Guinea",
+      "depthKm": 38.25,
+      "longitude": 155.0136,
+      "latitude": -6.6368,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T11:33:54.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz0z",
+      "dateKst": "2026-10-02",
+      "timeUtc": "2026-10-02T11:35:16.003Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "9 km SSW of Yepocapa, Guatemala",
+      "depthKm": 115.214,
+      "longitude": -90.9832,
+      "latitude": 14.4208,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T11:52:10.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz1c",
+      "dateKst": "2026-10-02",
+      "timeUtc": "2026-10-02T13:57:15.838Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "6 km E of Inglewood, New Zealand",
+      "depthKm": 10,
+      "longitude": 174.2598,
+      "latitude": -39.1598,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T16:06:25.440Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz1q",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T15:10:19.729Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "78 km WSW of San Nicolas, Philippines",
+      "depthKm": 10,
+      "longitude": 119.4593,
+      "latitude": 14.571,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T15:35:35.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz1y",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T16:01:39.581Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "5 km NNE of Korumburra, Australia",
+      "depthKm": 10,
+      "longitude": 145.8401,
+      "latitude": -38.3802,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T17:45:07.569Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz5h",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T16:31:25.762Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "26 km SSW of Güiria, Venezuela",
+      "depthKm": 9.763,
+      "longitude": -62.4223,
+      "latitude": 10.3698,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T16:51:14.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz62",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T16:34:41.010Z",
+      "magnitude": 5.8,
+      "magnitudeType": "mww",
+      "place": "165 km SSE of Vilyuchinsk, Russia",
+      "depthKm": 29.477,
+      "longitude": 159.7398,
+      "latitude": 51.6873,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T17:23:40.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz75",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T17:28:18.887Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mwr",
+      "place": "30 km NNW of Valparaíso, Chile",
+      "depthKm": 32.14,
+      "longitude": -71.7075,
+      "latitude": -32.773,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T17:43:04.040Z",
       "month": "2026-10"
     }
   ]
