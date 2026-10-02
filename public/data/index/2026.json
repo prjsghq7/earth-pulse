@@ -158938,7 +158938,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-01T18:35:51.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tyw6",
@@ -158953,7 +158956,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-01T17:49:14.202Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tyw9",
@@ -158968,6 +158974,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-01T18:15:30.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tywh",
+      "dateKst": "2026-10-02",
+      "timeUtc": "2026-10-01T18:54:52.633Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "248 km W of Houma, Tonga",
+      "depthKm": 433.822,
+      "longitude": -177.6908,
+      "latitude": -21.2549,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-01T20:30:42.040Z",
       "month": "2026-10"
     },
     {
@@ -158983,6 +159007,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-01T20:03:02.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tyx0",
+      "dateKst": "2026-10-02",
+      "timeUtc": "2026-10-01T20:00:34.322Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "176 km SE of Lata, Solomon Islands",
+      "depthKm": 10,
+      "longitude": 167.0918,
+      "latitude": -11.6728,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-01T20:20:37.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tyxk",
+      "dateKst": "2026-10-02",
+      "timeUtc": "2026-10-01T21:01:41.707Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "2 km NE of Satte, Japan",
+      "depthKm": 65.032,
+      "longitude": 139.7487,
+      "latitude": 36.0904,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-01T23:19:50.040Z",
       "month": "2026-10"
     }
   ]
