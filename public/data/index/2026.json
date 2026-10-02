@@ -158992,7 +158992,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-01T20:30:42.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tywu",
@@ -159025,7 +159028,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-01T20:20:37.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tyxk",
@@ -159040,6 +159046,99 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-01T23:19:50.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tyzg",
+      "dateKst": "2026-10-02",
+      "timeUtc": "2026-10-02T04:10:58.487Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "97 km S of Panguna, Papua New Guinea",
+      "depthKm": 35,
+      "longitude": 155.6075,
+      "latitude": -7.1852,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T04:49:51.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tyzi",
+      "dateKst": "2026-10-02",
+      "timeUtc": "2026-10-02T04:27:05.754Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 557.245,
+      "longitude": 178.6446,
+      "latitude": -24.7752,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T04:42:18.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tyzl",
+      "dateKst": "2026-10-02",
+      "timeUtc": "2026-10-02T04:44:53.423Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "159 km SE of Gizo, Solomon Islands",
+      "depthKm": 10,
+      "longitude": 158.0215,
+      "latitude": -8.9326,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T04:59:37.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tyzt",
+      "dateKst": "2026-10-02",
+      "timeUtc": "2026-10-02T05:38:55.084Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "192 km WNW of Tobelo, Indonesia",
+      "depthKm": 10,
+      "longitude": 126.4944,
+      "latitude": 2.5781,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T06:12:24.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tyzy",
+      "dateKst": "2026-10-02",
+      "timeUtc": "2026-10-02T06:48:06.954Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "101 km NE of Ruteng, Indonesia",
+      "depthKm": 10,
+      "longitude": 121.0985,
+      "latitude": -7.9511,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T07:24:34.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tyzx",
+      "dateKst": "2026-10-02",
+      "timeUtc": "2026-10-02T06:53:35.007Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mww",
+      "place": "35 km SSW of El Colomo, Mexico",
+      "depthKm": 23.972,
+      "longitude": -104.3753,
+      "latitude": 18.7561,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-02T07:11:55.040Z",
       "month": "2026-10"
     }
   ]
