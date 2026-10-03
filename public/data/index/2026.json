@@ -159268,7 +159268,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T10:34:54.988Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tz62",
@@ -159397,6 +159400,51 @@
       "rmsSeconds": null
     },
     {
+      "id": "us6000tz8f",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T20:34:56.862Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "86 km E of Noda, Japan",
+      "depthKm": 49.952,
+      "longitude": 142.8232,
+      "latitude": 40.0341,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-03T14:05:00.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tz8g",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T20:37:48.318Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "46 km SSW of Paratunka, Russia",
+      "depthKm": 74.647,
+      "longitude": 158.0496,
+      "latitude": 52.5605,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-03T15:59:16.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzd5",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-02T20:38:21.109Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "52 km SSW of Vilyuchinsk, Russia",
+      "depthKm": 89.108,
+      "longitude": 158.2168,
+      "latitude": 52.4691,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-03T16:02:07.040Z",
+      "month": "2026-10"
+    },
+    {
       "id": "us6000tz8l",
       "dateKst": "2026-10-03",
       "timeUtc": "2026-10-02T20:54:15.391Z",
@@ -159499,7 +159547,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T06:53:18.579Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tz9z",
@@ -159568,7 +159619,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T10:00:05.283Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzb5",
@@ -159583,6 +159637,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T06:25:52.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tzbr",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-03T09:37:30.841Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "79 km WSW of Masachapa, Nicaragua",
+      "depthKm": 37.535,
+      "longitude": -87.2,
+      "latitude": 11.5447,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-03T12:15:19.040Z",
       "month": "2026-10"
     },
     {
@@ -159598,7 +159670,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T10:20:15.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzc5",
@@ -159613,6 +159688,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T11:21:47.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tzcm",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-03T13:51:11.299Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "Kermadec Islands region",
+      "depthKm": 453.487,
+      "longitude": -179.4827,
+      "latitude": -27.4948,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-03T14:21:50.040Z",
       "month": "2026-10"
     }
   ]
