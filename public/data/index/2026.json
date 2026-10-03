@@ -159720,7 +159720,7 @@
       "latitude": 51.6964,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-03T18:22:38.040Z",
+      "updatedUtc": "2026-10-03T23:21:42.493Z",
       "month": "2026-10"
     },
     {
@@ -159736,7 +159736,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T17:52:33.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzdp",
@@ -159751,7 +159754,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T18:34:52.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzdz",
@@ -159766,7 +159772,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T20:10:44.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tze2",
@@ -159781,7 +159790,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T20:22:14.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tze6",
@@ -159796,6 +159808,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T20:48:12.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tzer",
+      "dateKst": "2026-10-04",
+      "timeUtc": "2026-10-03T22:55:55.358Z",
+      "magnitude": 5.9,
+      "magnitudeType": "mww",
+      "place": "39 km WSW of Tambolaka, Indonesia",
+      "depthKm": 45.951,
+      "longitude": 118.9078,
+      "latitude": -9.5672,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-03T23:44:11.217Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzf7",
+      "dateKst": "2026-10-04",
+      "timeUtc": "2026-10-03T23:14:35.782Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "293 km SSE of Tabiauan, Philippines",
+      "depthKm": 575.042,
+      "longitude": 122.9296,
+      "latitude": 3.5895,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-03T23:39:45.040Z",
       "month": "2026-10"
     }
   ]
