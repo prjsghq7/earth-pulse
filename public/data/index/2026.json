@@ -159267,11 +159267,8 @@
       "latitude": 10.3698,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-02T16:51:14.040Z",
-      "month": "2026-10",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-10-03T10:34:54.988Z",
+      "month": "2026-10"
     },
     {
       "id": "us6000tz62",
@@ -159304,7 +159301,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T00:00:21.298Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tz7b",
@@ -159391,7 +159391,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-02T22:14:35.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tz8l",
@@ -159442,7 +159445,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T00:48:46.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tz9t",
@@ -159457,7 +159463,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T01:00:34.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tz9v",
@@ -159472,7 +159481,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T01:19:10.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tz9w",
@@ -159486,7 +159498,7 @@
       "latitude": 31.2953,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-03T02:16:14.040Z",
+      "updatedUtc": "2026-10-03T06:53:18.579Z",
       "month": "2026-10"
     },
     {
@@ -159502,7 +159514,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T02:08:05.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tza4",
@@ -159517,7 +159532,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T03:26:14.179Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzal",
@@ -159532,6 +159550,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T03:14:19.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tzax",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-03T04:13:31.661Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "16 km ENE of Parbhani, India",
+      "depthKm": 16.033,
+      "longitude": 76.922,
+      "latitude": 19.3072,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-03T10:00:05.283Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzb5",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-03T06:05:21.157Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "112 km S of Koshima, Japan",
+      "depthKm": 37.466,
+      "longitude": 130.6125,
+      "latitude": 29.221,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-03T06:25:52.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzbz",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-03T10:02:57.391Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "189 km SE of Petropavlovsk-Kamchatsky, Russia",
+      "depthKm": 10,
+      "longitude": 160.6848,
+      "latitude": 51.9144,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-03T10:20:15.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzc5",
+      "dateKst": "2026-10-03",
+      "timeUtc": "2026-10-03T11:05:45.564Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "116 km NNE of Finschhafen, Papua New Guinea",
+      "depthKm": 232.07,
+      "longitude": 148.3446,
+      "latitude": -5.6287,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-03T11:21:47.040Z",
       "month": "2026-10"
     }
   ]
