@@ -160159,7 +160159,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-04T18:12:16.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzjw",
@@ -160174,7 +160177,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-04T17:59:06.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzjy",
@@ -160189,6 +160195,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-04T18:13:59.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tzkm",
+      "dateKst": "2026-10-05",
+      "timeUtc": "2026-10-04T20:16:27.253Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "279 km ENE of Kuril’sk, Russia",
+      "depthKm": 35,
+      "longitude": 151.3579,
+      "latitude": 45.8198,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-04T20:46:41.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzkn",
+      "dateKst": "2026-10-05",
+      "timeUtc": "2026-10-04T20:27:25.597Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "32 km SSE of Jurm, Afghanistan",
+      "depthKm": 248.906,
+      "longitude": 71.0216,
+      "latitude": 36.611,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-04T20:43:07.040Z",
       "month": "2026-10"
     }
   ]
