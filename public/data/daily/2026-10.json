@@ -107,11 +107,11 @@
     {
       "dateKst": "2026-10-04",
       "state": "provisional",
-      "count": 13,
+      "count": 21,
       "maxMagnitude": 5.9,
-      "averageMagnitude": 4.77,
-      "medianMagnitude": 4.6,
-      "medianDepthKm": 35,
+      "averageMagnitude": 4.8,
+      "medianMagnitude": 4.7,
+      "medianDepthKm": 10,
       "eventIds": [
         "us6000tzda",
         "us6000tzdj",
@@ -125,7 +125,15 @@
         "us6000tzfg",
         "us6000tzfr",
         "us6000tzfv",
-        "us6000tzg0"
+        "us6000tzg0",
+        "us6000tzh0",
+        "us6000tzhy",
+        "us6000tzi5",
+        "us6000tzi8",
+        "us6000tzid",
+        "us6000tzif",
+        "us6000tzil",
+        "us6000tzip"
       ]
     }
   ]
