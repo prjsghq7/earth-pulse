@@ -159721,7 +159721,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T23:21:42.493Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzdj",
@@ -159814,6 +159817,21 @@
       "rmsSeconds": null
     },
     {
+      "id": "us6000tzen",
+      "dateKst": "2026-10-04",
+      "timeUtc": "2026-10-03T22:27:23.407Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "Izu Islands, Japan region",
+      "depthKm": 10,
+      "longitude": 142.8123,
+      "latitude": 29.053,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-04T00:47:22.040Z",
+      "month": "2026-10"
+    },
+    {
       "id": "us6000tzer",
       "dateKst": "2026-10-04",
       "timeUtc": "2026-10-03T22:55:55.358Z",
@@ -159825,7 +159843,7 @@
       "latitude": -9.5672,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-03T23:44:11.217Z",
+      "updatedUtc": "2026-10-04T03:28:06.947Z",
       "month": "2026-10"
     },
     {
@@ -159841,6 +159859,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-03T23:39:45.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tzfg",
+      "dateKst": "2026-10-04",
+      "timeUtc": "2026-10-03T23:37:35.621Z",
+      "magnitude": 5.6,
+      "magnitudeType": "mb",
+      "place": "80 km S of Banda Aceh, Indonesia",
+      "depthKm": 69.726,
+      "longitude": 95.2428,
+      "latitude": 4.8223,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-04T01:43:27.399Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzfr",
+      "dateKst": "2026-10-04",
+      "timeUtc": "2026-10-04T00:48:41.995Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "5 km SSW of Zonianá, Greece",
+      "depthKm": 10,
+      "longitude": 24.8055,
+      "latitude": 35.2454,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-04T05:01:46.068Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzfv",
+      "dateKst": "2026-10-04",
+      "timeUtc": "2026-10-04T01:38:46.078Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "21 km NE of Lae, Papua New Guinea",
+      "depthKm": 94.221,
+      "longitude": 147.1353,
+      "latitude": -6.5916,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-04T01:57:32.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzg0",
+      "dateKst": "2026-10-04",
+      "timeUtc": "2026-10-04T01:47:52.030Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "South Sandwich Islands region",
+      "depthKm": 10,
+      "longitude": -23.3522,
+      "latitude": -58.1594,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-04T03:12:07.040Z",
       "month": "2026-10"
     }
   ]
