@@ -160528,7 +160528,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-05T19:30:48.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzpq",
@@ -160543,7 +160546,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-05T17:54:05.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzpz",
@@ -160558,7 +160564,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-05T18:58:33.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzry",
@@ -160573,7 +160582,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-05T20:04:45.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzsc",
@@ -160588,6 +160600,144 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-05T20:44:56.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tzss",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-05T21:38:05.713Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "39 km SW of Tambolaka, Indonesia",
+      "depthKm": 35,
+      "longitude": 118.9729,
+      "latitude": -9.6687,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T02:21:21.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzsr",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-05T21:38:33.955Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "17 km WNW of Ashkāsham, Afghanistan",
+      "depthKm": 203.432,
+      "longitude": 71.3436,
+      "latitude": 36.7206,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T02:39:07.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tztg",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-05T22:48:53.669Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "146 km WNW of Panguna, Papua New Guinea",
+      "depthKm": 142.487,
+      "longitude": 154.2682,
+      "latitude": -5.7949,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T02:46:59.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzth",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-05T22:53:42.181Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "31 km S of Tezpur, India",
+      "depthKm": 10,
+      "longitude": 92.8359,
+      "latitude": 26.3539,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T02:58:24.903Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tztx",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-06T00:41:28.380Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "58 km SSE of Camiña, Chile",
+      "depthKm": 105.483,
+      "longitude": -69.2254,
+      "latitude": -19.8042,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T03:34:55.403Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzu2",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-06T01:48:23.727Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "42 km SW of Urakawa, Japan",
+      "depthKm": 70.998,
+      "longitude": 142.3552,
+      "latitude": 41.9416,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T02:03:49.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzuj",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-06T03:42:43.999Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "86 km N of Ruteng, Indonesia",
+      "depthKm": 8.653,
+      "longitude": 120.3932,
+      "latitude": -7.8323,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T04:00:46.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzuq",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-06T04:28:36.912Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "Izu Islands, Japan region",
+      "depthKm": 10,
+      "longitude": 142.845,
+      "latitude": 29.02,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T04:51:32.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzus",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-06T04:40:28.098Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "State of Yap, Federated States of Micronesia",
+      "depthKm": 10,
+      "longitude": 144.4068,
+      "latitude": 6.7818,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T04:58:57.040Z",
       "month": "2026-10"
     }
   ]
