@@ -160618,7 +160618,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T02:21:21.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzsr",
@@ -160633,7 +160636,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T02:39:07.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tztg",
@@ -160648,7 +160654,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T02:46:59.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzth",
@@ -160663,7 +160672,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T02:58:24.903Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tztx",
@@ -160678,7 +160690,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T03:34:55.403Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzu2",
@@ -160693,7 +160708,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T02:03:49.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzuj",
@@ -160708,7 +160726,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T04:00:46.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzuq",
@@ -160723,7 +160744,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T04:51:32.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000tzus",
@@ -160738,6 +160762,99 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T04:58:57.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000tzv6",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-06T06:16:33.173Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mww",
+      "place": "36 km WNW of Ollagüe, Chile",
+      "depthKm": 122.011,
+      "longitude": -68.6026,
+      "latitude": -21.1586,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T06:36:06.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzva",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-06T06:54:10.618Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "60 km WNW of Colchani, Bolivia",
+      "depthKm": 191.741,
+      "longitude": -67.4214,
+      "latitude": -20.0088,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T07:34:22.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzvn",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-06T08:45:26.946Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "55 km ESE of Kokopo, Papua New Guinea",
+      "depthKm": 20.643,
+      "longitude": 152.7519,
+      "latitude": -4.4773,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T09:12:47.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzwb",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-06T12:40:23.290Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "50 km SW of Tambolaka, Indonesia",
+      "depthKm": 52.889,
+      "longitude": 118.9128,
+      "latitude": -9.7538,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T15:33:16.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzwg",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-06T13:11:22.577Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mww",
+      "place": "48 km NNE of Semporna, Malaysia",
+      "depthKm": 10,
+      "longitude": 118.8285,
+      "latitude": 4.8667,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T15:52:06.274Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000tzwi",
+      "dateKst": "2026-10-06",
+      "timeUtc": "2026-10-06T13:26:22.092Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "Kermadec Islands region",
+      "depthKm": 537.886,
+      "longitude": 178.7672,
+      "latitude": -30.8569,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-06T15:34:56.040Z",
       "month": "2026-10"
     }
   ]
