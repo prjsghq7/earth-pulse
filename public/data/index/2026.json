@@ -160869,11 +160869,8 @@
       "latitude": -6.6864,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-06T16:13:05.040Z",
-      "month": "2026-10",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-10-07T15:25:17.941Z",
+      "month": "2026-10"
     },
     {
       "id": "us6000u0d2",
@@ -160896,34 +160893,31 @@
     {
       "id": "us6000u0hy",
       "dateKst": "2026-10-07",
-      "timeUtc": "2026-10-06T16:48:21.805Z",
-      "magnitude": 5.9,
+      "timeUtc": "2026-10-06T16:48:22.347Z",
+      "magnitude": 5.8,
       "magnitudeType": "mww",
-      "place": "264 km SSW of Severo-Kuril’sk, Russia",
-      "depthKm": 26.047,
-      "longitude": 154.8085,
-      "latitude": 48.4554,
+      "place": "262 km SSW of Severo-Kuril’sk, Russia",
+      "depthKm": 29,
+      "longitude": 154.9316,
+      "latitude": 48.4437,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-06T18:53:52.600Z",
-      "month": "2026-10",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-10-07T16:54:47.721Z",
+      "month": "2026-10"
     },
     {
       "id": "us6000u0hz",
       "dateKst": "2026-10-07",
-      "timeUtc": "2026-10-06T16:53:11.296Z",
+      "timeUtc": "2026-10-06T16:53:12.578Z",
       "magnitude": 5.1,
       "magnitudeType": "mb",
-      "place": "34 km NNW of Bāgeshwar, India",
-      "depthKm": 10,
-      "longitude": 79.6148,
-      "latitude": 30.1171,
+      "place": "34 km NW of Bāgeshwar, India",
+      "depthKm": 17.838,
+      "longitude": 79.5618,
+      "latitude": 30.092,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-07T06:21:39.979Z",
+      "updatedUtc": "2026-10-07T16:48:38.258Z",
       "month": "2026-10"
     },
     {
@@ -160992,7 +160986,7 @@
       "latitude": 58.802,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-07T12:44:47.550Z",
+      "updatedUtc": "2026-10-07T20:25:08.040Z",
       "month": "2026-10"
     },
     {
@@ -161025,11 +161019,8 @@
       "latitude": 65.0111,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-06T21:19:00.856Z",
-      "month": "2026-10",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-10-07T19:13:56.791Z",
+      "month": "2026-10"
     },
     {
       "id": "us6000u0kh",
@@ -161062,7 +161053,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-07T12:25:56.238Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0le",
@@ -161257,7 +161251,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-07T08:02:16.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0qs",
@@ -161272,7 +161269,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-07T10:40:45.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0qw",
@@ -161287,6 +161287,114 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-07T11:16:03.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u0rr",
+      "dateKst": "2026-10-07",
+      "timeUtc": "2026-10-07T14:59:25.858Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "Chagos Archipelago region",
+      "depthKm": 10,
+      "longitude": 72.2362,
+      "latitude": -6.6637,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T17:43:55.635Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0rx",
+      "dateKst": "2026-10-08",
+      "timeUtc": "2026-10-07T15:46:14.830Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "45 km WNW of Ollagüe, Chile",
+      "depthKm": 105.86,
+      "longitude": -68.68,
+      "latitude": -21.1132,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T16:55:04.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0s2",
+      "dateKst": "2026-10-08",
+      "timeUtc": "2026-10-07T16:06:06.205Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "23 km E of Palora, Ecuador",
+      "depthKm": 162.357,
+      "longitude": -77.7569,
+      "latitude": -1.7116,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T17:10:18.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0t4",
+      "dateKst": "2026-10-08",
+      "timeUtc": "2026-10-07T16:42:49.325Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "34 km E of Sarangani, Philippines",
+      "depthKm": 117.206,
+      "longitude": 125.7754,
+      "latitude": 5.3818,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T17:37:01.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0te",
+      "dateKst": "2026-10-08",
+      "timeUtc": "2026-10-07T17:36:13.751Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "48 km SSW of Angoram, Papua New Guinea",
+      "depthKm": 101.453,
+      "longitude": 143.8558,
+      "latitude": -4.4473,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T19:04:25.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0tl",
+      "dateKst": "2026-10-08",
+      "timeUtc": "2026-10-07T18:13:13.966Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 504.432,
+      "longitude": 179.8762,
+      "latitude": -24.7869,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T18:33:02.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0tm",
+      "dateKst": "2026-10-08",
+      "timeUtc": "2026-10-07T18:15:04.107Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mww",
+      "place": "194 km S of Ust’-Kamchatsk Staryy, Russia",
+      "depthKm": 10,
+      "longitude": 162.5648,
+      "latitude": 54.4775,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T18:53:53.040Z",
       "month": "2026-10"
     }
   ]
