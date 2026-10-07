@@ -160870,7 +160870,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T16:13:05.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0d2",
@@ -160885,7 +160888,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T17:59:32.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0hy",
@@ -160900,7 +160906,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T18:53:52.600Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0hz",
@@ -160914,7 +160923,7 @@
       "latitude": 30.1171,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-06T18:59:32.445Z",
+      "updatedUtc": "2026-10-07T04:47:47.718Z",
       "month": "2026-10"
     },
     {
@@ -160930,7 +160939,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T20:12:37.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0ji",
@@ -160945,7 +160957,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T20:48:11.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0jq",
@@ -160960,7 +160975,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T21:00:38.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "aka2026tuxgky",
@@ -160974,7 +160992,7 @@
       "latitude": 58.802,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-06T21:17:35.998Z",
+      "updatedUtc": "2026-10-07T05:44:49.488Z",
       "month": "2026-10"
     },
     {
@@ -160990,7 +161008,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T21:07:00.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0k1",
@@ -161005,7 +161026,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T21:19:00.856Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0kh",
@@ -161020,7 +161044,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-06T21:42:59.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0km",
@@ -161034,22 +161061,157 @@
       "latitude": -8.4933,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-06T21:28:54.116Z",
+      "updatedUtc": "2026-10-07T02:15:49.490Z",
       "month": "2026-10"
     },
     {
       "id": "us6000u0le",
       "dateKst": "2026-10-07",
-      "timeUtc": "2026-10-06T21:56:42.540Z",
-      "magnitude": 4.8,
+      "timeUtc": "2026-10-06T21:56:43.985Z",
+      "magnitude": 4.9,
       "magnitudeType": "mb",
-      "place": "190 km SW of Abepura, Indonesia",
-      "depthKm": 62.064,
-      "longitude": 139.4664,
-      "latitude": -3.8571,
+      "place": "189 km SW of Abepura, Indonesia",
+      "depthKm": 80.203,
+      "longitude": 139.5723,
+      "latitude": -3.9438,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-06T22:12:38.040Z",
+      "updatedUtc": "2026-10-07T02:09:20.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0ll",
+      "dateKst": "2026-10-07",
+      "timeUtc": "2026-10-06T22:12:46.267Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "Kermadec Islands, New Zealand",
+      "depthKm": 71.248,
+      "longitude": -177.6188,
+      "latitude": -29.8721,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T03:22:29.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0mf",
+      "dateKst": "2026-10-07",
+      "timeUtc": "2026-10-06T23:50:36.679Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "27 km WSW of Fry, Greece",
+      "depthKm": 10,
+      "longitude": 26.6477,
+      "latitude": 35.3207,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T04:01:35.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0mr",
+      "dateKst": "2026-10-07",
+      "timeUtc": "2026-10-07T00:22:41.953Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "37 km ESE of Iwaki, Japan",
+      "depthKm": 52.668,
+      "longitude": 141.2803,
+      "latitude": 36.9504,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T04:09:32.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0mu",
+      "dateKst": "2026-10-07",
+      "timeUtc": "2026-10-07T00:30:08.365Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "57 km E of Petropavlovsk-Kamchatsky, Russia",
+      "depthKm": 61.934,
+      "longitude": 159.4666,
+      "latitude": 52.9685,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T04:24:15.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0n5",
+      "dateKst": "2026-10-07",
+      "timeUtc": "2026-10-07T01:29:45.785Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "21 km SW of Roncesvalles, Colombia",
+      "depthKm": 10,
+      "longitude": -75.74,
+      "latitude": 3.8692,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T02:41:40.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0n8",
+      "dateKst": "2026-10-07",
+      "timeUtc": "2026-10-07T01:31:56.120Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "101 km ENE of Noda, Japan",
+      "depthKm": 29.595,
+      "longitude": 142.9402,
+      "latitude": 40.4048,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T03:26:04.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0nb",
+      "dateKst": "2026-10-07",
+      "timeUtc": "2026-10-07T01:39:05.561Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "Kuril Islands",
+      "depthKm": 108.743,
+      "longitude": 153.3699,
+      "latitude": 48.1853,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T02:26:19.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0ns",
+      "dateKst": "2026-10-07",
+      "timeUtc": "2026-10-07T02:49:59.426Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "132 km ENE of Tadine, New Caledonia",
+      "depthKm": 10,
+      "longitude": 169.0011,
+      "latitude": -20.979,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T03:14:09.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0pb",
+      "dateKst": "2026-10-07",
+      "timeUtc": "2026-10-07T04:39:26.324Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "South Sandwich Islands region",
+      "depthKm": 10,
+      "longitude": -30.0294,
+      "latitude": -55.6737,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T05:26:50.040Z",
       "month": "2026-10"
     }
   ]
