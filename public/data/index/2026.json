@@ -161436,16 +161436,46 @@
     {
       "id": "us6000u0u7",
       "dateKst": "2026-10-08",
-      "timeUtc": "2026-10-07T19:13:47.589Z",
+      "timeUtc": "2026-10-07T19:13:50.830Z",
       "magnitude": 4.9,
       "magnitudeType": "mww",
-      "place": "13 km SE of Yokoshiba, Japan",
-      "depthKm": 50.601,
-      "longitude": 140.5835,
-      "latitude": 35.5597,
+      "place": "3 km WSW of Shibayama, Japan",
+      "depthKm": 73.037,
+      "longitude": 140.3957,
+      "latitude": 35.6751,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-08T07:52:11.832Z",
+      "updatedUtc": "2026-10-08T18:31:04.779Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0uc",
+      "dateKst": "2026-10-08",
+      "timeUtc": "2026-10-07T19:36:46.284Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "9 km NNE of Midori, Japan",
+      "depthKm": 95.624,
+      "longitude": 139.3334,
+      "latitude": 36.5238,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-08T14:37:33.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0uq",
+      "dateKst": "2026-10-08",
+      "timeUtc": "2026-10-07T20:56:51.318Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "18 km NNE of Posoltega, Nicaragua",
+      "depthKm": 206.277,
+      "longitude": -86.9041,
+      "latitude": 12.6946,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-08T14:56:28.040Z",
       "month": "2026-10"
     },
     {
@@ -161479,7 +161509,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-08T03:17:55.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0w0",
@@ -161494,7 +161527,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-08T03:51:22.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0wa",
@@ -161508,7 +161544,7 @@
       "latitude": -7.7761,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-08T05:04:14.040Z",
+      "updatedUtc": "2026-10-08T18:21:41.645Z",
       "month": "2026-10"
     },
     {
@@ -161524,7 +161560,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-08T05:58:30.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0wh",
@@ -161539,7 +161578,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-08T05:52:25.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0ws",
@@ -161554,7 +161596,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-08T08:52:28.112Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0x2",
@@ -161569,7 +161614,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-08T08:02:52.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0x4",
@@ -161583,7 +161631,7 @@
       "latitude": 5.6006,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-08T10:14:50.849Z",
+      "updatedUtc": "2026-10-08T17:05:19.949Z",
       "month": "2026-10"
     },
     {
@@ -161598,7 +161646,7 @@
       "latitude": -15.5411,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-08T10:04:56.368Z",
+      "updatedUtc": "2026-10-08T15:12:50.040Z",
       "month": "2026-10"
     },
     {
@@ -161614,6 +161662,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-08T10:21:28.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u0yr",
+      "dateKst": "2026-10-08",
+      "timeUtc": "2026-10-08T14:11:49.678Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "113 km NW of Baa, Indonesia",
+      "depthKm": 10,
+      "longitude": 122.2936,
+      "latitude": -10.0202,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-08T14:44:33.040Z",
       "month": "2026-10"
     }
   ]
