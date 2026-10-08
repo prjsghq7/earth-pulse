@@ -161320,7 +161320,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-07T16:55:04.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0s2",
@@ -161335,7 +161338,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-07T17:10:18.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0t4",
@@ -161350,7 +161356,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-07T17:37:01.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0te",
@@ -161365,6 +161374,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-07T19:04:25.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u0tk",
+      "dateKst": "2026-10-08",
+      "timeUtc": "2026-10-07T17:59:03.884Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "Volcano Islands, Japan region",
+      "depthKm": 248.7,
+      "longitude": 141.2127,
+      "latitude": 24.8701,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T20:46:18.040Z",
       "month": "2026-10"
     },
     {
@@ -161380,7 +161407,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-07T18:33:02.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u0tm",
@@ -161395,6 +161425,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-07T18:53:53.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u0u7",
+      "dateKst": "2026-10-08",
+      "timeUtc": "2026-10-07T19:13:47.589Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mww",
+      "place": "13 km SE of Yokoshiba, Japan",
+      "depthKm": 50.601,
+      "longitude": 140.5835,
+      "latitude": 35.5597,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-07T21:05:28.953Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u0v0",
+      "dateKst": "2026-10-08",
+      "timeUtc": "2026-10-07T22:14:07.895Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "15 km ENE of Ōarai, Japan",
+      "depthKm": 79.542,
+      "longitude": 140.7431,
+      "latitude": 36.3615,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-08T00:45:55.040Z",
       "month": "2026-10"
     }
   ]
