@@ -161695,7 +161695,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-08T20:05:57.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u10n",
@@ -161710,7 +161713,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-08T19:45:35.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u10v",
@@ -161725,7 +161731,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-08T20:03:59.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u11a",
@@ -161740,6 +161749,99 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-08T20:36:19.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u13c",
+      "dateKst": "2026-10-09",
+      "timeUtc": "2026-10-09T02:36:58.008Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "195 km WSW of Fukaura, Japan",
+      "depthKm": 269.153,
+      "longitude": 137.6688,
+      "latitude": 40.2927,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-09T04:27:08.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u13v",
+      "dateKst": "2026-10-09",
+      "timeUtc": "2026-10-09T05:11:04.200Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "117 km SE of Bitung, Indonesia",
+      "depthKm": 40.049,
+      "longitude": 125.9365,
+      "latitude": 0.7587,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-09T06:16:52.038Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u13y",
+      "dateKst": "2026-10-09",
+      "timeUtc": "2026-10-09T05:17:04.106Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 130.36,
+      "longitude": -177.334,
+      "latitude": -24.309,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-09T06:19:15.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u14e",
+      "dateKst": "2026-10-09",
+      "timeUtc": "2026-10-09T08:11:47.203Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "249 km E of Levuka, Fiji",
+      "depthKm": 559.662,
+      "longitude": -178.3548,
+      "latitude": -17.72,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-09T08:28:43.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u14i",
+      "dateKst": "2026-10-09",
+      "timeUtc": "2026-10-09T08:27:10.358Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "97 km E of Levuka, Fiji",
+      "depthKm": 639.935,
+      "longitude": -179.7622,
+      "latitude": -17.9914,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-09T08:42:17.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u14u",
+      "dateKst": "2026-10-09",
+      "timeUtc": "2026-10-09T09:29:18.117Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "northern Mid-Atlantic Ridge",
+      "depthKm": 10,
+      "longitude": -35.5737,
+      "latitude": 35.3331,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-09T09:56:24.040Z",
       "month": "2026-10"
     }
   ]
