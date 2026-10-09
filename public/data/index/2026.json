@@ -161681,6 +161681,66 @@
       "tsunami": false,
       "updatedUtc": "2026-10-08T14:44:33.040Z",
       "month": "2026-10"
+    },
+    {
+      "id": "us6000u0yy",
+      "dateKst": "2026-10-09",
+      "timeUtc": "2026-10-08T15:23:47.618Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "84 km WNW of Bengkulu, Indonesia",
+      "depthKm": 50.572,
+      "longitude": 101.5886,
+      "latitude": -3.4591,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-08T20:05:57.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u10n",
+      "dateKst": "2026-10-09",
+      "timeUtc": "2026-10-08T18:06:00.577Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "46 km N of Waingapu, Indonesia",
+      "depthKm": 91.156,
+      "longitude": 120.3127,
+      "latitude": -9.2392,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-08T19:45:35.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u10v",
+      "dateKst": "2026-10-09",
+      "timeUtc": "2026-10-08T18:32:03.544Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "Izu Islands, Japan region",
+      "depthKm": 95.608,
+      "longitude": 140.6005,
+      "latitude": 30.7337,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-08T20:03:59.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u11a",
+      "dateKst": "2026-10-09",
+      "timeUtc": "2026-10-08T19:23:01.983Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "103 km ENE of Noda, Japan",
+      "depthKm": 35,
+      "longitude": 142.9124,
+      "latitude": 40.5087,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-08T20:36:19.040Z",
+      "month": "2026-10"
     }
   ]
 }
