@@ -163216,6 +163216,21 @@
       "month": "2026-10"
     },
     {
+      "id": "us6000u1fa",
+      "dateKst": "2026-10-11",
+      "timeUtc": "2026-10-10T15:10:20.183Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "51 km NNW of Rabaul, Papua New Guinea",
+      "depthKm": 10,
+      "longitude": 151.9827,
+      "latitude": -3.7668,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-10T19:00:57.040Z",
+      "month": "2026-10"
+    },
+    {
       "id": "us6000u1fj",
       "dateKst": "2026-10-11",
       "timeUtc": "2026-10-10T15:58:19.800Z",
@@ -163228,7 +163243,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-10T16:30:27.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u1fk",
@@ -163243,6 +163261,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-10T17:15:13.614Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u1gm",
+      "dateKst": "2026-10-11",
+      "timeUtc": "2026-10-10T20:35:48.751Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "Kermadec Islands region",
+      "depthKm": 117.707,
+      "longitude": -178.9752,
+      "latitude": -31.2348,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-10T21:03:02.040Z",
       "month": "2026-10"
     }
   ]
