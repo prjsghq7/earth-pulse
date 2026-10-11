@@ -388,12 +388,12 @@
     },
     {
       "dateKst": "2026-10-11",
-      "state": "provisional",
-      "count": 22,
-      "maxMagnitude": 5.3,
-      "averageMagnitude": 4.6,
+      "state": "final",
+      "count": 25,
+      "maxMagnitude": 6.2,
+      "averageMagnitude": 4.68,
       "medianMagnitude": 4.6,
-      "medianDepthKm": 10.3,
+      "medianDepthKm": 13.5,
       "eventIds": [
         "us6000u1fa",
         "us6000u1fj",
@@ -416,7 +416,25 @@
         "tx2026uacobs",
         "us6000u1jv",
         "us6000u1k3",
-        "us6000u1ka"
+        "us6000u1ka",
+        "us6000u1kb",
+        "us6000u1kt",
+        "us6000u1kv"
+      ]
+    },
+    {
+      "dateKst": "2026-10-12",
+      "state": "provisional",
+      "count": 4,
+      "maxMagnitude": 5.2,
+      "averageMagnitude": 4.85,
+      "medianMagnitude": 4.75,
+      "medianDepthKm": 32.9,
+      "eventIds": [
+        "us6000u1l7",
+        "us6000u1ld",
+        "us6000u1lf",
+        "us6000u1lk"
       ]
     }
   ]
