@@ -163270,6 +163270,21 @@
       "rmsSeconds": null
     },
     {
+      "id": "us6000u1jt",
+      "dateKst": "2026-10-11",
+      "timeUtc": "2026-10-10T19:15:54.315Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "southern Mid-Atlantic Ridge",
+      "depthKm": 10,
+      "longitude": -17.1143,
+      "latitude": -35.2765,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-11T09:43:35.040Z",
+      "month": "2026-10"
+    },
+    {
       "id": "us6000u1gm",
       "dateKst": "2026-10-11",
       "timeUtc": "2026-10-10T20:35:48.751Z",
@@ -163300,7 +163315,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-10T22:01:14.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u1gu",
@@ -163315,7 +163333,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-10T22:14:09.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u1h4",
@@ -163330,7 +163351,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-10T23:48:14.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u1h9",
@@ -163345,7 +163369,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-11T00:29:36.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u1hj",
@@ -163360,7 +163387,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-11T03:15:25.517Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u1hw",
@@ -163375,7 +163405,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-11T04:10:49.222Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u1i0",
@@ -163390,7 +163423,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-11T02:52:52.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u1i9",
@@ -163405,7 +163441,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-11T04:02:14.818Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u1i6",
@@ -163420,6 +163459,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-11T04:43:05.627Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u1il",
+      "dateKst": "2026-10-11",
+      "timeUtc": "2026-10-11T05:07:57.511Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "110 km SSE of Sola, Vanuatu",
+      "depthKm": 10.602,
+      "longitude": 168.0696,
+      "latitude": -14.7335,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-11T07:11:17.775Z",
       "month": "2026-10"
     },
     {
@@ -163435,6 +163492,99 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-11T05:36:58.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u1iz",
+      "dateKst": "2026-10-11",
+      "timeUtc": "2026-10-11T07:07:47.437Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "26 km SE of Jurm, Afghanistan",
+      "depthKm": 198.608,
+      "longitude": 71.007,
+      "latitude": 36.6753,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-11T07:22:26.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u1j3",
+      "dateKst": "2026-10-11",
+      "timeUtc": "2026-10-11T07:28:52.878Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 546.339,
+      "longitude": 179.9648,
+      "latitude": -23.6919,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-11T07:46:37.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "tx2026uacobs",
+      "dateKst": "2026-10-11",
+      "timeUtc": "2026-10-11T08:04:54.794Z",
+      "magnitude": 4,
+      "magnitudeType": "ml",
+      "place": "56 km S of Whites City, New Mexico",
+      "depthKm": 5.946,
+      "longitude": -104.427,
+      "latitude": 31.666,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-11T12:15:04.643Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u1jv",
+      "dateKst": "2026-10-11",
+      "timeUtc": "2026-10-11T10:05:41.414Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "260 km WNW of Houma, Tonga",
+      "depthKm": 512.919,
+      "longitude": -177.6638,
+      "latitude": -20.3859,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-11T10:26:30.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u1k3",
+      "dateKst": "2026-10-11",
+      "timeUtc": "2026-10-11T11:18:27.916Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "82 km E of Petropavlovsk-Kamchatsky, Russia",
+      "depthKm": 68.683,
+      "longitude": 159.8624,
+      "latitude": 53.0788,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-11T11:36:41.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u1ka",
+      "dateKst": "2026-10-11",
+      "timeUtc": "2026-10-11T12:13:18.599Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mww",
+      "place": "165 km SSE of Miyakojima, Japan",
+      "depthKm": 10,
+      "longitude": 126.1264,
+      "latitude": 23.5015,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-11T12:31:54.040Z",
       "month": "2026-10"
     }
   ]
