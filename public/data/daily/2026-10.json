@@ -424,17 +424,20 @@
     },
     {
       "dateKst": "2026-10-12",
-      "state": "provisional",
-      "count": 22,
+      "state": "final",
+      "count": 33,
       "maxMagnitude": 5.5,
-      "averageMagnitude": 4.67,
+      "averageMagnitude": 4.64,
       "medianMagnitude": 4.6,
-      "medianDepthKm": 28.7,
+      "medianDepthKm": 10,
       "eventIds": [
         "us6000u1l7",
         "us6000u1ld",
+        "us6000u1lg",
         "us6000u1lf",
         "us6000u1lk",
+        "us6000u1lp",
+        "us6000u1ls",
         "us6000u1me",
         "us6000u1mi",
         "us6000u1mj",
@@ -451,8 +454,33 @@
         "us6000u1pl",
         "us6000u1pz",
         "us6000u1q2",
+        "us6000u1q8",
         "us6000u1qd",
-        "us6000u1qy"
+        "us6000u1qy",
+        "us6000u1r3",
+        "us6000u1re",
+        "us6000u1rh",
+        "us6000u1rm",
+        "us6000u1rx",
+        "us6000u1s2",
+        "us6000u1s8"
+      ]
+    },
+    {
+      "dateKst": "2026-10-13",
+      "state": "provisional",
+      "count": 6,
+      "maxMagnitude": 4.9,
+      "averageMagnitude": 4.7,
+      "medianMagnitude": 4.75,
+      "medianDepthKm": 21.8,
+      "eventIds": [
+        "us6000u1sn",
+        "us6000u1uk",
+        "us6000u1uq",
+        "us6000u1ut",
+        "us6000u1uv",
+        "us6000u1vf"
       ]
     }
   ]
