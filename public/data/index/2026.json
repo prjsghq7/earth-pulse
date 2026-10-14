@@ -164727,20 +164727,17 @@
     {
       "id": "us6000u23d",
       "dateKst": "2026-10-14",
-      "timeUtc": "2026-10-13T16:28:14.303Z",
+      "timeUtc": "2026-10-13T16:28:15.172Z",
       "magnitude": 5.1,
       "magnitudeType": "mb",
-      "place": "119 km S of Kokopo, Papua New Guinea",
-      "depthKm": 28.4,
-      "longitude": 152.1142,
-      "latitude": -5.4162,
+      "place": "123 km S of Kokopo, Papua New Guinea",
+      "depthKm": 36.991,
+      "longitude": 152.1025,
+      "latitude": -5.4453,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-13T16:58:34.040Z",
-      "month": "2026-10",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-10-14T17:00:58.040Z",
+      "month": "2026-10"
     },
     {
       "id": "us6000u24a",
@@ -164790,11 +164787,8 @@
       "latitude": 6.7888,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-14T00:28:05.318Z",
-      "month": "2026-10",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-10-14T12:13:38.223Z",
+      "month": "2026-10"
     },
     {
       "id": "us6000u265",
@@ -164916,7 +164910,7 @@
       "latitude": -20.3552,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-14T10:47:42.653Z",
+      "updatedUtc": "2026-10-14T15:19:03.195Z",
       "month": "2026-10"
     },
     {
@@ -164932,7 +164926,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-14T06:27:56.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u27u",
@@ -164947,6 +164944,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-14T07:53:07.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u28e",
+      "dateKst": "2026-10-14",
+      "timeUtc": "2026-10-14T09:16:18.828Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "42 km NNE of Kilimatinde, Tanzania",
+      "depthKm": 10,
+      "longitude": 35.0428,
+      "latitude": -5.4767,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-14T12:56:26.040Z",
       "month": "2026-10"
     },
     {
@@ -164961,7 +164976,52 @@
       "latitude": -20.9899,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-14T11:06:01.040Z",
+      "updatedUtc": "2026-10-14T16:42:50.258Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2a0",
+      "dateKst": "2026-10-14",
+      "timeUtc": "2026-10-14T13:19:07.599Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "45 km SSE of Ōfunato, Japan",
+      "depthKm": 56.594,
+      "longitude": 141.9302,
+      "latitude": 38.6954,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-14T14:44:18.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2a6",
+      "dateKst": "2026-10-14",
+      "timeUtc": "2026-10-14T14:42:04.428Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "67 km SSW of Vallenar, Chile",
+      "depthKm": 48.371,
+      "longitude": -70.9776,
+      "latitude": -29.151,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-14T15:00:36.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2ab",
+      "dateKst": "2026-10-15",
+      "timeUtc": "2026-10-14T15:12:40.526Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "122 km SW of Bengkulu, Indonesia",
+      "depthKm": 10,
+      "longitude": 101.6053,
+      "latitude": -4.6878,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-14T16:24:34.040Z",
       "month": "2026-10"
     }
   ]
