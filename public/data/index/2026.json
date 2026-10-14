@@ -165022,7 +165022,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-14T16:24:34.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     }
   ]
 }
