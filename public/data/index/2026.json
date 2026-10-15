@@ -165022,7 +165022,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-14T22:37:47.896Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2c6",
@@ -165037,7 +165040,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-14T22:17:52.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2d6",
@@ -165052,7 +165058,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-14T23:35:48.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2dw",
@@ -165067,7 +165076,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-15T02:24:53.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2eh",
@@ -165082,7 +165094,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-15T04:02:36.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2ec",
@@ -165096,7 +165111,37 @@
       "latitude": -13.409,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-15T04:10:00.919Z",
+      "updatedUtc": "2026-10-15T08:16:33.770Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2ev",
+      "dateKst": "2026-10-15",
+      "timeUtc": "2026-10-15T05:25:31.942Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mww",
+      "place": "43 km SSE of Otorohanga, New Zealand",
+      "depthKm": 286.008,
+      "longitude": 175.3814,
+      "latitude": -38.5478,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-15T07:31:42.327Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "aka2026ukynnb",
+      "dateKst": "2026-10-15",
+      "timeUtc": "2026-10-15T11:07:01.800Z",
+      "magnitude": 5.6,
+      "magnitudeType": "ml",
+      "place": "43 km NNW of Lake Minchumina, Alaska",
+      "depthKm": 4.5,
+      "longitude": -152.746,
+      "latitude": 64.22,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-15T11:19:52.938Z",
       "month": "2026-10"
     }
   ]
