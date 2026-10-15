@@ -538,12 +538,12 @@
     },
     {
       "dateKst": "2026-10-15",
-      "state": "provisional",
-      "count": 8,
+      "state": "final",
+      "count": 14,
       "maxMagnitude": 5.6,
-      "averageMagnitude": 4.76,
-      "medianMagnitude": 4.65,
-      "medianDepthKm": 24.8,
+      "averageMagnitude": 4.81,
+      "medianMagnitude": 4.8,
+      "medianDepthKm": 10,
       "eventIds": [
         "us6000u2ab",
         "us6000u2c6",
@@ -552,7 +552,25 @@
         "us6000u2eh",
         "us6000u2ec",
         "us6000u2ev",
-        "aka2026ukynnb"
+        "aka2026ukynnb",
+        "us6000u2gd",
+        "us6000u2hp",
+        "us6000u2hr",
+        "us6000u2hv",
+        "us6000u2ht",
+        "us6000u2i2"
+      ]
+    },
+    {
+      "dateKst": "2026-10-16",
+      "state": "provisional",
+      "count": 1,
+      "maxMagnitude": 4.5,
+      "averageMagnitude": 4.5,
+      "medianMagnitude": 4.5,
+      "medianDepthKm": 22.8,
+      "eventIds": [
+        "us6000u2i9"
       ]
     }
   ]
