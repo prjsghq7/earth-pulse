@@ -165607,7 +165607,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T19:07:08.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2qj",
@@ -165622,7 +165625,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T19:15:27.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2qn",
@@ -165637,7 +165643,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T16:35:37.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2rv",
@@ -165652,21 +165661,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T19:23:47.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2v8",
       "dateKst": "2026-10-17",
-      "timeUtc": "2026-10-16T19:34:10.742Z",
+      "timeUtc": "2026-10-16T19:34:10.597Z",
       "magnitude": 5.2,
       "magnitudeType": "mww",
       "place": "off the coast of Ecuador",
       "depthKm": 10,
-      "longitude": -85.286,
-      "latitude": 1.1718,
+      "longitude": -85.2725,
+      "latitude": 1.2955,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-16T19:55:24.040Z",
+      "updatedUtc": "2026-10-16T21:38:27.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2w9",
+      "dateKst": "2026-10-17",
+      "timeUtc": "2026-10-16T21:30:26.101Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "70 km NNE of Mīnāb, Iran",
+      "depthKm": 10,
+      "longitude": 57.3327,
+      "latitude": 27.7264,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T23:21:33.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2wn",
+      "dateKst": "2026-10-17",
+      "timeUtc": "2026-10-16T22:41:03.562Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mww",
+      "place": "12 km SSE of Tebario, Panama",
+      "depthKm": 10,
+      "longitude": -80.9354,
+      "latitude": 7.6127,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T23:01:52.040Z",
       "month": "2026-10"
     }
   ]
