@@ -165253,7 +165253,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-15T17:23:49.001Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2im",
@@ -165268,7 +165271,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-15T18:00:17.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2kw",
@@ -165282,7 +165288,7 @@
       "latitude": -20.0692,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-15T20:54:55.428Z",
+      "updatedUtc": "2026-10-16T03:45:53.846Z",
       "month": "2026-10"
     },
     {
@@ -165298,6 +165304,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-15T20:59:15.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u2le",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-15T21:29:07.770Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "52 km S of Champerico, Guatemala",
+      "depthKm": 35.809,
+      "longitude": -91.9535,
+      "latitude": 13.8226,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T01:57:41.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2mc",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T00:37:46.842Z",
+      "magnitude": 4,
+      "magnitudeType": "mb",
+      "place": "191 km NW of Oula Xiuma, China",
+      "depthKm": 10,
+      "longitude": 99.4947,
+      "latitude": 35.3246,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T04:18:18.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2me",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T01:50:44.178Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "12 km SSE of Tebario, Panama",
+      "depthKm": 10,
+      "longitude": -80.9467,
+      "latitude": 7.6075,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T02:20:25.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2mq",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T03:35:31.925Z",
+      "magnitude": 6.9,
+      "magnitudeType": "mww",
+      "place": "76 km NE of Ozernovskiy, Russia",
+      "depthKm": 135,
+      "longitude": 157.2701,
+      "latitude": 51.9848,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T04:21:47.778Z",
       "month": "2026-10"
     }
   ]
