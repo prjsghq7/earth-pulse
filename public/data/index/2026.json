@@ -165289,7 +165289,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T03:45:53.846Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2kz",
@@ -165322,7 +165325,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T01:57:41.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2mc",
@@ -165337,7 +165343,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T04:18:18.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2me",
@@ -165352,7 +165361,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T02:20:25.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2mq",
@@ -165366,7 +165378,97 @@
       "latitude": 51.9848,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-16T04:21:47.778Z",
+      "updatedUtc": "2026-10-16T06:13:47.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2my",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T03:57:21.128Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "Mariana Islands region",
+      "depthKm": 343.106,
+      "longitude": 142.9876,
+      "latitude": 21.5448,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T04:38:20.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2n4",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T04:42:40.890Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "95 km SW of Brisas Barra de Suchiate, Mexico",
+      "depthKm": 10,
+      "longitude": -92.8623,
+      "latitude": 13.934,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T04:56:50.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2n7",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T05:22:28.183Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "8 km SSE of Guarumal, Panama",
+      "depthKm": 10,
+      "longitude": -81.2351,
+      "latitude": 7.7245,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T05:53:24.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2p5",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T09:04:28.861Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "southern East Pacific Rise",
+      "depthKm": 10,
+      "longitude": -126.4961,
+      "latitude": -55.2392,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T10:06:45.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2p2",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T09:13:44.909Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "31 km ENE of Kinablangan, Philippines",
+      "depthKm": 73.712,
+      "longitude": 126.799,
+      "latitude": 7.8392,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T09:34:45.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2pb",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T10:46:48.569Z",
+      "magnitude": 4,
+      "magnitudeType": "mb",
+      "place": "31 km NNE of Banff, Canada",
+      "depthKm": 8.336,
+      "longitude": -115.4536,
+      "latitude": 51.4534,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T11:09:17.903Z",
       "month": "2026-10"
     }
   ]
