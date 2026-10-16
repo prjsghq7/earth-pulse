@@ -165378,7 +165378,7 @@
       "latitude": 51.9848,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-16T06:13:47.040Z",
+      "updatedUtc": "2026-10-16T11:45:46.199Z",
       "month": "2026-10"
     },
     {
@@ -165394,7 +165394,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T04:38:20.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2n4",
@@ -165409,7 +165412,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T04:56:50.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2n7",
@@ -165424,6 +165430,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T05:53:24.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u2nw",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T08:55:33.418Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "66 km N of Mīnāb, Iran",
+      "depthKm": 10,
+      "longitude": 57.1201,
+      "latitude": 27.7269,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T11:25:05.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2nz",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T09:01:08.413Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 593.722,
+      "longitude": -179.6426,
+      "latitude": -22.2174,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T12:35:14.040Z",
       "month": "2026-10"
     },
     {
@@ -165439,7 +165478,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T10:06:45.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2p2",
@@ -165454,7 +165496,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T09:34:45.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2pb",
@@ -165468,7 +165513,82 @@
       "latitude": 51.4534,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-16T11:09:17.903Z",
+      "updatedUtc": "2026-10-16T16:24:49.668Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2ph",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T11:39:44.878Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "7 km WSW of Soconusco, Mexico",
+      "depthKm": 108.908,
+      "longitude": -92.7881,
+      "latitude": 15.2777,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T11:52:45.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2pl",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T11:57:19.839Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "119 km SSW of Merizo Village, Guam",
+      "depthKm": 10,
+      "longitude": 144.1189,
+      "latitude": 12.328,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T12:16:21.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2pp",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T12:18:25.421Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "10 km SE of Lamitan, Philippines",
+      "depthKm": 10,
+      "longitude": 125.7789,
+      "latitude": 6.0268,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T13:08:51.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2q5",
+      "dateKst": "2026-10-16",
+      "timeUtc": "2026-10-16T14:09:54.288Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "Auckland Islands, New Zealand region",
+      "depthKm": 10,
+      "longitude": 163.4041,
+      "latitude": -49.8826,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T14:32:55.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2qd",
+      "dateKst": "2026-10-17",
+      "timeUtc": "2026-10-16T15:06:34.084Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "153 km W of Neiafu, Tonga",
+      "depthKm": 247.722,
+      "longitude": -175.4291,
+      "latitude": -18.4686,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-16T15:31:39.040Z",
       "month": "2026-10"
     }
   ]
