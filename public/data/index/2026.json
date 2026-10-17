@@ -165697,7 +165697,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T23:33:09.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2w9",
@@ -165730,7 +165733,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-16T23:53:58.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2wn",
@@ -165744,7 +165750,7 @@
       "latitude": 7.6127,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-16T23:43:45.097Z",
+      "updatedUtc": "2026-10-17T07:39:59.302Z",
       "month": "2026-10"
     },
     {
@@ -165759,7 +165765,7 @@
       "latitude": 31.3927,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-17T03:29:00.308Z",
+      "updatedUtc": "2026-10-17T04:57:20.061Z",
       "month": "2026-10"
     },
     {
@@ -165774,7 +165780,7 @@
       "latitude": 38.305,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-17T01:07:12.263Z",
+      "updatedUtc": "2026-10-17T06:08:13.362Z",
       "month": "2026-10"
     },
     {
@@ -165790,7 +165796,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-17T01:18:02.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "aka2026uobltl",
@@ -165805,6 +165814,111 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-17T03:54:44.350Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2xs",
+      "dateKst": "2026-10-17",
+      "timeUtc": "2026-10-17T04:19:05.244Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "196 km SSE of Alo, Wallis and Futuna",
+      "depthKm": 439.394,
+      "longitude": -177.7283,
+      "latitude": -16.0441,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-17T04:33:19.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2y1",
+      "dateKst": "2026-10-17",
+      "timeUtc": "2026-10-17T05:06:57.657Z",
+      "magnitude": 5.7,
+      "magnitudeType": "mww",
+      "place": "48 km WNW of Khuzdar, Pakistan",
+      "depthKm": 10,
+      "longitude": 66.1708,
+      "latitude": 28.0179,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-17T08:49:11.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2yw",
+      "dateKst": "2026-10-17",
+      "timeUtc": "2026-10-17T07:20:48.242Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "59 km NNW of Ruteng, Indonesia",
+      "depthKm": 10,
+      "longitude": 120.2824,
+      "latitude": -8.1086,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-17T07:36:26.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2yx",
+      "dateKst": "2026-10-17",
+      "timeUtc": "2026-10-17T07:25:13.879Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "10 km SW of El Cerrito, Colombia",
+      "depthKm": 154.394,
+      "longitude": -76.3781,
+      "latitude": 3.6157,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-17T07:41:57.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2yz",
+      "dateKst": "2026-10-17",
+      "timeUtc": "2026-10-17T07:40:02.596Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "80 km NW of Sola, Vanuatu",
+      "depthKm": 145.265,
+      "longitude": 167.0474,
+      "latitude": -13.3461,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-17T07:58:10.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2z9",
+      "dateKst": "2026-10-17",
+      "timeUtc": "2026-10-17T08:59:51.583Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "110 km NE of Norsup, Vanuatu",
+      "depthKm": 10,
+      "longitude": 168.2516,
+      "latitude": -15.5117,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-17T10:16:05.991Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u2zb",
+      "dateKst": "2026-10-17",
+      "timeUtc": "2026-10-17T09:07:40.745Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "51 km N of Pante Makasar, Timor Leste",
+      "depthKm": 90.844,
+      "longitude": 124.3423,
+      "latitude": -8.7339,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-17T09:25:09.040Z",
       "month": "2026-10"
     }
   ]
