@@ -165977,6 +165977,36 @@
       "tsunami": false,
       "updatedUtc": "2026-10-17T14:17:39.040Z",
       "month": "2026-10"
+    },
+    {
+      "id": "us6000u30p",
+      "dateKst": "2026-10-18",
+      "timeUtc": "2026-10-17T16:24:16.531Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "3 km NE of Flores, Panama",
+      "depthKm": 10,
+      "longitude": -80.3846,
+      "latitude": 7.5057,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-17T16:57:04.854Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u30x",
+      "dateKst": "2026-10-18",
+      "timeUtc": "2026-10-17T16:52:45.164Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "88 km SSW of Uyuni, Bolivia",
+      "depthKm": 189.462,
+      "longitude": -67.2144,
+      "latitude": -21.1752,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-17T18:26:00.040Z",
+      "month": "2026-10"
     }
   ]
 }
