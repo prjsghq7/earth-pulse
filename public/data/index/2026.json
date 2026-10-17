@@ -165751,7 +165751,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-17T07:39:59.302Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2wp",
@@ -165766,7 +165769,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-17T04:57:20.061Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2ww",
@@ -165780,7 +165786,7 @@
       "latitude": 38.305,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-17T06:08:13.362Z",
+      "updatedUtc": "2026-10-17T15:17:11.040Z",
       "month": "2026-10"
     },
     {
@@ -165829,7 +165835,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-17T04:33:19.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2y1",
@@ -165844,7 +165853,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-17T08:49:11.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2yw",
@@ -165859,7 +165871,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-17T07:36:26.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2yx",
@@ -165874,7 +165889,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-17T07:41:57.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2yz",
@@ -165889,7 +165907,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-17T07:58:10.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2z9",
@@ -165904,7 +165925,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-17T10:16:05.991Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u2zb",
@@ -165919,6 +165943,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-17T09:25:09.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u2zv",
+      "dateKst": "2026-10-17",
+      "timeUtc": "2026-10-17T11:32:25.645Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "83 km N of Opotiki, New Zealand",
+      "depthKm": 133.382,
+      "longitude": 177.3673,
+      "latitude": -37.2587,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-17T12:17:54.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u309",
+      "dateKst": "2026-10-17",
+      "timeUtc": "2026-10-17T13:59:34.575Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "86 km SW of Brisas Barra de Suchiate, Mexico",
+      "depthKm": 10,
+      "longitude": -92.8552,
+      "latitude": 14.0469,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-17T14:17:39.040Z",
       "month": "2026-10"
     }
   ]
