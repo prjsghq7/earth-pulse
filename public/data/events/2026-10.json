@@ -12239,6 +12239,34 @@
       "azimuthalGap": 47,
       "rmsSeconds": 1.13,
       "qualityCheckedAt": "2026-10-17T20:30:46.997Z"
+    },
+    {
+      "id": "us6000u321",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "66 km WSW of Nuofu, China",
+      "timeUtc": "2026-10-17T21:08:23.729Z",
+      "dateKst": "2026-10-18",
+      "timeKst": "06:08:23",
+      "updatedUtc": "2026-10-17T22:05:31.040Z",
+      "longitude": 99.1332,
+      "latitude": 21.9272,
+      "depthKm": 10,
+      "status": "reviewed",
+      "tsunami": false,
+      "alert": null,
+      "felt": null,
+      "cdi": null,
+      "mmi": null,
+      "significance": 298,
+      "network": "us",
+      "code": "6000u321",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u321",
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u321&format=geojson",
+      "stationCount": 35,
+      "azimuthalGap": 72,
+      "rmsSeconds": 0.87,
+      "qualityCheckedAt": "2026-10-17T23:04:37.012Z"
     }
   ]
 }
