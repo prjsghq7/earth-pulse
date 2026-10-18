@@ -166026,7 +166026,22 @@
       "latitude": 21.9272,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-17T22:05:31.040Z",
+      "updatedUtc": "2026-10-18T02:27:43.891Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u32r",
+      "dateKst": "2026-10-18",
+      "timeUtc": "2026-10-18T00:28:29.111Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "31 km SE of Kainantu, Papua New Guinea",
+      "depthKm": 124.07,
+      "longitude": 146.0489,
+      "latitude": -6.5103,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-18T01:10:24.040Z",
       "month": "2026-10"
     }
   ]
