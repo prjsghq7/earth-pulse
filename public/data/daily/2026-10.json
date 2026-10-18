@@ -649,16 +649,19 @@
     {
       "dateKst": "2026-10-19",
       "state": "provisional",
-      "count": 4,
+      "count": 7,
       "maxMagnitude": 5.2,
-      "averageMagnitude": 4.67,
-      "medianMagnitude": 4.6,
-      "medianDepthKm": 80,
+      "averageMagnitude": 4.7,
+      "medianMagnitude": 4.7,
+      "medianDepthKm": 10,
       "eventIds": [
         "us6000u36d",
         "us6000u36h",
         "us6000u36m",
-        "us6000u37h"
+        "us6000u37h",
+        "us6000u37s",
+        "us6000u38b",
+        "us6000u38g"
       ]
     }
   ]

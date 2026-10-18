@@ -166147,7 +166147,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-18T16:21:24.252Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u36h",
@@ -166162,7 +166165,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-18T18:18:27.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u36m",
@@ -166177,7 +166183,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-18T18:37:54.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u37h",
@@ -166192,6 +166201,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-18T20:13:00.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u37s",
+      "dateKst": "2026-10-19",
+      "timeUtc": "2026-10-18T20:24:09.032Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "223 km NE of Lospalos, Timor Leste",
+      "depthKm": 142.589,
+      "longitude": 128.6566,
+      "latitude": -7.3545,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-18T20:56:55.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u38b",
+      "dateKst": "2026-10-19",
+      "timeUtc": "2026-10-18T22:06:13.969Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "147 km SSW of Kokopo, Papua New Guinea",
+      "depthKm": 10,
+      "longitude": 151.8407,
+      "latitude": -5.6049,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-18T22:35:20.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u38g",
+      "dateKst": "2026-10-19",
+      "timeUtc": "2026-10-18T22:31:43.284Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mww",
+      "place": "129 km SSE of Kokopo, Papua New Guinea",
+      "depthKm": 10,
+      "longitude": 152.6748,
+      "latitude": -5.4373,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-18T22:48:48.040Z",
       "month": "2026-10"
     }
   ]
