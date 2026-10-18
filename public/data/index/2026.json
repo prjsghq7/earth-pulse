@@ -166027,7 +166027,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-18T02:27:43.891Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u32r",
@@ -166042,6 +166045,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-18T01:10:24.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u33d",
+      "dateKst": "2026-10-18",
+      "timeUtc": "2026-10-18T05:00:13.331Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "2 km W of Pedasí, Panama",
+      "depthKm": 10,
+      "longitude": -80.0533,
+      "latitude": 7.5317,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-18T05:17:40.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u33l",
+      "dateKst": "2026-10-18",
+      "timeUtc": "2026-10-18T06:15:47.214Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "2 km S of Leones Arriba, Panama",
+      "depthKm": 10,
+      "longitude": -81.1202,
+      "latitude": 7.7298,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-18T06:59:25.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u347",
+      "dateKst": "2026-10-18",
+      "timeUtc": "2026-10-18T07:20:25.909Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "67 km E of Petropavlovsk-Kamchatsky, Russia",
+      "depthKm": 78.318,
+      "longitude": 159.6209,
+      "latitude": 53.1714,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-18T07:36:08.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u34e",
+      "dateKst": "2026-10-18",
+      "timeUtc": "2026-10-18T08:00:06.054Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "55 km NNW of Ruteng, Indonesia",
+      "depthKm": 10,
+      "longitude": 120.2734,
+      "latitude": -8.1449,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-18T08:14:46.040Z",
       "month": "2026-10"
     }
   ]
