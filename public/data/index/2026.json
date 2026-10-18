@@ -166133,6 +166133,66 @@
       "tsunami": false,
       "updatedUtc": "2026-10-18T12:59:51.040Z",
       "month": "2026-10"
+    },
+    {
+      "id": "us6000u36d",
+      "dateKst": "2026-10-19",
+      "timeUtc": "2026-10-18T15:35:47.580Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "20 km SW of Sandy Point Town, Saint Kitts and Nevis",
+      "depthKm": 149.951,
+      "longitude": -63.0065,
+      "latitude": 17.2531,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-18T16:21:24.252Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u36h",
+      "dateKst": "2026-10-19",
+      "timeUtc": "2026-10-18T15:39:40.151Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "213 km WSW of Houma, Tonga",
+      "depthKm": 271.233,
+      "longitude": -177.2893,
+      "latitude": -21.6837,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-18T18:18:27.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u36m",
+      "dateKst": "2026-10-19",
+      "timeUtc": "2026-10-18T16:12:55.030Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "0 km NE of Río Grande, Panama",
+      "depthKm": 10,
+      "longitude": -81.3297,
+      "latitude": 7.7244,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-18T18:37:54.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u37h",
+      "dateKst": "2026-10-19",
+      "timeUtc": "2026-10-18T19:32:28.734Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "71 km ESE of ‘Ohonua, Tonga",
+      "depthKm": 10,
+      "longitude": -174.2956,
+      "latitude": -21.541,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-18T20:13:00.040Z",
+      "month": "2026-10"
     }
   ]
 }
