@@ -166146,11 +166146,8 @@
       "latitude": 17.2531,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-18T16:21:24.252Z",
-      "month": "2026-10",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-10-19T04:18:34.212Z",
+      "month": "2026-10"
     },
     {
       "id": "us6000u36h",
@@ -166219,7 +166216,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-18T20:56:55.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u38b",
@@ -166234,21 +166234,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-18T22:35:20.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u38g",
       "dateKst": "2026-10-19",
-      "timeUtc": "2026-10-18T22:31:43.284Z",
+      "timeUtc": "2026-10-18T22:31:43.272Z",
       "magnitude": 5.1,
       "magnitudeType": "mww",
       "place": "129 km SSE of Kokopo, Papua New Guinea",
       "depthKm": 10,
-      "longitude": 152.6748,
-      "latitude": -5.4373,
+      "longitude": 152.6162,
+      "latitude": -5.4567,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-18T22:48:48.040Z",
+      "updatedUtc": "2026-10-18T23:24:55.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u38i",
+      "dateKst": "2026-10-19",
+      "timeUtc": "2026-10-18T22:34:22.230Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "Fiji region",
+      "depthKm": 551.945,
+      "longitude": -178.6587,
+      "latitude": -20.9271,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-18T23:19:33.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u38u",
+      "dateKst": "2026-10-19",
+      "timeUtc": "2026-10-18T23:30:43.709Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "Kermadec Islands region",
+      "depthKm": 444.195,
+      "longitude": -179.9252,
+      "latitude": -28.3596,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-19T00:00:34.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u38y",
+      "dateKst": "2026-10-19",
+      "timeUtc": "2026-10-18T23:59:22.511Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "33 km SE of Sơn La, Vietnam",
+      "depthKm": 10,
+      "longitude": 104.1567,
+      "latitude": 21.1202,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-19T00:37:26.040Z",
       "month": "2026-10"
     }
   ]
