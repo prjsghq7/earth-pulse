@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "state": "fresh",
+  "state": "delayed",
   "timezone": "Asia/Seoul",
   "targetDateKst": "2026-10-20",
   "minMagnitude": 4,
-  "lastAttemptAt": "2026-10-19T20:33:29.389Z",
+  "lastAttemptAt": "2026-10-20T00:17:09.539Z",
   "lastSuccessAt": "2026-10-19T20:33:29.389Z",
   "dataThrough": "2026-10-19T20:33:29.389Z",
-  "nextScheduledAt": "2026-10-19T21:10:00.000Z",
+  "nextScheduledAt": "2026-10-20T03:10:00.000Z",
   "source": {
     "name": "USGS ComCat FDSN Event API",
     "endpoint": "https://earthquake.usgs.gov/fdsnws/event/1/query",
@@ -17,5 +17,8 @@
     "acceptedCount": 41,
     "rejectedCount": 0
   },
-  "error": null
+  "error": {
+    "code": "source_offline",
+    "message": "외부 지진 자료를 갱신하지 못했습니다. 저장된 마지막 정상값을 유지합니다."
+  }
 }
