@@ -167161,7 +167161,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T16:44:55.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3nd",
@@ -167176,7 +167179,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T17:00:30.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3nl",
@@ -167191,7 +167197,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T17:23:26.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3nn",
@@ -167206,7 +167215,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T19:01:08.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3nz",
@@ -167221,7 +167233,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T19:09:55.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3p1",
@@ -167235,7 +167250,97 @@
       "latitude": 37.9575,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-20T18:46:31.146Z",
+      "updatedUtc": "2026-10-20T22:39:58.636Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3p9",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-20T18:36:03.727Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 353.846,
+      "longitude": -178.9413,
+      "latitude": -25.9915,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-20T19:27:51.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3pm",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-20T19:53:59.721Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "Kuril Islands",
+      "depthKm": 28.746,
+      "longitude": 152.9149,
+      "latitude": 46.2196,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-20T20:39:04.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3pq",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-20T20:03:26.613Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "187 km NW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.6598,
+      "latitude": -14.0479,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-20T20:28:22.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3qu",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-20T22:51:44.847Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "6 km SE of Pitaloza Arriba, Panama",
+      "depthKm": 10,
+      "longitude": -80.6274,
+      "latitude": 7.597,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-20T23:15:24.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3r1",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-20T23:16:44.139Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "115 km NNE of Barishal, Pakistan",
+      "depthKm": 66.403,
+      "longitude": 75.0801,
+      "latitude": 37.3106,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-20T23:29:17.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3r3",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-20T23:24:26.555Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 517.082,
+      "longitude": 179.5284,
+      "latitude": -25.5451,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-20T23:38:12.040Z",
       "month": "2026-10"
     }
   ]
