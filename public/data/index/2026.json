@@ -166816,7 +166816,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-19T20:58:05.553Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3ge",
@@ -166831,7 +166834,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-19T21:01:19.614Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3gm",
@@ -166864,7 +166870,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-19T22:34:50.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3ic",
@@ -166879,7 +166888,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-19T23:14:57.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3j1",
@@ -166894,7 +166906,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T01:10:16.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3j5",
@@ -166909,7 +166924,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T01:29:11.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3jd",
@@ -166923,7 +166941,7 @@
       "latitude": 18.2529,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-20T07:05:17.314Z",
+      "updatedUtc": "2026-10-20T09:05:32.735Z",
       "month": "2026-10"
     },
     {
@@ -166939,7 +166957,10 @@
       "status": "REVIEWED",
       "tsunami": false,
       "updatedUtc": "2026-10-20T04:29:33.579Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3jl",
@@ -166954,6 +166975,24 @@
       "status": "reviewed",
       "tsunami": true,
       "updatedUtc": "2026-10-20T06:28:59.943Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u3k7",
+      "dateKst": "2026-10-20",
+      "timeUtc": "2026-10-20T06:04:19.173Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "7 km SE of San Julian, Philippines",
+      "depthKm": 10,
+      "longitude": 125.5048,
+      "latitude": 11.7067,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-20T08:35:35.040Z",
       "month": "2026-10"
     },
     {
@@ -166969,7 +167008,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T07:11:40.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3ka",
@@ -166984,7 +167026,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T06:55:59.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3kg",
@@ -166999,6 +167044,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T07:33:12.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u3l0",
+      "dateKst": "2026-10-20",
+      "timeUtc": "2026-10-20T08:39:56.237Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "199 km NW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.5875,
+      "latitude": -13.9692,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-20T09:10:34.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3l3",
+      "dateKst": "2026-10-20",
+      "timeUtc": "2026-10-20T08:58:37.177Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "100 km SSW of Alo, Wallis and Futuna",
+      "depthKm": 417.492,
+      "longitude": -178.4627,
+      "latitude": -15.1536,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-20T09:22:19.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3lf",
+      "dateKst": "2026-10-20",
+      "timeUtc": "2026-10-20T10:40:40.968Z",
+      "magnitude": 5,
+      "magnitudeType": "mwr",
+      "place": "81 km S of Sand Point, Alaska",
+      "depthKm": 35,
+      "longitude": -160.3291,
+      "latitude": 54.6088,
+      "status": "reviewed",
+      "tsunami": true,
+      "updatedUtc": "2026-10-20T12:50:46.381Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3li",
+      "dateKst": "2026-10-20",
+      "timeUtc": "2026-10-20T11:40:10.539Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "184 km NW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.7462,
+      "latitude": -13.991,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-20T12:29:06.040Z",
       "month": "2026-10"
     }
   ]
