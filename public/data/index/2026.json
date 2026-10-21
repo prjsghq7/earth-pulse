@@ -167250,7 +167250,7 @@
       "latitude": 37.9575,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-20T22:39:58.636Z",
+      "updatedUtc": "2026-10-21T03:07:59.664Z",
       "month": "2026-10"
     },
     {
@@ -167266,7 +167266,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T19:27:51.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3pm",
@@ -167281,7 +167284,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T20:39:04.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3pq",
@@ -167296,7 +167302,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T20:28:22.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3qu",
@@ -167311,36 +167320,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-20T23:15:24.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3r1",
       "dateKst": "2026-10-21",
-      "timeUtc": "2026-10-20T23:16:44.139Z",
-      "magnitude": 4.5,
+      "timeUtc": "2026-10-20T23:16:43.934Z",
+      "magnitude": 4.6,
       "magnitudeType": "mb",
       "place": "115 km NNE of Barishal, Pakistan",
-      "depthKm": 66.403,
-      "longitude": 75.0801,
-      "latitude": 37.3106,
+      "depthKm": 65.601,
+      "longitude": 75.121,
+      "latitude": 37.3012,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-20T23:29:17.040Z",
+      "updatedUtc": "2026-10-21T00:00:03.040Z",
       "month": "2026-10"
     },
     {
       "id": "us6000u3r3",
       "dateKst": "2026-10-21",
-      "timeUtc": "2026-10-20T23:24:26.555Z",
-      "magnitude": 5.1,
+      "timeUtc": "2026-10-20T23:24:27.101Z",
+      "magnitude": 4.9,
       "magnitudeType": "mb",
       "place": "south of the Fiji Islands",
-      "depthKm": 517.082,
-      "longitude": 179.5284,
-      "latitude": -25.5451,
+      "depthKm": 529.781,
+      "longitude": 179.592,
+      "latitude": -25.502,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-20T23:38:12.040Z",
+      "updatedUtc": "2026-10-21T00:21:38.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3rn",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-21T01:04:29.196Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "2 km N of Honchō, Japan",
+      "depthKm": 90.274,
+      "longitude": 139.9836,
+      "latitude": 35.7245,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T04:14:51.855Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3rr",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-21T01:20:02.961Z",
+      "magnitude": 5,
+      "magnitudeType": "mww",
+      "place": "south of Panama",
+      "depthKm": 10,
+      "longitude": -82.7031,
+      "latitude": 4.5985,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T01:36:14.040Z",
       "month": "2026-10"
     }
   ]
