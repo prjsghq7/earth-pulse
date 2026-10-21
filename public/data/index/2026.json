@@ -167250,7 +167250,7 @@
       "latitude": 37.9575,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-21T08:39:25.381Z",
+      "updatedUtc": "2026-10-21T14:07:09.407Z",
       "month": "2026-10"
     },
     {
@@ -167319,11 +167319,8 @@
       "latitude": 7.597,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-20T23:15:24.040Z",
-      "month": "2026-10",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-10-21T12:21:57.722Z",
+      "month": "2026-10"
     },
     {
       "id": "us6000u3r1",
@@ -167410,7 +167407,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-21T04:40:27.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3t4",
@@ -167425,7 +167425,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-21T08:12:43.918Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3t6",
@@ -167440,6 +167443,129 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-21T08:54:47.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "aka2026uvzyoa",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-21T10:46:01.943Z",
+      "magnitude": 4,
+      "magnitudeType": "ml",
+      "place": "195 km SE of Akutan, Alaska",
+      "depthKm": 28.2,
+      "longitude": -163.452,
+      "latitude": 53.05,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T16:24:55.866Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3tn",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-21T12:03:56.497Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mwr",
+      "place": "158 km S of False Pass, Alaska",
+      "depthKm": 20.471,
+      "longitude": -163.4612,
+      "latitude": 53.4261,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T16:53:25.560Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3u9",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-21T14:24:43.725Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "Fiji region",
+      "depthKm": 572.281,
+      "longitude": -177.6176,
+      "latitude": -19.4139,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T16:16:07.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3ub",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-21T14:35:51.111Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "207 km WNW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.4684,
+      "latitude": -14.0069,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T16:41:06.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3uc",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-21T14:40:50.748Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "33 km NE of Shizunai-furukawachō, Japan",
+      "depthKm": 94.112,
+      "longitude": 142.6247,
+      "latitude": 42.573,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T16:46:17.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3ue",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-21T14:56:27.447Z",
+      "magnitude": 5,
+      "magnitudeType": "mww",
+      "place": "194 km WNW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.5402,
+      "latitude": -14.105,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T15:17:15.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3un",
+      "dateKst": "2026-10-22",
+      "timeUtc": "2026-10-21T15:13:07.067Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "19 km S of Makurazaki, Japan",
+      "depthKm": 168.596,
+      "longitude": 130.3141,
+      "latitude": 31.0896,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T16:54:07.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3uk",
+      "dateKst": "2026-10-22",
+      "timeUtc": "2026-10-21T15:22:33.566Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "208 km WNW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.3793,
+      "latitude": -14.1338,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T17:00:42.040Z",
       "month": "2026-10"
     }
   ]
