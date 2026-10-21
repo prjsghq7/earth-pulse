@@ -167250,7 +167250,7 @@
       "latitude": 37.9575,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-21T03:07:59.664Z",
+      "updatedUtc": "2026-10-21T08:39:25.381Z",
       "month": "2026-10"
     },
     {
@@ -167338,7 +167338,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-21T00:00:03.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3r3",
@@ -167353,7 +167356,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-21T00:21:38.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3rn",
@@ -167368,7 +167374,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-21T04:14:51.855Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3rr",
@@ -167383,6 +167392,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-21T01:36:14.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u3sj",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-21T04:23:28.083Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "173 km NW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.8331,
+      "latitude": -14.035,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T04:40:27.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3t4",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-21T07:44:16.055Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "164 km NE of Lospalos, Timor Leste",
+      "depthKm": 122.687,
+      "longitude": 128.1355,
+      "latitude": -7.5619,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T08:12:43.918Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3t6",
+      "dateKst": "2026-10-21",
+      "timeUtc": "2026-10-21T08:37:41.317Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "68 km NE of Cabatuan, Philippines",
+      "depthKm": 10,
+      "longitude": 125.5898,
+      "latitude": 13.0297,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T08:54:47.040Z",
       "month": "2026-10"
     }
   ]
