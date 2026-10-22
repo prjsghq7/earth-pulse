@@ -167587,7 +167587,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-21T18:42:09.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3wh",
@@ -167602,7 +167605,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-21T18:50:23.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3ws",
@@ -167617,7 +167623,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-21T20:26:31.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3xx",
@@ -167632,7 +167641,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-21T21:22:44.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3x2",
@@ -167647,7 +167659,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-21T19:31:26.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u3y1",
@@ -167661,7 +167676,97 @@
       "latitude": -19.7855,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-21T21:02:17.040Z",
+      "updatedUtc": "2026-10-22T04:30:52.087Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3yj",
+      "dateKst": "2026-10-22",
+      "timeUtc": "2026-10-21T21:38:55.441Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mww",
+      "place": "Reykjanes Ridge",
+      "depthKm": 10,
+      "longitude": -34.1689,
+      "latitude": 56.8137,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T21:51:49.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3yp",
+      "dateKst": "2026-10-22",
+      "timeUtc": "2026-10-21T21:58:48.618Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "Reykjanes Ridge",
+      "depthKm": 10,
+      "longitude": -34.1306,
+      "latitude": 56.863,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-21T22:12:21.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u3zu",
+      "dateKst": "2026-10-22",
+      "timeUtc": "2026-10-22T01:08:03.006Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "30 km NW of Albardón, Argentina",
+      "depthKm": 103.228,
+      "longitude": -68.7255,
+      "latitude": -31.2167,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-22T02:24:52.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u40p",
+      "dateKst": "2026-10-22",
+      "timeUtc": "2026-10-22T03:24:07.495Z",
+      "magnitude": 4,
+      "magnitudeType": "mb",
+      "place": "2 km N of El Cortezo, Panama",
+      "depthKm": 10,
+      "longitude": -80.6336,
+      "latitude": 7.4475,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-22T04:07:40.769Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u40r",
+      "dateKst": "2026-10-22",
+      "timeUtc": "2026-10-22T03:35:17.429Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "97 km SW of El Palmarcito, Mexico",
+      "depthKm": 49.131,
+      "longitude": -93.8388,
+      "latitude": 14.8614,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-22T03:54:26.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u40x",
+      "dateKst": "2026-10-22",
+      "timeUtc": "2026-10-22T04:16:24.280Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "Fiji region",
+      "depthKm": 624.829,
+      "longitude": -179.1733,
+      "latitude": -21.1419,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-22T04:32:53.040Z",
       "month": "2026-10"
     }
   ]
