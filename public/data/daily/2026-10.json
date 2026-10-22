@@ -800,14 +800,26 @@
     {
       "dateKst": "2026-10-23",
       "state": "provisional",
-      "count": 2,
+      "count": 14,
       "maxMagnitude": 5.2,
-      "averageMagnitude": 5.05,
-      "medianMagnitude": 5.05,
+      "averageMagnitude": 4.75,
+      "medianMagnitude": 4.8,
       "medianDepthKm": 10,
       "eventIds": [
         "us6000u44n",
-        "us6000u44w"
+        "us6000u44u",
+        "us6000u44w",
+        "us6000u44z",
+        "us6000u451",
+        "us6000u455",
+        "us6000u458",
+        "us6000u459",
+        "us6000u457",
+        "us6000u45a",
+        "us6000u45f",
+        "us6000u45j",
+        "us6000u46r",
+        "us6000u473"
       ]
     }
   ]
