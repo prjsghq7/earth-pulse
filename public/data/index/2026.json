@@ -168580,6 +168580,21 @@
       "month": "2026-10"
     },
     {
+      "id": "us6000u4dx",
+      "dateKst": "2026-10-24",
+      "timeUtc": "2026-10-23T15:32:13.051Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "52 km WNW of Malfa, Italy",
+      "depthKm": 10,
+      "longitude": 14.3074,
+      "latitude": 38.8141,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-23T18:11:11.040Z",
+      "month": "2026-10"
+    },
+    {
       "id": "us6000u4e2",
       "dateKst": "2026-10-24",
       "timeUtc": "2026-10-23T16:07:51.754Z",
@@ -168592,6 +168607,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-23T16:35:09.026Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u4f5",
+      "dateKst": "2026-10-24",
+      "timeUtc": "2026-10-23T17:06:25.116Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "91 km ESE of Tuensang, India",
+      "depthKm": 116.703,
+      "longitude": 95.6545,
+      "latitude": 25.9295,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-23T17:30:26.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u4gj",
+      "dateKst": "2026-10-24",
+      "timeUtc": "2026-10-23T20:37:41.989Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "209 km ENE of Nagqu, China",
+      "depthKm": 10,
+      "longitude": 93.943,
+      "latitude": 32.4693,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-23T21:06:18.040Z",
       "month": "2026-10"
     }
   ]
