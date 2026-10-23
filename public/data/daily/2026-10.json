@@ -800,10 +800,10 @@
     {
       "dateKst": "2026-10-23",
       "state": "provisional",
-      "count": 14,
+      "count": 25,
       "maxMagnitude": 5.2,
-      "averageMagnitude": 4.75,
-      "medianMagnitude": 4.8,
+      "averageMagnitude": 4.58,
+      "medianMagnitude": 4.6,
       "medianDepthKm": 10,
       "eventIds": [
         "us6000u44n",
@@ -819,7 +819,18 @@
         "us6000u45f",
         "us6000u45j",
         "us6000u46r",
-        "us6000u473"
+        "us6000u473",
+        "us6000u47l",
+        "us6000u47n",
+        "us6000u47r",
+        "us6000u48b",
+        "us6000u48i",
+        "us6000u48r",
+        "us6000u48s",
+        "us6000u491",
+        "us6000u49a",
+        "us6000u49c",
+        "us6000u49h"
       ]
     }
   ]
