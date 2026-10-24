@@ -169516,7 +169516,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-24T16:38:44.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4mm",
@@ -169531,7 +169534,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-24T15:51:40.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4mn",
@@ -169546,7 +169552,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-24T17:28:57.309Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4my",
@@ -169561,7 +169570,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-24T16:46:51.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4n8",
@@ -169576,7 +169588,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-24T17:17:37.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4na",
@@ -169591,7 +169606,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-24T17:44:28.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4nv",
@@ -169606,7 +169624,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-24T19:24:33.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4ny",
@@ -169621,7 +169642,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-24T19:43:33.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4p1",
@@ -169636,6 +169660,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-24T19:52:24.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u4pa",
+      "dateKst": "2026-10-25",
+      "timeUtc": "2026-10-24T20:35:04.576Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mb",
+      "place": "101 km SSE of Vilyuchinsk, Russia",
+      "depthKm": 70.184,
+      "longitude": 159.1963,
+      "latitude": 52.1565,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-24T20:54:28.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u4pq",
+      "dateKst": "2026-10-25",
+      "timeUtc": "2026-10-24T20:57:03.106Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "37 km ESE of Cañaveral, Peru",
+      "depthKm": 67.723,
+      "longitude": -80.3538,
+      "latitude": -4.0944,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-24T21:53:28.429Z",
       "month": "2026-10"
     }
   ]
