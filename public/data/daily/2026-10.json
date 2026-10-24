@@ -845,9 +845,9 @@
     {
       "dateKst": "2026-10-24",
       "state": "provisional",
-      "count": 20,
+      "count": 44,
       "maxMagnitude": 6.9,
-      "averageMagnitude": 5.06,
+      "averageMagnitude": 5,
       "medianMagnitude": 4.9,
       "medianDepthKm": 10,
       "eventIds": [
@@ -862,6 +862,7 @@
         "us6000u4hi",
         "us6000u4hp",
         "us6000u4hr",
+        "aka2026vaqtor",
         "us6000u4i8",
         "us6000u4ib",
         "us6000u4j2",
@@ -870,7 +871,30 @@
         "us6000u4jl",
         "us6000u4jr",
         "us6000u4ju",
-        "us6000u4jw"
+        "us6000u4jw",
+        "us6000u4jy",
+        "us6000u4k2",
+        "us6000u4k1",
+        "us6000u4k5",
+        "us6000u4k6",
+        "us6000u4ke",
+        "us6000u4kh",
+        "us6000u4kj",
+        "us6000u4kt",
+        "us6000u4kq",
+        "us6000u4ku",
+        "us6000u4kw",
+        "us6000u4kz",
+        "us6000u4l8",
+        "us6000u4l9",
+        "us6000u4lc",
+        "us6000u4lb",
+        "us6000u4ld",
+        "us6000u4lg",
+        "us6000u4ll",
+        "us6000u4lm",
+        "us6000u4lp",
+        "us6000u4lr"
       ]
     }
   ]
