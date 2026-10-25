@@ -170114,6 +170114,66 @@
       "tsunami": false,
       "updatedUtc": "2026-10-25T14:55:42.040Z",
       "month": "2026-10"
+    },
+    {
+      "id": "us6000u4v1",
+      "dateKst": "2026-10-26",
+      "timeUtc": "2026-10-25T17:11:49.932Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "19 km NE of Atico, Peru",
+      "depthKm": 62.095,
+      "longitude": -73.4741,
+      "latitude": -16.0993,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-25T17:36:35.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u4va",
+      "dateKst": "2026-10-26",
+      "timeUtc": "2026-10-25T17:44:23.735Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "59 km SW of Ashkāsham, Afghanistan",
+      "depthKm": 110.025,
+      "longitude": 71.1025,
+      "latitude": 36.274,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-25T18:27:54.570Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u4vb",
+      "dateKst": "2026-10-26",
+      "timeUtc": "2026-10-25T17:49:58.419Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "153 km WNW of Adak, Alaska",
+      "depthKm": 152.896,
+      "longitude": -178.8056,
+      "latitude": 52.1923,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-25T18:23:19.894Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u4vp",
+      "dateKst": "2026-10-26",
+      "timeUtc": "2026-10-25T19:26:12.258Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "267 km WSW of Tual, Indonesia",
+      "depthKm": 127.02,
+      "longitude": 130.3943,
+      "latitude": -6.172,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-25T19:50:40.040Z",
+      "month": "2026-10"
     }
   ]
 }
