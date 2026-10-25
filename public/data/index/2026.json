@@ -170128,7 +170128,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-25T17:36:35.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4va",
@@ -170143,7 +170146,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-25T18:27:54.570Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4vb",
@@ -170158,7 +170164,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-25T18:23:19.894Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4vp",
@@ -170173,6 +170182,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-25T19:50:40.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u4vy",
+      "dateKst": "2026-10-26",
+      "timeUtc": "2026-10-25T20:30:42.515Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mww",
+      "place": "167 km WNW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.7734,
+      "latitude": -14.2065,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-25T20:49:14.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u4wc",
+      "dateKst": "2026-10-26",
+      "timeUtc": "2026-10-25T22:01:36.115Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "170 km ENE of Nagqu, China",
+      "depthKm": 10,
+      "longitude": 93.672,
+      "latitude": 32.1648,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-25T22:12:24.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u4we",
+      "dateKst": "2026-10-26",
+      "timeUtc": "2026-10-25T22:14:15.949Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mww",
+      "place": "Bonin Islands, Japan region",
+      "depthKm": 485.13,
+      "longitude": 139.6752,
+      "latitude": 27.8376,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-25T22:28:45.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u4wi",
+      "dateKst": "2026-10-26",
+      "timeUtc": "2026-10-25T22:16:27.821Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "Bonin Islands, Japan region",
+      "depthKm": 482.177,
+      "longitude": 139.7272,
+      "latitude": 27.8494,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-25T23:11:02.040Z",
       "month": "2026-10"
     }
   ]
