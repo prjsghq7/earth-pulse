@@ -169551,11 +169551,8 @@
       "latitude": -54.0304,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-24T17:28:57.309Z",
-      "month": "2026-10",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-10-25T15:29:42.596Z",
+      "month": "2026-10"
     },
     {
       "id": "us6000u4my",
@@ -169840,7 +169837,10 @@
       "status": "reviewed",
       "tsunami": true,
       "updatedUtc": "2026-10-25T06:48:32.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4rf",
@@ -169855,7 +169855,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-25T05:07:20.703Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4rr",
@@ -169923,7 +169926,7 @@
       "latitude": 37.6512,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-25T06:53:51.356Z",
+      "updatedUtc": "2026-10-25T12:48:50.434Z",
       "month": "2026-10"
     },
     {
@@ -169939,7 +169942,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-25T06:30:51.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4t4",
@@ -169954,7 +169960,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-25T07:36:58.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4t8",
@@ -169969,7 +169978,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-25T08:49:38.511Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4t9",
@@ -169984,7 +169996,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-25T08:23:04.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4tc",
@@ -169999,7 +170014,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-25T10:46:58.892Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4tf",
@@ -170014,7 +170032,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-25T09:27:11.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4tn",
@@ -170029,7 +170050,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-25T10:36:22.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4tq",
@@ -170043,7 +170067,52 @@
       "latitude": -4.3644,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-25T10:52:50.272Z",
+      "updatedUtc": "2026-10-25T12:36:03.332Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u4tx",
+      "dateKst": "2026-10-25",
+      "timeUtc": "2026-10-25T11:24:14.089Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "199 km ENE of Nagqu, China",
+      "depthKm": 10,
+      "longitude": 93.8872,
+      "latitude": 32.3695,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-25T11:48:24.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u4ty",
+      "dateKst": "2026-10-25",
+      "timeUtc": "2026-10-25T11:25:57.101Z",
+      "magnitude": 5.9,
+      "magnitudeType": "mww",
+      "place": "218 km ENE of Nagqu, China",
+      "depthKm": 7,
+      "longitude": 94.0534,
+      "latitude": 32.4625,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-25T13:32:18.398Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u4u9",
+      "dateKst": "2026-10-25",
+      "timeUtc": "2026-10-25T13:22:33.573Z",
+      "magnitude": 4,
+      "magnitudeType": "mb",
+      "place": "7 km NNW of Agua Caliente Grande (De Gastélum), Mexico",
+      "depthKm": 10,
+      "longitude": -108.3744,
+      "latitude": 26.6022,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-25T14:55:42.040Z",
       "month": "2026-10"
     }
   ]
