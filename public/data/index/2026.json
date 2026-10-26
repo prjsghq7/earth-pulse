@@ -170116,6 +170116,36 @@
       "month": "2026-10"
     },
     {
+      "id": "us6000u4uv",
+      "dateKst": "2026-10-26",
+      "timeUtc": "2026-10-25T16:25:45.745Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "222 km NW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.3571,
+      "latitude": -13.9253,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-26T14:51:08.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us6000u4ux",
+      "dateKst": "2026-10-26",
+      "timeUtc": "2026-10-25T16:46:48.312Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "203 km ENE of Nagqu, China",
+      "depthKm": 10,
+      "longitude": 93.8391,
+      "latitude": 32.5003,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-26T15:07:39.040Z",
+      "month": "2026-10"
+    },
+    {
       "id": "us6000u4v1",
       "dateKst": "2026-10-26",
       "timeUtc": "2026-10-25T17:11:49.932Z",
@@ -170362,7 +170392,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-26T04:59:17.236Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4y2",
@@ -170377,7 +170410,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-26T05:16:27.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4y1",
@@ -170392,6 +170428,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-26T05:10:35.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u4y8",
+      "dateKst": "2026-10-26",
+      "timeUtc": "2026-10-26T05:45:31.202Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "26 km SSW of Sann, Pakistan",
+      "depthKm": 10,
+      "longitude": 67.9886,
+      "latitude": 25.8377,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-26T13:14:53.040Z",
       "month": "2026-10"
     },
     {
@@ -170407,7 +170461,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-26T09:00:07.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4yj",
@@ -170422,7 +170479,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-26T10:02:21.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4yr",
@@ -170437,7 +170497,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-26T12:19:10.404Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4yw",
@@ -170452,7 +170515,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-26T10:44:44.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4z3",
@@ -170466,7 +170532,7 @@
       "latitude": -59.8141,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-26T12:33:07.040Z",
+      "updatedUtc": "2026-10-26T15:39:30.560Z",
       "month": "2026-10"
     },
     {
@@ -170482,7 +170548,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-26T11:34:36.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4z7",
@@ -170497,7 +170566,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-26T11:48:30.831Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000u4zb",
@@ -170512,6 +170584,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-26T12:30:59.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000u4zm",
+      "dateKst": "2026-10-26",
+      "timeUtc": "2026-10-26T13:20:02.823Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "18 km E of Kentrí, Greece",
+      "depthKm": 10,
+      "longitude": 25.9536,
+      "latitude": 35.0335,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-26T19:38:27.092Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttb5",
+      "dateKst": "2026-10-27",
+      "timeUtc": "2026-10-26T18:07:04.209Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "74 km SE of Rasht, Tajikistan",
+      "depthKm": 47.345,
+      "longitude": 71.0764,
+      "latitude": 38.6442,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-26T18:29:32.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttbh",
+      "dateKst": "2026-10-27",
+      "timeUtc": "2026-10-26T19:36:16.160Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "100 km E of La Tirana, Chile",
+      "depthKm": 119.519,
+      "longitude": -68.6903,
+      "latitude": -20.3438,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-26T19:52:13.040Z",
       "month": "2026-10"
     }
   ]
