@@ -170653,7 +170653,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-27T02:00:47.410Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttc6",
@@ -170704,7 +170707,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-27T08:39:58.829Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttd1",
@@ -170719,7 +170725,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-27T00:28:23.403Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttd3",
@@ -170752,7 +170761,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-27T00:57:45.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tte0",
@@ -170767,7 +170779,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-27T01:41:11.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tte4",
@@ -170782,7 +170797,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-27T02:22:17.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tteg",
@@ -170797,6 +170815,144 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-27T04:06:33.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000ttfb",
+      "dateKst": "2026-10-27",
+      "timeUtc": "2026-10-27T08:55:23.290Z",
+      "magnitude": 5.8,
+      "magnitudeType": "mww",
+      "place": "196 km NW of Port-Olry, Vanuatu",
+      "depthKm": 11,
+      "longitude": 165.6671,
+      "latitude": -13.9141,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-27T11:00:50.510Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttfc",
+      "dateKst": "2026-10-27",
+      "timeUtc": "2026-10-27T09:07:45.122Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "95 km NNE of Hihifo, Tonga",
+      "depthKm": 10,
+      "longitude": -173.4094,
+      "latitude": -15.1739,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-27T09:27:10.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttfe",
+      "dateKst": "2026-10-27",
+      "timeUtc": "2026-10-27T09:20:55.730Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "206 km NW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.5556,
+      "latitude": -13.9006,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-27T09:39:56.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttfj",
+      "dateKst": "2026-10-27",
+      "timeUtc": "2026-10-27T10:06:31.916Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "184 km NW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.7876,
+      "latitude": -13.9437,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-27T10:50:39.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttfk",
+      "dateKst": "2026-10-27",
+      "timeUtc": "2026-10-27T10:50:35.418Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "191 km NW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.6479,
+      "latitude": -14.0067,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-27T11:09:11.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttfs",
+      "dateKst": "2026-10-27",
+      "timeUtc": "2026-10-27T11:41:22.141Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "100 km W of El Aguilar, Argentina",
+      "depthKm": 206.259,
+      "longitude": -66.6616,
+      "latitude": -23.1819,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-27T12:01:26.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttfx",
+      "dateKst": "2026-10-27",
+      "timeUtc": "2026-10-27T12:01:11.952Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "5 km ENE of Tierra y Libertad, Mexico",
+      "depthKm": 140.342,
+      "longitude": -93.817,
+      "latitude": 16.3977,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-27T12:42:26.291Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttgh",
+      "dateKst": "2026-10-27",
+      "timeUtc": "2026-10-27T14:43:09.497Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "156 km S of Pundong, Indonesia",
+      "depthKm": 20.614,
+      "longitude": 110.2973,
+      "latitude": -9.3662,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-27T15:12:35.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttgf",
+      "dateKst": "2026-10-27",
+      "timeUtc": "2026-10-27T14:44:00.933Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mb",
+      "place": "128 km S of Pundong, Indonesia",
+      "depthKm": 10,
+      "longitude": 110.3305,
+      "latitude": -9.1162,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-27T15:17:39.798Z",
       "month": "2026-10"
     }
   ]
