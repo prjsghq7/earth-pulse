@@ -170958,38 +170958,32 @@
     {
       "id": "us7000ttgm",
       "dateKst": "2026-10-28",
-      "timeUtc": "2026-10-27T15:26:02.987Z",
+      "timeUtc": "2026-10-27T15:26:03.024Z",
       "magnitude": 5,
       "magnitudeType": "mww",
-      "place": "27 km W of Río Grande, Panama",
+      "place": "29 km W of Río Grande, Panama",
       "depthKm": 10,
-      "longitude": -81.584,
-      "latitude": 7.706,
+      "longitude": -81.6012,
+      "latitude": 7.684,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-28T02:05:24.774Z",
-      "month": "2026-10",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-10-28T15:36:16.992Z",
+      "month": "2026-10"
     },
     {
       "id": "us7000ttgq",
       "dateKst": "2026-10-28",
-      "timeUtc": "2026-10-27T15:31:42.073Z",
-      "magnitude": 5,
+      "timeUtc": "2026-10-27T15:31:41.795Z",
+      "magnitude": 4.8,
       "magnitudeType": "mb",
       "place": "south of the Fiji Islands",
-      "depthKm": 509.065,
-      "longitude": -179.7358,
-      "latitude": -23.7469,
+      "depthKm": 496.782,
+      "longitude": -179.8379,
+      "latitude": -23.7421,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-27T15:50:56.040Z",
-      "month": "2026-10",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-10-28T15:24:21.040Z",
+      "month": "2026-10"
     },
     {
       "id": "us7000ttgu",
@@ -171057,11 +171051,8 @@
       "latitude": 32.5388,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-27T21:03:17.410Z",
-      "month": "2026-10",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-10-28T19:05:15.762Z",
+      "month": "2026-10"
     },
     {
       "id": "us7000ttju",
@@ -171093,7 +171084,7 @@
       "latitude": 12.6676,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-28T11:24:27.838Z",
+      "updatedUtc": "2026-10-28T17:24:25.719Z",
       "month": "2026-10"
     },
     {
@@ -171163,7 +171154,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-28T09:44:47.188Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttld",
@@ -171304,7 +171298,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-28T06:35:03.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttmh",
@@ -171319,7 +171316,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-28T07:18:50.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttmz",
@@ -171334,7 +171334,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-28T10:05:33.673Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "pr2026301000",
@@ -171349,7 +171352,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-28T10:46:29.893Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttnc",
@@ -171363,7 +171369,7 @@
       "latitude": 58.1005,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-28T11:59:28.660Z",
+      "updatedUtc": "2026-10-28T19:35:09.253Z",
       "month": "2026-10"
     },
     {
@@ -171379,21 +171385,159 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-28T12:14:07.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "nc75458907",
       "dateKst": "2026-10-28",
-      "timeUtc": "2026-10-28T12:01:11.470Z",
+      "timeUtc": "2026-10-28T12:01:11.490Z",
       "magnitude": 4.01,
       "magnitudeType": "mw",
       "place": "10 km N of Lake Pillsbury, CA",
-      "depthKm": 10.5900001525879,
-      "longitude": -122.951835632324,
-      "latitude": 39.5004997253418,
+      "depthKm": 11.59,
+      "longitude": -122.952166666667,
+      "latitude": 39.5008333333333,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-28T12:42:19.040Z",
+      "updatedUtc": "2026-10-28T20:12:05.476Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttnq",
+      "dateKst": "2026-10-28",
+      "timeUtc": "2026-10-28T12:14:49.242Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "1 km WSW of Butulan, Philippines",
+      "depthKm": 10,
+      "longitude": 125.4182,
+      "latitude": 5.6073,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-28T13:22:20.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttnt",
+      "dateKst": "2026-10-28",
+      "timeUtc": "2026-10-28T12:35:23.786Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "88 km SE of Hihifo, Tonga",
+      "depthKm": 10,
+      "longitude": -173.2355,
+      "latitude": -16.541,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-28T12:56:53.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttnz",
+      "dateKst": "2026-10-28",
+      "timeUtc": "2026-10-28T12:47:08.927Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "Reykjanes Ridge",
+      "depthKm": 10,
+      "longitude": -32.3348,
+      "latitude": 58.2153,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-28T13:02:12.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttp2",
+      "dateKst": "2026-10-28",
+      "timeUtc": "2026-10-28T12:58:58.100Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 129.952,
+      "longitude": -177.0372,
+      "latitude": -24.197,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-28T13:36:40.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttp7",
+      "dateKst": "2026-10-28",
+      "timeUtc": "2026-10-28T13:31:54.350Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "13 km WSW of Āwash, Ethiopia",
+      "depthKm": 10,
+      "longitude": 40.0638,
+      "latitude": 8.9241,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-28T14:09:01.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttpe",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-28T15:07:52.050Z",
+      "magnitude": 5.5,
+      "magnitudeType": "mww",
+      "place": "5 km ESE of Asahi, Japan",
+      "depthKm": 41.356,
+      "longitude": 140.7059,
+      "latitude": 35.7015,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-28T19:40:49.402Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttpk",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-28T15:40:55.130Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "81 km ENE of Mazha, China",
+      "depthKm": 10,
+      "longitude": 82.8042,
+      "latitude": 44.2394,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-28T16:23:14.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttth",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-28T19:45:32.958Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "Reykjanes Ridge",
+      "depthKm": 10,
+      "longitude": -32.1037,
+      "latitude": 58.1136,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-28T20:05:10.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tttl",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-28T19:56:47.711Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mb",
+      "place": "159 km WNW of Tobelo, Indonesia",
+      "depthKm": 35,
+      "longitude": 126.7587,
+      "latitude": 2.4277,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-28T20:12:21.040Z",
       "month": "2026-10"
     }
   ]
