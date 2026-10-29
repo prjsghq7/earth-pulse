@@ -171492,7 +171492,7 @@
       "latitude": 35.7015,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-29T00:20:21.782Z",
+      "updatedUtc": "2026-10-29T09:29:14.816Z",
       "month": "2026-10"
     },
     {
@@ -171526,7 +171526,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-28T21:03:18.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttsq",
@@ -171541,7 +171544,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-28T21:16:22.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttt2",
@@ -171555,7 +171561,7 @@
       "latitude": 35.7763,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-28T21:49:23.040Z",
+      "updatedUtc": "2026-10-29T02:04:08.488Z",
       "month": "2026-10"
     },
     {
@@ -171571,7 +171577,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-28T22:07:08.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttth",
@@ -171622,7 +171631,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-28T22:23:44.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttua",
@@ -171637,6 +171649,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T00:11:48.072Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000ttuq",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-28T22:42:54.821Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "80 km SE of Bole, China",
+      "depthKm": 10,
+      "longitude": 82.7252,
+      "latitude": 44.3448,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T01:18:30.040Z",
       "month": "2026-10"
     },
     {
@@ -171652,7 +171682,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-28T23:31:14.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttvf",
@@ -171666,7 +171699,202 @@
       "latitude": -15.1213,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-29T00:23:20.040Z",
+      "updatedUtc": "2026-10-29T02:15:45.772Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttvn",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T00:57:36.802Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "117 km E of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 168.1637,
+      "latitude": -15.0234,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T01:13:11.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttvs",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T01:07:04.538Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "western Indian-Antarctic Ridge",
+      "depthKm": 10,
+      "longitude": 139.4087,
+      "latitude": -50.2688,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T01:23:11.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttvy",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T02:18:21.049Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "36 km SSW of Merizo Village, Guam",
+      "depthKm": 70.237,
+      "longitude": 144.5819,
+      "latitude": 12.9476,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T09:41:35.003Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttw2",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T03:17:54.507Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mb",
+      "place": "113 km ENE of Barcelona, Philippines",
+      "depthKm": 10,
+      "longitude": 127.4427,
+      "latitude": 8.3695,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T05:23:18.836Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttw3",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T03:19:05.288Z",
+      "magnitude": 5.8,
+      "magnitudeType": "mww",
+      "place": "110 km ENE of Barcelona, Philippines",
+      "depthKm": 10,
+      "longitude": 127.4204,
+      "latitude": 8.3638,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T07:41:36.352Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttw5",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T03:26:42.275Z",
+      "magnitude": 5.7,
+      "magnitudeType": "mb",
+      "place": "82 km NE of Kiunga, Papua New Guinea",
+      "depthKm": 10,
+      "longitude": 141.9018,
+      "latitude": -5.6991,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T05:32:20.468Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttx0",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T05:06:48.289Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mww",
+      "place": "South Sandwich Islands region",
+      "depthKm": 8.561,
+      "longitude": -27.9532,
+      "latitude": -60.2079,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T08:27:44.209Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttx6",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T05:26:06.777Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "270 km WSW of Masachapa, Nicaragua",
+      "depthKm": 10,
+      "longitude": -88.5954,
+      "latitude": 10.4677,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T05:56:20.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttx8",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T05:33:36.298Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "Balleny Islands region",
+      "depthKm": 10,
+      "longitude": 161.1643,
+      "latitude": -61.3277,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T05:49:32.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttxn",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T07:31:30.432Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mww",
+      "place": "114 km ENE of Barcelona, Philippines",
+      "depthKm": 10,
+      "longitude": 127.4269,
+      "latitude": 8.4677,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T09:37:22.302Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttxz",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T07:49:50.928Z",
+      "magnitude": 6.4,
+      "magnitudeType": "mww",
+      "place": "southeast of Easter Island",
+      "depthKm": 10,
+      "longitude": -98.0489,
+      "latitude": -36.4058,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T08:13:05.141Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tty0",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T07:54:06.718Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "41 km W of Mosteiros, Portugal",
+      "depthKm": 10,
+      "longitude": -26.2963,
+      "latitude": 37.9065,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T08:20:12.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tty7",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T08:49:42.448Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "218 km NNW of Bamboo Flat, India",
+      "depthKm": 10,
+      "longitude": 91.6593,
+      "latitude": 13.3785,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T09:04:28.040Z",
       "month": "2026-10"
     }
   ]
