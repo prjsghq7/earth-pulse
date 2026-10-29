@@ -171492,7 +171492,7 @@
       "latitude": 35.7015,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-29T09:29:14.816Z",
+      "updatedUtc": "2026-10-29T17:13:25.133Z",
       "month": "2026-10"
     },
     {
@@ -171562,7 +171562,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T02:04:08.488Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttt4",
@@ -171667,7 +171670,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T01:18:30.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttv1",
@@ -171700,7 +171706,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T02:15:45.772Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttvn",
@@ -171715,7 +171724,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T01:13:11.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttvs",
@@ -171730,7 +171742,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T01:23:11.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttvy",
@@ -171745,7 +171760,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T09:41:35.003Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttw2",
@@ -171760,7 +171778,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T05:23:18.836Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttw3",
@@ -171775,7 +171796,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T07:41:36.352Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttw5",
@@ -171790,7 +171814,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T05:32:20.468Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttx0",
@@ -171805,7 +171832,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T08:27:44.209Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttx6",
@@ -171820,7 +171850,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T05:56:20.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttx8",
@@ -171835,7 +171868,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T05:49:32.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttxn",
@@ -171850,7 +171886,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T09:37:22.302Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ttxz",
@@ -171864,7 +171903,7 @@
       "latitude": -36.4058,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-29T08:13:05.141Z",
+      "updatedUtc": "2026-10-29T09:55:27.274Z",
       "month": "2026-10"
     },
     {
@@ -171880,7 +171919,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T08:20:12.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tty7",
@@ -171895,6 +171937,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T09:04:28.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000ttyd",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T10:33:22.424Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "111 km SW of Port-Vila, Vanuatu",
+      "depthKm": 10,
+      "longitude": 167.6261,
+      "latitude": -18.4979,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T10:55:52.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttyk",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T11:38:24.162Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "Pulau Pulau Tanimbar, Indonesia",
+      "depthKm": 10,
+      "longitude": 130.0224,
+      "latitude": -7.5288,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T12:44:43.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttyw",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T13:42:57.953Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "6 km SE of Pitaloza Arriba, Panama",
+      "depthKm": 10,
+      "longitude": -80.6309,
+      "latitude": 7.5923,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T14:19:48.265Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000ttyy",
+      "dateKst": "2026-10-29",
+      "timeUtc": "2026-10-29T14:20:37.359Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "111 km WNW of Panguna, Papua New Guinea",
+      "depthKm": 183.104,
+      "longitude": 154.6045,
+      "latitude": -5.8201,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T18:15:59.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tu0w",
+      "dateKst": "2026-10-30",
+      "timeUtc": "2026-10-29T16:08:16.529Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "2 km WSW of Yacuiba, Bolivia",
+      "depthKm": 527.609,
+      "longitude": -63.7,
+      "latitude": -22.0285,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-29T16:28:35.040Z",
       "month": "2026-10"
     }
   ]
