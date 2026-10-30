@@ -172033,7 +172033,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T18:43:48.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tu3j",
@@ -172047,7 +172050,7 @@
       "latitude": 53.5843,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-30T00:24:47.373Z",
+      "updatedUtc": "2026-10-30T08:24:40.149Z",
       "month": "2026-10"
     },
     {
@@ -172063,7 +172066,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T20:54:46.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tu46",
@@ -172078,7 +172084,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T22:10:12.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tu4a",
@@ -172093,7 +172102,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-29T22:47:05.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tu4e",
@@ -172108,7 +172120,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T00:21:00.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tu4f",
@@ -172122,7 +172137,7 @@
       "latitude": -15.1891,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-29T23:52:34.207Z",
+      "updatedUtc": "2026-10-30T01:41:52.173Z",
       "month": "2026-10"
     },
     {
@@ -172137,7 +172152,82 @@
       "latitude": -18.1317,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-29T23:57:22.040Z",
+      "updatedUtc": "2026-10-30T01:29:16.044Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tu5q",
+      "dateKst": "2026-10-30",
+      "timeUtc": "2026-10-30T03:04:17.406Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "97 km NNE of Finschhafen, Papua New Guinea",
+      "depthKm": 116.297,
+      "longitude": 148.3151,
+      "latitude": -5.8137,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T03:18:33.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tu6f",
+      "dateKst": "2026-10-30",
+      "timeUtc": "2026-10-30T04:58:31.595Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "51 km ENE of Noda, Japan",
+      "depthKm": 56.598,
+      "longitude": 142.3621,
+      "latitude": 40.3108,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T05:15:17.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tu6i",
+      "dateKst": "2026-10-30",
+      "timeUtc": "2026-10-30T05:10:19.806Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "Fiji region",
+      "depthKm": 371.793,
+      "longitude": -177.0471,
+      "latitude": -18.1766,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T05:27:03.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tu6y",
+      "dateKst": "2026-10-30",
+      "timeUtc": "2026-10-30T07:27:59.370Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "20 km NNW of Rioblanco, Colombia",
+      "depthKm": 10,
+      "longitude": -75.7294,
+      "latitude": 3.6911,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T09:10:56.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tu7b",
+      "dateKst": "2026-10-30",
+      "timeUtc": "2026-10-30T08:45:49.982Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "64 km SSW of Shikotan, Russia",
+      "depthKm": 43.625,
+      "longitude": 146.4242,
+      "latitude": 43.2605,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T09:01:05.040Z",
       "month": "2026-10"
     }
   ]
