@@ -1139,13 +1139,20 @@
     {
       "dateKst": "2026-10-31",
       "state": "provisional",
-      "count": 1,
-      "maxMagnitude": 4.4,
-      "averageMagnitude": 4.4,
+      "count": 8,
+      "maxMagnitude": 4.6,
+      "averageMagnitude": 4.37,
       "medianMagnitude": 4.4,
-      "medianDepthKm": 615.7,
+      "medianDepthKm": 35,
       "eventIds": [
-        "us7000tu93"
+        "us7000tu91",
+        "us7000tu93",
+        "us7000tu97",
+        "us7000tub8",
+        "us7000tudk",
+        "aka2026vngzyw",
+        "us7000tuej",
+        "us7000tuey"
       ]
     }
   ]
