@@ -172050,7 +172050,7 @@
       "latitude": 53.5843,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-30T08:24:40.149Z",
+      "updatedUtc": "2026-10-30T14:24:40.224Z",
       "month": "2026-10"
     },
     {
@@ -172137,7 +172137,7 @@
       "latitude": -15.1891,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-30T01:41:52.173Z",
+      "updatedUtc": "2026-10-30T10:23:08.040Z",
       "month": "2026-10"
     },
     {
@@ -172153,7 +172153,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T01:29:16.044Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tu5q",
@@ -172168,7 +172171,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T03:18:33.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tu6f",
@@ -172183,7 +172189,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T05:15:17.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tu6i",
@@ -172198,7 +172207,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T05:27:03.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tu6y",
@@ -172213,7 +172225,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T09:10:56.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tu7b",
@@ -172228,6 +172243,99 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T09:01:05.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tu7j",
+      "dateKst": "2026-10-30",
+      "timeUtc": "2026-10-30T10:12:28.219Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "Balleny Islands region",
+      "depthKm": 10,
+      "longitude": 155.2618,
+      "latitude": -62.4457,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T10:30:55.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tu7k",
+      "dateKst": "2026-10-30",
+      "timeUtc": "2026-10-30T10:24:11.303Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "104 km ENE of Barcelona, Philippines",
+      "depthKm": 10,
+      "longitude": 127.3616,
+      "latitude": 8.3731,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T10:54:02.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tu7m",
+      "dateKst": "2026-10-30",
+      "timeUtc": "2026-10-30T10:45:03.842Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "42 km SE of Sykiá, Greece",
+      "depthKm": 10,
+      "longitude": 24.2284,
+      "latitude": 39.7308,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T11:37:34.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tu7p",
+      "dateKst": "2026-10-30",
+      "timeUtc": "2026-10-30T10:57:48.963Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 550.623,
+      "longitude": 179.8051,
+      "latitude": -23.5822,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T11:16:19.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tu83",
+      "dateKst": "2026-10-30",
+      "timeUtc": "2026-10-30T13:18:19.151Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "68 km ENE of Kuji, Japan",
+      "depthKm": 42.816,
+      "longitude": 142.4748,
+      "latitude": 40.4803,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T17:36:51.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tu93",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-30T16:48:49.917Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "284 km E of Levuka, Fiji",
+      "depthKm": 615.692,
+      "longitude": -178.0028,
+      "latitude": -17.9769,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T17:26:10.040Z",
       "month": "2026-10"
     }
   ]
