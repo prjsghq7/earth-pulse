@@ -172425,7 +172425,7 @@
       "latitude": 61.833,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-31T01:30:20.510Z",
+      "updatedUtc": "2026-10-31T06:34:03.961Z",
       "month": "2026-10"
     },
     {
@@ -172459,7 +172459,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T22:19:42.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuey",
@@ -172492,7 +172495,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T23:31:22.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tufe",
@@ -172507,7 +172513,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T23:50:45.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tufp",
@@ -172522,7 +172531,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T23:14:13.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tugd",
@@ -172537,7 +172549,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T01:00:34.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tugf",
@@ -172552,7 +172567,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T02:43:39.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tugg",
@@ -172567,7 +172585,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T01:18:28.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tugl",
@@ -172582,7 +172603,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T01:40:36.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tugs",
@@ -172597,7 +172621,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T02:58:56.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tugv",
@@ -172612,6 +172639,99 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T03:33:42.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tuh7",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T05:29:19.961Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "35 km SE of Vilyuchinsk, Russia",
+      "depthKm": 97.05,
+      "longitude": 158.7423,
+      "latitude": 52.6834,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T06:22:16.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tuh8",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T05:52:03.468Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "222 km ENE of Nagqu, China",
+      "depthKm": 10,
+      "longitude": 94.0675,
+      "latitude": 32.5197,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T06:30:36.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tuhs",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T09:15:52.568Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mww",
+      "place": "213 km W of Sola, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.5833,
+      "latitude": -13.7683,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T09:32:22.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tuht",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T09:18:32.051Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "236 km NW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.2951,
+      "latitude": -13.7894,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T09:40:35.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tui9",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T10:42:10.031Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "Fiji region",
+      "depthKm": 575.79,
+      "longitude": -177.4956,
+      "latitude": -19.2212,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T11:03:20.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tuif",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T11:31:12.352Z",
+      "magnitude": 5,
+      "magnitudeType": "mww",
+      "place": "196 km NW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.6759,
+      "latitude": -13.9069,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T11:47:21.040Z",
       "month": "2026-10"
     }
   ]
