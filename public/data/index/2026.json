@@ -172426,7 +172426,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T06:34:03.961Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuej",
@@ -172657,7 +172660,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T06:22:16.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuh8",
@@ -172672,7 +172678,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T06:30:36.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuhs",
@@ -172687,7 +172696,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T09:32:22.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuht",
@@ -172702,7 +172714,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T09:40:35.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tui9",
@@ -172717,7 +172732,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T11:03:20.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuif",
@@ -172732,7 +172750,100 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T11:47:21.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tuiw",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T13:10:08.987Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "Banda Sea",
+      "depthKm": 254.829,
+      "longitude": 128.9289,
+      "latitude": -6.4305,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T14:37:11.040Z",
       "month": "2026-10"
+    },
+    {
+      "id": "us7000tuj1",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T13:31:14.759Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "62 km NNW of Claveria, Philippines",
+      "depthKm": 35,
+      "longitude": 120.9249,
+      "latitude": 19.1534,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T15:38:28.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tuj2",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T13:38:39.154Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "190 km NNW of Nagqu, China",
+      "depthKm": 10,
+      "longitude": 91.6138,
+      "latitude": 33.1525,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T15:53:25.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tujf",
+      "dateKst": "2026-11-01",
+      "timeUtc": "2026-10-31T15:50:18.909Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "4 km S of Bajo Corral, Panama",
+      "depthKm": 10,
+      "longitude": -80.2547,
+      "latitude": 7.5692,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T18:29:00.061Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tujw",
+      "dateKst": "2026-11-01",
+      "timeUtc": "2026-10-31T17:16:16.500Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "54 km W of Gerāsh, Iran",
+      "depthKm": 10,
+      "longitude": 53.5875,
+      "latitude": 27.6403,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T17:43:11.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tuk4",
+      "dateKst": "2026-11-01",
+      "timeUtc": "2026-10-31T18:51:02.721Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "111 km ESE of Atka, Alaska",
+      "depthKm": 44.87,
+      "longitude": -172.7931,
+      "latitude": 51.6994,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T19:08:59.040Z",
+      "month": "2026-11"
     }
   ]
 }

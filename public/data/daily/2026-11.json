@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "month": "2026-11",
+  "timezone": "Asia/Seoul",
+  "minMagnitude": 4,
+  "records": [
+    {
+      "dateKst": "2026-11-01",
+      "state": "provisional",
+      "count": 3,
+      "maxMagnitude": 5.2,
+      "averageMagnitude": 4.67,
+      "medianMagnitude": 4.5,
+      "medianDepthKm": 10,
+      "eventIds": [
+        "us7000tujf",
+        "us7000tujw",
+        "us7000tuk4"
+      ]
+    }
+  ]
+}
