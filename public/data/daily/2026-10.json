@@ -1139,11 +1139,11 @@
     {
       "dateKst": "2026-10-31",
       "state": "provisional",
-      "count": 8,
-      "maxMagnitude": 4.6,
-      "averageMagnitude": 4.37,
+      "count": 18,
+      "maxMagnitude": 4.8,
+      "averageMagnitude": 4.42,
       "medianMagnitude": 4.4,
-      "medianDepthKm": 35,
+      "medianDepthKm": 27.1,
       "eventIds": [
         "us7000tu91",
         "us7000tu93",
@@ -1152,7 +1152,17 @@
         "us7000tudk",
         "aka2026vngzyw",
         "us7000tuej",
-        "us7000tuey"
+        "us7000tuep",
+        "us7000tuey",
+        "us7000tufc",
+        "us7000tufe",
+        "us7000tufp",
+        "us7000tugd",
+        "us7000tugf",
+        "us7000tugg",
+        "us7000tugl",
+        "us7000tugs",
+        "us7000tugv"
       ]
     }
   ]

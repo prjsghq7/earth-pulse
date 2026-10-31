@@ -172336,7 +172336,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T18:35:19.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tu93",
@@ -172369,7 +172372,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T18:53:41.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tub8",
@@ -172384,7 +172390,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T19:37:22.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tudk",
@@ -172399,7 +172408,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T19:32:35.040Z",
-      "month": "2026-10"
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "aka2026vngzyw",
@@ -172413,7 +172425,7 @@
       "latitude": 61.833,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-30T20:53:19.992Z",
+      "updatedUtc": "2026-10-31T01:30:20.510Z",
       "month": "2026-10"
     },
     {
@@ -172429,6 +172441,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T22:07:55.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tuep",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-30T20:54:16.156Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "73 km SSW of Calama, Chile",
+      "depthKm": 84.622,
+      "longitude": -69.0806,
+      "latitude": -23.1065,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T22:19:42.040Z",
       "month": "2026-10"
     },
     {
@@ -172444,6 +172474,144 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-30T21:47:33.040Z",
+      "month": "2026-10",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tufc",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-30T22:14:55.008Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "222 km NW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.4282,
+      "latitude": -13.8288,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T23:31:22.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tufe",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-30T22:23:42.517Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 521.136,
+      "longitude": 179.7044,
+      "latitude": -24.7289,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T23:50:45.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tufp",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-30T22:46:57.982Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "33 km NE of Mazo Cruz, Peru",
+      "depthKm": 194.807,
+      "longitude": -69.4844,
+      "latitude": -16.5439,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-30T23:14:13.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tugd",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T00:26:35.699Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "97 km ENE of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 167.9478,
+      "latitude": -14.8091,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T01:00:34.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tugf",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T00:32:46.687Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "223 km SE of Katsuura, Japan",
+      "depthKm": 10,
+      "longitude": 141.8118,
+      "latitude": 33.5548,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T02:43:39.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tugg",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T01:01:59.344Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mwr",
+      "place": "35 km SSE of Sykiá, Greece",
+      "depthKm": 10,
+      "longitude": 24.1487,
+      "latitude": 39.7672,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T01:18:28.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tugl",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T01:21:36.013Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "84 km S of Severo-Kuril’sk, Russia",
+      "depthKm": 84.736,
+      "longitude": 156.0245,
+      "latitude": 49.9164,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T01:40:36.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tugs",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T02:37:19.894Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "central Mid-Atlantic Ridge",
+      "depthKm": 10,
+      "longitude": -34.6828,
+      "latitude": 7.087,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T02:58:56.040Z",
+      "month": "2026-10"
+    },
+    {
+      "id": "us7000tugv",
+      "dateKst": "2026-10-31",
+      "timeUtc": "2026-10-31T03:14:13.580Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "Izu Islands, Japan region",
+      "depthKm": 10,
+      "longitude": 142.5186,
+      "latitude": 30.9098,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T03:33:42.040Z",
       "month": "2026-10"
     }
   ]
