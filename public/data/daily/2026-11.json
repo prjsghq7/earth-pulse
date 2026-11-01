@@ -6,7 +6,7 @@
   "records": [
     {
       "dateKst": "2026-11-01",
-      "state": "provisional",
+      "state": "final",
       "count": 24,
       "maxMagnitude": 6,
       "averageMagnitude": 4.75,
@@ -37,6 +37,22 @@
         "us7000tupl",
         "us7000tupp",
         "us7000tupq"
+      ]
+    },
+    {
+      "dateKst": "2026-11-02",
+      "state": "provisional",
+      "count": 5,
+      "maxMagnitude": 5.1,
+      "averageMagnitude": 4.84,
+      "medianMagnitude": 4.8,
+      "medianDepthKm": 10,
+      "eventIds": [
+        "us7000tuqi",
+        "us7000tuqk",
+        "us7000tuqv",
+        "us7000tuqx",
+        "us7000tur0"
       ]
     }
   ]
