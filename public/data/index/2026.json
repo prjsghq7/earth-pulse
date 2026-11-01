@@ -172812,7 +172812,7 @@
       "latitude": 7.5692,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-31T18:29:00.061Z",
+      "updatedUtc": "2026-10-31T20:43:14.907Z",
       "month": "2026-11"
     },
     {
@@ -172828,6 +172828,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-10-31T17:43:11.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "aka2026vpcige",
+      "dateKst": "2026-11-01",
+      "timeUtc": "2026-10-31T18:50:58.577Z",
+      "magnitude": 4.5,
+      "magnitudeType": "ml",
+      "place": "121 km SE of Atka, Alaska",
+      "depthKm": 1,
+      "longitude": -172.815,
+      "latitude": 51.521,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T21:56:14.811Z",
       "month": "2026-11"
     },
     {
@@ -172842,7 +172860,52 @@
       "latitude": 51.6994,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-10-31T19:08:59.040Z",
+      "updatedUtc": "2026-10-31T21:58:16.625Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tukm",
+      "dateKst": "2026-11-01",
+      "timeUtc": "2026-10-31T21:20:39.173Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "115 km SE of Bushehr, Iran",
+      "depthKm": 10,
+      "longitude": 51.5076,
+      "latitude": 28.114,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T21:35:56.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tuku",
+      "dateKst": "2026-11-01",
+      "timeUtc": "2026-10-31T22:15:02.901Z",
+      "magnitude": 6,
+      "magnitudeType": "mww",
+      "place": "58 km SSE of Shima, Japan",
+      "depthKm": 352.449,
+      "longitude": 136.9854,
+      "latitude": 33.822,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T23:58:11.425Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tuky",
+      "dateKst": "2026-11-01",
+      "timeUtc": "2026-10-31T22:42:39.540Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "200 km NW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.6456,
+      "latitude": -13.8729,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-10-31T23:11:08.040Z",
       "month": "2026-11"
     }
   ]
