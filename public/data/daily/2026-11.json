@@ -7,10 +7,10 @@
     {
       "dateKst": "2026-11-01",
       "state": "provisional",
-      "count": 11,
+      "count": 24,
       "maxMagnitude": 6,
-      "averageMagnitude": 4.8,
-      "medianMagnitude": 4.8,
+      "averageMagnitude": 4.75,
+      "medianMagnitude": 4.75,
       "medianDepthKm": 10,
       "eventIds": [
         "us7000tujf",
@@ -23,7 +23,20 @@
         "us7000tule",
         "us7000tulr",
         "us7000tuly",
-        "us7000tumy"
+        "us7000tumy",
+        "us7000tun8",
+        "us7000tund",
+        "us7000tung",
+        "us7000tunq",
+        "us7000tup4",
+        "us7000tup7",
+        "us7000tup9",
+        "us7000tupa",
+        "us7000tupb",
+        "aka2026vqjriv",
+        "us7000tupl",
+        "us7000tupp",
+        "us7000tupq"
       ]
     }
   ]
