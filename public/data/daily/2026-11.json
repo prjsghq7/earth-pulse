@@ -41,20 +41,22 @@
     },
     {
       "dateKst": "2026-11-02",
-      "state": "provisional",
-      "count": 24,
+      "state": "final",
+      "count": 31,
       "maxMagnitude": 5.1,
-      "averageMagnitude": 4.63,
+      "averageMagnitude": 4.57,
       "medianMagnitude": 4.6,
-      "medianDepthKm": 36.7,
+      "medianDepthKm": 55.1,
       "eventIds": [
         "us7000tuqi",
         "us7000tuqk",
         "us7000tuqq",
         "us7000tuqv",
         "us7000tuqx",
+        "us7000tuqw",
         "us7000tuqy",
         "us7000tur0",
+        "us7000tur6",
         "us7000turj",
         "us7000turv",
         "us7000tus5",
@@ -68,10 +70,34 @@
         "us7000tuth",
         "us7000tutt",
         "us7000tutv",
+        "us7000tuty",
         "us7000tuu0",
         "us7000tuua",
         "us7000tuuy",
-        "us7000tuv5"
+        "us7000tuv5",
+        "us7000tuv8",
+        "us7000tuw2",
+        "us7000tuvx",
+        "us7000tuwv"
+      ]
+    },
+    {
+      "dateKst": "2026-11-03",
+      "state": "provisional",
+      "count": 8,
+      "maxMagnitude": 5.3,
+      "averageMagnitude": 4.58,
+      "medianMagnitude": 4.55,
+      "medianDepthKm": 57.9,
+      "eventIds": [
+        "us7000tuxf",
+        "us7000tuxg",
+        "us7000tuxi",
+        "us7000tuxt",
+        "us7000tuxy",
+        "us7000tuy2",
+        "us7000tuzd",
+        "us7000tv03"
       ]
     }
   ]
