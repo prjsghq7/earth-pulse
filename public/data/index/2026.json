@@ -173230,7 +173230,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-01T17:40:10.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuqk",
@@ -173245,6 +173248,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-01T17:30:32.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tuqq",
+      "dateKst": "2026-11-02",
+      "timeUtc": "2026-11-01T17:57:44.661Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "117 km NNE of Barishal, Pakistan",
+      "depthKm": 10,
+      "longitude": 75.054,
+      "latitude": 37.336,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-01T22:51:32.040Z",
       "month": "2026-11"
     },
     {
@@ -173260,7 +173281,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-01T18:55:28.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuqx",
@@ -173275,6 +173299,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-01T18:54:01.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tuqy",
+      "dateKst": "2026-11-02",
+      "timeUtc": "2026-11-01T18:42:57.023Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "101 km SW of Basco, Philippines",
+      "depthKm": 38.488,
+      "longitude": 121.328,
+      "latitude": 19.7626,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-01T19:42:00.040Z",
       "month": "2026-11"
     },
     {
@@ -173290,6 +173332,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-01T19:12:41.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000turj",
+      "dateKst": "2026-11-02",
+      "timeUtc": "2026-11-01T21:26:57.524Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "Kermadec Islands region",
+      "depthKm": 150.95,
+      "longitude": -177.8708,
+      "latitude": -27.291,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-01T21:58:58.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000turv",
+      "dateKst": "2026-11-02",
+      "timeUtc": "2026-11-01T22:22:43.980Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "Mid-Indian Ridge",
+      "depthKm": 10,
+      "longitude": 78.3627,
+      "latitude": -35.4346,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-01T23:42:25.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tus5",
+      "dateKst": "2026-11-02",
+      "timeUtc": "2026-11-01T23:18:05.811Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "86 km WNW of Abra Pampa, Argentina",
+      "depthKm": 243.598,
+      "longitude": -66.523,
+      "latitude": -22.5661,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-01T23:45:30.040Z",
       "month": "2026-11"
     }
   ]
