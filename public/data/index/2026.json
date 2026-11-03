@@ -173767,7 +173767,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-02T19:19:06.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuxg",
@@ -173782,7 +173785,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-02T15:51:30.959Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuxi",
@@ -173797,7 +173803,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-02T16:24:30.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuxt",
@@ -173812,7 +173821,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-02T19:28:39.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuxy",
@@ -173827,7 +173839,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-02T17:07:16.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuy2",
@@ -173842,7 +173857,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-02T18:41:24.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tuzd",
@@ -173857,7 +173875,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-02T20:18:25.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tv03",
@@ -173872,6 +173893,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-02T21:11:25.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tv08",
+      "dateKst": "2026-11-03",
+      "timeUtc": "2026-11-02T21:10:29.183Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "201 km W of Port McNeill, Canada",
+      "depthKm": 10,
+      "longitude": -129.9302,
+      "latitude": 50.7109,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-02T23:16:09.714Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tv1e",
+      "dateKst": "2026-11-03",
+      "timeUtc": "2026-11-02T23:35:13.864Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mwr",
+      "place": "63 km W of Flaxmere, New Zealand",
+      "depthKm": 62.335,
+      "longitude": 176.0449,
+      "latitude": -39.5581,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-03T00:08:21.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tv1v",
+      "dateKst": "2026-11-03",
+      "timeUtc": "2026-11-03T00:27:08.645Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "168 km ENE of Nagqu, China",
+      "depthKm": 10,
+      "longitude": 93.5624,
+      "latitude": 32.2919,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-03T01:08:59.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tv27",
+      "dateKst": "2026-11-03",
+      "timeUtc": "2026-11-03T01:41:27.095Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "25 km NNE of Camiña, Chile",
+      "depthKm": 106.613,
+      "longitude": -69.307,
+      "latitude": -19.1084,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-03T02:02:09.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tv2p",
+      "dateKst": "2026-11-03",
+      "timeUtc": "2026-11-03T03:13:12.330Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "74 km E of Petropavlovsk-Kamchatsky, Russia",
+      "depthKm": 75.58,
+      "longitude": 159.7384,
+      "latitude": 53.0409,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-03T04:26:00.040Z",
       "month": "2026-11"
     }
   ]

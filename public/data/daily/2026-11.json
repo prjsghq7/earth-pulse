@@ -84,11 +84,11 @@
     {
       "dateKst": "2026-11-03",
       "state": "provisional",
-      "count": 8,
+      "count": 13,
       "maxMagnitude": 5.3,
-      "averageMagnitude": 4.58,
-      "medianMagnitude": 4.55,
-      "medianDepthKm": 57.9,
+      "averageMagnitude": 4.47,
+      "medianMagnitude": 4.4,
+      "medianDepthKm": 62.3,
       "eventIds": [
         "us7000tuxf",
         "us7000tuxg",
@@ -97,7 +97,12 @@
         "us7000tuxy",
         "us7000tuy2",
         "us7000tuzd",
-        "us7000tv03"
+        "us7000tv03",
+        "us7000tv08",
+        "us7000tv1e",
+        "us7000tv1v",
+        "us7000tv27",
+        "us7000tv2p"
       ]
     }
   ]
