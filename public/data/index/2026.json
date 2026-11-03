@@ -173784,11 +173784,8 @@
       "latitude": -10.1699,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-02T15:51:30.959Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-03T15:57:49.573Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000tuxi",
@@ -173838,11 +173835,8 @@
       "latitude": 34.4807,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-02T17:07:16.040Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-03T13:00:42.040Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000tuy2",
@@ -173911,7 +173905,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-02T23:16:09.714Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tv1e",
@@ -173926,7 +173923,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-03T00:08:21.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tv1v",
@@ -173941,7 +173941,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-03T01:08:59.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tv27",
@@ -173956,7 +173959,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-03T02:02:09.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tv2p",
@@ -173971,6 +173977,99 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-03T04:26:00.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tv3l",
+      "dateKst": "2026-11-03",
+      "timeUtc": "2026-11-03T05:23:44.068Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "31 km E of Mawlaik, Burma (Myanmar)",
+      "depthKm": 116.353,
+      "longitude": 94.7089,
+      "latitude": 23.6023,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-03T09:51:31.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tv3q",
+      "dateKst": "2026-11-03",
+      "timeUtc": "2026-11-03T05:40:18.064Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mwr",
+      "place": "6 km S of Asahi, Japan",
+      "depthKm": 52.267,
+      "longitude": 140.648,
+      "latitude": 35.6591,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-03T09:41:36.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tv4i",
+      "dateKst": "2026-11-03",
+      "timeUtc": "2026-11-03T09:13:14.972Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mww",
+      "place": "24 km NNW of Rioblanco, Colombia",
+      "depthKm": 10,
+      "longitude": -75.7198,
+      "latitude": 3.7386,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-03T16:21:19.934Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tv51",
+      "dateKst": "2026-11-03",
+      "timeUtc": "2026-11-03T11:03:47.340Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "101 km SSE of Palekastro, Greece",
+      "depthKm": 45.662,
+      "longitude": 26.5713,
+      "latitude": 34.3254,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-03T12:01:27.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tv5i",
+      "dateKst": "2026-11-03",
+      "timeUtc": "2026-11-03T13:34:06.139Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "South Sandwich Islands region",
+      "depthKm": 143.595,
+      "longitude": -26.4744,
+      "latitude": -58.8399,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-03T13:52:00.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tva7",
+      "dateKst": "2026-11-04",
+      "timeUtc": "2026-11-03T15:37:51.082Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "85 km S of Gorontalo, Indonesia",
+      "depthKm": 136.685,
+      "longitude": 123.1532,
+      "latitude": -0.2295,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-03T16:54:31.040Z",
       "month": "2026-11"
     }
   ]
