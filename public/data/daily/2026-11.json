@@ -113,13 +113,22 @@
     {
       "dateKst": "2026-11-04",
       "state": "provisional",
-      "count": 1,
-      "maxMagnitude": 4.8,
-      "averageMagnitude": 4.8,
-      "medianMagnitude": 4.8,
-      "medianDepthKm": 136.7,
+      "count": 10,
+      "maxMagnitude": 5.2,
+      "averageMagnitude": 4.68,
+      "medianMagnitude": 4.6,
+      "medianDepthKm": 14.2,
       "eventIds": [
-        "us7000tva7"
+        "us7000tva4",
+        "us7000tva7",
+        "us7000tveb",
+        "us7000tvie",
+        "us7000tvpc",
+        "us7000tvs3",
+        "ci41572064",
+        "us7000tvtj",
+        "us7000tvu2",
+        "us7000tvu9"
       ]
     }
   ]
