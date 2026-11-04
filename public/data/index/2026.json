@@ -174070,7 +174070,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-04T11:32:29.333Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tva7",
@@ -174174,7 +174177,7 @@
       "latitude": 32.4308333333333,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-04T13:21:51.920Z",
+      "updatedUtc": "2026-11-04T19:31:04.197Z",
       "month": "2026-11"
     },
     {
@@ -174190,7 +174193,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-04T08:04:57.658Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tvu2",
@@ -174277,7 +174283,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-04T08:00:21.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tvxj",
@@ -174292,6 +174301,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-04T14:03:56.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "aka2026vvzmnn",
+      "dateKst": "2026-11-04",
+      "timeUtc": "2026-11-04T12:22:50.918Z",
+      "magnitude": 4.2,
+      "magnitudeType": "ml",
+      "place": "81 km S of Nikolski, Alaska",
+      "depthKm": 12.6,
+      "longitude": -168.733,
+      "latitude": 52.208,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-04T17:21:48.010Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "pr2026308001",
+      "dateKst": "2026-11-05",
+      "timeUtc": "2026-11-04T16:59:23.360Z",
+      "magnitude": 4.21,
+      "magnitudeType": "md",
+      "place": "100 km NNE of Punta Cana, Dominican Republic",
+      "depthKm": 11,
+      "longitude": -68.1008,
+      "latitude": 19.4396,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-04T20:17:54.789Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tw3k",
+      "dateKst": "2026-11-05",
+      "timeUtc": "2026-11-04T19:55:26.313Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "2 km W of Chinandega, Nicaragua",
+      "depthKm": 159.022,
+      "longitude": -87.1544,
+      "latitude": 12.6311,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-04T20:26:42.040Z",
       "month": "2026-11"
     }
   ]
