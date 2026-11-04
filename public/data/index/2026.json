@@ -174070,7 +174070,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-03T20:05:55.175Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tva7",
@@ -174103,7 +174106,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-03T20:13:19.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tvie",
@@ -174118,7 +174124,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-03T17:05:18.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tvpc",
@@ -174133,7 +174142,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-03T17:40:05.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tvs3",
@@ -174148,7 +174160,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-03T18:46:16.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "ci41572064",
@@ -174162,7 +174177,7 @@
       "latitude": 32.4308333333333,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-03T23:13:25.180Z",
+      "updatedUtc": "2026-11-04T06:03:32.097Z",
       "month": "2026-11"
     },
     {
@@ -174178,7 +174193,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-03T22:07:00.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tvu2",
@@ -174193,21 +174211,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-03T22:56:53.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tvu9",
       "dateKst": "2026-11-04",
-      "timeUtc": "2026-11-03T22:50:34.030Z",
-      "magnitude": 4.4,
+      "timeUtc": "2026-11-03T22:50:33.435Z",
+      "magnitude": 4.5,
       "magnitudeType": "mb",
-      "place": "93 km ESE of Kyzyl-Eshme, Kyrgyzstan",
+      "place": "99 km ESE of Kyzyl-Eshme, Kyrgyzstan",
       "depthKm": 10,
-      "longitude": 73.321,
-      "latitude": 39.3364,
+      "longitude": 73.3725,
+      "latitude": 39.294,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-03T23:02:02.040Z",
+      "updatedUtc": "2026-11-04T00:32:14.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tvuv",
+      "dateKst": "2026-11-04",
+      "timeUtc": "2026-11-04T00:32:59.774Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "Fiji region",
+      "depthKm": 556.459,
+      "longitude": -177.5052,
+      "latitude": -19.2691,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-04T01:23:06.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tvvc",
+      "dateKst": "2026-11-04",
+      "timeUtc": "2026-11-04T02:40:29.495Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "Bonin Islands, Japan region",
+      "depthKm": 429.393,
+      "longitude": 140.2929,
+      "latitude": 27.0774,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-04T03:05:33.040Z",
       "month": "2026-11"
     }
   ]
