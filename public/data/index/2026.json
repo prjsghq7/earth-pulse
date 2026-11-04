@@ -174069,11 +174069,8 @@
       "latitude": 24.4281,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-03T20:05:55.175Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-04T11:32:29.333Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000tva7",
@@ -174177,7 +174174,7 @@
       "latitude": 32.4308333333333,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-04T06:03:32.097Z",
+      "updatedUtc": "2026-11-04T13:21:51.920Z",
       "month": "2026-11"
     },
     {
@@ -174192,11 +174189,8 @@
       "latitude": 39.3619,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-03T22:07:00.040Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-04T08:04:57.658Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000tvu2",
@@ -174229,7 +174223,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-04T00:32:14.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tvuv",
@@ -174244,7 +174241,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-04T01:23:06.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tvvc",
@@ -174259,6 +174259,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-04T03:05:33.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tvwj",
+      "dateKst": "2026-11-04",
+      "timeUtc": "2026-11-04T07:40:12.288Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "207 km ESE of Sarangani, Philippines",
+      "depthKm": 49.074,
+      "longitude": 127.0325,
+      "latitude": 4.3895,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-04T08:00:21.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tvxj",
+      "dateKst": "2026-11-04",
+      "timeUtc": "2026-11-04T12:14:45.921Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "127 km SSW of Kokopo, Papua New Guinea",
+      "depthKm": 10,
+      "longitude": 152.0301,
+      "latitude": -5.4706,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-04T14:03:56.040Z",
       "month": "2026-11"
     }
   ]
