@@ -174333,11 +174333,8 @@
       "latitude": 19.4396,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-04T20:17:54.789Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-05T12:14:59.868Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000tw2x",
@@ -174352,6 +174349,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-04T22:59:59.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tw4w",
+      "dateKst": "2026-11-05",
+      "timeUtc": "2026-11-04T19:22:20.560Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "30 km S of Adak, Alaska",
+      "depthKm": 74.504,
+      "longitude": -176.6581,
+      "latitude": 51.5984,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-05T16:15:59.040Z",
       "month": "2026-11"
     },
     {
@@ -174388,6 +174403,21 @@
       "rmsSeconds": null
     },
     {
+      "id": "us7000tw3n",
+      "dateKst": "2026-11-05",
+      "timeUtc": "2026-11-04T20:06:06.968Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "South Indian Ocean",
+      "depthKm": 10,
+      "longitude": 88.0827,
+      "latitude": -1.4064,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-05T16:31:05.040Z",
+      "month": "2026-11"
+    },
+    {
       "id": "us7000tw43",
       "dateKst": "2026-11-05",
       "timeUtc": "2026-11-04T21:24:24.646Z",
@@ -174400,7 +174430,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-05T00:33:58.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tw4z",
@@ -174414,7 +174447,7 @@
       "latitude": 38.0156,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-05T00:38:54.040Z",
+      "updatedUtc": "2026-11-05T06:39:34.713Z",
       "month": "2026-11"
     },
     {
@@ -174430,21 +174463,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-05T01:03:27.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "nc75462637",
       "dateKst": "2026-11-05",
-      "timeUtc": "2026-11-05T04:56:01.430Z",
+      "timeUtc": "2026-11-05T04:56:02.670Z",
       "magnitude": 4.96,
       "magnitudeType": "mw",
-      "place": "114 km W of Petrolia, CA",
-      "depthKm": 2.14000010490417,
-      "longitude": -125.627166748047,
-      "latitude": 40.4253349304199,
+      "place": "111 km W of Petrolia, CA",
+      "depthKm": 10,
+      "longitude": -125.585333333333,
+      "latitude": 40.4073333333333,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-05T06:32:49.410Z",
+      "updatedUtc": "2026-11-05T17:06:13.085Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tw76",
+      "dateKst": "2026-11-05",
+      "timeUtc": "2026-11-05T09:22:32.714Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "19 km NNW of Masumbwe, Tanzania",
+      "depthKm": 10,
+      "longitude": 32.149,
+      "latitude": -3.4641,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-05T17:10:46.822Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tw7b",
+      "dateKst": "2026-11-05",
+      "timeUtc": "2026-11-05T10:09:33.723Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "Sea of Okhotsk",
+      "depthKm": 554.419,
+      "longitude": 147.7534,
+      "latitude": 49.2594,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-05T10:24:31.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tw8p",
+      "dateKst": "2026-11-06",
+      "timeUtc": "2026-11-05T16:56:25.875Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "130 km NE of Thang, India",
+      "depthKm": 76.944,
+      "longitude": 77.9399,
+      "latitude": 35.6318,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-05T17:13:46.040Z",
       "month": "2026-11"
     }
   ]
