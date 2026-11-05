@@ -139,14 +139,20 @@
     {
       "dateKst": "2026-11-05",
       "state": "provisional",
-      "count": 2,
-      "maxMagnitude": 4.5,
+      "count": 8,
+      "maxMagnitude": 4.96,
       "averageMagnitude": 4.36,
-      "medianMagnitude": 4.36,
-      "medianDepthKm": 85,
+      "medianMagnitude": 4.21,
+      "medianDepthKm": 40.6,
       "eventIds": [
         "pr2026308001",
-        "us7000tw3k"
+        "us7000tw2x",
+        "aka2026vwnmje",
+        "us7000tw3k",
+        "us7000tw43",
+        "us7000tw4z",
+        "us7000tw53",
+        "nc75462637"
       ]
     }
   ]
