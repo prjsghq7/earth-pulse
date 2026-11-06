@@ -174525,11 +174525,8 @@
       "latitude": 35.6318,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-05T17:13:46.040Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-06T07:36:40.750Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000tw8r",
@@ -174543,11 +174540,8 @@
       "latitude": -21.1984,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-05T21:53:38.317Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-06T07:23:12.040Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000twaq",
@@ -174561,7 +174555,7 @@
       "latitude": 37.9934,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-06T04:03:54.181Z",
+      "updatedUtc": "2026-11-06T11:26:53.398Z",
       "month": "2026-11"
     },
     {
@@ -174613,7 +174607,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-06T01:10:30.729Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twdd",
@@ -174628,7 +174625,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-06T00:36:04.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tweb",
@@ -174643,7 +174643,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-06T01:53:40.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tweq",
@@ -174658,7 +174661,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-06T04:40:49.673Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twf2",
@@ -174673,6 +174679,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-06T04:25:59.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000twfk",
+      "dateKst": "2026-11-06",
+      "timeUtc": "2026-11-06T06:28:26.156Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "41 km SW of Balangonan, Philippines",
+      "depthKm": 35,
+      "longitude": 125.0977,
+      "latitude": 5.2999,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-06T08:55:09.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twfu",
+      "dateKst": "2026-11-06",
+      "timeUtc": "2026-11-06T08:14:08.319Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "87 km N of Isangel, Vanuatu",
+      "depthKm": 246.521,
+      "longitude": 169.2644,
+      "latitude": -18.7543,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-06T08:31:16.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twg9",
+      "dateKst": "2026-11-06",
+      "timeUtc": "2026-11-06T10:39:27.869Z",
+      "magnitude": 6.1,
+      "magnitudeType": "mww",
+      "place": "144 km SE of Hasaki, Japan",
+      "depthKm": 29,
+      "longitude": 142.1175,
+      "latitude": 34.9677,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-06T15:39:25.993Z",
       "month": "2026-11"
     }
   ]
