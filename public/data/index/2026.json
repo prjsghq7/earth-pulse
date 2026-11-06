@@ -174544,7 +174544,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-05T21:53:38.317Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twaq",
@@ -174558,7 +174561,7 @@
       "latitude": 37.9934,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-05T21:29:03.040Z",
+      "updatedUtc": "2026-11-06T04:03:54.181Z",
       "month": "2026-11"
     },
     {
@@ -174574,7 +174577,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-05T21:35:50.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twcy",
@@ -174589,7 +174595,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-05T22:53:48.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twd4",
@@ -174603,7 +174612,67 @@
       "latitude": 53.5527,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-05T23:31:31.818Z",
+      "updatedUtc": "2026-11-06T01:10:30.729Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twdd",
+      "dateKst": "2026-11-06",
+      "timeUtc": "2026-11-06T00:02:25.016Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "96 km NNW of Lae, Papua New Guinea",
+      "depthKm": 97.804,
+      "longitude": 146.6624,
+      "latitude": -5.9168,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-06T00:36:04.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tweb",
+      "dateKst": "2026-11-06",
+      "timeUtc": "2026-11-06T01:37:39.847Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "58 km WNW of Isangel, Vanuatu",
+      "depthKm": 83.271,
+      "longitude": 168.7529,
+      "latitude": -19.3647,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-06T01:53:40.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tweq",
+      "dateKst": "2026-11-06",
+      "timeUtc": "2026-11-06T02:35:25.631Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "139 km SSE of False Pass, Alaska",
+      "depthKm": 27.963,
+      "longitude": -162.9502,
+      "latitude": 53.6347,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-06T04:40:49.673Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twf2",
+      "dateKst": "2026-11-06",
+      "timeUtc": "2026-11-06T04:13:15.747Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "185 km NNW of Gorontalo, Indonesia",
+      "depthKm": 510.384,
+      "longitude": 122.649,
+      "latitude": 2.1669,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-06T04:25:59.040Z",
       "month": "2026-11"
     }
   ]
