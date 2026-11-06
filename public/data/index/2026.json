@@ -174728,6 +174728,66 @@
       "tsunami": false,
       "updatedUtc": "2026-11-06T15:39:25.993Z",
       "month": "2026-11"
+    },
+    {
+      "id": "us7000twhq",
+      "dateKst": "2026-11-07",
+      "timeUtc": "2026-11-06T15:26:58.080Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "101 km SSE of Palekastro, Greece",
+      "depthKm": 40.657,
+      "longitude": 26.4987,
+      "latitude": 34.3043,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-06T17:57:22.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twkp",
+      "dateKst": "2026-11-07",
+      "timeUtc": "2026-11-06T17:53:25.873Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "263 km E of Levuka, Fiji",
+      "depthKm": 567.218,
+      "longitude": -178.191,
+      "latitude": -18.0741,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-06T18:16:30.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twmq",
+      "dateKst": "2026-11-07",
+      "timeUtc": "2026-11-06T19:06:54.642Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "10 km ESE of Pedasí, Panama",
+      "depthKm": 10,
+      "longitude": -79.9371,
+      "latitude": 7.5079,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-06T21:01:53.709Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twmr",
+      "dateKst": "2026-11-07",
+      "timeUtc": "2026-11-06T19:07:01.269Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "36 km WNW of Poso, Indonesia",
+      "depthKm": 10,
+      "longitude": 120.4589,
+      "latitude": -1.2393,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-06T21:57:17.040Z",
+      "month": "2026-11"
     }
   ]
 }
