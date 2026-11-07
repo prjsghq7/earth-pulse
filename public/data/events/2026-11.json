@@ -3279,6 +3279,34 @@
       "azimuthalGap": 56,
       "rmsSeconds": 0.83,
       "qualityCheckedAt": "2026-11-06T23:03:23.525Z"
+    },
+    {
+      "id": "us7000twp3",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "75 km SSE of Kuril’sk, Russia",
+      "timeUtc": "2026-11-06T23:15:45.408Z",
+      "dateKst": "2026-11-07",
+      "timeKst": "08:15:45",
+      "updatedUtc": "2026-11-07T00:16:09.040Z",
+      "longitude": 148.1062,
+      "latitude": 44.5682,
+      "depthKm": 78.827,
+      "status": "reviewed",
+      "tsunami": false,
+      "alert": null,
+      "felt": null,
+      "cdi": null,
+      "mmi": null,
+      "significance": 298,
+      "network": "us",
+      "code": "7000twp3",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twp3",
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twp3&format=geojson",
+      "stationCount": 26,
+      "azimuthalGap": 98,
+      "rmsSeconds": 0.63,
+      "qualityCheckedAt": "2026-11-07T05:51:03.643Z"
     }
   ]
 }
