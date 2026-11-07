@@ -185,7 +185,7 @@
     },
     {
       "dateKst": "2026-11-07",
-      "state": "provisional",
+      "state": "final",
       "count": 13,
       "maxMagnitude": 5.5,
       "averageMagnitude": 4.61,
@@ -205,6 +205,22 @@
         "us7000twrp",
         "us7000twrq",
         "us7000twrt"
+      ]
+    },
+    {
+      "dateKst": "2026-11-08",
+      "state": "provisional",
+      "count": 5,
+      "maxMagnitude": 5.5,
+      "averageMagnitude": 4.78,
+      "medianMagnitude": 4.7,
+      "medianDepthKm": 10,
+      "eventIds": [
+        "us7000twsp",
+        "us7000twss",
+        "us7000twsz",
+        "us7000twt0",
+        "us7000twt8"
       ]
     }
   ]

@@ -174814,7 +174814,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T12:19:52.255Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twp3",
@@ -174847,7 +174850,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T07:23:11.198Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twqr",
@@ -174862,7 +174868,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T07:31:57.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twqw",
@@ -174877,7 +174886,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T07:41:39.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twrh",
@@ -174892,7 +174904,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T12:35:21.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twrp",
@@ -174907,7 +174922,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T12:46:07.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twrq",
@@ -174921,7 +174939,7 @@
       "latitude": 36.1884,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-07T12:33:13.787Z",
+      "updatedUtc": "2026-11-07T19:18:48.092Z",
       "month": "2026-11"
     },
     {
@@ -174937,6 +174955,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T11:55:28.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000twsp",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T15:05:45.113Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "Fiji region",
+      "depthKm": 571.898,
+      "longitude": -178.7119,
+      "latitude": -20.8363,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-07T16:13:31.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twss",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T15:22:50.149Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "77 km NNW of Khorixas, Namibia",
+      "depthKm": 8.035,
+      "longitude": 14.6467,
+      "latitude": -19.7402,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-07T16:04:11.462Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twsz",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T15:55:00.079Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "251 km ESE of Tadine, New Caledonia",
+      "depthKm": 10,
+      "longitude": 170.0629,
+      "latitude": -22.5556,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-07T19:14:13.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twt0",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T16:04:35.125Z",
+      "magnitude": 5.5,
+      "magnitudeType": "mww",
+      "place": "10 km NW of Hamakita, Japan",
+      "depthKm": 38.081,
+      "longitude": 137.691,
+      "latitude": 34.8611,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-07T19:22:20.326Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twt8",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T17:17:38.931Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "45 km NNW of Salinas, Ecuador",
+      "depthKm": 10,
+      "longitude": -81.1439,
+      "latitude": -1.8505,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-07T17:37:15.040Z",
       "month": "2026-11"
     }
   ]
