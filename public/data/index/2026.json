@@ -174990,7 +174990,7 @@
       "latitude": -19.7402,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-07T19:54:07.137Z",
+      "updatedUtc": "2026-11-08T09:13:00.601Z",
       "month": "2026-11"
     },
     {
@@ -175024,7 +175024,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T19:53:11.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twt0",
@@ -175038,7 +175041,7 @@
       "latitude": 34.8611,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-08T00:23:26.432Z",
+      "updatedUtc": "2026-11-08T08:23:14.154Z",
       "month": "2026-11"
     },
     {
@@ -175060,6 +175063,21 @@
       "rmsSeconds": null
     },
     {
+      "id": "aka2026wcchuf",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T19:45:08.410Z",
+      "magnitude": 4,
+      "magnitudeType": "ml",
+      "place": "203 km SE of Unalaska, Alaska",
+      "depthKm": 27.9,
+      "longitude": -164.782,
+      "latitude": 52.377,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T06:03:10.729Z",
+      "month": "2026-11"
+    },
+    {
       "id": "us7000twtv",
       "dateKst": "2026-11-08",
       "timeUtc": "2026-11-07T19:55:10.891Z",
@@ -175072,7 +175090,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T20:13:03.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twu1",
@@ -175087,21 +175108,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T21:19:02.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000twum",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T23:14:33.811Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "91 km ESE of Kyzyl-Eshme, Kyrgyzstan",
+      "depthKm": 10,
+      "longitude": 73.2801,
+      "latitude": 39.3146,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T02:23:56.040Z",
       "month": "2026-11"
     },
     {
       "id": "us7000twun",
       "dateKst": "2026-11-08",
-      "timeUtc": "2026-11-07T23:17:06.073Z",
-      "magnitude": 5.9,
+      "timeUtc": "2026-11-07T23:17:05.477Z",
+      "magnitude": 5.8,
       "magnitudeType": "mww",
       "place": "central Mid-Atlantic Ridge",
       "depthKm": 10,
-      "longitude": -36.9727,
-      "latitude": 7.3411,
+      "longitude": -36.8221,
+      "latitude": 7.4618,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-07T23:40:24.369Z",
+      "updatedUtc": "2026-11-08T06:08:04.072Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twuq",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T23:22:35.649Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "77 km SW of La Gomera, Guatemala",
+      "depthKm": 34.237,
+      "longitude": -91.4602,
+      "latitude": 13.5083,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T00:39:44.040Z",
       "month": "2026-11"
     },
     {
@@ -175117,7 +175171,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T23:41:08.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twus",
@@ -175131,7 +175188,82 @@
       "latitude": -15.6837,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-07T23:44:30.040Z",
+      "updatedUtc": "2026-11-08T00:35:59.475Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twvb",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-08T01:53:16.193Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "11 km W of Honmachi, Japan",
+      "depthKm": 10,
+      "longitude": 130.4721,
+      "latitude": 32.5014,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T02:39:56.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twvh",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-08T02:50:10.197Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "76 km WNW of Murghob, Tajikistan",
+      "depthKm": 95.394,
+      "longitude": 73.1675,
+      "latitude": 38.4508,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T03:05:39.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twwg",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-08T07:02:49.940Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "60 km WNW of San Antonio de los Cobres, Argentina",
+      "depthKm": 223.654,
+      "longitude": -66.8882,
+      "latitude": -24.0461,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T08:50:25.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twwm",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-08T07:31:52.092Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "18 km N of Darreh Shahr, Iran",
+      "depthKm": 10,
+      "longitude": 47.352,
+      "latitude": 33.3096,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T09:00:55.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twx1",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-08T09:23:35.700Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "137 km E of Miyako, Japan",
+      "depthKm": 10,
+      "longitude": 143.5257,
+      "latitude": 39.8647,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T09:52:58.040Z",
       "month": "2026-11"
     }
   ]
