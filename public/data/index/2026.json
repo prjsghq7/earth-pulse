@@ -175342,7 +175342,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-08T17:20:59.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twyd",
@@ -175357,6 +175360,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-08T17:04:06.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000twyw",
+      "dateKst": "2026-11-09",
+      "timeUtc": "2026-11-08T19:20:31.718Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "off the coast of Oregon",
+      "depthKm": 10,
+      "longitude": -128.5405,
+      "latitude": 44.0286,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T21:30:38.595Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twz2",
+      "dateKst": "2026-11-09",
+      "timeUtc": "2026-11-08T20:16:30.347Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mwr",
+      "place": "43 km E of Onagawa Chō, Japan",
+      "depthKm": 55.699,
+      "longitude": 141.937,
+      "latitude": 38.3782,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T20:36:23.040Z",
       "month": "2026-11"
     }
   ]
