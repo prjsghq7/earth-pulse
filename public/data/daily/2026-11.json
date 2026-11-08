@@ -210,17 +210,23 @@
     {
       "dateKst": "2026-11-08",
       "state": "provisional",
-      "count": 5,
-      "maxMagnitude": 5.5,
-      "averageMagnitude": 4.78,
+      "count": 11,
+      "maxMagnitude": 5.9,
+      "averageMagnitude": 4.86,
       "medianMagnitude": 4.7,
       "medianDepthKm": 10,
       "eventIds": [
         "us7000twsp",
         "us7000twss",
         "us7000twsz",
+        "us7000twsy",
         "us7000twt0",
-        "us7000twt8"
+        "us7000twt8",
+        "us7000twtv",
+        "us7000twu1",
+        "us7000twun",
+        "us7000twur",
+        "us7000twus"
       ]
     }
   ]

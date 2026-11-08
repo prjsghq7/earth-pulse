@@ -174973,7 +174973,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T16:13:31.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twss",
@@ -174987,7 +174990,7 @@
       "latitude": -19.7402,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-07T16:04:11.462Z",
+      "updatedUtc": "2026-11-07T19:54:07.137Z",
       "month": "2026-11"
     },
     {
@@ -175003,6 +175006,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T19:14:13.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000twsy",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T16:01:52.257Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "11 km ESE of Pedasí, Panama",
+      "depthKm": 10,
+      "longitude": -79.921,
+      "latitude": 7.5067,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-07T19:53:11.040Z",
       "month": "2026-11"
     },
     {
@@ -175017,7 +175038,7 @@
       "latitude": 34.8611,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-07T19:22:20.326Z",
+      "updatedUtc": "2026-11-08T00:23:26.432Z",
       "month": "2026-11"
     },
     {
@@ -175033,6 +175054,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-07T17:37:15.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000twtv",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T19:55:10.891Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "65 km WSW of Masachapa, Nicaragua",
+      "depthKm": 37.054,
+      "longitude": -87.0544,
+      "latitude": 11.526,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-07T20:13:03.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twu1",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T20:55:38.512Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "43 km ESE of Ambon, Indonesia",
+      "depthKm": 136.656,
+      "longitude": 128.5121,
+      "latitude": -3.905,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-07T21:19:02.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twun",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T23:17:06.073Z",
+      "magnitude": 5.9,
+      "magnitudeType": "mww",
+      "place": "central Mid-Atlantic Ridge",
+      "depthKm": 10,
+      "longitude": -36.9727,
+      "latitude": 7.3411,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-07T23:40:24.369Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twur",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T23:25:35.852Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "41 km WSW of Gadung, Philippines",
+      "depthKm": 607.007,
+      "longitude": 123.6541,
+      "latitude": 6.706,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-07T23:41:08.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twus",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-07T23:27:09.444Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "91 km ENE of Hihifo, Tonga",
+      "depthKm": 10,
+      "longitude": -172.9847,
+      "latitude": -15.6837,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-07T23:44:30.040Z",
       "month": "2026-11"
     }
   ]
