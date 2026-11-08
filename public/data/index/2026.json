@@ -174991,7 +174991,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-08T09:13:00.601Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twsz",
@@ -175041,7 +175044,7 @@
       "latitude": 34.8611,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-08T08:23:14.154Z",
+      "updatedUtc": "2026-11-08T16:10:41.008Z",
       "month": "2026-11"
     },
     {
@@ -175075,7 +175078,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-08T06:03:10.729Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twtv",
@@ -175126,7 +175132,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-08T02:23:56.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twun",
@@ -175141,7 +175150,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-08T06:08:04.072Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twuq",
@@ -175156,7 +175168,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-08T00:39:44.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twur",
@@ -175189,7 +175204,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-08T00:35:59.475Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twvb",
@@ -175204,7 +175222,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-08T02:39:56.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twvh",
@@ -175219,7 +175240,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-08T03:05:39.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twwg",
@@ -175234,7 +175258,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-08T08:50:25.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twwm",
@@ -175249,7 +175276,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-08T09:00:55.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000twx1",
@@ -175264,6 +175294,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-08T09:52:58.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000twxf",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-08T11:58:32.451Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mwr",
+      "place": "46 km NW of Huara, Chile",
+      "depthKm": 68.785,
+      "longitude": -70.0603,
+      "latitude": -19.6811,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T16:09:13.957Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twxn",
+      "dateKst": "2026-11-08",
+      "timeUtc": "2026-11-08T12:29:17.722Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "Southwest Indian Ridge",
+      "depthKm": 10,
+      "longitude": 64.443,
+      "latitude": -27.6901,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T12:51:23.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twyc",
+      "dateKst": "2026-11-09",
+      "timeUtc": "2026-11-08T16:33:24.915Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "central Mid-Atlantic Ridge",
+      "depthKm": 10,
+      "longitude": -36.9451,
+      "latitude": 7.703,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T17:20:59.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000twyd",
+      "dateKst": "2026-11-09",
+      "timeUtc": "2026-11-08T16:45:12.938Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "117 km NE of Tobelo, Indonesia",
+      "depthKm": 224.59,
+      "longitude": 128.6755,
+      "latitude": 2.5497,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-08T17:04:06.040Z",
       "month": "2026-11"
     }
   ]

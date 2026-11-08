@@ -209,10 +209,10 @@
     },
     {
       "dateKst": "2026-11-08",
-      "state": "provisional",
-      "count": 19,
+      "state": "final",
+      "count": 21,
       "maxMagnitude": 5.8,
-      "averageMagnitude": 4.65,
+      "averageMagnitude": 4.66,
       "medianMagnitude": 4.5,
       "medianDepthKm": 10,
       "eventIds": [
@@ -234,7 +234,22 @@
         "us7000twvh",
         "us7000twwg",
         "us7000twwm",
-        "us7000twx1"
+        "us7000twx1",
+        "us7000twxf",
+        "us7000twxn"
+      ]
+    },
+    {
+      "dateKst": "2026-11-09",
+      "state": "provisional",
+      "count": 2,
+      "maxMagnitude": 4.8,
+      "averageMagnitude": 4.7,
+      "medianMagnitude": 4.7,
+      "medianDepthKm": 117.3,
+      "eventIds": [
+        "us7000twyc",
+        "us7000twyd"
       ]
     }
   ]
