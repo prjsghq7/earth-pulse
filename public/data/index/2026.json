@@ -175885,7 +175885,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-09T19:55:08.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tx7h",
@@ -175900,7 +175903,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-09T23:57:57.487Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tx7v",
@@ -175915,7 +175921,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-10T01:10:25.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tx8d",
@@ -175929,7 +175938,7 @@
       "latitude": -7.8742,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-10T02:17:25.529Z",
+      "updatedUtc": "2026-11-10T03:58:59.684Z",
       "month": "2026-11"
     },
     {
@@ -175945,6 +175954,114 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-10T02:16:29.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tx8s",
+      "dateKst": "2026-11-10",
+      "timeUtc": "2026-11-10T03:37:46.152Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "19 km WSW of Lata, Solomon Islands",
+      "depthKm": 10,
+      "longitude": 165.6239,
+      "latitude": -10.7818,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-10T03:52:17.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tx8z",
+      "dateKst": "2026-11-10",
+      "timeUtc": "2026-11-10T04:30:17.109Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "65 km SW of Lata, Solomon Islands",
+      "depthKm": 10,
+      "longitude": 165.3377,
+      "latitude": -11.1105,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-10T05:31:51.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tx96",
+      "dateKst": "2026-11-10",
+      "timeUtc": "2026-11-10T05:20:08.677Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "78 km ESE of Hitachi, Japan",
+      "depthKm": 35,
+      "longitude": 141.4659,
+      "latitude": 36.3338,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-10T05:53:57.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tx9i",
+      "dateKst": "2026-11-10",
+      "timeUtc": "2026-11-10T06:36:48.749Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "90 km SSE of Tateyama, Japan",
+      "depthKm": 10,
+      "longitude": 140.1377,
+      "latitude": 34.1962,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-10T08:56:14.927Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tx9n",
+      "dateKst": "2026-11-10",
+      "timeUtc": "2026-11-10T06:43:11.261Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "northern Mid-Atlantic Ridge",
+      "depthKm": 10,
+      "longitude": -35.075,
+      "latitude": 34.8774,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-10T07:34:00.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "uw714136981",
+      "dateKst": "2026-11-10",
+      "timeUtc": "2026-11-10T07:42:52.710Z",
+      "magnitude": 4.29,
+      "magnitudeType": "ml",
+      "place": "19 km ESE of Joseph, Oregon",
+      "depthKm": 2.52,
+      "longitude": -117.020333333333,
+      "latitude": 45.2676666666667,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-10T14:37:37.594Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tx9z",
+      "dateKst": "2026-11-10",
+      "timeUtc": "2026-11-10T08:34:07.131Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "58 km NE of Fef, Indonesia",
+      "depthKm": 35,
+      "longitude": 132.859,
+      "latitude": -0.4928,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-10T08:53:21.040Z",
       "month": "2026-11"
     }
   ]
