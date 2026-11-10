@@ -175831,7 +175831,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-09T15:23:13.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tx6j",
@@ -175846,7 +175849,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-09T19:11:08.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tx6l",
@@ -175861,6 +175867,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-09T19:26:54.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tx6m",
+      "dateKst": "2026-11-10",
+      "timeUtc": "2026-11-09T19:27:54.236Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "149 km NW of Port-Olry, Vanuatu",
+      "depthKm": 10,
+      "longitude": 165.9539,
+      "latitude": -14.2428,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-09T19:55:08.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tx7h",
+      "dateKst": "2026-11-10",
+      "timeUtc": "2026-11-09T22:03:07.482Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "103 km W of Attu Station, Alaska",
+      "depthKm": 10,
+      "longitude": 171.6466,
+      "latitude": 52.7984,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-09T23:57:57.487Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tx7v",
+      "dateKst": "2026-11-10",
+      "timeUtc": "2026-11-09T23:45:26.548Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 175.527,
+      "longitude": -177.3757,
+      "latitude": -24.5715,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-10T01:10:25.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tx8d",
+      "dateKst": "2026-11-10",
+      "timeUtc": "2026-11-10T01:53:24.195Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mb",
+      "place": "Pulau Pulau Tanimbar, Indonesia",
+      "depthKm": 10,
+      "longitude": 130.2935,
+      "latitude": -7.8742,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-10T02:17:25.529Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tx8i",
+      "dateKst": "2026-11-10",
+      "timeUtc": "2026-11-10T02:00:03.024Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "north of Franz Josef Land",
+      "depthKm": 10,
+      "longitude": 65.2936,
+      "latitude": 86.7236,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-10T02:16:29.040Z",
       "month": "2026-11"
     }
   ]
