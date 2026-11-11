@@ -176143,7 +176143,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-10T15:45:55.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txbi",
@@ -176158,7 +176161,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-10T16:11:36.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txbj",
@@ -176173,7 +176179,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-10T16:37:50.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txc3",
@@ -176188,7 +176197,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-10T17:55:30.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txc0",
@@ -176202,7 +176214,7 @@
       "latitude": -8.7206,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-10T18:19:51.069Z",
+      "updatedUtc": "2026-11-10T21:19:53.756Z",
       "month": "2026-11"
     },
     {
@@ -176218,6 +176230,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-10T20:12:52.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000txfx",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T01:01:21.525Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "51 km ENE of Petropavlovsk-Kamchatsky, Russia",
+      "depthKm": 92.146,
+      "longitude": 159.2964,
+      "latitude": 53.2952,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T01:20:13.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txfz",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T01:45:27.859Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "130 km W of Tofino, Canada",
+      "depthKm": 10,
+      "longitude": -127.6912,
+      "latitude": 49.0876,
+      "status": "reviewed",
+      "tsunami": true,
+      "updatedUtc": "2026-11-11T05:30:51.278Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txgg",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T03:56:52.372Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "130 km ENE of Hasaki, Japan",
+      "depthKm": 10,
+      "longitude": 142.185,
+      "latitude": 36.1492,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T04:19:26.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txgi",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T04:20:59.883Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "70 km SW of Nikolski, Alaska",
+      "depthKm": 42.206,
+      "longitude": -169.6878,
+      "latitude": 52.5525,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T04:37:51.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txgv",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T05:26:28.222Z",
+      "magnitude": 5,
+      "magnitudeType": "mww",
+      "place": "152 km SE of Kuril’sk, Russia",
+      "depthKm": 30.338,
+      "longitude": 149.4063,
+      "latitude": 44.3915,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T05:42:52.040Z",
       "month": "2026-11"
     }
   ]
