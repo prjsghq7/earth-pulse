@@ -176215,7 +176215,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-10T21:19:53.756Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txea",
@@ -176248,7 +176251,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-11T01:20:13.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txfz",
@@ -176263,7 +176269,10 @@
       "status": "reviewed",
       "tsunami": true,
       "updatedUtc": "2026-11-11T05:30:51.278Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txgg",
@@ -176278,7 +176287,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-11T04:19:26.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txgi",
@@ -176293,6 +176305,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-11T04:37:51.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000txgq",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T05:12:08.509Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mww",
+      "place": "54 km WNW of Malfa, Italy",
+      "depthKm": 10,
+      "longitude": 14.2589,
+      "latitude": 38.7563,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T08:37:12.040Z",
       "month": "2026-11"
     },
     {
@@ -176308,6 +176338,129 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-11T05:42:52.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000txhi",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T06:21:45.383Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mww",
+      "place": "Balleny Islands region",
+      "depthKm": 10,
+      "longitude": 155.0206,
+      "latitude": -62.4284,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T06:38:53.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txhn",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T06:57:29.738Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "64 km WSW of Valparaíso, Chile",
+      "depthKm": 26.346,
+      "longitude": -72.2667,
+      "latitude": -33.2527,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T09:28:05.954Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txhv",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T08:05:37.278Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "9 km W of La Humedad, Mexico",
+      "depthKm": 35,
+      "longitude": -97.7508,
+      "latitude": 16.5979,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T09:14:45.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txi0",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T08:37:15.449Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "152 km WSW of Merizo Village, Guam",
+      "depthKm": 137.374,
+      "longitude": 143.3322,
+      "latitude": 12.8418,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T09:04:03.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txi2",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T08:47:52.006Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "western Xizang",
+      "depthKm": 10,
+      "longitude": 86.5462,
+      "latitude": 34.149,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T09:44:26.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txi6",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T09:24:52.651Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "23 km WSW of Eilat, Israel",
+      "depthKm": 10,
+      "longitude": 34.7217,
+      "latitude": 29.4748,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T13:56:47.061Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txir",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T11:32:24.685Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "Pulau Pulau Tanimbar, Indonesia",
+      "depthKm": 14.704,
+      "longitude": 130.2513,
+      "latitude": -7.9445,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T11:55:02.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txis",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T11:36:51.281Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "27 km WSW of Calama, Chile",
+      "depthKm": 91.309,
+      "longitude": -69.1693,
+      "latitude": -22.5427,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T11:52:25.040Z",
       "month": "2026-11"
     }
   ]
