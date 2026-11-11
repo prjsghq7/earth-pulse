@@ -176133,38 +176133,32 @@
     {
       "id": "us7000txbc",
       "dateKst": "2026-11-11",
-      "timeUtc": "2026-11-10T15:23:58.586Z",
+      "timeUtc": "2026-11-10T15:23:58.640Z",
       "magnitude": 4.8,
       "magnitudeType": "mww",
-      "place": "34 km S of Puerto San José, Guatemala",
-      "depthKm": 58.52,
-      "longitude": -90.819,
-      "latitude": 13.6155,
+      "place": "33 km S of Puerto San José, Guatemala",
+      "depthKm": 58.303,
+      "longitude": -90.8183,
+      "latitude": 13.6248,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-10T15:45:55.040Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-11T17:38:49.040Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000txbi",
       "dateKst": "2026-11-11",
-      "timeUtc": "2026-11-10T15:51:35.737Z",
-      "magnitude": 5.2,
+      "timeUtc": "2026-11-10T15:51:35.658Z",
+      "magnitude": 5.1,
       "magnitudeType": "mww",
-      "place": "140 km ESE of Labuha, Indonesia",
+      "place": "139 km ESE of Labuha, Indonesia",
       "depthKm": 10,
-      "longitude": 128.7092,
-      "latitude": -0.9226,
+      "longitude": 128.701,
+      "latitude": -0.9034,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-10T16:11:36.040Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-11T17:26:30.040Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000txbj",
@@ -176268,11 +176262,8 @@
       "latitude": 49.0876,
       "status": "reviewed",
       "tsunami": true,
-      "updatedUtc": "2026-11-11T05:30:51.278Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-11T14:10:07.194Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000txgg",
@@ -176304,11 +176295,8 @@
       "latitude": 52.5525,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-11T04:37:51.040Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-11T19:25:34.518Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000txgq",
@@ -176323,7 +176311,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-11T08:37:12.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txgv",
@@ -176356,7 +176347,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-11T06:38:53.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txhn",
@@ -176371,7 +176365,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-11T09:28:05.954Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txhv",
@@ -176386,7 +176383,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-11T09:14:45.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txi0",
@@ -176401,7 +176401,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-11T09:04:03.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txi2",
@@ -176416,7 +176419,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-11T09:44:26.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txi6",
@@ -176430,7 +176436,22 @@
       "latitude": 29.4748,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-11T13:56:47.061Z",
+      "updatedUtc": "2026-11-11T15:51:36.232Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txil",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T10:57:37.101Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "64 km NW of Port-Vila, Vanuatu",
+      "depthKm": 42.696,
+      "longitude": 167.9671,
+      "latitude": -17.2615,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T14:09:41.040Z",
       "month": "2026-11"
     },
     {
@@ -176446,7 +176467,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-11T11:55:02.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txis",
@@ -176460,7 +176484,97 @@
       "latitude": -22.5427,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-11T11:52:25.040Z",
+      "updatedUtc": "2026-11-11T15:50:03.743Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txiz",
+      "dateKst": "2026-11-11",
+      "timeUtc": "2026-11-11T12:45:06.171Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "62 km NNE of Port-Olry, Vanuatu",
+      "depthKm": 149.444,
+      "longitude": 167.2586,
+      "latitude": -14.5029,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T14:22:06.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txjg",
+      "dateKst": "2026-11-12",
+      "timeUtc": "2026-11-11T15:39:25.949Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "South Sandwich Islands region",
+      "depthKm": 104.66,
+      "longitude": -27.7366,
+      "latitude": -56.0247,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T15:57:41.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txm8",
+      "dateKst": "2026-11-12",
+      "timeUtc": "2026-11-11T17:38:22.582Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mww",
+      "place": "80 km W of Panguna, Papua New Guinea",
+      "depthKm": 58.822,
+      "longitude": 154.7612,
+      "latitude": -6.3288,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T18:24:34.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txmq",
+      "dateKst": "2026-11-12",
+      "timeUtc": "2026-11-11T19:21:17.374Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "48 km NW of Ancud, Chile",
+      "depthKm": 34.893,
+      "longitude": -74.1759,
+      "latitude": -41.5234,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T21:21:59.663Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txmx",
+      "dateKst": "2026-11-12",
+      "timeUtc": "2026-11-11T19:50:21.669Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "south of the Fiji Islands",
+      "depthKm": 527.582,
+      "longitude": -179.8474,
+      "latitude": -23.5023,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T20:12:01.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txns",
+      "dateKst": "2026-11-12",
+      "timeUtc": "2026-11-11T21:15:22.109Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "112 km SW of Brisas Barra de Suchiate, Mexico",
+      "depthKm": 10,
+      "longitude": -92.9294,
+      "latitude": 13.7841,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-11T21:33:34.040Z",
       "month": "2026-11"
     }
   ]
