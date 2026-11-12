@@ -176587,7 +176587,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-11T21:54:59.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txni",
@@ -176602,7 +176605,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-11T22:22:41.875Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txns",
@@ -176617,7 +176623,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-12T01:16:54.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txpa",
@@ -176632,7 +176641,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-12T01:24:48.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txpk",
@@ -176646,7 +176658,7 @@
       "latitude": 27.8692,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-12T03:34:51.050Z",
+      "updatedUtc": "2026-11-12T13:31:22.495Z",
       "month": "2026-11"
     },
     {
@@ -176662,7 +176674,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-12T04:45:39.661Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txqa",
@@ -176677,7 +176692,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-12T01:33:09.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txqr",
@@ -176692,7 +176710,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-12T05:50:54.522Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txqx",
@@ -176707,6 +176728,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-12T04:28:21.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000txrk",
+      "dateKst": "2026-11-12",
+      "timeUtc": "2026-11-12T08:17:28.440Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "off the coast of Oregon",
+      "depthKm": 10,
+      "longitude": -129.6205,
+      "latitude": 44.4539,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-12T15:55:13.557Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txrm",
+      "dateKst": "2026-11-12",
+      "timeUtc": "2026-11-12T08:26:40.140Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "215 km WSW of Port McNeill, Canada",
+      "depthKm": 10,
+      "longitude": -130.0656,
+      "latitude": 50.2206,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-12T08:44:13.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txsr",
+      "dateKst": "2026-11-12",
+      "timeUtc": "2026-11-12T13:27:22.321Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "3 km E of Tako, Japan",
+      "depthKm": 73.353,
+      "longitude": 140.5102,
+      "latitude": 35.7319,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-12T15:44:39.040Z",
       "month": "2026-11"
     }
   ]
