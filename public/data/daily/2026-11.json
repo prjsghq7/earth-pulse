@@ -372,12 +372,17 @@
     {
       "dateKst": "2026-11-13",
       "state": "provisional",
-      "count": 0,
-      "maxMagnitude": null,
-      "averageMagnitude": null,
-      "medianMagnitude": null,
-      "medianDepthKm": null,
-      "eventIds": []
+      "count": 4,
+      "maxMagnitude": 5.8,
+      "averageMagnitude": 5.1,
+      "medianMagnitude": 5,
+      "medianDepthKm": 10,
+      "eventIds": [
+        "us7000txvw",
+        "us7000txw9",
+        "us7000txwi",
+        "us7000txwp"
+      ]
     }
   ]
 }

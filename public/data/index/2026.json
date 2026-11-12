@@ -176777,6 +176777,66 @@
       "tsunami": false,
       "updatedUtc": "2026-11-12T15:44:39.040Z",
       "month": "2026-11"
+    },
+    {
+      "id": "us7000txvw",
+      "dateKst": "2026-11-13",
+      "timeUtc": "2026-11-12T20:03:14.062Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "41 km N of Weining, China",
+      "depthKm": 10,
+      "longitude": 104.1911,
+      "latitude": 27.2239,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-12T20:48:18.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txw9",
+      "dateKst": "2026-11-13",
+      "timeUtc": "2026-11-12T21:09:14.685Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mww",
+      "place": "western Indian-Antarctic Ridge",
+      "depthKm": 10,
+      "longitude": 139.5909,
+      "latitude": -51.4273,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-12T23:00:12.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txwi",
+      "dateKst": "2026-11-13",
+      "timeUtc": "2026-11-12T21:53:42.535Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "117 km S of Akureyri, Iceland",
+      "depthKm": 10,
+      "longitude": -17.6047,
+      "latitude": 64.6502,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-12T23:05:09.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txwp",
+      "dateKst": "2026-11-13",
+      "timeUtc": "2026-11-12T22:04:06.729Z",
+      "magnitude": 5.8,
+      "magnitudeType": "mww",
+      "place": "148 km NW of Kavieng, Papua New Guinea",
+      "depthKm": 10,
+      "longitude": 149.8877,
+      "latitude": -1.5882,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-12T22:28:45.655Z",
+      "month": "2026-11"
     }
   ]
 }
