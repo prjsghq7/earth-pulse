@@ -176791,7 +176791,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-12T20:48:18.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txw9",
@@ -176806,7 +176809,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-12T23:00:12.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000txwi",
@@ -176820,7 +176826,7 @@
       "latitude": 64.6502,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-12T23:05:09.040Z",
+      "updatedUtc": "2026-11-13T00:01:52.287Z",
       "month": "2026-11"
     },
     {
@@ -176835,7 +176841,112 @@
       "latitude": -1.5882,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-12T22:28:45.655Z",
+      "updatedUtc": "2026-11-13T00:12:51.122Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txx9",
+      "dateKst": "2026-11-13",
+      "timeUtc": "2026-11-13T00:05:04.104Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "39 km S of Moíres, Greece",
+      "depthKm": 43.358,
+      "longitude": 24.8798,
+      "latitude": 34.6967,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-13T01:21:46.219Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txxl",
+      "dateKst": "2026-11-13",
+      "timeUtc": "2026-11-13T01:12:46.186Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "85 km W of Mwene-Ditu, Democratic Republic of the Congo",
+      "depthKm": 10,
+      "longitude": 22.68,
+      "latitude": -6.9392,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-13T01:27:29.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txxp",
+      "dateKst": "2026-11-13",
+      "timeUtc": "2026-11-13T01:44:32.807Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "91 km W of San Antonio de los Cobres, Argentina",
+      "depthKm": 207.347,
+      "longitude": -67.2224,
+      "latitude": -24.1797,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-13T04:44:47.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txxv",
+      "dateKst": "2026-11-13",
+      "timeUtc": "2026-11-13T02:26:23.505Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "278 km E of Levuka, Fiji",
+      "depthKm": 527.134,
+      "longitude": -178.0523,
+      "latitude": -17.9443,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-13T05:00:45.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txxy",
+      "dateKst": "2026-11-13",
+      "timeUtc": "2026-11-13T02:55:03.370Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "Pagan region, Northern Mariana Islands",
+      "depthKm": 219.572,
+      "longitude": 145.6025,
+      "latitude": 18.8925,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-13T03:06:41.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txy0",
+      "dateKst": "2026-11-13",
+      "timeUtc": "2026-11-13T03:11:15.340Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "95 km W of San Antonio de los Cobres, Argentina",
+      "depthKm": 176.658,
+      "longitude": -67.263,
+      "latitude": -24.2106,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-13T05:25:37.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000txy5",
+      "dateKst": "2026-11-13",
+      "timeUtc": "2026-11-13T04:49:33.549Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "27 km NNE of Labuan Lombok, Indonesia",
+      "depthKm": 9.626,
+      "longitude": 116.7507,
+      "latitude": -8.262,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-13T05:36:07.087Z",
       "month": "2026-11"
     }
   ]
