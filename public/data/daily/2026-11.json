@@ -403,15 +403,23 @@
     {
       "dateKst": "2026-11-14",
       "state": "provisional",
-      "count": 3,
+      "count": 11,
       "maxMagnitude": 5.8,
-      "averageMagnitude": 5.27,
-      "medianMagnitude": 5.2,
-      "medianDepthKm": 10,
+      "averageMagnitude": 4.84,
+      "medianMagnitude": 4.8,
+      "medianDepthKm": 26.5,
       "eventIds": [
         "us7000ty14",
         "us7000ty16",
-        "us7000ty1a"
+        "us7000ty1a",
+        "us7000ty3g",
+        "us7000ty3q",
+        "us7000ty3x",
+        "us7000ty43",
+        "us7000ty44",
+        "us7000ty4n",
+        "us7000ty4w",
+        "aka2026wnlsfa"
       ]
     }
   ]
