@@ -177156,7 +177156,7 @@
       "latitude": -14.9934,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-14T06:47:15.040Z",
+      "updatedUtc": "2026-11-14T16:51:50.018Z",
       "month": "2026-11"
     },
     {
@@ -177460,7 +177460,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T06:57:03.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty7d",
@@ -177475,7 +177478,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T07:08:03.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty7h",
@@ -177490,7 +177496,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T07:29:49.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty7m",
@@ -177505,7 +177514,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T07:50:05.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty84",
@@ -177520,7 +177532,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T11:32:21.086Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty8u",
@@ -177535,6 +177550,99 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T13:07:55.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000ty90",
+      "dateKst": "2026-11-14",
+      "timeUtc": "2026-11-14T13:17:20.799Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "south of the Kermadec Islands",
+      "depthKm": 12.019,
+      "longitude": -178.3404,
+      "latitude": -33.0019,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T15:09:29.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000ty9l",
+      "dateKst": "2026-11-15",
+      "timeUtc": "2026-11-14T16:04:22.205Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "7 km SE of Tagbina, Philippines",
+      "depthKm": 154.123,
+      "longitude": 126.2112,
+      "latitude": 8.3996,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T16:51:47.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000ty9n",
+      "dateKst": "2026-11-15",
+      "timeUtc": "2026-11-14T16:36:19.635Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "62 km WNW of San Antonio de los Cobres, Argentina",
+      "depthKm": 197.571,
+      "longitude": -66.9029,
+      "latitude": -24.049,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T17:57:54.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000ty9v",
+      "dateKst": "2026-11-15",
+      "timeUtc": "2026-11-14T16:56:39.533Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "96 km SSE of Pondaguitan, Philippines",
+      "depthKm": 65.399,
+      "longitude": 126.6097,
+      "latitude": 5.5982,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T18:15:02.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000ty9x",
+      "dateKst": "2026-11-15",
+      "timeUtc": "2026-11-14T17:51:29.113Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "29 km NE of Dannevirke, New Zealand",
+      "depthKm": 27.863,
+      "longitude": 176.3623,
+      "latitude": -40.0345,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T19:26:53.944Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000ty9z",
+      "dateKst": "2026-11-15",
+      "timeUtc": "2026-11-14T18:04:01.078Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "24 km S of Yacuiba, Bolivia",
+      "depthKm": 506.268,
+      "longitude": -63.653,
+      "latitude": -22.2364,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T18:18:57.040Z",
       "month": "2026-11"
     }
   ]
