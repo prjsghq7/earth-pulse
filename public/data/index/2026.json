@@ -177139,7 +177139,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T04:34:00.038Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty1a",
@@ -177153,11 +177156,8 @@
       "latitude": -14.9934,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-13T22:14:35.953Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-14T06:47:15.040Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000ty3g",
@@ -177298,7 +177298,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T02:48:21.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "aka2026wnlsfa",
@@ -177313,7 +177316,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T00:29:45.938Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty56",
@@ -177328,7 +177334,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-13T23:50:28.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty59",
@@ -177343,7 +177352,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T01:55:53.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty6e",
@@ -177358,7 +177370,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T02:38:35.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty6n",
@@ -177373,7 +177388,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T04:31:05.644Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty6p",
@@ -177388,7 +177406,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T03:32:26.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty73",
@@ -177403,7 +177424,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T05:15:11.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty72",
@@ -177418,6 +177442,99 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T05:41:48.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000ty7b",
+      "dateKst": "2026-11-14",
+      "timeUtc": "2026-11-14T06:33:19.009Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "West Chile Rise",
+      "depthKm": 10,
+      "longitude": -97.9575,
+      "latitude": -36.4613,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T06:57:03.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000ty7d",
+      "dateKst": "2026-11-14",
+      "timeUtc": "2026-11-14T06:52:26.706Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "State of Yap, Federated States of Micronesia",
+      "depthKm": 10,
+      "longitude": 147.3631,
+      "latitude": 9.7032,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T07:08:03.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000ty7h",
+      "dateKst": "2026-11-14",
+      "timeUtc": "2026-11-14T07:02:22.573Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "102 km NNE of Hihifo, Tonga",
+      "depthKm": 10,
+      "longitude": -173.446,
+      "latitude": -15.0887,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T07:29:49.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000ty7m",
+      "dateKst": "2026-11-14",
+      "timeUtc": "2026-11-14T07:24:59.364Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "southeast of Shikoku, Japan",
+      "depthKm": 506.899,
+      "longitude": 136.9461,
+      "latitude": 30.0796,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T07:50:05.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000ty84",
+      "dateKst": "2026-11-14",
+      "timeUtc": "2026-11-14T09:26:13.073Z",
+      "magnitude": 5.5,
+      "magnitudeType": "mww",
+      "place": "northern Mid-Atlantic Ridge",
+      "depthKm": 10,
+      "longitude": -42.6346,
+      "latitude": 30.122,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T11:32:21.086Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000ty8u",
+      "dateKst": "2026-11-14",
+      "timeUtc": "2026-11-14T12:28:00.653Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "137 km SE of Petropavlovsk-Kamchatsky, Russia",
+      "depthKm": 17.439,
+      "longitude": 160.2984,
+      "latitude": 52.3603,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T13:07:55.040Z",
       "month": "2026-11"
     }
   ]
