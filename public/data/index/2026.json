@@ -177583,7 +177583,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T16:51:47.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty9n",
@@ -177598,7 +177601,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T17:57:54.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty9v",
@@ -177613,7 +177619,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T18:15:02.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000ty9x",
@@ -177627,7 +177636,7 @@
       "latitude": -40.0345,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-14T19:26:53.944Z",
+      "updatedUtc": "2026-11-14T22:26:58.584Z",
       "month": "2026-11"
     },
     {
@@ -177643,6 +177652,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-14T18:18:57.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tyan",
+      "dateKst": "2026-11-15",
+      "timeUtc": "2026-11-14T21:24:20.159Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "25 km N of Ruteng, Indonesia",
+      "depthKm": 10,
+      "longitude": 120.443,
+      "latitude": -8.3823,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T22:25:37.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tyay",
+      "dateKst": "2026-11-15",
+      "timeUtc": "2026-11-14T22:23:46.411Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "east central Pacific Ocean",
+      "depthKm": 10,
+      "longitude": -99.113,
+      "latitude": 3.7323,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-14T23:17:51.040Z",
       "month": "2026-11"
     }
   ]

@@ -440,17 +440,19 @@
     {
       "dateKst": "2026-11-15",
       "state": "provisional",
-      "count": 5,
+      "count": 7,
       "maxMagnitude": 4.9,
-      "averageMagnitude": 4.62,
+      "averageMagnitude": 4.61,
       "medianMagnitude": 4.6,
-      "medianDepthKm": 154.1,
+      "medianDepthKm": 65.4,
       "eventIds": [
         "us7000ty9l",
         "us7000ty9n",
         "us7000ty9v",
         "us7000ty9x",
-        "us7000ty9z"
+        "us7000ty9z",
+        "us7000tyan",
+        "us7000tyay"
       ]
     }
   ]
