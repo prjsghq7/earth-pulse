@@ -177709,7 +177709,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-15T06:08:56.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tybq",
@@ -177724,7 +177727,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-15T06:05:04.549Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tybs",
@@ -177739,7 +177745,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-15T06:16:27.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tybv",
@@ -177754,7 +177763,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-15T06:25:27.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tybx",
@@ -177769,7 +177781,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-15T04:16:58.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyc0",
@@ -177784,7 +177799,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-15T04:53:42.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyc3",
@@ -177799,7 +177817,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-15T04:59:07.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyca",
@@ -177814,7 +177835,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-15T07:21:02.884Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyd3",
@@ -177829,7 +177853,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-15T07:58:09.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyde",
@@ -177844,7 +177871,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-15T09:10:36.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tydm",
@@ -177859,6 +177889,69 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-15T10:21:36.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tye3",
+      "dateKst": "2026-11-15",
+      "timeUtc": "2026-11-15T11:23:56.246Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mwr",
+      "place": "41 km SSW of La Tirana, Chile",
+      "depthKm": 27.161,
+      "longitude": -70.311,
+      "latitude": -20.6143,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-15T14:28:08.894Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tyek",
+      "dateKst": "2026-11-15",
+      "timeUtc": "2026-11-15T13:41:35.701Z",
+      "magnitude": 5.5,
+      "magnitudeType": "mb",
+      "place": "9 km E of Union, Philippines",
+      "depthKm": 9.971,
+      "longitude": 126.2,
+      "latitude": 9.7595,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-15T15:48:50.137Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tyf4",
+      "dateKst": "2026-11-16",
+      "timeUtc": "2026-11-15T15:41:14.978Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "169 km NW of Gorontalo, Indonesia",
+      "depthKm": 487.384,
+      "longitude": 122.1345,
+      "latitude": 1.7527,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-15T15:59:12.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tyfh",
+      "dateKst": "2026-11-16",
+      "timeUtc": "2026-11-15T17:48:36.959Z",
+      "magnitude": 5,
+      "magnitudeType": "mww",
+      "place": "74 km N of Pārūn, Afghanistan",
+      "depthKm": 100.728,
+      "longitude": 70.9503,
+      "latitude": 36.0947,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-15T18:08:18.040Z",
       "month": "2026-11"
     }
   ]
