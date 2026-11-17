@@ -499,15 +499,22 @@
     {
       "dateKst": "2026-11-17",
       "state": "provisional",
-      "count": 3,
+      "count": 10,
       "maxMagnitude": 6.6,
-      "averageMagnitude": 5.6,
-      "medianMagnitude": 5.4,
-      "medianDepthKm": 35,
+      "averageMagnitude": 4.91,
+      "medianMagnitude": 4.75,
+      "medianDepthKm": 53.5,
       "eventIds": [
         "us7000tykh",
         "us7000tykk",
-        "us7000tymu"
+        "us7000tykx",
+        "us7000tym8",
+        "us7000tymc",
+        "us7000tymu",
+        "us7000tyns",
+        "us7000tyq5",
+        "us7000tyqi",
+        "us7000tyqz"
       ]
     }
   ]
