@@ -178567,7 +178567,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T10:31:48.203Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyt3",
@@ -178654,7 +178657,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T04:19:11.728Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tytz",
@@ -178723,7 +178729,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T04:20:39.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyw6",
@@ -178738,7 +178747,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T05:05:20.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyw8",
@@ -178752,7 +178764,7 @@
       "latitude": 45.6863,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-18T11:24:49.789Z",
+      "updatedUtc": "2026-11-18T18:42:26.740Z",
       "month": "2026-11"
     },
     {
@@ -178767,7 +178779,7 @@
       "latitude": 12.1387,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-18T08:32:59.801Z",
+      "updatedUtc": "2026-11-18T14:33:10.790Z",
       "month": "2026-11"
     },
     {
@@ -178783,7 +178795,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T04:02:58.707Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tywx",
@@ -178798,7 +178813,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T03:42:34.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyx2",
@@ -178813,7 +178831,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T06:19:18.983Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyxc",
@@ -178828,7 +178849,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T06:20:56.413Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyxi",
@@ -178843,7 +178867,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T06:49:25.429Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyxl",
@@ -178858,7 +178885,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T09:24:25.359Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyy2",
@@ -178873,7 +178903,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T05:59:49.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyxz",
@@ -178888,7 +178921,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T05:38:36.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyy8",
@@ -178902,7 +178938,7 @@
       "latitude": -15.1438,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-18T08:13:32.519Z",
+      "updatedUtc": "2026-11-18T11:43:03.610Z",
       "month": "2026-11"
     },
     {
@@ -178918,6 +178954,144 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T10:26:08.189Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tyza",
+      "dateKst": "2026-11-18",
+      "timeUtc": "2026-11-18T11:10:57.037Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "West Chile Rise",
+      "depthKm": 10,
+      "longitude": -91.5033,
+      "latitude": -39.6909,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-18T11:48:21.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "aka2026wvvyxt",
+      "dateKst": "2026-11-18",
+      "timeUtc": "2026-11-18T12:27:55.408Z",
+      "magnitude": 4,
+      "magnitudeType": "ml",
+      "place": "136 km SW of Adak, Alaska",
+      "depthKm": 21.4,
+      "longitude": -178.254,
+      "latitude": 51.171,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-18T18:16:04.029Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tz1a",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-18T16:06:51.220Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mb",
+      "place": "149 km SSW of Merizo Village, Guam",
+      "depthKm": 10,
+      "longitude": 143.9927,
+      "latitude": 12.0918,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-18T20:16:55.135Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tz1c",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-18T16:24:27.988Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "off the coast of Oregon",
+      "depthKm": 10,
+      "longitude": -128.0431,
+      "latitude": 43.7963,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-18T18:34:36.007Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tz1n",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-18T17:22:23.454Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mww",
+      "place": "4 km NNW of Tsunagi, Japan",
+      "depthKm": 10,
+      "longitude": 130.4609,
+      "latitude": 32.2779,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-18T20:11:54.919Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tz32",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-18T18:07:31.393Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "45 km NNE of Kilimatinde, Tanzania",
+      "depthKm": 10,
+      "longitude": 35.1024,
+      "latitude": -5.4691,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-18T18:50:23.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tz2w",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-18T18:08:00.785Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "46 km NNE of Kilimatinde, Tanzania",
+      "depthKm": 10,
+      "longitude": 35.1065,
+      "latitude": -5.4599,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-18T19:03:06.842Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tz33",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-18T18:46:53.317Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "23 km SSW of Ollagüe, Chile",
+      "depthKm": 133.871,
+      "longitude": -68.368,
+      "latitude": -21.411,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-18T19:12:25.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tz37",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-18T19:14:23.713Z",
+      "magnitude": 6.1,
+      "magnitudeType": "mww",
+      "place": "Pacific-Antarctic Ridge",
+      "depthKm": 10,
+      "longitude": -146.746,
+      "latitude": -57.7514,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-18T19:41:49.690Z",
       "month": "2026-11"
     }
   ]
