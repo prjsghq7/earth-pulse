@@ -178531,6 +178531,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-17T18:18:55.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tytj",
+      "dateKst": "2026-11-18",
+      "timeUtc": "2026-11-17T15:19:39.728Z",
+      "magnitude": 4,
+      "magnitudeType": "mb",
+      "place": "249 km WSW of Adak, Alaska",
+      "depthKm": 15.047,
+      "longitude": -179.7903,
+      "latitude": 50.8142,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-17T18:34:32.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tysx",
+      "dateKst": "2026-11-18",
+      "timeUtc": "2026-11-17T15:39:08.643Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "6 km ENE of Bachajón, Mexico",
+      "depthKm": 10,
+      "longitude": -92.1344,
+      "latitude": 17.0729,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-17T18:59:46.040Z",
       "month": "2026-11"
     },
     {
@@ -178546,7 +178579,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-17T17:18:38.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tyt4",
@@ -178561,6 +178597,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-17T17:02:28.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us7000tyt9",
+      "dateKst": "2026-11-18",
+      "timeUtc": "2026-11-17T16:35:58.497Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "141 km NW of Kavieng, Papua New Guinea",
+      "depthKm": 10,
+      "longitude": 149.8973,
+      "latitude": -1.6653,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-17T19:30:33.040Z",
       "month": "2026-11"
     },
     {
@@ -178576,7 +178630,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-17T17:01:48.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tytu",
@@ -178590,7 +178647,82 @@
       "latitude": 7.7396,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-17T18:19:43.040Z",
+      "updatedUtc": "2026-11-17T19:23:55.607Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tytz",
+      "dateKst": "2026-11-18",
+      "timeUtc": "2026-11-17T18:15:19.134Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "26 km NW of Port-Vila, Vanuatu",
+      "depthKm": 10,
+      "longitude": 168.1379,
+      "latitude": -17.5637,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-17T21:28:00.042Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tyu4",
+      "dateKst": "2026-11-18",
+      "timeUtc": "2026-11-17T18:50:40.298Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "12 km SE of Pocsi, Peru",
+      "depthKm": 150.148,
+      "longitude": -71.3236,
+      "latitude": -16.609,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-17T20:11:57.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tyum",
+      "dateKst": "2026-11-18",
+      "timeUtc": "2026-11-17T20:12:28.569Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "35 km WSW of Palauig, Philippines",
+      "depthKm": 10,
+      "longitude": 119.6092,
+      "latitude": 15.2971,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-17T21:00:12.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tyw8",
+      "dateKst": "2026-11-18",
+      "timeUtc": "2026-11-18T00:48:56.322Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mww",
+      "place": "16 km W of Nereju Mic, Romania",
+      "depthKm": 130.755,
+      "longitude": 26.4891,
+      "latitude": 45.6796,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-18T02:43:27.400Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us7000tywi",
+      "dateKst": "2026-11-18",
+      "timeUtc": "2026-11-18T02:22:56.671Z",
+      "magnitude": 5.8,
+      "magnitudeType": "mww",
+      "place": "150 km SW of Merizo Village, Guam",
+      "depthKm": 10,
+      "longitude": 143.8866,
+      "latitude": 12.1387,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-18T02:48:57.084Z",
       "month": "2026-11"
     }
   ]
