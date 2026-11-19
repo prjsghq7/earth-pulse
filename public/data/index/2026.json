@@ -179001,7 +179001,7 @@
       "latitude": 12.0918,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-18T20:16:55.135Z",
+      "updatedUtc": "2026-11-18T22:16:56.186Z",
       "month": "2026-11"
     },
     {
@@ -179016,7 +179016,7 @@
       "latitude": 43.7963,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-18T18:34:36.007Z",
+      "updatedUtc": "2026-11-18T22:34:35.130Z",
       "month": "2026-11"
     },
     {
@@ -179031,7 +179031,7 @@
       "latitude": 32.2779,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-18T20:11:54.919Z",
+      "updatedUtc": "2026-11-18T22:50:14.416Z",
       "month": "2026-11"
     },
     {
@@ -179047,7 +179047,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T18:50:23.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tz2w",
@@ -179061,7 +179064,7 @@
       "latitude": -5.4599,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-18T19:03:06.842Z",
+      "updatedUtc": "2026-11-19T01:45:41.089Z",
       "month": "2026-11"
     },
     {
@@ -179077,7 +179080,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-18T19:12:25.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us7000tz37",
@@ -179091,7 +179097,112 @@
       "latitude": -57.7514,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-18T19:41:49.690Z",
+      "updatedUtc": "2026-11-18T21:19:40.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ubvt",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-18T20:30:54.635Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "12 km SSE of Jimalalud, Philippines",
+      "depthKm": 10,
+      "longitude": 123.257,
+      "latitude": 9.8835,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-18T22:46:25.686Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ubvu",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-18T20:38:39.129Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "134 km SW of Lorengau, Papua New Guinea",
+      "depthKm": 16.856,
+      "longitude": 146.4693,
+      "latitude": -2.9421,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-18T22:17:22.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ubw3",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-18T21:28:47.088Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "169 km S of Attu Station, Alaska",
+      "depthKm": 10,
+      "longitude": 172.8596,
+      "latitude": 51.3379,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-19T01:39:02.908Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ubwa",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-18T22:06:52.958Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "11 km SSW of Santa Gertrudis Miramar, Mexico",
+      "depthKm": 35,
+      "longitude": -95.4267,
+      "latitude": 15.9616,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-19T00:55:47.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ubxa",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-19T01:29:33.221Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "45 km NNW of Kintinku, Tanzania",
+      "depthKm": 10,
+      "longitude": 35.1398,
+      "latitude": -5.4839,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-19T02:01:52.897Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ubxb",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-19T01:34:52.352Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mww",
+      "place": "141 km W of Teluk Dalam, Indonesia",
+      "depthKm": 37.003,
+      "longitude": 96.5298,
+      "latitude": 0.5231,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-19T01:47:36.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ubxg",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-19T02:11:23.115Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "36 km NNE of Kilimatinde, Tanzania",
+      "depthKm": 10,
+      "longitude": 35.0812,
+      "latitude": -5.5431,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-19T02:30:01.040Z",
       "month": "2026-11"
     }
   ]
