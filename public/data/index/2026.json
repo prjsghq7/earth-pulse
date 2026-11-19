@@ -179001,7 +179001,7 @@
       "latitude": 12.0918,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-19T10:17:04.955Z",
+      "updatedUtc": "2026-11-19T16:16:54.564Z",
       "month": "2026-11"
     },
     {
@@ -179016,92 +179016,98 @@
       "latitude": 43.7963,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-19T10:34:42.044Z",
+      "updatedUtc": "2026-11-19T16:34:41.867Z",
       "month": "2026-11"
     },
     {
       "id": "us7000tz1n",
       "dateKst": "2026-11-19",
-      "timeUtc": "2026-11-18T17:22:23.454Z",
+      "timeUtc": "2026-11-18T17:22:23.552Z",
       "magnitude": 5.3,
       "magnitudeType": "mww",
-      "place": "4 km NNW of Tsunagi, Japan",
+      "place": "7 km N of Tsunagi, Japan",
       "depthKm": 10,
-      "longitude": 130.4609,
-      "latitude": 32.2779,
+      "longitude": 130.4701,
+      "latitude": 32.3069,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-19T06:25:44.596Z",
+      "updatedUtc": "2026-11-19T18:15:04.210Z",
       "month": "2026-11"
     },
     {
       "id": "us7000tz32",
       "dateKst": "2026-11-19",
-      "timeUtc": "2026-11-18T18:07:31.393Z",
+      "timeUtc": "2026-11-18T18:07:31.356Z",
       "magnitude": 4.3,
       "magnitudeType": "mb",
-      "place": "45 km NNE of Kilimatinde, Tanzania",
+      "place": "44 km NNE of Kilimatinde, Tanzania",
       "depthKm": 10,
-      "longitude": 35.1024,
-      "latitude": -5.4691,
+      "longitude": 35.0796,
+      "latitude": -5.4699,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-19T03:35:39.458Z",
+      "updatedUtc": "2026-11-19T17:45:36.237Z",
       "month": "2026-11"
     },
     {
       "id": "us7000tz2w",
       "dateKst": "2026-11-19",
-      "timeUtc": "2026-11-18T18:08:00.785Z",
-      "magnitude": 5,
-      "magnitudeType": "mb",
-      "place": "46 km NNE of Kilimatinde, Tanzania",
+      "timeUtc": "2026-11-18T18:08:01.097Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mww",
+      "place": "46 km SE of Ikungi, Tanzania",
       "depthKm": 10,
-      "longitude": 35.1065,
-      "latitude": -5.4599,
+      "longitude": 35.082,
+      "latitude": -5.4134,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-19T01:45:41.089Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-19T17:43:26.596Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000tz33",
       "dateKst": "2026-11-19",
-      "timeUtc": "2026-11-18T18:46:53.317Z",
+      "timeUtc": "2026-11-18T18:46:53.085Z",
       "magnitude": 4.5,
       "magnitudeType": "mb",
-      "place": "23 km SSW of Ollagüe, Chile",
-      "depthKm": 133.871,
-      "longitude": -68.368,
-      "latitude": -21.411,
+      "place": "20 km SSW of Ollagüe, Chile",
+      "depthKm": 129.419,
+      "longitude": -68.2976,
+      "latitude": -21.41,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-18T19:12:25.040Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-19T18:17:35.040Z",
+      "month": "2026-11"
     },
     {
       "id": "us7000tz37",
       "dateKst": "2026-11-19",
-      "timeUtc": "2026-11-18T19:14:23.713Z",
-      "magnitude": 6.1,
+      "timeUtc": "2026-11-18T19:14:23.203Z",
+      "magnitude": 6,
       "magnitudeType": "mww",
       "place": "Pacific-Antarctic Ridge",
       "depthKm": 10,
-      "longitude": -146.746,
-      "latitude": -57.7514,
+      "longitude": -146.8744,
+      "latitude": -57.5192,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-18T21:19:40.040Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-19T19:23:11.741Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000uc01",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-18T19:21:15.136Z",
+      "magnitude": 5.2,
+      "magnitudeType": "mb",
+      "place": "Pacific-Antarctic Ridge",
+      "depthKm": 10,
+      "longitude": -146.5262,
+      "latitude": -57.9547,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-19T17:22:59.040Z",
+      "month": "2026-11"
     },
     {
       "id": "us6000ubvt",
@@ -179115,11 +179121,8 @@
       "latitude": 9.8835,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-18T22:46:25.686Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-19T15:06:46.606Z",
+      "month": "2026-11"
     },
     {
       "id": "us6000ubvu",
@@ -179151,7 +179154,7 @@
       "latitude": 51.3379,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-19T09:38:53.980Z",
+      "updatedUtc": "2026-11-19T15:38:52.006Z",
       "month": "2026-11"
     },
     {
@@ -179185,7 +179188,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-19T05:37:22.748Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ubxb",
@@ -179200,7 +179206,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-19T05:07:40.970Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ubxg",
@@ -179215,7 +179224,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-19T03:33:43.143Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000uby4",
@@ -179229,7 +179241,7 @@
       "latitude": -2.4019,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-19T10:58:59.322Z",
+      "updatedUtc": "2026-11-19T12:26:20.997Z",
       "month": "2026-11"
     },
     {
@@ -179244,7 +179256,7 @@
       "latitude": 18.7751,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-19T11:14:09.265Z",
+      "updatedUtc": "2026-11-19T18:40:53.005Z",
       "month": "2026-11"
     },
     {
@@ -179260,7 +179272,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-19T10:58:51.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ubz0",
@@ -179275,7 +179290,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-19T11:09:57.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ubz1",
@@ -179290,6 +179308,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-19T11:07:50.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000ubzm",
+      "dateKst": "2026-11-19",
+      "timeUtc": "2026-11-19T13:05:22.466Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "65 km SSW of Atka, Alaska",
+      "depthKm": 46.052,
+      "longitude": -174.66,
+      "latitude": 51.6797,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-19T13:24:52.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000uc0h",
+      "dateKst": "2026-11-20",
+      "timeUtc": "2026-11-19T15:38:20.197Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "170 km NW of Panguna, Papua New Guinea",
+      "depthKm": 113.181,
+      "longitude": 154.2159,
+      "latitude": -5.4474,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-19T16:01:10.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000uc1x",
+      "dateKst": "2026-11-20",
+      "timeUtc": "2026-11-19T18:09:46.530Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mww",
+      "place": "99 km WSW of Illapel, Chile",
+      "depthKm": 10,
+      "longitude": -72.1843,
+      "latitude": -31.8465,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-19T18:42:26.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000uc2t",
+      "dateKst": "2026-11-20",
+      "timeUtc": "2026-11-19T20:07:09.754Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "central East Pacific Rise",
+      "depthKm": 10,
+      "longitude": -109.9127,
+      "latitude": -9.1894,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-19T20:27:09.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000uc2q",
+      "dateKst": "2026-11-20",
+      "timeUtc": "2026-11-19T20:07:49.383Z",
+      "magnitude": 5.3,
+      "magnitudeType": "mb",
+      "place": "South Georgia Island region",
+      "depthKm": 10,
+      "longitude": -33.5069,
+      "latitude": -55.0035,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-19T20:22:23.040Z",
       "month": "2026-11"
     }
   ]
