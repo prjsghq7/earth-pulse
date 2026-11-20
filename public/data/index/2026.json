@@ -179341,7 +179341,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-19T16:01:10.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000uc1x",
@@ -179356,6 +179359,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-19T18:42:26.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000uc26",
+      "dateKst": "2026-11-20",
+      "timeUtc": "2026-11-19T18:41:19.631Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "13 km WNW of Xichang, China",
+      "depthKm": 10,
+      "longitude": 102.1326,
+      "latitude": 27.9346,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-19T20:49:28.040Z",
       "month": "2026-11"
     },
     {
@@ -179371,7 +179392,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-19T20:27:09.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000uc2q",
@@ -179386,6 +179410,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-19T20:22:23.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000uc3v",
+      "dateKst": "2026-11-20",
+      "timeUtc": "2026-11-19T21:49:33.219Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "236 km W of Tual, Indonesia",
+      "depthKm": 124.788,
+      "longitude": 130.6505,
+      "latitude": -6.0263,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-20T02:02:19.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000uc4v",
+      "dateKst": "2026-11-20",
+      "timeUtc": "2026-11-20T00:49:14.102Z",
+      "magnitude": 5.6,
+      "magnitudeType": "mww",
+      "place": "southeast of the Loyalty Islands",
+      "depthKm": 10,
+      "longitude": 171.2326,
+      "latitude": -24.6996,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-20T01:37:06.179Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000uc4z",
+      "dateKst": "2026-11-20",
+      "timeUtc": "2026-11-20T01:20:07.698Z",
+      "magnitude": 4.2,
+      "magnitudeType": "mb",
+      "place": "293 km S of Ōyama, Japan",
+      "depthKm": 312.575,
+      "longitude": 138.4096,
+      "latitude": 31.9627,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-20T01:49:59.040Z",
       "month": "2026-11"
     }
   ]
