@@ -179668,7 +179668,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-20T20:12:05.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucd6",
@@ -179701,7 +179704,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-20T22:00:59.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000uce0",
@@ -179716,6 +179722,39 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-20T22:16:50.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000uchy",
+      "dateKst": "2026-11-21",
+      "timeUtc": "2026-11-20T22:30:46.671Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "Reykjanes Ridge",
+      "depthKm": 10,
+      "longitude": -32.3793,
+      "latitude": 57.6886,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-21T07:47:23.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000uci1",
+      "dateKst": "2026-11-21",
+      "timeUtc": "2026-11-20T22:31:20.701Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "Reykjanes Ridge",
+      "depthKm": 10,
+      "longitude": -32.8037,
+      "latitude": 57.3672,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-21T07:49:47.040Z",
       "month": "2026-11"
     },
     {
@@ -179731,7 +179770,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-20T23:45:16.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucf0",
@@ -179746,7 +179788,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-20T22:58:24.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucfa",
@@ -179761,7 +179806,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-21T00:04:58.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucfm",
@@ -179775,7 +179823,7 @@
       "latitude": -10.8548,
       "status": "reviewed",
       "tsunami": true,
-      "updatedUtc": "2026-11-21T02:06:35.086Z",
+      "updatedUtc": "2026-11-21T10:50:23.446Z",
       "month": "2026-11"
     },
     {
@@ -179791,7 +179839,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-21T01:56:13.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucg8",
@@ -179806,7 +179857,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-21T01:34:16.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucga",
@@ -179821,6 +179875,114 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-21T01:46:29.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000ucgj",
+      "dateKst": "2026-11-21",
+      "timeUtc": "2026-11-21T02:24:37.289Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "Reykjanes Ridge",
+      "depthKm": 10,
+      "longitude": -31.857,
+      "latitude": 58.5457,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-21T02:40:24.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "aka2026xaubpp",
+      "dateKst": "2026-11-21",
+      "timeUtc": "2026-11-21T04:29:14.724Z",
+      "magnitude": 4.1,
+      "magnitudeType": "ml",
+      "place": "28 km NNE of Chenega, Alaska",
+      "depthKm": 3.6,
+      "longitude": -147.79,
+      "latitude": 60.301,
+      "status": "reviewed",
+      "tsunami": true,
+      "updatedUtc": "2026-11-21T07:14:05.116Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000uchd",
+      "dateKst": "2026-11-21",
+      "timeUtc": "2026-11-21T05:12:04.898Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "0 km NE of Carhuamayo, Peru",
+      "depthKm": 110.928,
+      "longitude": -76.0308,
+      "latitude": -10.913,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-21T06:55:43.551Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000uchv",
+      "dateKst": "2026-11-21",
+      "timeUtc": "2026-11-21T06:51:20.527Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "17 km S of Iztapa, Guatemala",
+      "depthKm": 58.499,
+      "longitude": -90.7058,
+      "latitude": 13.7792,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-21T07:04:38.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000uci2",
+      "dateKst": "2026-11-21",
+      "timeUtc": "2026-11-21T07:20:44.218Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "65 km NNW of Port-Vila, Vanuatu",
+      "depthKm": 43.228,
+      "longitude": 168.0998,
+      "latitude": -17.1789,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-21T07:35:51.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucij",
+      "dateKst": "2026-11-21",
+      "timeUtc": "2026-11-21T09:42:10.314Z",
+      "magnitude": 6.8,
+      "magnitudeType": "mww",
+      "place": "103 km NE of Lospalos, Timor Leste",
+      "depthKm": 143.423,
+      "longitude": 127.5428,
+      "latitude": -7.7563,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-21T10:51:59.966Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000uckx",
+      "dateKst": "2026-11-21",
+      "timeUtc": "2026-11-21T10:10:31.043Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "36 km SSE of Jurm, Afghanistan",
+      "depthKm": 154.104,
+      "longitude": 70.9787,
+      "latitude": 36.5599,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-21T10:43:33.040Z",
       "month": "2026-11"
     }
   ]
