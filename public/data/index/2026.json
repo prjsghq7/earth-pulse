@@ -180061,7 +180061,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-21T20:02:36.912Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucmt",
@@ -180076,7 +180079,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-21T20:12:03.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucmv",
@@ -180091,7 +180097,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-21T20:37:00.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucn2",
@@ -180106,7 +180115,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-21T19:45:16.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucn8",
@@ -180139,7 +180151,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-21T19:57:10.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucni",
@@ -180154,7 +180169,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-21T19:21:42.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "aka2026xbypfs",
@@ -180169,7 +180187,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-21T23:09:29.190Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucnl",
@@ -180184,7 +180205,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-21T23:10:42.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucpi",
@@ -180199,7 +180223,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-22T00:51:48.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucpj",
@@ -180213,7 +180240,97 @@
       "latitude": -2.442,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-22T01:06:37.040Z",
+      "updatedUtc": "2026-11-22T02:20:34.983Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucqn",
+      "dateKst": "2026-11-22",
+      "timeUtc": "2026-11-22T05:09:56.350Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "57 km N of Pucallpa, Peru",
+      "depthKm": 150.169,
+      "longitude": -74.5078,
+      "latitude": -7.8618,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-22T07:07:26.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucqu",
+      "dateKst": "2026-11-22",
+      "timeUtc": "2026-11-22T05:51:58.624Z",
+      "magnitude": 5,
+      "magnitudeType": "mww",
+      "place": "15 km NNE of Carhuamayo, Peru",
+      "depthKm": 108.134,
+      "longitude": -75.9635,
+      "latitude": -10.7957,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-22T06:36:42.802Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucr3",
+      "dateKst": "2026-11-22",
+      "timeUtc": "2026-11-22T07:06:58.521Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "246 km ESE of Sarangani, Philippines",
+      "depthKm": 5.573,
+      "longitude": 127.5165,
+      "latitude": 4.56,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-22T07:25:26.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucr4",
+      "dateKst": "2026-11-22",
+      "timeUtc": "2026-11-22T07:12:49.426Z",
+      "magnitude": 4.4,
+      "magnitudeType": "mb",
+      "place": "57 km ESE of Dabajuro, Venezuela",
+      "depthKm": 10,
+      "longitude": -70.2291,
+      "latitude": 10.758,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-22T10:42:38.727Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucrb",
+      "dateKst": "2026-11-22",
+      "timeUtc": "2026-11-22T07:54:40.056Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mb",
+      "place": "224 km NE of Bitung, Indonesia",
+      "depthKm": 43.705,
+      "longitude": 126.3861,
+      "latitude": 3.0314,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-22T09:59:32.277Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucrp",
+      "dateKst": "2026-11-22",
+      "timeUtc": "2026-11-22T09:08:28.009Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "45 km SE of Ürümqi, China",
+      "depthKm": 10,
+      "longitude": 87.9381,
+      "latitude": 43.4743,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-22T09:23:23.040Z",
       "month": "2026-11"
     }
   ]

@@ -662,11 +662,11 @@
     {
       "dateKst": "2026-11-22",
       "state": "provisional",
-      "count": 11,
-      "maxMagnitude": 4.9,
-      "averageMagnitude": 4.37,
-      "medianMagnitude": 4.3,
-      "medianDepthKm": 104,
+      "count": 17,
+      "maxMagnitude": 5.4,
+      "averageMagnitude": 4.54,
+      "medianMagnitude": 4.5,
+      "medianDepthKm": 101.8,
       "eventIds": [
         "pr2026325000",
         "us6000ucmt",
@@ -678,7 +678,13 @@
         "aka2026xbypfs",
         "us6000ucnl",
         "us6000ucpi",
-        "us6000ucpj"
+        "us6000ucpj",
+        "us6000ucqn",
+        "us6000ucqu",
+        "us6000ucr3",
+        "us6000ucr4",
+        "us6000ucrb",
+        "us6000ucrp"
       ]
     }
   ]
