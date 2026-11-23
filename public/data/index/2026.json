@@ -180430,7 +180430,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-22T21:08:40.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucu8",
@@ -180445,7 +180448,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-22T21:36:25.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucuf",
@@ -180459,7 +180465,7 @@
       "latitude": -10.8345,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-23T00:51:49.666Z",
+      "updatedUtc": "2026-11-23T03:19:36.973Z",
       "month": "2026-11"
     },
     {
@@ -180475,7 +180481,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-22T22:28:31.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucuk",
@@ -180490,7 +180499,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-22T22:39:31.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucv1",
@@ -180505,7 +180517,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-23T00:17:02.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucv2",
@@ -180520,7 +180535,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-23T00:43:50.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000ucv4",
@@ -180535,6 +180553,189 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-23T00:34:38.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000ucvh",
+      "dateKst": "2026-11-23",
+      "timeUtc": "2026-11-23T02:14:59.561Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "39 km NW of Kuqa, China",
+      "depthKm": 10,
+      "longitude": 82.544,
+      "latitude": 41.9264,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-23T04:18:26.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucvm",
+      "dateKst": "2026-11-23",
+      "timeUtc": "2026-11-23T02:40:58.052Z",
+      "magnitude": 6.5,
+      "magnitudeType": "mww",
+      "place": "Vanuatu region",
+      "depthKm": 598,
+      "longitude": 172.2672,
+      "latitude": -13.5846,
+      "status": "reviewed",
+      "tsunami": true,
+      "updatedUtc": "2026-11-23T04:46:52.169Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucw1",
+      "dateKst": "2026-11-23",
+      "timeUtc": "2026-11-23T03:07:52.031Z",
+      "magnitude": 4.9,
+      "magnitudeType": "mb",
+      "place": "Vanuatu region",
+      "depthKm": 595.973,
+      "longitude": 172.2236,
+      "latitude": -13.5634,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-23T03:25:33.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucwd",
+      "dateKst": "2026-11-23",
+      "timeUtc": "2026-11-23T04:18:19.641Z",
+      "magnitude": 5,
+      "magnitudeType": "mb",
+      "place": "159 km ESE of Kokopo, Papua New Guinea",
+      "depthKm": 98.944,
+      "longitude": 153.6467,
+      "latitude": -4.7591,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-23T04:43:58.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucws",
+      "dateKst": "2026-11-23",
+      "timeUtc": "2026-11-23T06:28:32.358Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "109 km E of Bitung, Indonesia",
+      "depthKm": 69.131,
+      "longitude": 126.1133,
+      "latitude": 1.3824,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-23T09:49:23.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucx6",
+      "dateKst": "2026-11-23",
+      "timeUtc": "2026-11-23T07:36:21.052Z",
+      "magnitude": 5.4,
+      "magnitudeType": "mww",
+      "place": "181 km NE of Lospalos, Timor Leste",
+      "depthKm": 119.267,
+      "longitude": 128.2414,
+      "latitude": -7.4408,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-23T09:41:32.253Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucxi",
+      "dateKst": "2026-11-23",
+      "timeUtc": "2026-11-23T08:01:26.457Z",
+      "magnitude": 5.5,
+      "magnitudeType": "mww",
+      "place": "west of Macquarie Island",
+      "depthKm": 10,
+      "longitude": 153.8482,
+      "latitude": -60.6317,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-23T10:09:19.849Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucxv",
+      "dateKst": "2026-11-23",
+      "timeUtc": "2026-11-23T09:11:26.948Z",
+      "magnitude": 4.3,
+      "magnitudeType": "mb",
+      "place": "Fiji region",
+      "depthKm": 391.093,
+      "longitude": -177.9529,
+      "latitude": -19.9371,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-23T09:34:48.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucxy",
+      "dateKst": "2026-11-23",
+      "timeUtc": "2026-11-23T09:35:10.713Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "Vanuatu region",
+      "depthKm": 651.657,
+      "longitude": 170.8708,
+      "latitude": -13.7025,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-23T10:07:32.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucy6",
+      "dateKst": "2026-11-23",
+      "timeUtc": "2026-11-23T10:39:20.320Z",
+      "magnitude": 4.7,
+      "magnitudeType": "mb",
+      "place": "52 km SW of Tyrma, Russia",
+      "depthKm": 14.86,
+      "longitude": 131.5672,
+      "latitude": 49.7598,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-23T10:54:52.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucy7",
+      "dateKst": "2026-11-23",
+      "timeUtc": "2026-11-23T10:39:26.056Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "30 km SW of Finschhafen, Papua New Guinea",
+      "depthKm": 56.968,
+      "longitude": 147.6543,
+      "latitude": -6.7526,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-23T11:02:26.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000ucyd",
+      "dateKst": "2026-11-23",
+      "timeUtc": "2026-11-23T11:24:31.100Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "209 km SSE of Tobi Village, Palau",
+      "depthKm": 10,
+      "longitude": 132.0172,
+      "latitude": 1.3368,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-23T11:41:12.040Z",
       "month": "2026-11"
     }
   ]
