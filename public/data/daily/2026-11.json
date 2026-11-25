@@ -752,10 +752,10 @@
     {
       "dateKst": "2026-11-25",
       "state": "provisional",
-      "count": 7,
-      "maxMagnitude": 5,
-      "averageMagnitude": 4.49,
-      "medianMagnitude": 4.4,
+      "count": 14,
+      "maxMagnitude": 5.9,
+      "averageMagnitude": 4.65,
+      "medianMagnitude": 4.55,
       "medianDepthKm": 10,
       "eventIds": [
         "us6000ud7z",
@@ -764,7 +764,14 @@
         "us6000ud9h",
         "us6000udau",
         "us6000udb8",
-        "us6000udbn"
+        "us6000udbn",
+        "us6000udcc",
+        "us6000udck",
+        "us6000udcy",
+        "us6000udd1",
+        "us6000uddj",
+        "us6000ude3",
+        "us6000ude6"
       ]
     }
   ]
