@@ -14432,7 +14432,7 @@
       "timeUtc": "2026-11-26T15:26:44.294Z",
       "dateKst": "2026-11-27",
       "timeKst": "00:26:44",
-      "updatedUtc": "2026-11-26T19:09:05.216Z",
+      "updatedUtc": "2026-11-27T15:32:26.616Z",
       "longitude": -109.2958,
       "latitude": 19.8135,
       "depthKm": 10,
@@ -14450,7 +14450,7 @@
       "stationCount": 51,
       "azimuthalGap": 197,
       "rmsSeconds": 0.75,
-      "qualityCheckedAt": "2026-11-27T01:41:34.776Z"
+      "qualityCheckedAt": "2026-11-27T21:07:50.282Z"
     },
     {
       "id": "us6000udqa",
@@ -14572,15 +14572,15 @@
       "timeUtc": "2026-11-27T02:13:21.018Z",
       "dateKst": "2026-11-27",
       "timeKst": "11:13:21",
-      "updatedUtc": "2026-11-27T02:34:46.040Z",
+      "updatedUtc": "2026-11-27T14:11:18.492Z",
       "longitude": 167.8571,
       "latitude": -14.6253,
       "depthKm": 8.982,
       "status": "reviewed",
       "tsunami": false,
       "alert": null,
-      "felt": null,
-      "cdi": null,
+      "felt": 1,
+      "cdi": 1,
       "mmi": null,
       "significance": 385,
       "network": "us",
@@ -14590,7 +14590,7 @@
       "stationCount": 29,
       "azimuthalGap": 110,
       "rmsSeconds": 0.59,
-      "qualityCheckedAt": "2026-11-27T12:04:16.870Z"
+      "qualityCheckedAt": "2026-11-27T21:07:50.605Z"
     },
     {
       "id": "us6000udu6",
@@ -14703,6 +14703,34 @@
       "azimuthalGap": 144,
       "rmsSeconds": 0.81,
       "qualityCheckedAt": "2026-11-27T12:04:17.271Z"
+    },
+    {
+      "id": "us6000udwh",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "131 km WNW of Neiafu, Tonga",
+      "timeUtc": "2026-11-27T12:48:16.841Z",
+      "dateKst": "2026-11-27",
+      "timeKst": "21:48:16",
+      "updatedUtc": "2026-11-27T13:37:23.040Z",
+      "longitude": -175.1805,
+      "latitude": -18.3294,
+      "depthKm": 271.603,
+      "status": "reviewed",
+      "tsunami": false,
+      "alert": null,
+      "felt": null,
+      "cdi": null,
+      "mmi": null,
+      "significance": 312,
+      "network": "us",
+      "code": "6000udwh",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udwh",
+      "detailUrl": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000udwh&format=geojson",
+      "stationCount": 23,
+      "azimuthalGap": 103,
+      "rmsSeconds": 0.53,
+      "qualityCheckedAt": "2026-11-27T21:07:50.656Z"
     }
   ]
 }

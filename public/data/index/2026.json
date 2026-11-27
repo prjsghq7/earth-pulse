@@ -181608,11 +181608,8 @@
       "latitude": 19.8135,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-26T19:09:05.216Z",
-      "month": "2026-11",
-      "stationCount": null,
-      "azimuthalGap": null,
-      "rmsSeconds": null
+      "updatedUtc": "2026-11-27T15:32:26.616Z",
+      "month": "2026-11"
     },
     {
       "id": "us6000udqa",
@@ -181698,7 +181695,7 @@
       "latitude": -14.6253,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-27T02:34:46.040Z",
+      "updatedUtc": "2026-11-27T14:11:18.492Z",
       "month": "2026-11"
     },
     {
@@ -181714,7 +181711,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-27T04:33:11.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000udua",
@@ -181729,7 +181729,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-27T05:02:58.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000udvv",
@@ -181744,7 +181747,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-27T11:28:48.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000udw4",
@@ -181759,6 +181765,24 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-27T11:17:33.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000udwh",
+      "dateKst": "2026-11-27",
+      "timeUtc": "2026-11-27T12:48:16.841Z",
+      "magnitude": 4.5,
+      "magnitudeType": "mb",
+      "place": "131 km WNW of Neiafu, Tonga",
+      "depthKm": 271.603,
+      "longitude": -175.1805,
+      "latitude": -18.3294,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-27T13:37:23.040Z",
       "month": "2026-11"
     }
   ]
