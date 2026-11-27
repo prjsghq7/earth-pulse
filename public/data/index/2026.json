@@ -181609,7 +181609,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-26T19:09:05.216Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000udqa",
@@ -181642,7 +181645,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-26T19:50:51.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000udt4",
@@ -181657,7 +181663,10 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-27T00:01:55.040Z",
-      "month": "2026-11"
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
     },
     {
       "id": "us6000udt9",
@@ -181672,6 +181681,84 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-27T00:26:40.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000udtu",
+      "dateKst": "2026-11-27",
+      "timeUtc": "2026-11-27T02:13:21.018Z",
+      "magnitude": 5,
+      "magnitudeType": "mww",
+      "place": "89 km SSE of Sola, Vanuatu",
+      "depthKm": 8.982,
+      "longitude": 167.8571,
+      "latitude": -14.6253,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-27T02:34:46.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000udu6",
+      "dateKst": "2026-11-27",
+      "timeUtc": "2026-11-27T04:17:10.107Z",
+      "magnitude": 4.6,
+      "magnitudeType": "mb",
+      "place": "155 km WNW of Tobelo, Indonesia",
+      "depthKm": 42.538,
+      "longitude": 126.6462,
+      "latitude": 2.0437,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-27T04:33:11.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000udua",
+      "dateKst": "2026-11-27",
+      "timeUtc": "2026-11-27T04:44:36.196Z",
+      "magnitude": 5,
+      "magnitudeType": "mww",
+      "place": "Off the coast of Aisen, Chile",
+      "depthKm": 10,
+      "longitude": -79.7614,
+      "latitude": -44.568,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-27T05:02:58.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000udvv",
+      "dateKst": "2026-11-27",
+      "timeUtc": "2026-11-27T10:03:08.388Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "Fiji region",
+      "depthKm": 554.031,
+      "longitude": -177.9493,
+      "latitude": -20.0627,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-27T11:28:48.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000udw4",
+      "dateKst": "2026-11-27",
+      "timeUtc": "2026-11-27T11:02:25.335Z",
+      "magnitude": 4.8,
+      "magnitudeType": "mb",
+      "place": "183 km SSE of Vilyuchinsk, Russia",
+      "depthKm": 35.488,
+      "longitude": 159.3662,
+      "latitude": 51.3928,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-27T11:17:33.040Z",
       "month": "2026-11"
     }
   ]
