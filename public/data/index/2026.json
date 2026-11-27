@@ -181608,7 +181608,7 @@
       "latitude": 19.8135,
       "status": "reviewed",
       "tsunami": false,
-      "updatedUtc": "2026-11-26T15:51:04.517Z",
+      "updatedUtc": "2026-11-26T19:09:05.216Z",
       "month": "2026-11"
     },
     {
@@ -181624,6 +181624,54 @@
       "status": "reviewed",
       "tsunami": false,
       "updatedUtc": "2026-11-26T16:42:40.040Z",
+      "month": "2026-11",
+      "stationCount": null,
+      "azimuthalGap": null,
+      "rmsSeconds": null
+    },
+    {
+      "id": "us6000udry",
+      "dateKst": "2026-11-27",
+      "timeUtc": "2026-11-26T19:33:08.628Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mww",
+      "place": "Bonin Islands, Japan region",
+      "depthKm": 84.59,
+      "longitude": 141.2639,
+      "latitude": 28.3661,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-26T19:50:51.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000udt4",
+      "dateKst": "2026-11-27",
+      "timeUtc": "2026-11-26T23:31:07.918Z",
+      "magnitude": 4.1,
+      "magnitudeType": "mb",
+      "place": "64 km SSE of Kaş, Turkey",
+      "depthKm": 31.156,
+      "longitude": 29.8422,
+      "latitude": 35.6479,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-27T00:01:55.040Z",
+      "month": "2026-11"
+    },
+    {
+      "id": "us6000udt9",
+      "dateKst": "2026-11-27",
+      "timeUtc": "2026-11-27T00:07:00.857Z",
+      "magnitude": 5.1,
+      "magnitudeType": "mb",
+      "place": "107 km SSE of Auki, Solomon Islands",
+      "depthKm": 74.064,
+      "longitude": 161.2358,
+      "latitude": -9.5793,
+      "status": "reviewed",
+      "tsunami": false,
+      "updatedUtc": "2026-11-27T00:26:40.040Z",
       "month": "2026-11"
     }
   ]

@@ -808,14 +808,17 @@
     {
       "dateKst": "2026-11-27",
       "state": "provisional",
-      "count": 2,
+      "count": 5,
       "maxMagnitude": 5.7,
-      "averageMagnitude": 5.1,
+      "averageMagnitude": 4.9,
       "medianMagnitude": 5.1,
-      "medianDepthKm": 91.6,
+      "medianDepthKm": 74.1,
       "eventIds": [
         "us6000udq5",
-        "us6000udqa"
+        "us6000udqa",
+        "us6000udry",
+        "us6000udt4",
+        "us6000udt9"
       ]
     }
   ]
