@@ -830,12 +830,20 @@
     {
       "dateKst": "2026-11-28",
       "state": "provisional",
-      "count": 0,
-      "maxMagnitude": null,
-      "averageMagnitude": null,
-      "medianMagnitude": null,
-      "medianDepthKm": null,
-      "eventIds": []
+      "count": 7,
+      "maxMagnitude": 5.2,
+      "averageMagnitude": 4.76,
+      "medianMagnitude": 4.7,
+      "medianDepthKm": 55.2,
+      "eventIds": [
+        "us6000ue0a",
+        "us6000ue12",
+        "us6000ue1a",
+        "us6000ue1b",
+        "us6000ue1d",
+        "us6000ue1h",
+        "us6000ue1k"
+      ]
     }
   ]
 }
